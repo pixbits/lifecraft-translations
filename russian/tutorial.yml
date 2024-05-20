@@ -1,0 +1,282 @@
+pages:
+- >   
+  <content>
+    <icon key="ui_guide_mitosis"/>Добро пожаловать во вселенную Lifecraft!
+    <break/>
+    <image path="tutorial/quickstart_1.png" scale="1" />
+    <endl/>
+    Вы начинаете как организм, дрейфующий где-то.
+    <break/>
+    Вам предстоит столкнуться с трудностями, согреваться и бороться с вторжениями, такими как бактерии, и расширяться для поиска ресурсов.<endl/><endl/>
+    Не пугайтесь названий предметов и механик!<break/><icon key="item_aminoacid_red"/>Аминокислоты - это сферы, <icon key="item_tubulin_yellow"/>тубулины - трубки, просто помните об этом!<endl/><endl/><icon key="ui_icon_open_recipe_list"/>Окно рецептов в нижнем правом углу очень удобно!<endl/>Используйте его, чтобы видеть необходимые материалы для создания предметов.<endl/>
+    Наведение на предметы также покажет, как они работают.
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_hand"/>Вы можете перемещаться по миру с помощью клавиш или двигая мышь к краям экрана (если включено):<break/>
+    <p align="center">
+    <keycap action="pan_up" /><endl /><keycap action="pan_left" /><icon key="ui_guide_dot_tiny"/>
+    <keycap action="pan_down" /><icon key="ui_guide_dot_tiny"/><keycap action="pan_right" /><break/>
+    </p>
+    <icon key="ui_icon_zoom_in"/>Вы можете увеличивать и уменьшать масштаб с помощью (или колесика мыши):<break/>
+    <p align="center">
+    <keycap action="zoom_in" longer="true" /><icon key="ui_guide_dot_tiny"/><keycap action="zoom_out" longer="true" /><break/>
+    </p>
+    Вы можете подбирать и бросать предметы с помощью мыши. 
+    <endl/>
+    <image path="tutorial/quickstart_2.png" scale="1" />
+    <endl/>
+    Одновременно можно поднять до 4 предметов, попробуйте сейчас с некоторыми предметами, плавающими снаружи!
+    <endl/>
+  </content>
+
+- >
+  <content>
+    Синяя пустота содержит множество полезных предметов, которые можно использовать для создания промежуточных материалов, структур, энергии, защиты и расширения.<endl /><endl />
+    Ваша первая задача - собрать желтую субъединицу <icon key="item_subunit_yellow"/> снаружи с помощью мыши. Помните, что любой ресурс можно подобрать вручную.<endl /><endl />Это может пригодиться во многих ситуациях!<endl />
+    <endl />
+    Теперь бросьте желтую субъединицу <icon key="item_subunit_yellow"/> где-нибудь на землю вашей клетки.<endl/>
+    <image path="tutorial/quickstart_3.png" scale="1" /><endl />
+    <endl />
+  </content>
+
+- >
+  <content>
+    <icon key="item_subunit_yellow"/> Ищите снаружи еще одну желтую субъединицу и возьмите ее.
+    <endl />
+    <image path="tutorial/quickstart_4.png" scale="1" />
+    <endl/>
+    <icon key="item_workbench"/> Теперь вы можете собрать свою первую структуру: верстак!<endl/><endl/>
+    <icon key="item_subunit_yellow"/> Просто бросьте вторую желтую субъединицу поверх первой<endl /> на земле и вуаля!<endl />
+    <image path="tutorial/quickstart_5.png" scale="1" />
+    <break/>
+
+    <endl />
+  </content> 
+
+- >  
+  <content>
+    <icon key="item_workbench"/>Верстак используется для ручной сборки структур, которые позже будут использоваться для автоматизации. Это неэффективно, но удобно! <endl/> <endl/>
+    Теперь возьмите только что собранный верстак и поместите его где-нибудь на земле с помощью мыши.<endl />
+    <image path="tutorial/quickstart_6.png" scale="1" />
+    <endl />
+    Вы можете щелкнуть по зданиям, чтобы открыть их контекстное меню.<endl/>
+    Некоторые здания также имеют действия, привязанные к <keycap action="execute_first_action" /> и <keycap action="execute_second_action" /><break/>
+    <image path="tutorial/quickstart_3extra.png" scale="1" /><endl />
+  </content>
+  
+- >
+  <content>
+    Ваша следующая цель - автоматизировать сбор ресурсов из внешней кучи ресурсов, для этого вам потребуется построить несколько предметов: <endl /><endl />
+    <icon key="ui_guide_dot"/> <icon key="item_microtubule"/> микротрубочки, используемые для перемещения предметов <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_picker"/> селекторы, используемые для перемещения предметов из структур и в структуры <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_cytostome1x"/> цитостомы, способные всасывать предметы извне <endl />
+    <image path="tutorial/quickstart_1extra.png" scale="1" />
+    <endl />
+    Примитивные структуры со временем разрушаются от окисления.<endl />Они также медленные и неэффективные, вы замените их на улучшенные версии позже. Подробнее об этом позже!<endl /><endl />
+  </content>
+
+- >
+  <content>
+    Начнем создание структур для базовой автоматизации!<endl/><endl/>
+    В списке рецептов в нижнем правом углу проверьте материалы для цитостомы <icon key="item_cytostome1x"/><endl/>
+    <recipe key="cytostome1x" compact="true"/>Необходимые материалы.<break/>
+
+    Тубулины используются как промежуточные материалы для базовых структур.<break/>
+    Верстак создает промежуточные ресурсы из базовых материалов:<endl/><endl/>
+    <p align="center"><icon key="item_aminoacid_blue"/><icon key="item_aminoacid_green"/><icon key="item_aminoacid_red"/><icon key="item_aminoacid_yellow"/><endl/><endl/></p>
+    Поместите аминокислоты в верстак, выберите структуры для сборки и ставьте крафты в очередь.<break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_cytostome1x"/>Теперь возьмите изготовленную цитостому и поместите ее на стену рядом с <icon key="item_aminoacid_red"/> кучей ресурсов аминокислот.
+    <break/>
+    <image path="tutorial/quickstart_8.png" scale="1" />
+    <endl />
+    Вы увидите, как цитостома начинает работать и медленно всасывать предмет. Вы можете вручную взять предмет из цитостомы с помощью мыши.<break/>
+    Цитостома находится высоко на стене клетки, но всасывает внутри клетки.<break/>
+    <icon key="ui_icon_toggle_buildings_on"/>Чтобы увидеть ее основание для всасывания (где вы будете подключать селектор), вы можете включить "переключение зданий" в нижней панели.<break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_microtubule"/>Теперь нам нужен способ автоматически направлять предметы от цитостомы. <endl /><endl />
+    Микротрубочки - это как крошечные рельсы, которые могут транспортировать предметы в клетке.
+    Давайте построим наши первые микротрубочки.
+    Соберите необходимые материалы и поставьте крафты в очередь на верстаке:<break/><endl />
+    <p align="center"><icon key="item_tubulin_red"/><icon key="item_tubulin_red"/><icon key="item_microtubule_primitive"/><break/></p>
+    Дождитесь готовности результата и возьмите его.<break/>
+    Что случилось? Микротрубочка исчезла!<break/>
+    Это потому, что микротрубочки автоматически складываются на склад, чтобы вы могли использовать их с помощью специального инструмента.<endl/><endl/>
+    <image path="tutorial/quickstart_9.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    Теперь переключитесь на инструмент размещения микротрубочек с <keycap action="switch_tool_microtubule_metatool" />, вы увидите, что существует несколько типов их, 
+    но пока доступен только первый.<break/>
+    Примитивная микротрубочка медленнее, вам нужно исследовать лучшие версии.<break/>
+    <p align="center"><icon key="item_microtubule"/><icon key="item_microtubule_advanced"/><break/></p>
+    Щелкните левой кнопкой мыши, чтобы разместить микротрубочки рядом с основанием цитостомы, чтобы подготовить маршрут для предметов.<break/>
+    <image path="tutorial/quickstart_10.png" scale="1" />
+    <endl />
+    Микротрубочки можно удалять с помощью мыши.
+
+  </content>
+  
+- >
+  <content>
+    <icon key="item_picker_primitive" />Теперь нам нужен селектор, используемый для перемещения предметов из структур и в структуры.<endl/>
+    Соберите материалы и поставьте крафт в очередь на верстаке:<endl/><recipe key="picker_primitive" compact="true" /><endl/>
+    Когда будет готово, поместите селектор рядом с основанием цитостомы.<break/>
+    С <keycap action="execute_first_action" /> и <keycap action="execute_second_action" /> вы можете повернуть или перевернуть селектор. 
+    Настройте его так, чтобы он забирал из цитостомы (тонкая часть селектора идет под основание цитостомы).<endl/>
+    <image path="tutorial/quickstart_11.png" scale="1" />
+    <endl/>
+
+    <icon key="ui_icon_toggle_buildings_on"/><icon key="ui_icon_toggle_walls_on"/>Для лучшего обзора при размещении структур вы можете включить "переключение зданий", которое даст вам более четкий, плоский вид карты.
+  </content>
+
+- >
+  <content>
+    <icon key="item_tubulin_red" />Автоматизируйте производство белков с рибосомой.<break/>
+    <icon key="item_ribosome" />Рибосома создает промежуточные материалы.
+
+    Соберите предметы для рибосомы, используйте окно рецептов.<break/><icon key="ui_icon_open_recipe_list"/><endl />
+    <p align="center"><icon key="item_subunit_red"/><icon key="item_subunit_red"/><icon key="item_ribosome"/><break/></p>
+
+    Разместите рибосому у микротрубочек.<break/>
+    <icon key="ui_icon_destroy"/>Удалите структуры инструментом уничтожения.<break/>
+    <icon key="ui_icon_oxidation_usages"/>Окисленные структуры не возвращают предметы.<endl/>
+    <image path="tutorial/quickstart_12.png" scale="1" />
+    <break/>
+  </content>
+- >
+  <content>
+    Нам нужно соединить рибосому с микротрубочками.<endl />
+    Создайте еще один примитивный селектор <icon key="item_picker_primitive" /> и разместите его так, чтобы у вас была полная транспортная линия от цитостомы к рибосоме.<endl />
+    <image path="tutorial/quickstart_13.png" scale="1" />
+    <endl />
+
+    Теперь нажмите <keycap action="execute_first_action" /> на рибосоме, чтобы настроить ее на производство красных тубулинов <icon key="item_tubulin_red" /> и наблюдайте за работой вашей первой рибосомы!<endl /><endl />
+    <icon key="item_microtubule"/>Микротрубочка идет на поднятую часть селектора, где лежит стрелка селектора. Нижняя, тонкая часть селектора должна идти под структурами.<endl /><endl />
+    <icon key="item_picker_primitive"/>Направление стрелки селектора определяет, вставляет ли селектор или выводит из структуры.
+  </content>
+- >
+  <content>
+    Теперь, когда вы освоили основы, пришло время улучшиться!<endl />
+    Давайте автоматизируем сбор желтых аминокислот <icon key="item_aminoacid_yellow" /> и производство желтого тубулина <icon key="item_tubulin_yellow" />, выполняя те же операции.
+    <break/>
+    <image path="tutorial/quickstart_14.png" scale="1" />
+    <endl />
+
+    На этом этапе организм самостоятельно синтезирует красные и желтые тубулины.<break/>
+    <icon key="ui_icon_toggle_object_overlay_on" />Чтобы увидеть, какие рецепты крафта установлены в структурах, можно переключить опцию "toggle object content info".
+  </content>
+  
+- >
+  <content>
+    Давайте автоматизируем производство микротрубочек <icon key="item_microtubule_primitive" /> и селекторов. <icon key="item_picker_primitive" /><break/>
+    <icon key="item_assembler" />Для этого нам нужно создать 2 сборщика. <break/>
+    <icon key="ui_icon_open_evolution_view" />Но мы еще не можем их изготовить, так как нужно разблокировать рецепт сборщика в окне эволюции.<break/>
+    <image path="tutorial/quickstart_17a.png" scale="1" />
+    <endl />
+    <icon key="item_evolver"/>Чтобы открыть новые рецепты, нам нужно построить эвольвер, давайте создадим его и разместим где-нибудь на земле.
+  </content>
+
+- >
+  <content>
+    Эвольвер потребляет генетический материал, называемый нуклеобазами, для открытия новых рецептов.<break/>
+    <p align="center"><icon key="item_adenine"/><icon key="item_thymine"/><icon key="item_guanine"/><icon key="item_cytosine"/><break/></p>
+    Откройте окно эволюции с помощью <keycap action="open_evolution_view" />, найдите <p color="#f5e042">Intracellular Production</p> и начните исследование.<break/>
+    <image path="tutorial/quickstart_16.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_thymine"/>Теперь загрузите эвольвер необходимыми нуклеобазами, которые можно собрать из пустоты. Дождитесь завершения исследования.<break/>
+    <icon key="item_evolver" />Эвольвер принимает только по одному предмету за раз, но вы можете построить больше исследований для повышения эффективности.<break/>
+    <image path="tutorial/quickstart_18.png" scale="1" />
+    <endl />
+    Вы можете проверить статус, наведя курсор на эволюцию в строке состояния.<endl />
+    <image path="tutorial/quickstart_18b.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    С новой эволюцией вы теперь можете:<break/>
+
+    Создать сборщики <icon key="item_assembler" /> <break/>
+    Разместите их рядом с существующими рибосомами <icon key="item_ribosome" /> <break/>
+    Завершите соединение всего с помощью большего количества микротрубочек <icon key="item_microtubule" /> и селекторов <icon key="item_picker" /> <endl />
+    Настройте <keycap action="execute_first_action" /> сборщики для производства микротрубочек <icon key="item_microtubule_primitive" /> и селекторов. <icon key="item_picker_primitive" /><endl />
+    <image path="tutorial/quickstart_19.png" scale="1" />
+    <endl />
+    Мы предлагаем построить ваши первые рибосомы и сборщики и автоматизировать крафт, как только вы освоитесь!<endl />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_oxidation_usages"/>Со временем примитивные здания окисляются и становятся неработоспособными.<break/>
+    <icon key="item_cytostome1x"/><icon key="item_picker_primitive"/>Чтобы заменить окисленный селектор или цитостому, просто постройте другой и разместите его поверх старого.<endl />
+
+    <image path="tutorial/quickstart_oxidation.png" scale="1" />
+
+    <icon key="item_diffuser"/>Вы также можете построить диффузоры предметов, которые, если их кормить правильным предметом, автоматически заменят окисленный аналог рядом с ними.<endl />
+
+    Чтобы преодолеть эту проблему, вам нужно исследовать улучшенные структуры, которые больше не будут окисляться.<endl /><endl />
+
+    <icon key="item_cytostome2x" /> Цитостома улучшенной версии примитивной цитостомы, быстрее с двойной всасывающей способностью<endl /><endl />
+    <icon key="item_picker" /> Черные селекторы не окисляются и могут быть изготовлены в вариантах фильтрации цвета и материала<endl /><endl />
+
+    <icon key="item_atp" /> Улучшенным структурам нужна энергия для работы!<endl /><endl />
+
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_energy_yellow" />Многие предметы требуют энергии для работы.<endl /><endl />
+
+    <icon key="item_energy_supplier_mk1" />После исследования начните строить сеть с примитивными поставщиками энергии.<endl /><endl />
+    <icon key="item_energy_supplier_mk2" />Улучшенные поставщики обеспечивают энергией на большее расстояние.<endl /><endl />
+
+    <icon key="item_atp"/>Поставщики работают на АТФ, который превращается в АДФ после разряда.<endl />
+    <icon key="item_adp"/>Заменяйте старое АДФ на новое АТФ!<endl /><endl />
+
+    <icon key="item_energy_pole"/>Используйте энергетические столбы для увеличения диапазона между поставщиками.<endl /><endl />
+    <icon key="ui_icon_toggle_power_overlay_on"/>Это расширяет диапазон без ресурсов.
+
+    <break/>
+  </content>
+
+
+
+- >
+  <content>
+    Теперь пришло время для вас продолжить изучение доступных эволюций и самостоятельно расширять вашу логистическую систему! <break/>Только будьте осторожны <icon key="ui_warning_sign_red" /> <endl />
+    <image path="tutorial/quickstart_20b.png" scale="1" />
+    <endl />
+    <icon key="ui_icon_temperature" />Температура снаружи постепенно падает, и вам понадобится способ генерации тепла с митохондрией <icon key="item_mitochondrial_membrane" /> и разобщителями <icon key="item_decoupler" /> <endl /><endl />
+    <icon key="item_bacterial_vegetation_bacillus_green"/> Снаружи в темноте ползают бактерии, будьте готовы с диффузорами <icon key="item_diffuser" /> и пусковыми установками <icon key="item_launcher1x" /> <break/>
+    <icon key="ui_icon_chunk_planner"/> Ресурсы в конечном итоге иссякнут, вам нужно будет расширяться, чтобы найти новые.
+    <break/>
+  </content> 
+
+- >
+  <content>
+    Здесь на этом пока заканчивается учебник! В случае сомнений:<break/>
+    <icon key="ui_guide_dot"/> обратитесь к внутриигровому руководству через <keycap action="open_game_guide" /><break/>
+    <icon key="ui_guide_dot"/> выполните задачи, проверьте обзор путешествия <keycap action="open_journey_view" /> и список целей <keycap action="open_goal_list" /><break/>
+    <icon key="ui_guide_dot"/> если у вас возникнут трудности, приходите в наш Discord, где вы найдете помощь!<endl />
+    <image path="tutorial/quickstart_22.png" scale="1" /><endl/>
+    Эта игра находится на раннем доступе, поэтому она может быть еще не доработана. Но если вы все еще читаете, значит, ваше терпение светит, вас ждет угощение!<break/>Множество идей будут реализованы в будущем по мере развития. Надеемся, вам понравится великолепное путешествие, которое предлагает Lifecraft!
+    <break/>
+  </content>
+  

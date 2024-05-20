@@ -1,0 +1,293 @@
+pages:
+- >   
+  <content>
+    <icon key="ui_guide_mitosis"/>欢迎来到Lifecraft宇宙！
+    <break/>
+    <image path="tutorial/quickstart_1.png" scale="1" />
+    <endl/>
+    你从一个漂浮的生物体开始。
+    <break/>
+    你将面临挑战，需要保持温暖并抵御入侵者如细菌，并扩展资源寻找范围。<endl/><endl/>
+    不要被物品名称和机制吓到！<break/><icon key="item_aminoacid_red"/>氨基酸是球体，<icon key="item_tubulin_yellow"/>微管是管状，记住这点你就能应对了！<endl/><endl/><icon key="ui_icon_open_recipe_list"/>右下角的配方视图非常有用！<endl/>使用它查看制作物品所需的材料。<endl/>
+    悬停物品还可以显示它们的功能。
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_hand"/>你可以使用键盘或鼠标在屏幕边缘移动来移动视角：<break/>
+    <p align="center">
+    <keycap action="pan_up" /><endl /><keycap action="pan_left" /><icon key="ui_guide_dot_tiny"/>
+    <keycap action="pan_down" /><icon key="ui_guide_dot_tiny"/><keycap action="pan_right" /><break/>
+    </p>
+    <icon key="ui_icon_zoom_in"/>你可以使用键盘或鼠标滚轮进行缩放：<break/>
+    <p align="center">
+    <keycap action="zoom_in" longer="true" /><icon key="ui_guide_dot_tiny"/><keycap action="zoom_out" longer="true" /><break/>
+    </p>
+    你可以用鼠标拾取和放下物品。
+    <endl/>
+    <image path="tutorial/quickstart_2.png" scale="1" />
+    <endl/>
+    一次最多可以拾取4个物品，现在试试拾取一些漂浮的物品！
+    <endl/>
+  </content>
+
+- >
+  <content>
+    蓝色虚空中含有许多有用的物品，可以用来制作中间材料、<break/>结构、能源、防御和扩展。<endl /><endl />
+    你的第一个任务是用鼠标从外面收集一个黄色亚单位<icon key="item_subunit_yellow"/>。记住任何资源都可以手动拾取。<endl /><endl />这在许多情况下都很方便！<endl />
+    <endl />
+    现在将黄色亚单位<icon key="item_subunit_yellow"/>放在你的细胞地面上。<endl/>
+    <image path="tutorial/quickstart_3.png" scale="1" /><endl />
+    <endl />
+  </content>
+
+- >
+  <content>
+    <icon key="item_subunit_yellow"/>在外面寻找另一个黄色亚单位并抓住它。
+    <endl />
+    <image path="tutorial/quickstart_4.png" scale="1" />
+    <endl/>
+    <icon key="item_workbench"/>你现在可以组装你的第一个结构：工作台！<endl/><endl/>
+    <icon key="item_subunit_yellow"/>只需将第二个黄色亚单位放在地面上的第一个上面，就完成了！<endl />
+    <image path="tutorial/quickstart_5.png" scale="1" />
+    <break/>
+
+    <endl />
+  </content> 
+
+- >  
+  <content>
+    <icon key="item_workbench"/>工作台用于手动组装结构，这些结构稍后将用于自动化。<break/>它虽然效率不高，但很方便！<endl/> <endl/>
+    现在，拿起新组装的工作台，用鼠标将其放在地面上。<endl />
+    <image path="tutorial/quickstart_6.png" scale="1" />
+    <endl />
+    你可以点击建筑物打开其上下文菜单。<endl/>
+    一些建筑还绑定了<keycap action="execute_first_action" />和<keycap action="execute_second_action" />操作。<break/>
+    <image path="tutorial/quickstart_3extra.png" scale="1" /><endl />
+  </content>
+  
+- >
+  <content>
+    你的下一个目标是自动化从外部资源堆收集资源，<break/>这需要你构建多个物品：<endl /><endl />
+    <icon key="ui_guide_dot"/> <icon key="item_microtubule"/> 微管，用于在细胞内部路由物品 <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_picker"/> 选择器，用于从结构中移动物品 <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_cytostome1x"/> 细胞口，能够从外部吸取物品 <endl />
+    <image path="tutorial/quickstart_1extra.png" scale="1" />
+    <endl />
+    原始结构会因氧化而随时间损坏。它们也慢且效率低，<break/>你将用改进的版本替换它们。稍后会有更多介绍！<endl /><endl />
+  </content>
+
+- >
+  <content>
+    让我们开始制作基本自动化所需的结构！<endl /><endl />
+    在屏幕右下角的配方列表中，你可以悬停可用的配方并查看它们的材料，<break/>让我们悬停一个细胞口<icon key="item_cytostome1x"/><endl />
+    <recipe key="cytostome1x" compact="true" />这些是构建它所需的材料。
+    
+    微管是一种中间材料，用于制作许多基本结构。<break/>
+    工作台很方便，因为它可以使用基础材料制作所有中间资源步骤：<endl /><endl />
+    <p align="center"><icon key="item_aminoacid_blue"/><icon key="item_aminoacid_green"/><icon key="item_aminoacid_red"/><icon key="item_aminoacid_yellow"/><endl/><endl /></p>
+    将所需的氨基酸放在工作台中，点击它并选择要组装的结构。<break/>
+    你也可以在工作台中排队多个工艺，只要有足够的空间！
+    <p align="center">
+
+    </p>
+
+  </content>
+
+- >
+  <content>
+    <icon key="item_cytostome1x"/>现在拿起制作好的细胞口并将其放在一个<icon key="item_aminoacid_red"/>氨基酸资源堆旁边的墙上。
+    <break/>
+    <image path="tutorial/quickstart_8.png" scale="1" />
+    <endl />
+    你会看到细胞口开始工作并慢慢吸取一个物品。<break/>你可以用鼠标手动从细胞口中拿取物品。<break/>
+    细胞口位于细胞墙的高处，但在细胞内部的地面上吸取。<break/>
+    <icon key="ui_icon_toggle_buildings_on"/>要查看其吸取基座（你将连接选择器的地方），<break/>你可以在底部栏启用“切换建筑物”功能。<break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_microtubule"/>我们现在需要一种方式来自动从细胞口路由物品。<endl /><endl />
+    微管就像细胞内的小轨道，可以运输物品。
+    让我们制作我们的第一个微管。
+    收集所需材料并在工作台中排队制作：<break/><endl />
+    <p align="center"><icon key="item_tubulin_red"/><icon key="item_tubulin_red"/><icon key="item_microtubule_primitive"/><break/></p>
+    等待结果准备好并拿起。<break/>
+    发生了什么？微管消失了！<break/>
+    这是因为微管会自动存储到一个存储中，<break/>以便你可以使用特定工具使用它们。<endl/><endl/>
+    <image path="tutorial/quickstart_9.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    现在切换到微管放置工具<keycap action="switch_tool_microtubule_metatool" />，你会看到有多种类型的微管，
+    但目前只有第一种可用。<break/>
+    原始微管较慢，你需要研究更好的版本。<break/>
+    <p align="center"><icon key="item_microtubule"/><icon key="item_microtubule_advanced"/><break/></p>
+    左键点击在细胞口基座旁边放置微管，为物品准备路线。<break/>
+    <image path="tutorial/quickstart_10.png" scale="1" />
+    <endl />
+    微管可以用你的鼠标移除。
+
+  </content>
+  
+- >
+  <content>
+    <icon key="item_picker_primitive" />我们现在需要一个选择器，用于将物品从结构中移入和移出。<endl/>
+    收集材料并在工作台中排队制作：<endl/><recipe key="picker_primitive" compact="true" /><endl/>
+    准备好后，将选择器放在细胞口基座旁边。<break/>
+    使用<keycap action="execute_first_action" />和<keycap action="execute_second_action" />你可以旋转或翻转选择器。
+    配置它以便它从细胞口中取物（选择器的细部分放在细胞口基座下）。<endl/>
+    <image path="tutorial/quickstart_11.png" scale="1" />
+    <endl/>
+
+    <icon key="ui_icon_toggle_buildings_on"/><icon key="ui_icon_toggle_walls_on"/>放置结构时，为了更好的视图，你可以启用“切换建筑物”，<break/>这将提供更清晰、更平坦的地图视图。
+  </content>
+
+- >
+  <content>
+    <icon key="item_tubulin_red" />现在是时候自动化你的第一个蛋白质生产了！<break/>
+    <icon key="item_ribosome" />这是通过使用核糖体完成的，它能够制作中间材料。
+
+    收集制作核糖体所需的物品。<break/><icon key="ui_icon_open_recipe_list"/>记得使用配方视图作为图例！<break/><endl />
+    <p align="center"><icon key="item_subunit_red"/><icon key="item_subunit_red"/><icon key="item_ribosome"/><break/></p>
+
+    现在将核糖体放在你之前放置的微管附近。<break/>
+    <icon key="ui_icon_destroy"/>你可以使用销毁结构工具移除任何已放置的结构。
+    <icon key="ui_icon_oxidation_usages"/>氧化的结构不会返还物品。<endl/>
+    <image path="tutorial/quickstart_12.png" scale="1" />
+    <break/>
+
+
+  </content>
+
+- >
+  <content>
+    我们需要将核糖体连接到微管。<endl />
+    制作另一个原始选择器<icon key="item_picker_primitive" />并放置，以便你有一个从细胞口到核糖体的完整传输线。<endl />
+    <image path="tutorial/quickstart_13.png" scale="1" />
+    <endl />
+
+    现在按<keycap action="execute_first_action" />在核糖体上配置它生产红色微管<icon key="item_tubulin_red" />并观察你的第一个核糖体工作！<endl /><endl />
+    <icon key="item_microtubule"/>微管放在选择器的升高部分，选择器箭头所在的地方。<break/>选择器的下部、较薄的部分必须放在结构下方。<endl /><endl />
+    <icon key="item_picker_primitive"/>选择器箭头的方向决定选择器是插入还是输出结构中的物品。
+    
+
+  </content>
+
+- >
+  <content>
+    现在你已经学会了基础操作，是时候进一步改进了！<endl />
+    让我们自动化收集黄色氨基酸<icon key="item_aminoacid_yellow" />和生产黄色微管<icon key="item_tubulin_yellow" />，通过执行相同的操作。
+    <break/>
+    <image path="tutorial/quickstart_14.png" scale="1" />
+    <endl />
+
+    此时，生物体正在自行合成红色和黄色微管。<break/>
+    <icon key="ui_icon_toggle_object_overlay_on" />要查看结构中当前设置的制作配方，<break/>你可以切换“切换对象内容信息”选项。
+  </content>
+  
+- >
+  <content>
+    让我们自动化微管<icon key="item_microtubule_primitive" />和选择器的生产。<icon key="item_picker_primitive" /><break/>
+    <icon key="item_assembler" />为此我们需要创建2个装配机。<break/>
+    <icon key="ui_icon_open_evolution_view" />但我们还不能制作它们，<break/>因为我们需要在进化视图中解锁装配机配方。<break/>
+    <image path="tutorial/quickstart_17a.png" scale="1" />
+    <endl />
+    <icon key="item_evolver"/>为了发现新配方，我们需要建造一个进化器，<break/>让我们创建它并将其放在地面上。
+  </content>
+
+- >
+  <content>
+    进化器消耗称为核苷酸的遗传材料来发现新配方。<break/>
+    <p align="center"><icon key="item_adenine"/><icon key="item_thymine"/><icon key="item_guanine"/><icon key="item_cytosine"/><break/></p>
+    打开进化视图<keycap action="open_evolution_view" />，搜索<p color="#f5e042">细胞内生产</p>并开始研究。<break/>
+    <image path="tutorial/quickstart_16.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_thymine"/>现在用所需的核苷酸喂养进化器，<break/>这些可以从虚空中收集。等待研究完成。<break/>
+    <icon key="item_evolver" />进化器一次只接受一个物品，<break/>但你可以建造更多研究设施以提高效率。<break/>
+    <image path="tutorial/quickstart_18.png" scale="1" />
+    <endl />
+    你可以通过悬停状态栏中的进化来检查状态。<endl />
+    <image path="tutorial/quickstart_18b.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    有了新获得的进化，你现在可以：<break/>
+
+    创建装配机<icon key="item_assembler" /> <break/>
+    将它们放置在现有核糖体<icon key="item_ribosome" />附近 <break/>
+    用更多的微管<icon key="item_microtubule" />和选择器<icon key="item_picker" />完成连接 <endl />
+    配置<keycap action="execute_first_action" />装配机生产微管<icon key="item_microtubule_primitive" />和选择器。<icon key="item_picker_primitive" /><endl />
+    <image path="tutorial/quickstart_19.png" scale="1" />
+    <endl />
+    我们建议你尽快建造你的第一个核糖体和装配机，并自动化制作！<endl />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_oxidation_usages"/>随着时间的推移，原始建筑会氧化，变得无法操作。<break/>
+    <icon key="item_cytostome1x"/><icon key="item_picker_primitive"/>要替换氧化的选择器或细胞口，<break/>只需建造另一个并将其放置在旧的上面。<endl />
+
+    <image path="tutorial/quickstart_oxidation.png" scale="1" />
+
+    <icon key="item_diffuser"/>你也可以建造物品扩散器，如果喂给它们正确的物品，<break/>它们会自动替换附近的氧化对应物。<endl />
+
+    要克服这个问题，你需要研究改进的结构，这些结构将不再氧化。<endl /><endl />
+
+    <icon key="item_cytostome2x" /> 改进的细胞口是原始细胞口的改进版本，吸取速度更快，容量加倍<endl /><endl />
+    <icon key="item_picker" /> 黑色选择器不会氧化，并且可以制作成颜色和材料过滤的变体<endl /><endl />
+
+    <icon key="item_atp" /> 改进的结构需要能源才能工作！<endl /><endl />
+
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_energy_yellow" />随着你进一步研究，你会注意到许多物品需要能源才能工作。<endl /><endl />
+
+    <icon key="item_energy_supplier_mk1" />在研究了所需的节点后，<break/>你可以开始用原始能源供应器建立一个能源网络，<break/>这些供应器会为它们范围内的结构供电。<endl /><endl />
+    <icon key="item_energy_supplier_mk2" />改进的供应器将在更大的范围内供电。<endl /><endl />
+
+    <icon key="item_atp"/>要使能源供应器工作，你需要用ATP分子（在虚空外找到）来供电。<endl />
+    <icon key="item_adp"/>当ATP放电后，供应器会以ADP的形式输出。<endl />就像电池一样，用旧的换新的！<endl /><endl />
+
+    <icon key="item_energy_pole"/>要扩展两个能源供应器之间的范围，请使用能源杆！ <endl /><endl />
+    <icon key="ui_icon_toggle_power_overlay_on"/>这些将大大扩展范围，而不使用任何资源。
+
+    
+    <break/>
+  </content>
+
+
+
+- >
+  <content>
+    现在是时候让你自己继续探索可用的进化并扩展你的物流系统了！ <break/>请注意 <icon key="ui_warning_sign_red" /> <endl />
+    <image path="tutorial/quickstart_20b.png" scale="1" />
+    <endl />
+    <icon key="ui_icon_temperature" />外部温度正在缓慢下降，你需要用线粒体<icon key="item_mitochondrial_membrane" />和解耦器<icon key="item_decoupler" />来产生热量<endl /><endl />
+    <icon key="item_bacterial_vegetation_bacillus_green"/>在黑暗中，外面有细菌爬行，要用扩散器<icon key="item_diffuser" />和发射器<icon key="item_launcher1x" />做好准备<break/>
+    <icon key="ui_icon_chunk_planner"/>资源最终会耗尽，你需要扩展以寻找新的资源。
+    <break/>
+  </content> 
+
+- >
+  <content>
+    教程到此为止！如果有任何疑问：<break/>
+    <icon key="ui_guide_dot"/> 通过<keycap action="open_game_guide" />查阅游戏指南<break/>
+    <icon key="ui_guide_dot"/> 完成目标，查看旅程视图<keycap action="open_journey_view" />和目标列表<keycap action="open_goal_list" /><break/>
+    <icon key="ui_guide_dot"/> 如果你遇到困难，来我们的Discord寻求帮助！<endl />
+    <image path="tutorial/quickstart_22.png" scale="1" /><endl/>
+    这个游戏还处于早期访问阶段，可能还不够完善。<break/>但如果你还在阅读，说明你的耐心很好，你将会有所收获！<break/>随着开发的进行，未来将实现许多想法。<break/>我们希望你能享受Lifecraft提供的伟大旅程！
+    <break/>
+  </content>

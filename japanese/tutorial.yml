@@ -1,0 +1,285 @@
+pages:
+- >   
+  <content>
+    <icon key="ui_guide_mitosis"/>Lifecraftへようこそ！
+    <break/>
+    <image path="tutorial/quickstart_1.png" scale="1" />
+    <endl/>
+    生物としてスタート。<break/>
+    資源を探し拡大、戦い、暖を取る。<endl/><endl/>
+    アイテム名やメカニズムに圧倒されず。<break/><icon key="item_aminoacid_red"/>アミノ酸は球体、<icon key="item_tubulin_yellow"/>チューブリンは管。<endl/><endl/><icon key="ui_icon_open_recipe_list"/>レシピビューが便利！<endl/>材料を確認。<endl/>
+    アイテムにカーソルを合わせると機能表示。
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_hand"/>マウスまたはキーで移動：<break/>
+    <p align="center">
+    <keycap action="pan_up" /><endl /><keycap action="pan_left" /><icon key="ui_guide_dot_tiny"/>
+    <keycap action="pan_down" /><icon key="ui_guide_dot_tiny"/><keycap action="pan_right" /><break/>
+    </p>
+    <icon key="ui_icon_zoom_in"/>ズームイン・アウト：<break/>
+    <p align="center">
+    <keycap action="zoom_in" longer="true" /><icon key="ui_guide_dot_tiny"/><keycap action="zoom_out" longer="true" /><break/>
+    </p>
+    マウスでアイテム拾い、置く。<endl/>
+    <image path="tutorial/quickstart_2.png" scale="1" />
+    <endl/>
+    4つのアイテムを一度に拾う。外で試す！<endl/>
+  </content>
+
+- >
+  <content>
+    青い空間に有用なアイテム多数。<endl /><endl />
+    最初のタスクは、外から黄色いサブユニット<icon key="item_subunit_yellow"/>を集める。<endl /><endl />手動でリソース拾う！<endl />
+    <endl />
+    細胞の地面に置く。<endl/>
+    <image path="tutorial/quickstart_3.png" scale="1" /><endl />
+    <endl />
+  </content>
+
+- >
+  <content>
+    <icon key="item_subunit_yellow"/> 外で黄色いサブユニット探す。
+    <endl />
+    <image path="tutorial/quickstart_4.png" scale="1" />
+    <endl/>
+    <icon key="item_workbench"/> 最初の構造物、作業台組立可！<endl/><endl/>
+    <icon key="item_subunit_yellow"/> 2つ目の黄色いサブユニットを地面に置く。<endl /> 完成！<endl />
+    <image path="tutorial/quickstart_5.png" scale="1" />
+    <break/>
+
+    <endl />
+  </content> 
+
+- >  
+  <content>
+    <icon key="item_workbench"/>作業台は手動で構造物組立に使用。非効率だが便利！ <endl/> <endl/>
+    組立た作業台を地面に置く。<endl />
+    <image path="tutorial/quickstart_6.png" scale="1" />
+    <endl />
+    建物クリックでコンテキストメニュー開く。<endl/>
+    いくつかの建物に<keycap action="execute_first_action" />と<keycap action="execute_second_action" />割り当て。<break/>
+    <image path="tutorial/quickstart_3extra.png" scale="1" /><endl />
+  </content>
+  
+- >
+  <content>
+    次の目標は、外部リソースヒープからの自動収集開始。<endl /><endl />
+    <icon key="ui_guide_dot"/> <icon key="item_microtubule"/> マイクロチューブリンはアイテムルーティング用。<break/>
+    <icon key="ui_guide_dot"/> <icon key="item_picker"/> ピッカーは構造物からアイテム移動用。<break/>
+    <icon key="ui_guide_dot"/> <icon key="item_cytostome1x"/> サイトストームは外部からアイテム吸引可。<endl />
+    <image path="tutorial/quickstart_1extra.png" scale="1" />
+    <endl />
+    原始的な構造物は時間と共に酸化し壊れる。<break/>遅く非効率だが、後で改良版に置き換え可。<endl /><endl />
+  </content>
+
+- >
+  <content>
+    基本自動化の構造物製作を始めましょう！<endl/><endl/>
+    画面右下のレシピリストで、<break/>利用可能なレシピとサイトストームの材料を確認<icon key="item_cytostome1x"/><endl/>
+    <recipe key="cytostome1x" compact="true"/>必要材料です。<break/>
+
+    チューブリンは基本構造物の中間材料。<break/>
+    作業台は基本材料で中間リソースを製作：<endl/><endl/>
+    <p align="center"><icon key="item_aminoacid_blue"/><icon key="item_aminoacid_green"/><icon key="item_aminoacid_red"/><icon key="item_aminoacid_yellow"/><endl/><endl/></p>
+    必要アミノ酸を作業台に置き、クリックで構造物選択。<break/>
+    スペースがあれば、多くのクラフトをキューに！
+    <p align="center">
+
+    </p>
+
+  </content>
+
+- >
+  <content>
+    <icon key="item_cytostome1x"/>製作したサイトストームを壁の隣に置いて、<icon key="item_aminoacid_red"/> アミノ酸リソースヒープの隣に設置してください。
+    <break/>
+    <image path="tutorial/quickstart_8.png" scale="1" />
+    <endl />
+    サイトストームが動作を開始し、<break/>ゆっくりとアイテムを吸引します。<break/>マウスで手動操作し、<break/>アイテムをサイトストームから取り出すことができます。<break/>
+    サイトストームは細胞壁の高い位置にありますが、<break/>細胞内の地面で吸引します。<break/>
+    <icon key="ui_icon_toggle_buildings_on"/>建物の切り替えを有効にすると、<break/>接続するピッカーの吸引基部（接続部）を確認できます。<break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_microtubule"/>サイトストームからアイテム自動ルーティングが必要。<endl/><endl/>
+    マイクロチューブリンは細胞内アイテム運搬用レール。<break/>
+    必要材料を集め、作業台でクラフトキューに。<break/><endl/>
+    <p align="center"><icon key="item_tubulin_red"/><icon key="item_tubulin_red"/><icon key="item_microtubule_primitive"/><break/></p>
+    完成待ち、拾い上げてください。<break/>
+    マイクロチューブリンが消えた？<break/>
+    自動ストレージ格納のため。特定ツールで使用。<endl/><endl/>
+    <image path="tutorial/quickstart_9.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    マイクロチューブリン配置ツールに切り替えるには<keycap action="switch_tool_microtubule_metatool" />を使用します。複数のタイプがありますが、<break/>最初は基本的なものだけが利用可能です。<break/>
+    原始的なマイクロチューブリンは遅いです。<break/>より良いバージョンを研究する必要があります。<break/>
+    <p align="center"><icon key="item_microtubule"/><icon key="item_microtubule_advanced"/><break/></p>
+    サイトストームの基部の隣にマイクロチューブリンを配置して、<break/>アイテムのルートを準備します。<break/>
+    <image path="tutorial/quickstart_10.png" scale="1" />
+    <endl />
+    マイクロチューブリンはマウスで取り除くことができます。
+
+  </content>
+  
+- >
+  <content>
+    <icon key="item_picker_primitive" />次に、ピッカーが必要です。<break/>構造物からアイテムを移動させます。<endl/>
+    材料を集め、作業台でクラフトキューに。<endl/><recipe key="picker_primitive" compact="true" /><endl/>
+    完成後、ピッカーをサイトストーム隣に設置。<break/>
+    <keycap action="execute_first_action" />と<keycap action="execute_second_action" />でピッカー回転や反転可能。<break/>
+    サイトストームからアイテム取り出しを設定、<break/>ピッカーの細部が基部下に来るように。<endl/>
+    <image path="tutorial/quickstart_11.png" scale="1" />
+    <endl/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_tubulin_red" />最初のタンパク質の自動生産を始めましょう！<break/>
+    <icon key="item_ribosome" />リボソームを使用して中間材料を製作します。
+
+    リボソームを製作するために必要なアイテムを作業台で集めて、<break/>ください。<break/><icon key="ui_icon_open_recipe_list"/>レシピビューを凡例として使用してください！<break/><endl />
+    <p align="center"><icon key="item_subunit_red"/><icon key="item_subunit_red"/><icon key="item_ribosome"/><break/></p>
+
+    以前に配置したマイクロチューブリンの近くに、<break/>リボソームを置いてください。<break/>
+    <icon key="ui_icon_destroy"/>配置した構造物は、<break/>構造物を破壊するツールで取り除くことができます。
+    <icon key="ui_icon_oxidation_usages"/>酸化した構造物はアイテムを戻しません。<endl/>
+    <image path="tutorial/quickstart_12.png" scale="1" />
+    <break/>
+
+
+  </content>
+
+- >
+  <content>
+    リボソームをマイクロチューブリンに接続する必要があります。<endl />
+    別の原始的なピッカー<icon key="item_picker_primitive" />を製作して、<break/>サイトストームからリボソームへの輸送ラインを、<break/>配置してください。<endl />
+    <image path="tutorial/quickstart_13.png" scale="1" />
+    <endl />
+
+    リボソームで<keycap action="execute_first_action" />を押して、赤いチューブリン<icon key="item_tubulin_red" />の生産を設定し、最初のリボソームの動作を観察してください！<endl /><endl />
+    <icon key="item_microtubule"/>マイクロチューブリンはピッカーの上部にあります。<break/>ピッカーの矢印の方向が、構造物への挿入または出力を決定します。<endl /><endl />
+    <icon key="item_picker_primitive"/>ピッカーの矢印の方向が構造物への挿入または出力を決定します。
+    
+
+  </content>
+
+- >
+  <content>
+    基本を学んだので、改善の時です！<endl />
+    黄色のアミノ酸<icon key="item_aminoacid_yellow" />の収集と黄色のチューブリン<icon key="item_tubulin_yellow" />の生産を自動化しましょう。
+    <break/>
+    <image path="tutorial/quickstart_14.png" scale="1" />
+    <endl />
+
+    この時点で、<break/>生物は赤と黄色のチューブリンを自己合成しています。<break/>
+    <icon key="ui_icon_toggle_object_overlay_on" />構造物に設定されているクラフティングレシピを確認するには、<break/>「オブジェクト内容情報の切り替え」オプションを有効にします。
+  </content>
+  
+- >
+  <content>
+    マイクロチューブリン<icon key="item_microtubule_primitive" />とピッカー<icon key="item_picker_primitive" />の生産を自動化しましょう。<break/>
+    <icon key="item_assembler" />これを行うには、2つのアセンブラーを作成する必要があります。<break/>
+    <icon key="ui_icon_open_evolution_view" />しかし、<break/>まだアセンブラーのレシピをアンロックしていないため、<break/>進化ビューでレシピをアンロックする必要があります。<break/>
+    <image path="tutorial/quickstart_17a.png" scale="1" />
+    <endl />
+    <icon key="item_evolver"/>新しいレシピを発見するためには、<break/>エボルバーを作成して地面に置く必要があります。
+  </content>
+
+- >
+  <content>
+    エボルバーは新しいレシピを発見するために、<break/>ヌクレオベースと呼ばれる遺伝的素材を消費します。<break/>
+    <p align="center"><icon key="item_adenine"/><icon key="item_thymine"/><icon key="item_guanine"/><icon key="item_cytosine"/><break/></p>
+    <keycap action="open_evolution_view" />で進化ビューを開き、「Intracellular Production」を検索して研究を開始します。<break/>
+    <image path="tutorial/quickstart_16.png" scale="1" />
+    <break/>
+  </content>
+
+
+- >
+  <content>
+    <icon key="item_thymine"/>必要なヌクレオベースをエボルバーに供給。<break/>
+    <icon key="item_evolver" />エボルバーは1つのアイテムのみ受付。複数研究で効率アップ。<break/>
+    <image path="tutorial/quickstart_18.png" scale="1" />
+    <endl />
+    ステータスバーで進化状態確認。<endl />
+    <image path="tutorial/quickstart_18b.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    新たな進化で以下が可能：<break/>
+
+    アセンブラー作成<icon key="item_assembler" /> <break/>
+    リボソーム近くに配置<icon key="item_ribosome" /> <break/>
+    マイクロチューブリン<icon key="item_microtubule" />とピッカー<icon key="item_picker" />で接続。<endl />
+    アセンブラーでマイクロチューブリン<icon key="item_microtubule_primitive" />とピッカー生産<icon key="item_picker_primitive" /><endl />
+    <image path="tutorial/quickstart_19.png" scale="1" />
+    <endl />
+    リボソームとアセンブラー構築後、自動化推奨！<endl />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_oxidation_usages"/>原始的建物は酸化し使用不能に。<break/>
+    <icon key="item_cytostome1x"/><icon key="item_picker_primitive"/>酸化したピッカーやサイトストーム交換に新しいものを。<endl />
+
+    <image path="tutorial/quickstart_oxidation.png" scale="1" />
+
+    <icon key="item_diffuser"/>正しいアイテム供給で自動交換可能。<endl />
+
+    酸化しない改良構造物研究必要。<endl /><endl />
+
+    <icon key="item_cytostome2x" />サイトストーム改良版、吸引2倍速。<endl /><endl />
+    <icon key="item_picker" />黒ピッカーは酸化せず、色や材料フィルタリング可。<endl /><endl />
+
+    <icon key="item_atp" />改良構造物はエネルギー必要！<endl /><endl />
+
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_energy_yellow" />研究進むと多くのアイテムがエネルギー必要。<endl /><endl />
+
+    <icon key="item_energy_supplier_mk1" />必要ノード研究後、範囲内構造物に電力供給。<endl /><endl />
+    <icon key="item_energy_supplier_mk2" />改良サプライヤーは広範囲エネルギー供給。<endl /><endl />
+
+    <icon key="item_atp"/>エネルギーサプライヤー動作にはATP必要。<endl />
+    <icon key="item_adp"/>ATP放電後、ADP形で出力。<endl />古いもの出して新しいもの入れて！<endl /><endl />
+
+    <icon key="item_energy_pole"/>エネルギーサプライヤー間範囲拡張にエネルギーポール使用！ <endl /><endl />
+    <icon key="ui_icon_toggle_power_overlay_on"/>これらはリソース使用せずに範囲拡張。
+
+    
+    <break/>
+  </content>
+
+
+- >
+  <content>
+    利用可能な進化探索し、物流システム拡張の時！ <break/>注意<icon key="ui_warning_sign_red" /> <endl />
+    <image path="tutorial/quickstart_20b.png" scale="1" />
+    <endl />
+    <icon key="ui_icon_temperature" />外温度下がるため、ミトコンドリア<icon key="item_mitochondrial_membrane" />とデカップラー<icon key="item_decoupler" />で熱生成必要。<endl /><endl />
+    <icon key="item_bacterial_vegetation_bacillus_green"/>外暗闇で細菌這う。ディフューザー<icon key="item_diffuser" />とランチャー<icon key="item_launcher1x" />で準備。<break/>
+    <icon key="ui_icon_chunk_planner"/>リソース枯渇するため、新しいものを見つけるために拡張必要。
+    <break/>
+  </content> 
+
+- >
+  <content>
+    チュートリアル終了！疑問があれば：<break/>
+    <icon key="ui_guide_dot"/>ゲームガイド確認<keycap action="open_game_guide" /><break/>
+    <icon key="ui_guide_dot"/>目標完了し、ジャーニービュー<keycap action="open_journey_view" />とゴールリスト<keycap action="open_goal_list" />確認。<break/>
+    <icon key="ui_guide_dot"/>困難があれば、Discordで助け求めて！<endl />
+    <image path="tutorial/quickstart_22.png" scale="1" /><endl/>
+    アーリーアクセス中、<break/>まだ荒削り。忍耐が光る。多くのアイデア実装予定。<break/>Lifecraftの旅を楽しんで！<break/>
+  </content>

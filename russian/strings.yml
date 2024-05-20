@@ -1,0 +1,911 @@
+strings:
+  item_category_aminoacid: Аминокислоты
+  item_category_protein: Белки
+  item_category_subunit: Субъединицы
+  item_category_tubulin: Тубулин
+  item_category_structural_protein: Структурные
+  item_category_logistics: Логистика
+  item_category_routing: Маршрутизация
+  item_category_picker: Хвататели
+  item_category_storage: Хранилище
+  item_category_poiesis: Поэз
+  item_category_structure: Строения
+  item_category_energy: Энергия
+  item_category_enzyme: Ферменты
+  item_category_lipid: Липиды
+  item_category_transporter: Транспорт
+  item_category_flow: Сосуды
+  item_category_flow_urinary: Мочеточники
+  item_category_flow_respiratory: Воздухоносные
+  item_category_flow_circulatory: Кровеносные
+  item_category_flow_digestive: Пищевод
+  item_category_energy_production: Энергия
+  item_category_molecule_synthesis: Синтез
+  item_category_widget: Виджеты
+  item_category_nutrient: Питательные вещества
+  item_category_element: Элементы
+  item_category_vitamin: Витамины
+  item_category_gas: Газы
+  item_category_genetics: Генетика
+  item_category_nucleobase: Азотистые основания
+  item_category_plasmid: Плазмиды
+  item_category_immunity: Иммунитет
+  item_category_domestic_structures: Мебель
+  item_category_door: Двери
+  item_category_light: Освещение
+  item_category_organism: Организм
+  item_category_cell: Клетки
+  item_category_bacterium: Бактерии
+  item_category_uncategorized: Без категории
+  item_category_flooring: Покрытие
+  item_category_tissue: Ткани
+  item_category_bacterial_colony: Колонии
+  item_category_unused_tissue: Не используется
+  item_color_red: Красный
+  item_color_yellow: Жёлтый
+  item_color_green: Зелёный
+  item_color_blue: Синий
+  item_color_white: Белый
+  item_name_tubulin_red: α-тубулин
+  item_name_tubulin_green: β-тубулин
+  item_name_tubulin_yellow: γ-тубулин
+  item_name_tubulin_blue: δ-тубулин
+  item_name_subunit_red: Красная субъединица
+  item_name_subunit_green: Зелёная субъединица
+  item_name_subunit_yellow: Жёлтая субъединица
+  item_name_subunit_blue: Синяя субъединица
+  item_name_aminoacid_red: Глицин
+  item_name_aminoacid_yellow: Пролин
+  item_name_aminoacid_green: Глутамин
+  item_name_aminoacid_blue: Аспартат
+  item_name_alpha_ketoglutarate: α-кетоглутарат
+  item_name_collagen_chain_red: α1-цепь коллагена
+  item_name_collagen_chain_blue: α2-цепь коллагена
+  item_name_actin_f: F-актин
+  item_name_actin_g: G-актин
+  item_name_adp: АДФ
+  item_name_atp: АТФ
+  item_name_nad: NAD+
+  item_name_nadh: NADH
+  item_name_nadp: NADP+
+  item_name_nadph: NADPH
+  item_name_acetyl_coa: Ацетил-КоА
+  item_name_interferon_alpha: α-интерферон
+  item_name_microtubule: Микротрубочка
+  item_name_microtubule_primitive: Примитивная микротрубочка
+  item_name_microtubule_advanced: Продвинутая микротрубочка
+  item_name_item_kicker: Толкатель
+  item_name_picker: Хвататель
+  item_name_picker_fast: Быстрый хвататель
+  item_name_picker_red: Красный хвататель
+  item_name_picker_blue: Синий хвататель
+  item_name_picker_green: Зелёный хвататель
+  item_name_picker_yellow: Жёлтый хвататель
+  item_name_picker_white: Белый хвататель
+  item_name_picker_gaseous: Хвататель газа
+  item_name_picker_genetic: Хвататель генома
+  item_name_picker_energetic: Хвататель энергии
+  item_name_picker_long: Длинный хвататель
+  item_name_picker_overlong: Сверхдлинный хвататель
+  item_name_picker_filter: Хвататель-фильтр
+  item_name_picker_primitive: Примитивный хвататель
+  item_name_phospholipid: Фосфолипид
+  item_name_ribosome: Рибосома
+  item_name_assembler: Сборщик
+  item_name_catalyzer: Каталайзер
+  item_name_stockpile1x: Маленькое хранилище
+  item_name_stockpile2x: Хранилище
+  item_name_stockpile4x: Большое хранилище
+  item_name_stockpile_filter2x: Хранилище с фильтром
+  item_name_infinite_container2x: Бездонный ящик
+  item_name_infinite_container1x: Маленький бездонный ящик
+  item_name_dna_nuclease: ДНК-нуклеаза
+  item_name_evolver: Эволвер
+  item_name_balancer: Балансировщик
+  item_name_item_tunnel: Туннель
+  item_name_item_tunnel_primitive: Примитивный туннель
+  item_name_cytostome1x: Примитивный цитостом
+  item_name_cytostome_ultimate: Высший цитостом
+  item_name_cytostome2x: Цитостом
+  item_name_disposer1x: Примитивный выделитель
+  item_name_disposer2x: Выделитель
+  item_name_launcher1x: Примитивный метатель
+  item_name_launcher2x: Метатель
+  item_name_dispatcher_primitive: Примитивный доставщик
+  item_name_dispatcher: Доставщик
+  item_name_diffuser: Диффузор
+  item_name_stasher: Инвентаризатор
+  item_name_workbench: Верстак
+  item_name_energy_supplier_mk1: Примитивный поставщик энергии
+  item_name_energy_supplier_mk2: Поставщик энергии
+  item_name_energy_pole: Энергетический столб
+  item_name_atp_synthase: АТФ-синтаза
+  item_name_atp_synthase_subunit: Субъединица АТФ-синтазы
+  item_name_decoupler: Разобщитель
+  item_name_thermogenin: Термогенин
+  item_name_electron_transport_chain: Электрон-транспортная цепь
+  item_name_biolamp: Биолампа
+  item_name_biolamp_primitive: Примитивная биолампа
+  item_name_biolamp_ultimate: Высшая биолампа
+  item_name_membrane_transporter1x: Мембранный унипорт
+  item_name_membrane_transporter2x: Мембранный котранспорт
+  item_name_connexin: Коннексин
+  item_name_connexon: Коннексон
+  item_name_uniporter_gas: Газовый унипорт
+  item_name_uniporter_glucose: Глюкозный унипорт
+  item_name_antiporter_atp_adp: Антипорт АТФ ⇄ АДФ
+  item_name_antiporter_nadh_nad: Антипорт NADH ⇄ NAD
+  item_name_adenine: Аденин
+  item_name_cytosine: Цитозин
+  item_name_guanine: Гуанин
+  item_name_thymine: Тимин
+  item_name_uracil: Урацил
+  item_name_base_pair_at: Спаренные основания A-T
+  item_name_base_pair_au: Спаренные основания A-U
+  item_name_base_pair_cg: Спаренные основания C-G
+  item_name_mrna: мРНК
+  item_name_plasmid_1: Плазмид 1
+  item_name_plasmid_2: Плазмид 2
+  item_name_cytochrome: Цитохром
+  item_name_kinesin: Кинезин
+  item_name_vimentin: Виментин
+  item_name_luciferin: Люциферин
+  item_name_myosin: Миозин
+  item_name_alpha_helix: Альфа-спираль
+  item_name_beta_sheet: Бета-лист
+  item_name_carbon_dioxide: Углекислый газ
+  item_name_oxygen: Кислород
+  item_name_iron: Железо
+  item_name_copper: Медь
+  item_name_glucose: Глюкоза
+  item_name_ribose: Рибоза
+  item_name_ethanol: Этанол
+  item_name_glycerol: Глицерин
+  item_name_lactate: Лактат
+  item_name_malate: Малат
+  item_name_oxaloacetate: Оксалоацетат
+  item_name_pyruvate: Пируват
+  item_name_vitamin_b3: Витамин B3
+  item_name_hemoglobin: Гемоглобин
+  item_name_hemoglobin_subunit_alpha: α-субъединица гемоглобина
+  item_name_hemoglobin_subunit_beta: β-субъединица гемоглобина
+  item_name_item_sink: Мусорная корзина
+  item_name_black_box: Чёрный ящик
+  item_name_energy_drain: Потребитель энергии
+  item_name_heater: Нагреватель
+  item_name_infector: Инфектор
+  item_name_adp_synthase_enzyme: АДФ-синтаза (фермент)
+  item_name_alcohol_dehydrogenase: Алкогольдегидрогеназа (фермент)
+  item_name_base_pair_ligase_enzyme: ДНК-лигаза (фермент)
+  item_name_glycolysis_enzyme: Фермент гликолиза
+  item_name_krebs_cycle_enzyme: Фермент Цикла Кребса
+  item_name_lactate_dehydrogenase: Лактатдегидрогеназа (фермент)
+  item_name_malate_dehydrogenase: Малатдегидрогеназа (фермент)
+  item_name_nucleobase_synthase_enzyme: Синтаза азотистых оснований (фермент)
+  item_name_pentose_phosphate_pathway_enzyme: Фермент пентозофосфатного пути
+  item_name_nad_synthase_enzyme: NAD+ синтаза (фермент)
+  item_name_pyruvate_carboxylase_enzyme: Пируваткарбоксилаза (фермент)
+  item_name_pyruvate_dehydrogenase_enzyme: Пируватдегидрогеназа (фермент)
+  item_name_nad_nadp_transhydrogenase_enzyme: NAD/NADP-трансгидрогеназа (фермент)
+  item_name_luciferase_enzyme: Люцифераза (фермент)
+  item_name_aspartate_aminotransferase: Аспартатаминотрансфераза
+  item_name_cell_membrane: Клеточная мембрана
+  item_name_collagen_flooring: Коллагеновое покрытие
+  item_name_collagen_scaffold: Коллагеновый каркас
+  item_name_cytoskeleton_scaffold: Цитоскелет
+  item_name_staminal_tissue: Стволовая ткань
+  item_name_necrotic_tissue: Некротическая ткань
+  item_name_mitochondrial_membrane: Митохондриальная мембрана
+  item_name_bacterial_vegetation_bacillus_blue: Синяя бациллярная флора
+  item_name_bacterial_vegetation_bacillus_green: Зелёная бациллярная флора
+  item_name_bacterial_vegetation_coccus_red: Красная кокковая флора
+  item_name_bacterial_vegetation_coccus_yellow: Жёлтая кокковая флора
+  item_name_energy_pole_extracellular: Внеклеточный энергетический столб
+  item_name_energy_station: Энергетическая подстанция
+  item_name_protease: Протеаза
+  item_name_defensin_theta: θ-дефензин
+  item_name_uniporter_mrna: мРНК унипорт
+  item_name_uniporter_pyruvate: Пируватный унипорт
+  item_name_virus: Вирус
+  item_name_bacterium_bacillus_blue: Синяя бацилла
+  item_name_bacterium_bacillus_green: Зелёная бацилла
+  item_name_bacterium_coccus_red: Красный кокк
+  item_name_bacterium_coccus_yellow: Жёлтый кокк
+  item_name_capillary: Капилляр
+  item_name_artery1x1: Малая артерия
+  item_name_artery2x2: Средняя артерия
+  item_name_artery4x4: Крупная артерия
+  item_name_vein1x1: Малая вена
+  item_name_vein2x2: Средняя вена
+  item_name_vein4x4: Крупная вена
+  item_name_perforator_artery1x1: Малая проникающая артерия
+  item_name_perforator_artery2x2: Средняя проникающая артерия
+  item_name_perforator_artery4x4: Крупная проникающая артерия
+  item_name_perforator_vein1x1: Малая проникающая вена
+  item_name_perforator_vein2x2: Средняя проникающая вена
+  item_name_perforator_vein4x4: Крупная проникающая вена
+  item_name_perforator_capillary: Проникающий капилляр
+  item_name_cardiac_pump1x1: Малый сердечный насос
+  item_name_cardiac_pump2x2: Средний сердечный насос
+  item_name_resource_heap: Скопление ресурсов
+  item_name_building_site: Стройплощадка
+  item_name_missing_item: Предмет отсутствует
+  item_name_none: Ничего
+  evolution_name_birth_of_life: Зарождение Жизни
+  evolution_description_birth_of_life: Открывает стартовые рецепты
+  evolution_name_advanced_bioluminescence: Продвинутая Биолюминесценция
+  evolution_name_advanced_distribution: Продвинутая Энергопередача
+  evolution_name_advanced_primordial_immunity: Продвинутый Первичный Иммунитет
+  evolution_name_advanced_routing: Продвинутая Маршрутизация
+  evolution_name_alcoholic_fermentation: Спиртовое Брожение
+  evolution_name_beta_sheet_and_alpha_helix: Бета-лист и Альфа-спираль
+  evolution_name_collagen: Коллаген
+  evolution_name_colored_pickers: Цветные Хвататели
+  evolution_name_diffuser: Диффузор
+  evolution_name_energy_distribution: Простая Энергопередача
+  evolution_name_evolution_1: Эволюция 1
+  evolution_name_evolution_2: Эволюция 2
+  evolution_name_expansion: Расширение
+  evolution_name_extracellular_distribution: Внеклеточная Энергопередача
+  evolution_name_extracellular_expansion: Внеклеточное Расширение
+  evolution_name_extreme_routing: Предельная Маршрутизация
+  evolution_name_filtering_picker: Хвататель-фильтр
+  evolution_name_functional_proteins: Функциональные Белки
+  evolution_name_gas_logistics: Газовая Логистика
+  evolution_name_innate_response: Врожденная Реакция
+  evolution_name_intracellular_organization_1: Внутриклеточная Организация 1
+  evolution_name_intracellular_organization_2: Внутриклеточная Организация 2
+  evolution_name_intracellular_production: Внутриклеточное Производство
+  evolution_name_kinesin: Кинезин
+  evolution_name_krebs_cycle: Цикл Кребса
+  evolution_name_membrane_transportation: Мембранный Транспорт
+  evolution_name_membrane_transportation_advanced: Продвинутый Мембранный Транспорт
+  evolution_name_mitochondrion: Митохондрия
+  evolution_name_mitochondrion_transportation: Митохондриальный Транспорт
+  evolution_name_myosin: Миозин
+  evolution_name_novel_pickers: Специализированные Хвататели
+  evolution_name_pentose_phosphate_pathway: Пентозофосфатный Путь
+  evolution_name_primitive_bioluminescence: Примитивная Биолюминесценция
+  evolution_name_primordial_immunity: Первичный Иммунитет
+  evolution_name_pyruvate_manipulation: Использование Пирувата
+  evolution_name_staminal_discovery: Стволовая Ткань
+  evolution_name_subunits: Субъединицы
+  evolution_name_tubulins: Тубулины
+  evolution_name_transportation_basic: Простая Транспортировка
+  evolution_name_transportation_advanced: Продвинутая Транспортировка
+  evolution_name_gathering_basic: Простой Сбор
+  evolution_name_furniture_primitive: Примитивная Мебель
+  evolution_name_primitive_logistics: Примитивная Логистика
+  evolution_description_primitive_logistics: Открывает  <r>микротрубочки</r>,  <r>хвататели</r> and  <r>цитостомы</r>, которые используются для захвата предметов снаружи и перемещения их внутри клетки
+  evolution_description_transportation_basic: Открывает <r>микротрубочки</r>, устойчивые к окислению <r>хвататели</r>, <r>толкатели</r>, которые задают направление трубочкам, а также <r>примитивные туннели</r>
+  evolution_name_energy_production_1: Гликолиз
+  evolution_description_energy_production_1: Открывает  <r>гликолиз</r> – простейший способ производства энергии
+  evolution_name_energy_production_2: Окислительный Метаболизм
+  evolution_description_energy_production_2: Открывает окислительный метаболизм, происходящий внутри <r>митохондрии</r> и производящий много энергии или тепла
+  evolution_name_energy_production_3: Генерация АТФ
+  evolution_description_energy_production_3: Открывает перезарядку <r>АДФ</r> в <r>АТФ</r> с помощью энергии <r>электрон-транспортной цепи</r>
+  evolution_name_heat_production: Выработка Тепла
+  evolution_description_heat_production: Открывает выработку тепла с помощью энергии <r>электрон-транспортной сети</r>
+  evolution_description_expansion: Открывает возможность расширять клетку
+  evolution_description_intracellular_production: Открывает <r>сборщики</r> и <r>каталайзеры</r>, которые используются для производства сложных объектов или катализа химических реакций
+  evolution_description_alcoholic_fermentation: Открывает спиртовое брожение – способ восстановить <r>NAD</r> из <r>NADH</r> при создании <r>этанола</r>
+  evolution_description_pyruvate_manipulation: Открывает реакции с использованием <r>пирувата</r>, продукты которых необходимы в цикле Кребса
+  evolution_description_evolution_1: Открывает возможность разбирать плазмиды на азотистые основания и связывать их в <r>спаренные основания</r>
+  evolution_description_tubulins: Открывает <r>тубулины</r> – белки, используемые в производстве микротрубочек, толкателей и самых базовых строений
+  evolution_description_subunits: Открывает <r>субъединицы</r> – крупные белки, из которых собираются строения
+  evolution_description_kinesin: Открывает <r>кинезин</r>, который используется в производстве строений с фильтрами
+  evolution_description_functional_proteins: Открывает <r>актин</r> and <r>виментин</r> – белки, используемые в создании подвижных конструкций и хранилищ
+  evolution_description_advanced_routing: Открывает <r>туннели</r> и <r>балансировщики</r>, помогающие оптимизировать сеть микротрубочек в клетке
+  evolution_description_membrane_transportation: Открывает <r>мембранный транспорт</r>, используемый для перемещения предметов через клеточные мембраны
+  evolution_description_mitochondrion: Открывает <r>митохондрию</r> – особую внутриклеточную зону, в которой вырабатываются энергия и тепло
+  evolution_description_mitochondrion_transportation: Открывает <r>митохондриальный транспорт</r>, позовляющий митохондрии и внутриклеточным зонам обмениваться NAD+/NADH и АДФ/АТФ, а также перемещать пируват
+  evolution_group_evolution: Эволюция
+  evolution_group_proteins: Белки
+  evolution_group_logistics: Логистика
+  evolution_group_routing: Маршрутизация
+  evolution_group_energy: Энергия
+  evolution_group_mitochondrial_energy: Митохондриальная Энергия
+  item_description_picker: <a>Хвататели</a> могут забирать и класть предметы в строения и микротрубочки
+  item_description_picker_red: <a>Хвататель</a>, который перемещает только красные предметы
+  item_description_picker_green: <a>Хвататель</a>, который перемещает только зелёные предметы
+  item_description_picker_blue: <a>Хвататель</a>, который перемещает только синие предметы
+  item_description_picker_yellow: <a>Хвататель</a>, который перемещает только жёлтые предметы
+  item_description_picker_white: <a>Хвататель</a>, который перемещает только белые предметы
+  item_description_picker_genetic: <a>Хвататель</a>, который перемещает только генетические материалы
+  item_description_picker_gaseous: <a>Хвататель</a>, который перемещает только газообразные вещества
+  item_description_picker_energetic: <a>Хвататель</a>, который перемещает только высокоэнергетические молекулы
+  item_description_picker_filter: <a>Хвататель</a> со встроенным настраиваемым фильтром
+  item_description_picker_fast: <a>Быстрый хвататель</a> – это хвататель с повышенной скоростью
+  item_description_picker_overlong: <a>Сверхдлинный хвататель</a> работает как обычный, но передает предметы через два тайла
+  item_description_picker_primitive: <a>Примитивный хвататель</a> может забирать и класть предметы в строения и микротрубочки, подвержен окислению
+  item_description_picker_long: <a>Длинный хвататель</a> совмещает в себе функции двух обычных хватателей, что позволяет ему одновременно подбирать и класть предметы, занимая при этом меньше места
+  item_description_balancer: <a>Балансировщик</a> может равномерно распределять или соединять несколько входящих потоков предметов
+  item_description_aminoacid_red: Основная аминокислота, используемая для синтеза белков в рибосомах
+  item_description_aminoacid_green: Основная аминокислота, используемая для синтеза белков в рибосомах
+  item_description_aminoacid_blue: Основная аминокислота, используемая для синтеза белков в рибосомах
+  item_description_aminoacid_yellow: Основная аминокислота, используемая для синтеза белков в рибосомах
+  item_description_tubulin_red: Основной структурный белок, используемый для создания элементов логистики
+  item_description_tubulin_green: Основной структурный белок, используемый для создания элементов логистики
+  item_description_tubulin_yellow: Основной структурный белок, используемый для создания элементов логистики
+  item_description_tubulin_blue: Основной структурный белок, используемый для создания элементов логистики
+  item_description_subunit_red: <a>Белок</a>, используемый для создания базовых строений
+  item_description_subunit_cyan: <a>Белок</a>, используемый для создания базовых строений
+  item_description_subunit_blue: <a>Белок</a>, используемый для создания базовых строений
+  item_description_subunit_green: <a>Белок</a>, используемый для создания базовых строений
+  item_description_subunit_yellow: <a>Белок</a>, используемый для создания базовых строений
+  item_description_oxygen: <a>Кислород</a> – это газ, используемый в митохондрии для окисления NADH
+  item_description_carbon_dioxide: <a>Углекислый газ</a> – это побочный продукт реакций, вырабатывающих энергию
+  item_description_glucose: <a>Глюкоза</a> – это углевод, используемый в гликолизе для выработки энергии
+  item_description_pyruvate: <a>Пируват</a> – конечный продукт гликолиза; может быть преобразован в <a>ацетил-КоА</a>
+  item_description_acetyl_coa: <a>Ацетил-КоА</a> является основным субстратом для производства <a>NADH</a> в цикле Кребса
+  item_description_dispatcher_subunit: Этот <a>protein</a> может быть использован для производства <a>dispatcher</a>
+  item_description_atp_synthase_subunit: <a>Белок</a>, используемый для создания <a>АТФ-синтазы</a>
+  item_description_connexin: <a>Белок</a>, используемый для создания <a>коннексонов</a>
+  item_description_thermogenin: <a>Белок</a>, используемый для создания <a>разобщителей</a>
+  item_description_actin_g: <a>G-актин</a> – это блоки, из которых состоит полимерный актин
+  item_description_actin_f: <a>Актин</a> – это многоцелевой белок, используемый в подвижных частях клетки
+  item_description_myosin: <a>Миозин</a> – это функциональный белок, необходимый для сокращения мышц
+  item_description_alpha_helix: <a>Альфа-спираль</a> – это структурный белок общего назначения
+  item_description_beta_sheet: <a>Бета-лист</a> – это структурный белок общего назначения
+  item_description_kinesin: <a>Кинезин</a> – это белок, необходимый для создания строений с фильтрами
+  item_description_vimentin: <a>Белок</a>, используемый для создания хранилищ
+  item_description_collagen_chain_red: <a>Белок</a>, используемый для производства внеклеточной ткани
+  item_description_collagen_chain_blue: <a>Белок</a>, используемый для производства внеклеточной ткани
+  item_description_cytochrome: <a>Цитохромы</a> – это белки, используемые для создания <a>электрон-транспортной цепи</a> и некоторых ферментов
+  item_description_atp: <a>АТФ</a> – это заряженная молекула, которая поставляет энергию для всех процессов жизнедеятельности
+  item_description_adp: <a>АДФ</a> – это незаряженная молекула, которая может быть превращена обратно в <a>АТФ</a> и затем использована для получения энергии
+  item_description_adenine: <a>Аденин</a> – это азотистое основание, используемое для эволюции и синтеза других молекул
+  item_description_thymine: <a>Тимин</a> – это азотистое основание, используемое для эволюции и синтеза других молекул
+  item_description_guanine: <a>Гуанин</a> – это азотистое основание, используемое для эволюции и синтеза других молекул
+  item_description_cytosine: <a>Цитозин</a> – это азотистое основание, используемое для эволюции и синтеза других молекул
+  item_description_base_pair_cg: <a>Спаренные основания</a> – это основные элементы ДНК, используемые для эволюции
+  item_description_base_pair_at: <a>Спаренные основания</a> – это основные элементы ДНК, используемые для эволюции
+  item_description_base_pair_au: <a>Спаренные основания</a> – это основные элементы ДНК, используемые для эволюции
+  item_description_phospholipid: <a>Фосфолипиды</a> – это особый вид липидов, который используется для создания клеточных мембран
+  item_description_hemoglobin: <a>Гемоглобин</a> – это белок, переносящий кислород в составе <a>эритроцитов</a>
+  item_description_plasmid_1: <a>Плазмиды</a> могут быть переработаны в азотистые основания с помощью <a>ДНК-нуклеазы</a>
+  item_description_plasmid_2: <a>Плазмиды</a> могут быть переработаны в азотистые основания с помощью <a>ДНК-нуклеазы</a>
+  item_description_microtubule: <a>Микротрубочки</a> используются для перемещения предметов во <a>внутриклеточных</a> зонах
+  item_description_microtubule_primitive: <a>Примитивные микротрубочки</a> используются для медленного перемещения предметов во <a>внутриклеточных</a> зонах
+  item_description_microtubule_advanced: <a>Продвинутые микротрубочки</a> используются для быстрого перемещения предметов во <a>внутриклеточных</a> зонах
+  item_description_luciferase_enzyme: <a>Люцифераза</a> – это фермент, способный изменять  <a>люциферин</a> и заставлять его излучать свет
+  item_description_luciferin: <a>Люциферин</a> – это молекула, которая может излучать свет при обработке <a>люциферазой</a>
+  item_description_biolamp_primitive: <a>Примитивная биолампа</a> может излучать свет, поглощая <a>кислород</a> и <a>люциферин</a>
+  item_description_biolamp: <a>Биолампа</a> – это более продвинутый светильник, напрямую использующий внутриклеточную энергию
+  item_description_item_kicker: <a>Толкатель</a> можно разместить на <a>микротрубочке</a>, чтобы задать направление для предметов, проходящих мимо
+  item_description_item_tunnel: <a>Туннель</a> может перемещать предметы под землей; для работы два туннеля должны находиться в одном ряду
+  item_description_item_tunnel_primitive: <a>Примитивный туннель</a> может перемещать предметы под землей. Для работы два туннеля должны находиться в одном ряду; подвержен окислению
+  item_description_workbench: <a>Верстак</a> используется для сборки предметов из белков, но только вручную
+  item_description_evolver: <a>Эволвер</a> используется для открытия новых технологий посредством поглощения <a>азотистых оснований<a>
+  item_description_ribosome: <a>Рибосома</a> – это строение, автоматически собирающее <a>белки</a> из <a>аминокислот</a>
+  item_description_catalyzer: <a>Каталайзер</a> – это строение, которое используется для создания предметов с помощью определенного <a>фермента</a>
+  item_description_assembler: <a>Сборщик</a> – это строение, собирающее из <a>белков</a> готовые продукты, такие как ткани и другие строения
+  item_description_dna_nuclease: <a>ДНК-нуклеаза</a> – это структура, которая может превращать <a>плазмиды</a> в <a>азотистые основания</a>, используемые для эволюции
+  item_description_stockpile2x: <a>Хранилище</a> используется для хранения нескольких предметов
+  item_description_stockpile1x: <a>Маленькое хранилище</a> используется для хранения небольшого количества предметов
+  item_description_stockpile4x: <a>Большое хранилище</a> используется для хранения большого количества предметов
+  item_description_stockpile_filter2x: <a>Хранилище с фильтром</a> может принимать только определенные предметы
+  item_description_stasher: <a>Инвентаризатор</a> может помещать микротрубочки или толкатели прямо в инвентарь без необходимости подбирать их
+  item_description_membrane_transporter1x: <a>Мембранный унипорт</a> транспортирует определенные предметы через мембрану в одном направлении
+  item_description_membrane_transporter2x: <a>Мембранный котранспорт</a> транспортирует по два предмета через мембрану посредством их обмена
+  item_description_connexon: Два <a>коннексона</a> используются для создания щелевого контакта, что позволяет свободно перемещать предметы между двумя разными внутриклеточными зонами
+  item_description_atp_synthase: <a>АТФ-синтаза</a> может использовать энергию <a>электрон-транспортной цепи</a> внутри митохондрии для перезарядки <r>АДФ</r> в <r>АТФ</r>
+  item_description_electron_transport_chain: <a>Электрон-транспортная цепь</a> может заряжать близлежащие <a>АТФ-синтазы</a> и <a>разобщители</a>, окисляя  <r>NADH</r> в <r>NAD</r> с потреблением <r>кислорода</r>
+  item_description_decoupler: <a>Разобщитель</a> может использовать энергию, производимую близлежащими <a>электрон-транспортными цепями</a> для выработки тепла
+  item_description_energy_supplier_mk1: <a>Примитивный поставщик энергии</a> способен распределять энергию, полученную при гидролизе <r>АТФ</r> в <r>АДФ</r>, в близлежащие внутриклеточные строения. Может передавать энергию через другие поставщики, подвержен окислению
+  item_description_energy_supplier_mk2: <a>Поставщик энергии</a> способен распределять энергию, полученную при гидролизе <r>АТФ</r> в <r>АДФ</r>, в соседние внутриклеточные строения. Может передавать энергию через другие поставщики
+  item_description_energy_pole: <a>Энергетический столб</a> используется для переноса энергии на бóльшие расстояния, чем позволяют поставщики энергии
+  item_description_energy_station: <a>Энергетическая подстанция</a> способна передавать энергию внеклеточным строениям с помощью столбов
+  item_description_energy_pole_extracellular: <a>Внеклеточный энергетический столб</a> используется для передачи энергии за пределами клетки
+  item_description_cytostome1x: <a>Примитивный цитостом</a> может захватывать предметы снаружи клетки. Должен быть расположен на мембране. Не требует энергии для работы, подвержен окислению
+  item_description_cytostome2x: <a>Цитостом</a> может захватывать предметы снаружи клетки. Должен быть расположен на мембране. Он быстрее <a>примитивного цитостома</a>, но требует энергии для работы
+  item_description_disposer1x: <a>Примитивный выделитель</a> выбрасывает ненужные предметы за пределы клетки. Не требует энергии для работы, подвержен окислению
+  item_description_disposer2x: <a>Выделитель</a> выбрасывает ненужные предметы за пределы клетки. Он быстрее примитивного выделителя, но требует энергии для работы
+  item_description_dispatcher: <a>Доставщик</a> используется для отправки строительных материалов за пределы клетки
+  item_description_dispatcher_primitive: <a>Примитивный доставщик</a> используется для отправки строительных материалов за пределы клетки. Подвержен окислению
+  item_description_diffuser: <a>Диффузор</a> способен доставлять материалы поблизости, лечить зараженные тайлы и заменять окислившиеся строения
+  item_description_mitochondrial_membrane: <a>Митохондриальная мембрана</a> используется для строительства митохондрий во внутриклеточных зонах
+  item_description_collagen_scaffold: <a>Коллагеновый каркас</a> является основанием для роста более продвинутых внеклеточных тканей
+  item_description_cytoskeleton_scaffold: <a>Цитоскелет</a> является основанием для роста более продвинутых внутриклеточных тканей
+  item_description_endothelium: <a>Эндотелий</a> – это внутренняя оболочка всех кровеносных сосудов
+  item_description_smooth_muscular_tissue: <a>Гладкая мышечная ткань</a> – вид сократительной ткани, используемый для создания различных сосудов
+  item_description_staminal_tissue: <a>Стволовая ткань</a> – особый вид недифференцированной ткани, который может создавать различные другие виды ткани
+  item_description_collagen_flooring: <a>Коллагеновое покрытие</a> – это внеклеточная ткань, являющаяся основанием для всех видов сосудов
+  item_description_cell_membrane: <a>Клеточная мембрана</a> – это внутриклеточная ткань, используемая для расширения начального организма
+  item_description_uniporter_gas: <a>Унипорт<a>, способный перемещать газ через мембрану
+  item_description_uniporter_pyruvate: <a>Унипорт<a>, способный перемещать <a>пируват</a> через мембрану
+  item_description_antiporter_atp_adp: <a>Антипорт<a>, способный обменивать <a>АТФ</a> и <a>АДФ</a>, пропуская их через мембрану в противоположных направлениях
+  item_description_antiporter_nadh_nad: <a>Антипорт<a>, способный обменивать <a>NADH</a> и <a>NAD</a>, пропуская их через мембрану в противоположных направлениях
+  item_description_launcher1x: <a>Примитивный метатель</a> используется для метания дефензина в бактерии. Не требует энергии для работы, подвержен окислению
+  item_description_launcher2x: <a>Метатель</a> используется для метания дефензина в бактерии. Он скорострельнее <a>примитивного метателя</a>, но требует энергии для работы
+  item_description_defensin_theta: <a>θ-дефензин</a> – это белок, используемый для убийства <a>бактерий</a>. Должен быть запущен с помощью <a>метателя</a>
+  item_description_protease: <a>Протеаза</a> используется для разрушения каркасов и бактериальных колоний, должна быть доставлена <a>доставщиком</a>
+  item_description_capillary: <a>Капилляры</a> – это самые тонкие кровеносные сосуды. Они связывают кровеносную систему с остальным организмом, должны быть соединены с <a>артерией</a> и <a>веной</a>
+  item_description_artery1x1: <a>Артерии</a> используются для перемещения крови из <a>сердечных насосов</a> по внеклеточным тканям
+  item_description_artery2x2: <a>Артерии</a> используются для перемещения крови из <a>сердечных насосов</a> по внеклеточным тканям
+  item_description_artery4x4: <a>Артерии</a> используются для перемещения крови из <a>сердечных насосов</a> по внеклеточным тканям
+  item_description_door_intracellular3x: <a>Дверь</a> создает закрывающийся проход, который пропускает организмы через мембрану
+  item_description_nad_synthase_enzyme: Фермент, использующийся для синтеза <a>NAD+</a> и <a>NADH</a>
+  item_description_nad_nadp_transhydrogenase_enzyme: Фермент, использующийся для перемещения электронов между молекулами <a>NAD+</a> и <a>NADP+</a>
+  item_description_nucleobase_synthase_enzyme: Фермент, использующийся для синтеза <a>азотистых оснований</a> из аминокислот
+  item_description_alcohol_dehydrogenase: Фермент, использующийся для превращения <a>пирувата</a> в <a>этанол</a> и обратно
+  item_description_energy_drain: Настраиваемая утилита, потребляющая энергию внутри клетки
+  item_description_black_box: Настраиваемая утилита, превращающая любой определенный предмет в другой определенный предмет
+  item_description_heater: Настраиваемая утилита, вырабатывающая тепло без использования энергии
+  zone_description_cytosol: ^aЦитозоль^s представляет собой неспециализированную зону, которая может содержать все основные структуры, способные синтезировать ^aбелки^s и генерировать ^aэнергию^s
+  zone_description_extracellular_matrix: ^aСоединительная ткань^s это зона, которая может быть использована для транспортировки с помощью сосудов и трубок. Здесь нельзя разместить специализированные строения
+  zone_layer_name_special: Специальная
+  zone_layer_name_intracellular: Внутриклеточная
+  zone_layer_name_extracellular: Внеклеточная
+  zone_layer_name_internal: Внутренняя
+  zone_layer_name_colony: Колония
+  zone_name_scaffold: Каркас
+  zone_name_cytoskeleton: Цитоскелет
+  zone_name_cytosol: Цитозоль
+  zone_name_extracellular_matrix: Внеклеточный матрикс
+  zone_name_mitochondrion: 'Митохондрия '
+  zone_name_nucleus: Ядро
+  zone_name_staminal_tissue: Стволовая ткань
+  zone_name_necrosis: Некроз
+  zone_name_bacterial_vegetation_bacillus_blue: Синяя бациллярная флора
+  zone_name_bacterial_vegetation_bacillus_green: Зелёная бациллярная флора
+  zone_name_bacterial_vegetation_coccus_red: Красная кокковая флора
+  zone_name_bacterial_vegetation_coccus_yellow: Жёлтая кокковая флора
+  recipe_name_nad_synthase: NAD-cинтаза
+  recipe_name_nadp_synthase: NADP-Синтаза
+  recipe_name_adp_synthase: ADP-Синтаза
+  recipe_name_aspartate_aminotransferase_reverse: Аспартатаминотрансфераза (обратный)
+  recipe_name_glycolysis: Гликолиз
+  recipe_name_krebs_cycle: Цикл Кребса
+  recipe_name_lipase_diglyceride: Диглицерид липаза
+  recipe_name_lipase_monoglyceride: Моноглицерид липаза
+  recipe_name_lipase_triglyceride: Триглицерид липаза
+  recipe_name_malate_dehydrogenase_reverse: Малатдегидрогеназа (обратный)
+  recipe_name_nad_nadp_transhydrogenase: NAD-NADP Трансгидрогеназа
+  recipe_name_pentose_phosphate_pathway: Пентозофосфатный путь
+  recipe_name_pyruvate_carboxylase: Пируваткарбоксилаза
+  recipe_name_pyruvate_dehydrogenase: Пируватдегидрогеназа
+  recipe_name_viral_replication: Вирусная репликация
+  recipe_description_glycolysis: ^aГликолиз^s это самый простой способ запасать энергию путем превращения ^2ADP^s в ^2ATP^s, требуется ^2Глюкоза^s, но не требуется ^2Кислород^s
+  recipe_description_alcohol_dehydrogenase: ^aАлкогольдегидрогеназа^s позволяет превращать ^2NADH^s обратно в ^2NAD^s с образованием ^2Этанола^s и ^2Углекислого гоаза^s
+  recipe_description_krebs_cycle: ^aЦикл Кребса^s представляет собой сложную реакцию, происходящую внутри митохондрий, это очень эффективный способ восстановления ^2NAD^s до ^2NADH^s используя ^2Ацетил-КоА^s из других метаболических источников.
+  recipe_description_pyruvate_dehydrogenase: ^aПируватдегидрогеназа^s представляет собой реакцию присоединения ^2Пирувата^s получаенного в результате гликолиза с образованием ^2Ацетил-КоА^s который является основным субстратом ^2Цикла Кребса^s
+  recipe_description_pyruvate_carboxylase: ^aПируваткарбоксилаза^s это реакция, используемая для синтеза ^2Оксалоацетата^s из ^2Пировинограда^s для использования в ^2Цикле Кребса^s
+  recipe_description_nad_nadp_transhydrogenase: ^aNAD-NADP Трансгидрогеназа^s это реакция, используемая для замены восстановленных версий ^2NAD^s и ^2NADP^s
+  recipe_description_pentose_phosphate_pathway: ^aПентозофосфатный путь^s это путь, используемый для производства ^2NADPH^s и ^2Рибозы^s который используется для синтеза многих молекул
+  recipe_description_nad_synthase: ^aNAD-Синтаза^s используется для синтеза de novo(из нового) ^2NAD^s
+  recipe_description_nadp_synthase: ^aNADP-Синтаза^s используется для преобразования ^2NAD^s в ^2NADP^s за счет затрат энергии
+  recipe_description_adp_synthase: ^aADP-Синтаза^s используется для синтеза de novo(нового) ^2ADP^s
+  recipe_description_base_pair_ligase_enzyme: Этот фермент способен соединять две комплементарные пары оснований.
+  disease_name_infection_bacterial_bacillus_green: Инфекция
+  disease_name_infection_bacterial_bacillus_blue: Инфекция
+  disease_name_infection_bacterial_coccus_red: Инфекция
+  disease_name_infection_bacterial_coccus_blue: Инфекция
+  organism_name_bacterium_bacillus_blue: Синяя бацилла
+  organism_name_bacterium_bacillus_green: Зелёная бацилла
+  organism_name_bacterium_coccus_red: Красный кокк
+  organism_name_bacterium_coccus_yellow: Жёлтый кокк
+  organism_name_red_blood_cell: Эритроцит
+  organism_name_stem_cell: Стволовая клетка
+  organism_name_stem_cell_myeloid: Миелоид стволовой клетки
+  organism_name_virus: Вирус
+  ui_tool_name_hand: Инструмент руки
+  ui_tool_name_microtubule: Микротрубочки
+  ui_tooltip_tool_hand: Взаимодействовать с миром
+  ui_tooltip_tool_destroy: Разрушить строение
+  ui_tooltip_tool_microtubule_metatool: Управление микротрубочками
+  ui_tooltip_tool_chunk_planner: Расширить или изменить зону
+  ui_tooltip_tool_indirect_build: Управление внеклеточным строительством
+  ui_tooltip_tool_chunk_painter: Изменить вид чанков и покрытий
+  ui_tooltip_tool_free_build: Я... сама неотвратимость (инструмент песочницы)
+  ui_tooltip_tool_blueprint_placement: Размещение чертежей
+  ui_tooltip_tool_microtubule_primitive_placement: Разместить или удалить примитивные микротрубочки
+  ui_tooltip_tool_microtubule_placement: Разместить или удалить микротрубочки
+  ui_tooltip_tool_microtubule_advanced_placement: Разместить или удалить продвинутые микротрубочки
+  ui_tooltip_tool_item_kicker_placement: Разместить или удалить толкатели
+  ui_tooltip_tool_commander: Управлять организмами
+  ui_tooltip_open_main_menu: Открыть главное меню
+  ui_tooltip_open_evolution_view: Открыть меню эволюции
+  ui_tooltip_open_recipe_list: Открыть список рецептов
+  ui_tooltip_open_game_guide: Открыть игровое руководство
+  ui_tooltip_open_goal_list: Открыть цели
+  ui_tooltip_open_journey_view: Открыть журнал целей
+  ui_tooltip_open_tutorial: Открыть обучение
+  ui_tooltip_open_minimap: Открыть миникарту
+  ui_tooltip_open_debug_window: Открыть окно отладки
+  ui_tooltip_open_extra_views_menu: Показать дополнительное меню
+  ui_tooltip_toggle_object_overlay: Показывать информацию о содержимом объекта
+  ui_tooltip_toggle_mouse_opacity: Переключить прозрачность под курсором мыши
+  ui_tooltip_toggle_walls: Переключить видимость стен
+  ui_tooltip_toggle_buildings: Переключить видимость строений
+  ui_tooltip_toggle_grid: Переключить видимость сетки
+  ui_tooltip_zoom_out: Отдалить
+  ui_tooltip_zoom_in: Приблизить
+  ui_tooltip_pause: Пауза
+  ui_tooltip_game_speed1x: Обычная скорость
+  ui_tooltip_game_speed2x: Высокая скорость
+  ui_tooltip_game_speed3x: Невероятная скорость
+  ui_tooltip_toggle_power_overlay: Переключить отображение энергии
+  ui_tooltip_toggle_temperature_overlay: Переключить отображение температуры
+  ui_tooltip_outside_temperature: Температура вне организма
+  ui_tooltip_playtime: Время в игре
+  ui_tooltip_worldtime: Время мира
+  ui_tooltip_journey_view_disabled: Журнал целей отключен в этом игровом режиме
+  ui_info_window_section_energy_production: Производство энергии
+  ui_info_window_section_energy_consuption: Потребление энергии
+  ui_info_window_section_phosphorylation: Фосфорилирование
+  ui_info_window_section_heat: Тепло
+  ui_info_window_section_filter: Фильтрация
+  ui_info_window_section_oxidation: Окисление
+  ui_info_window_usage: Потребление
+  ui_info_window_energy: Энергия
+  ui_info_window_fulfillment: Наполнение
+  ui_info_window_production: Производство
+  ui_info_window_uses_left: Осталось использований
+  ui_info_window_efficiency: Эффективность
+  ui_info_window_health: Здоровье
+  ui_popup_menu_items: Предметы
+  ui_popup_menu_colors: Цвета
+  ui_popup_menu_categories: Категории
+  ui_main_menu_new_game: Новая игра
+  ui_main_menu_resume_game: Продолжить
+  ui_main_menu_start_game: Начать игру
+  ui_main_menu_save_game: Сохранить
+  ui_main_menu_load_game: Загрузить
+  ui_main_menu_load: Загрузить
+  ui_main_menu_delete: Удалить
+  ui_main_menu_continue_game: Продолжить
+  ui_main_menu_quit_game: Выйти в главное меню
+  ui_main_menu_games: Сохранения
+  ui_main_menu_host: Создать лобби
+  ui_main_menu_join: Присоединиться
+  ui_main_menu_options: Настройки
+  ui_main_menu_exit: Выход
+  ui_main_menu_back: Назад
+  ui_main_menu_about: Информация
+  ui_main_menu_blog: Девлог
+  ui_main_menu_discord: Discord
+  ui_main_menu_github: GitHub
+  ui_main_menu_ok: Ок
+  ui_main_menu_cancel: Отмена
+  ui_main_menu_close: Закрыть
+  ui_main_menu_mods: Моды
+  ui_main_menu_advanced: Продвинутые
+  ui_main_menu_puzzle: Изучение
+  ui_main_menu_open_user_folder: Папка пользователя
+  ui_main_menu_purge_games: Очистить сохранения
+  ui_main_menu_reset_achievements: Сбросить достижения
+  ui_main_menu_no_games_to_load: |
+    Нет сохранений, которые можно загрузить.
+    Пора поиграть в Lifecraft!
+  ui_main_menu_reset_puzzles: Сбросить головоломки
+  ui_main_menu_discord_link: Discord
+  ui_main_menu_discord_link_tooltip: Перейти в официальный дискорд сервер
+  ui_main_menu_keybind_assign_dialog: 'Нажмите клавишу, чтобы '
+  ui_main_menu_language_warning: Процесс локализации. В переводе могут встерчаться пропущенные элементы или ошибки.
+  ui_main_menu_about_early_access: Ранний доступ
+  ui_main_menu_about_pixbits: Pixbits
+  ui_main_menu_about_credits: Благодарности
+  ui_game_info_last_saved: Последнее сохранение
+  ui_game_info_playtime: Время в игре
+  ui_game_info_seed: Сид
+  ui_new_game_advanced_settings: Продвинутые настройки
+  ui_new_game_enable_character: Включить персонажа
+  ui_new_game_unlock_research: Разблокировать исследования
+  ui_new_game_allow_creative_tools: Креативные инструменты
+  ui_new_game_enable_necrosis: Некроз
+  ui_new_game_enable_temperature: Температура
+  ui_new_game_enable_bacteria: Бактерии
+  ui_new_game_enable_oxidation: Окисление
+  ui_new_game_enable_developer: Разработчик
+  ui_new_game_chunk_size: Размер чанков
+  ui_new_game_heap_content_multiplier: Количество ресурсов
+  ui_new_game_world_seed: Сид
+  ui_new_game_world_seed_placeholder: сид мира
+  ui_new_game_world_name: Название
+  ui_new_game_world_name_placeholder: название мира
+  ui_new_game_darkness: Темнота
+  ui_new_game_darkness_tranquil: Спокойная
+  ui_new_game_darkness_moody: Мрачная
+  ui_new_game_darkness_pitch_black: Полная тьма
+  ui_new_game_starting_size: Начальный размер
+  ui_new_game_starting_size_tiny: Крошечный
+  ui_new_game_starting_size_small: Маленький
+  ui_new_game_starting_size_normal: Обычный
+  ui_new_game_starting_size_large: Большой
+  ui_new_game_starting_size_huge: Огромный
+  ui_new_game_complexity: Сложность
+  ui_new_game_complexity_casual: повседневный
+  ui_new_game_complexity_normal: Нормальный
+  ui_new_game_custom_warning: Изменение этих настроек может привести к непредвиденным игровым ситуациям
+  ui_option_group_sound: Звук
+  ui_option_group_graphics: Графика
+  ui_option_group_interface: Интерфейс
+  ui_option_group_misc: Прочее
+  ui_option_group_language: Язык
+  ui_option_group_bindings: Кнопки
+  ui_option_group_controls: Управление
+  ui_option_group_developer: Инстр. разработчика
+  ui_option_group_language_disabled_label: Выйдите в главное меню для смены языка
+  ui_option_fullscreen: Полный экран
+  ui_option_vsync: Вертикальная синхронизация
+  ui_option_scrolling_speed: Скорость прокрутки
+  ui_option_interface_scale: Масштаб интерфейса
+  ui_option_remember_window_position: Запоминать расположение окна
+  ui_option_skip_splash_screen: Пропускать заставку
+  ui_option_enable_hand_cursors: Использовать курсор "руку"
+  ui_option_use_pixel_font: 'Используйте пиксельный шрифт '
+  ui_option_use_compact_recipe_tooltips: Компактное отображение рецептов
+  ui_option_enable_animated_windows: Анимированные окна
+  ui_option_enable_animated_tooltips: Анимированные подсказки
+  ui_option_show_information_tooltip_on_mouse: Показывать подсказки при наведении курсора
+  ui_option_information_tooltip_delay: Задержка отображения подсказок
+  ui_option_show_item_count_on_object_overlay: Показывать количество предметов в строении
+  ui_option_show_paused_game_hint: Показывать индикатор паузы
+  ui_option_invert_mouse_wheel: Инвертировать колесо мыши
+  ui_option_invert_pan_direction: Инвертировать движение камеры
+  ui_option_viewport_drag_with_right_mouse_button: Включить перемещение камеры мышью
+  ui_option_viewport_scroll_at_window_edge: Разрешить прокрутку области просмотра на краю окна
+  ui_option_viewport_scroll_when_zooming_in: Прокрутка области просмотра при увеличении
+  ui_option_viewport_scroll_when_zooming_out: Прокручивайте область просмотра при уменьшении масштаба.
+  ui_option_show_trivia: Показывать интересные факты
+  ui_option_skip_tutorial: Пропустить обучение
+  ui_option_pause_game_on_focus_loss: Пауза при сворачивании
+  ui_option_start_game_as_paused: Начинать игру в паузе
+  ui_option_enable_sound: Звуки
+  ui_option_enable_music: Музыка
+  ui_option_mute_sound_on_focus_loss: Отключать звук при сворачивании
+  ui_option_generate_game_preview: Генерировать предпросмотр мира
+  ui_option_try_to_guess_object_positions: Автоматическая ориентация объектов
+  ui_option_highlight_evolution_path: Подсвечивать путь к выбранной эволюции
+  ui_option_show_worlds_in_main_view: Включить фоны с мирами в главном меню
+  ui_option_colorblind_mode: Режим для дальтоников
+  ui_option_hide_unknown_recipes_in_recipe_list: Скрывать неизвестные рецепты в списке рецептов
+  ui_option_use_imperial_units: Использовать имперскую систему
+  ui_option_save_game_on_exit: Автосохранение при выходе/выход из игры
+  ui_option_show_paused_game_hint_tooltip: Показывать сообщение об остановке времени в верхней части экрана во время паузы
+  ui_option_show_trivia_tooltip: Отображать разные мелочи и любопытные факты о предметах и ​​строениях
+  ui_window_name_recipe_list: Рецепты
+  ui_window_name_goal_list: Цели
+  ui_window_name_tutorial: Руководство
+  ui_puzzle_group_intro: Введение
+  ui_puzzle_group_beginner: Начальные
+  ui_puzzle_group_advanced: Продвинутые
+  ui_recipe_requires_additional_evolutions: Необходимые для этого рецепта эволюции не открыты
+  ui_recipe_is_still_work_in_progress: Эта механика в разработке, она может работать некорректно или не работать совсем
+  ui_recipe_cannot_produce_in_this_zone: Нельзя произвести в этой зоне
+  ui_recipe_enzyme_is_missing: Фермент отсутствует!
+  ui_recipe_choose_set_none: Без рецепта
+  ui_recipe_close_popup: Закрыть
+  ui_game_paused: Время остановлено
+  ui_related_recipes: Связанные рецепты
+  ui_goal_hidden: Скрытый
+  ui_ruleset_sandbox: Песочница
+  ui_ruleset_peaceful: Мирный
+  ui_ruleset_survival: Выживание
+  ui_ruleset_adventure: Приключение
+  ui_ruleset_custom: Ручной
+  ui_ruleset_tip: Подсказки
+  ui_ruleset_description_sandbox: <n>Песочница</n> – это режим, в котором вы можете свободно экспериментировать. Все эволюции разблокированы, все предметы можно получить бесплатно, есть доступ к креативным инструментам для расширения и создания зон.
+  ui_ruleset_description_peaceful: '<y>Мирный</y> – это режим, в котором игра проходит в безопасном окружении. Вы можете строить и эволюционировать без необходимости беспокоиться об окружающей среде: врагах и температуре.'
+  ui_ruleset_description_survival: <r>Выживание</r> – это режим, в котором вам придется выжить в суровом окружении. Температура снаружи будет медленно понижаться, требуя всё большей выработки тепла, а колонии бактерий будут расти и атаковать, если окажутся слишком близко.
+  ui_ruleset_description_adventure: <H9538ff>Приключение</H> – это режим, в котором вы - он. Как он оказался в этом миниатюрном мире? Вам придется это выяснить. Выживайте и расширяйте свой организм, не забывая и о своем здоровье.
+  ui_ruleset_description_custom: <b>Ручной</b> режим позволяет вам настроить игру под себя. Меняйте правила и играйте в своем темпе!
+  ui_ruleset_description_tip: <n>Подсказки</n> – это режим, использующийся для создания новых подсказок по игровому процессу в виде сохранений
+  ui_ruleset_first_game_warning: Похоже, это ваша первая игра. Предлагаем попробовать <y>мирный</y> режим, перед тем как испытать себя в <r>выживании</r>!
+  ui_dialog_confirm_delete: Вы уверены, что хотите удалить это сохранение?
+  ui_popup_choose_transporter: Выберите Транспортёра
+  ui_popup_choose_recipe: Выберите рецепт
+  ui_popup_pickup_item: Возьми предмет
+  ui_save_failed: Ошибка при сохранении игры
+  ui_save_options_failed: Ошибка при сохранении настроек
+  ui_autosave_failed_no_save_name: 'Автосохранение не удалось: game has no filename'
+  ui_autosave_success: Автосохранение игры
+  ui_confirm_save_overwrite: Файл уже существует, хотите его перезаписать?
+  ui_cursor_place_structure: разместить строение
+  ui_player_entered_world: '{} вошел в мир'
+  ui_player_left_world: '{} покинул мир'
+  object_action_fill: Заполнить
+  object_action_clear: Очистить
+  object_action_rotate_right: Повернуть вправо
+  object_action_rotate_left: Повернуть влево
+  object_action_flip: Переключить
+  object_action_set_filter: Установить фильтр
+  object_action_set_spec: Установить спецификацию
+  object_action_set_recipe: Установить рецепт
+  object_action_switch_direction: Переключить
+  object_action_refill: Восстановить
+  object_action_change_demand: Изменить запрос
+  object_action_toggle: Переключить
+  object_action_set_input: Установить ввод
+  object_action_set_output: Установить вывод
+  object_action_assemble: Собрать
+  object_action_retrieve_enzyme: Извлечь фермент
+  object_action_deplete: Исчерпать
+  object_action_regenerate: Регенерировать
+  object_action_switch_pick_mode: Переключить в режим вывода
+  object_action_switch_drop_mode: Переключить в режим ввода
+  object_action_switch_state: Изменить состояние
+  action_name_execute_first_action: Действие объекта 1
+  action_name_execute_second_action: Действие Объекта 2
+  open_achievement_unlock_window: Окно Достижений
+  place_error_message_cant_be_placed_on_membrane: Не может быть построен на мембране
+  place_error_message_requires_membrane: Должен быть построен на клеточной мембране
+  place_error_message_must_be_attached_to_membrane: Должен быть прикреплен к мембране
+  place_error_message_must_be_placed_on_non_changing_chunk: Нельзя строить на незастроенном участке
+  place_error_message_must_be_placed_on_non_necrotic_chunk: Нельзя построить на некротизированной территории
+  place_error_message_cant_be_placed_on_objects: Не может быть размещен на существующих объектах
+  place_error_message_cant_be_placed_on_corner: Не может быть построен на углу
+  place_error_cant_be_placed_on_wall: Не может быть построен на стене
+  place_error_message_cant_be_placed_on_railing: Не может быть построен на микротрубочках
+  place_error_message_must_be_placed_on_existing_tile: Должен быть построен на существующей ткани
+  place_error_cant_be_placed_on_this_tissue: Не может быть построен на этом типе ткани
+  place_error_message_must_be_placed_on_discovered_chunk: Не может быть построен на неоткрытой территории
+  place_error_message_must_be_placed_on_non_diseased_tile: Не может быть построен на поврежденной области
+  place_error_message_cant_be_placed_on_wild_tiles: Не может быть построен на дикой области
+  place_error_message_too_far_way: Слишком далеко
+  object_remove_error_object_has_disease: Не может быть уничтожен потому что подвержен
+  too_faraway: слишком далеко
+  chunk_action_build: Построить {}
+  chunk_action_chunk_apoptosis: Разобрать
+  chunk_action_error_cant_build: Нельзя построить {}
+  chunk_action_error_chunk_must_be_empty: Территория должна быть свободна
+  chunk_action_error_requires_intracellular_all_around: Необходимы внутренние зоны вокруг
+  chunk_action_cancel: Отменить задачу
+  chunk_action_pause: Приостановить
+  chunk_action_unpause: Возобновить
+  chunk_action_no_available_actions: Нет доступных действий
+  chunk_action_chunk_is_necrotic: Некроз территории
+  chunk_action_chunk_is_not_owned: Территория без владельца
+  chunk_action_chunk_is_not_discovered: Территория не открыта
+  chunk_action_colony_attack: Атаковать Колонию
+  research_known: Открыто
+  research_blocked: Заблокировано
+  research_researching: Эволюционирует
+  research_start: Эволюционировать
+  research_work_in_progress: В разработке
+  research_unlock: Разблокировано
+  research_cancel: Отменить
+  zone_filter_everywhere: везде
+  zone_filter_nowhere: нигде
+  item_filter_all: все предметы
+  item_filter_none: ничего
+  chunk_healthy: Здоровая
+  chunk_health: Здоровье
+  chunk_infected: Болезнь
+  chunk_temperature: Температура
+  infection_bacterial: Бактериальная
+  notification_evolution_complete: 'Эволюция завершена: {}'
+  notification_achievement_unlocked: 'Открыто достижение: {}'
+  notification_outside_temperature_dropped: Температура снаружи опустилась ниже {}
+  notification_chunk_died_by_necrosis: Зоны подвержены некрозу
+  notification_chunk_is_freezing: Зоны замерзают
+  notification_chunk_is_unhealthy: Один из чанков нездоров
+  notification_chunk_is_getting_cold: Зонам не хватает тепла
+  notification_objects_are_unpowered: Строениям не хватает энергии
+  notification_objects_are_oxidized: Строения окислены
+  notification_concept_enzymes: Установленное строение требует фермент для работы
+  notification_concept_expansion: Установленное строение может расширить ваш организм
+  notification_concept_membrane_transportation: Установленное строение используется для транспортировки предметов через мембраны
+  notification_concept_energy: Установленное строение требует энергии для работы
+  notification_concept_oxidation: Строения окислены
+  notification_concept_routing: Вам потребуется поставлять предметы с помощью микротрубочек и хватателей
+  notification_more_info: подоробнее
+  notification_dismiss: скрыть
+  notification_go_there: перейти
+  goal_name_first_steps: Первые Шаги
+  goal_task_text_first_steps_1: соберите верстак, чтобы помочь вам
+  goal_name_siphon_red_aminoacid: Откачайте Красный Аминокислоты
+  goal_task_text_siphon_red_aminoacid_1: разместите свой первый цитостом
+  goal_task_text_siphon_red_aminoacid_2: разместите один примитивный селектор
+  goal_task_text_siphon_red_aminoacid_3: постройте некоторые микротрубочки
+  goal_task_text_siphon_red_aminoacid_4: откачайте некоторые красные аминокислоты
+  goal_name_automate_red_tubulin: Автоматизируйте Красный Тубулин
+  goal_task_text_automate_red_tubulin_1: соберите свой первый рибосом
+  goal_task_text_automate_red_tubulin_2: разместите еще один примитивный селектор
+  goal_task_text_automate_red_tubulin_3: автоматизируйте производство красного тубулина
+  goal_name_automate_yellow_tubulin: Автоматизируйте Желтый Тубулин
+  goal_task_text_automate_yellow_tubulin_1: постройте второй рибосом
+  goal_task_text_automate_yellow_tubulin_2: постройте 1 цитостом для желтой аминокислоты
+  goal_task_text_automate_yellow_tubulin_3: постройте 2 селектора
+  goal_task_text_automate_yellow_tubulin_4: автоматизируйте производство желтого тубулина
+  goal_name_discover_assembler: Откройте Сборщик
+  goal_task_text_discover_assembler_1: постройте эвольвер
+  goal_task_text_discover_assembler_2: откройте сборщик
+  goal_name_automate_microtubule_primitive: Автоматизируйте Примитивные Микротрубочки
+  goal_task_text_automate_microtubule_primitive_1: постройте сборщик
+  goal_task_text_automate_microtubule_primitive_2: автоматизируйте производство примитивных микротрубочек
+  goal_name_automate_picker_primitive: Автоматизируйте Примитивный Селектор
+  goal_task_text_automate_picker_primitive_1: постройте сборщик
+  goal_task_text_automate_picker_primitive_2: автоматизируйте производство примитивных селекторов
+  goal_name_automate_green_blue_tubulins: Автоматизируйте Зеленые и Синие Тубулины
+  goal_task_text_automate_green_blue_tubulins_1: автоматизируйте производство зеленого тубулина
+  goal_task_text_automate_green_blue_tubulins_2: автоматизируйте производство синего тубулина
+  goal_name_improve_siphoning: Улучшите Откачку
+  goal_task_text_improve_siphoning_1: откройте базовую транспортировку
+  goal_task_text_improve_siphoning_2: постройте 2 предмета для удара
+  goal_task_text_improve_siphoning_3: удвойте цитостомы для красной аминокислоты
+  goal_task_text_improve_siphoning_4: удвойте цитостомы для желтой аминокислоты
+  goal_name_build_mitochondrion: Постройте Митохондрию
+  goal_task_text_build_mitochondrion_1: постройте митохондрию
+  goal_name_first_expansion: Первое Расширение
+  goal_task_text_first_expansion_1: подготовьте зону цитоскелета
+  goal_task_text_first_expansion_2: расширьтесь на один блок
+  goal_name_produce_nucleobase: Произведите Нуклеобазу
+  goal_task_text_produce_nucleobase_1: разбейте плазмиды с помощью ДНК-нуклеазы
+  goal_name_transport_through_membrane: Транспорт Через Мембрану
+  goal_task_text_transport_through_membrane_1: транспортируйте предметы через унипортеры
+  goal_task_text_transport_through_membrane_2: транспортируйте предметы через котранспортеры
+  goal_name_regenerate_through_diffuser: Регенерируйте Через Диффузор
+  goal_task_text_regenerate_through_diffuser_1: восстановите 10 объектов с помощью диффузора
+  goal_name_chunk_died_by_necrosis: Блок Умер От Некроза
+  goal_task_text_chunk_died_by_necrosis_1: позвольте блоку умереть от некроза
+  goal_name_killed_bacteria_by_hand: Убитые Бактерии Вручную
+  goal_task_text_killed_bacteria_by_hand_1: убейте бактерию голыми руками
+  goal_name_first_siphoning: Первое Откачивание
+  goal_task_text_first_siphoning_1: откачайте свой первый предмет
+  goal_name_basic_siphoning: Базовое Откачивание
+  goal_task_text_basic_siphoning_1: откачайте 10 предметов
+  goal_name_intermediate_siphoning: Промежуточное Откачивание
+  goal_task_text_intermediate_siphoning_1: откачайте 100 предметов
+  goal_name_advanced_siphoning: Продвинутое Откачивание
+  goal_task_text_advanced_siphoning_1: откачайте 1000 предметов
+  goal_name_first_disposing: Первое Утилизация
+  goal_task_text_first_disposing_1: утилизируйте один предмет
+  goal_name_basic_disposing: Базовая Утилизация
+  goal_task_text_basic_disposing_1: утилизируйте 10 предметов
+  goal_name_intermediate_disposing: Промежуточная Утилизация
+  goal_task_text_intermediate_disposing_1: утилизируйте 100 предметов
+  goal_name_advanced_disposing: Продвинутая Утилизация
+  goal_task_text_advanced_disposing_1: утилизируйте 1000 предметов
+  goal_name_first_stashing: Первое Хранение
+  goal_task_text_first_stashing_1: сохраните один предмет с помощью хранителя
+  goal_name_basic_stashing: Базовое Хранение
+  goal_task_text_basic_stashing_1: сохраните 10 предметов с помощью хранителя
+  goal_name_intermediate_stashing: Промежуточное Хранение
+  goal_task_text_intermediate_stashing_1: сохраните 100 предметов с помощью хранителя
+  goal_name_advanced_stashing: Продвинутое Хранение
+  goal_task_text_advanced_stashing_1: сохраните 1000 предметов с помощью хранителя
+  goal_name_first_catalysis: Первая Катализация
+  goal_task_text_first_catalysis_1: катализируйте вашу первую реакцию
+  goal_name_basic_catalysis: Базовая Катализация
+  goal_task_text_basic_catalysis_1: катализировано 10 реакций
+  goal_name_intermediate_catalysis: Промежуточная Катализация
+  goal_task_text_intermediate_catalysis_1: катализировано 100 реакций
+  goal_name_advanced_catalysis: Продвинутая Катализация
+  goal_task_text_advanced_catalysis_1: катализировано 1000 реакций
+  goal_name_extreme_catalysis: Экстремальная Катализация
+  goal_task_text_extreme_catalysis_1: катализировано 10000 реакций
+  goal_name_first_atp_burning: Первое Сжигание АТФ
+  goal_task_text_first_atp_burning_1: сожгите вашу первую молекулу АТФ
+  goal_name_basic_atp_burning: Базовое Сжигание АТФ
+  goal_task_text_basic_atp_burning_1: сожгите 10 молекул АТФ
+  goal_name_intermediate_atp_burning: Промежуточное Сжигание АТФ
+  goal_task_text_intermediate_atp_burning_1: сожгите 100 молекул АТФ
+  goal_name_advanced_atp_burning: Продвинутое Сжигание АТФ
+  goal_task_text_advanced_atp_burning_1: сожгите 1000 молекул АТФ
+  goal_name_extreme_atp_burning: Экстремальное Сжигание АТФ
+  goal_task_text_extreme_atp_burning_1: сожгите 10000 молекул АТФ
+  goal_name_first_atp_recharging: Первое Перезарядка АТФ
+  goal_task_text_first_atp_recharging_1: перезарядите АТФ с помощью синтазы
+  goal_name_basic_atp_recharging: Базовая Перезарядка АТФ
+  goal_task_text_basic_atp_recharging_1: перезарядите 10 молекул АТФ
+  goal_name_intermediate_atp_recharging: Промежуточная Перезарядка АТФ
+  ui_main_menu_about_early_access_message: |
+    Спасибо, что решили попробовать нашу игру!
+
+    Эта игра о выживании, о начале в первобытном бульоне как одноклеточное и прорыве в жизнь, создавая всю необходимую производственную цепочку!
+    Наше конечное видение - эволюция от простой клетки до полноценного млекопитающего с органами: кровообращение, дыхательная система, пищеварительная система, нервная система и так далее.. все это, строя, расширяя и развивая ваш первоначальный организм!
+    Получайте удовольствие от этого EA! Мы хотим вашего отзыва, поэтому присоединяйтесь к нашему Discord и найдите нас там. Нам нужна ваша помощь :)
+  ui_main_menu_about_pixbits_message: |
+    Мы - небольшая инди-студия разработки из Италии!
+
+    Джакопо Сантони - код и дизайн игры
+
+    Сильвио Евсебио - графика, музыка, звуковые эффекты
+  ui_main_menu_about_credits_message: |-
+    Аудио движок: FMOD Studio от Firelight Technologies Pty Ltd.
+
+    Компактный шрифт: LanaPixel font © 2020-2023 eishiya
+
+    Спасибо всем тестерам, которые поддерживали нас во время разработки этой игры. Спасибо за их отзывы и их карты!

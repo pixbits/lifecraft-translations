@@ -1,0 +1,295 @@
+pages:
+- >   
+  <content>
+    <icon key="ui_guide_mitosis"/>Willkommen im Universum von Lifecraft!
+    <break/>
+    <image path="tutorial/quickstart_1.png" scale="1" />
+    <endl/>
+    Du beginnst als Organismus, der irgendwo treibt.
+    <break/>
+    Bald wirst du Herausforderungen begegnen, musst dich wärmen und gegen Eindringlinge wie Bakterien kämpfen und expandieren, um Ressourcen zu finden.<endl/><endl/>
+    Lass dich nicht von den Namen und Mechaniken einschüchtern!<break/><icon key="item_aminoacid_red"/>Aminosäuren sind nur Kugeln, <icon key="item_tubulin_yellow"/>Tubuline sind Röhren, denk einfach daran und du bist bereit!<endl/><endl/><icon key="ui_icon_open_recipe_list"/>Die Rezeptansicht unten rechts ist sehr nützlich!<endl/>Nutze sie, um die benötigten Materialien für Gegenstände zu sehen.<endl/>
+    Wenn du über Gegenstände dort fährst, wird auch gezeigt, wie sie funktionieren.
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_hand"/>Du kannst die Welt mit Tasten oder durch Bewegen der Maus an den Bildschirmrändern verschieben (falls aktiviert):<break/>
+    <p align="center">
+    <keycap action="pan_up" /><endl /><keycap action="pan_left" /><icon key="ui_guide_dot_tiny"/>
+    <keycap action="pan_down" /><icon key="ui_guide_dot_tiny"/><keycap action="pan_right" /><break/>
+    </p>
+    <icon key="ui_icon_zoom_in"/>Du kannst mit (oder Mausrad) hinein- und herauszoomen:<break/>
+    <p align="center">
+    <keycap action="zoom_in" longer="true" /><icon key="ui_guide_dot_tiny"/><keycap action="zoom_out" longer="true" /><break/>
+    </p>
+    Du kannst Gegenstände mit deiner Maus aufnehmen und ablegen. 
+    <endl/>
+    <image path="tutorial/quickstart_2.png" scale="1" />
+    <endl/>
+    Bis zu 4 Gegenstände können gleichzeitig aufgenommen werden, probiere es jetzt mit einigen Gegenständen, die draußen schweben!
+    <endl/>
+  </content>
+
+- >
+  <content>
+    Das blaue Nichts enthält viele nützliche Gegenstände, die zum Herstellen von Zwischenmaterialien, Strukturen, Energie, Verteidigung und Expansion verwendet werden können.<endl /><endl />
+    Deine erste Aufgabe ist es, eine gelbe Untereinheit <icon key="item_subunit_yellow"/> von draußen mit deiner Maus zu sammeln. Denke daran, dass jede Ressource manuell aufgenommen werden kann.<endl /><endl />Das kann in vielen Situationen nützlich sein!<endl />
+    <endl />
+    Lass nun die gelbe Untereinheit <icon key="item_subunit_yellow"/> irgendwo auf dem Boden deiner Zelle fallen.<endl/>
+    <image path="tutorial/quickstart_3.png" scale="1" /><endl />
+    <endl />
+  </content>
+
+- >
+  <content>
+    <icon key="item_subunit_yellow"/> Suche draußen nach einer weiteren gelben Untereinheit und nimm sie auf.
+    <endl />
+    <image path="tutorial/quickstart_4.png" scale="1" />
+    <endl/>
+    <icon key="item_workbench"/> Du kannst jetzt deine erste Struktur zusammenbauen: die Werkbank!<endl/><endl/>
+    <icon key="item_subunit_yellow"/> Lass einfach die zweite gelbe Untereinheit auf die erste fallen, die auf dem Boden lag, und voilà!<endl />
+    <image path="tutorial/quickstart_5.png" scale="1" />
+    <break/>
+
+    <endl />
+  </content> 
+
+- >  
+  <content>
+    <icon key="item_workbench"/>Die Werkbank wird verwendet, um manuell Strukturen zusammenzubauen, die später für die Automatisierung verwendet werden. Sie ist ineffizient, aber praktisch! <endl/> <endl/>
+    Jetzt nimm die frisch zusammengebaute Werkbank und platziere sie irgendwo auf dem Boden mit deiner Maus.<endl />
+    <image path="tutorial/quickstart_6.png" scale="1" />
+    <endl />
+    Du kannst auf Gebäude klicken, um ihr Kontextmenü zu öffnen.<endl/>
+    Einige Gebäude haben auch Aktionen, die an <keycap action="execute_first_action" /> und <keycap action="execute_second_action" /><break/>
+    <image path="tutorial/quickstart_3extra.png" scale="1" /><endl />
+  </content>
+  
+- >
+  <content>
+    Dein nächstes Ziel ist es nun, das Sammeln von Ressourcen von einem äußeren Ressourcenhaufen zu automatisieren, dafür musst du mehrere Gegenstände bauen: <endl /><endl />
+    <icon key="ui_guide_dot"/> <icon key="item_microtubule"/> Mikrotubuli, die zum Transportieren von Gegenständen verwendet werden <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_picker"/> Greifer, die zum Bewegen von Gegenständen von und zu Strukturen verwendet werden <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_cytostome1x"/> Zytostome, die Gegenstände von außen aufnehmen können <endl />
+    <image path="tutorial/quickstart_1extra.png" scale="1" />
+    <endl />
+    Primitive Strukturen werden im Laufe der Zeit durch Oxidation zerstört.<endl />Sie sind auch langsam und ineffizient, du wirst sie später durch verbesserte Versionen ersetzen. Mehr dazu später!<endl /><endl />
+  </content>
+
+- >
+  <content>
+    Beginnen wir mit dem Bau der Strukturen, die für die grundlegende Automatisierung benötigt werden!<endl /><endl />
+    In deiner Rezeptliste, die sich in der unteren rechten Ecke des Bildschirms befindet, kannst du verfügbare Rezepte überfahren und ihre Materialien sehen, überfahren wir ein Zytostom <icon key="item_cytostome1x"/><endl />
+    <recipe key="cytostome1x" compact="true" />Das sind die Materialien, die zum Bau benötigt werden.
+    
+    Tubuline sind ein Zwischenmaterial, das zum Bau vieler grundlegender Strukturen verwendet wird.<break/>
+    Die Werkbank ist praktisch, weil sie alle Zwischenschritte der Ressourcen nur mit den Basis-Materialien herstellen kann:<endl /><endl />
+    <p align="center"><icon key="item_aminoacid_blue"/><icon key="item_aminoacid_green"/><icon key="item_aminoacid_red"/><icon key="item_aminoacid_yellow"/><endl/><endl /></p>
+    Lege die erforderlichen Aminosäuren in die Werkbank, klicke darauf und wähle die Strukturen zum Zusammenbauen.<break/>
+    Du kannst auch viele Handwerke in der Werkbank anstehen lassen, solange genug Platz darin ist!
+    <p align="center">
+
+    </p>
+
+  </content>
+
+- >
+  <content>
+    <icon key="item_cytostome1x"/>Nun nimm das hergestellte Zytostom und platziere es an einer Wand neben einem <icon key="item_aminoacid_red"/> Aminosäure-Ressourcenhaufen.
+    <break/>
+    <image path="tutorial/quickstart_8.png" scale="1" />
+    <endl />
+    Du wirst sehen, wie das Zytostom zu arbeiten beginnt und langsam einen Gegenstand aufnimmt. Du kannst den Gegenstand manuell mit der Maus aus dem Zytostom nehmen.<break/>
+    Das Zytostom sitzt hoch an der Zellwand, aber saugt am Boden innerhalb der Zelle.<break/>
+    <icon key="ui_icon_toggle_buildings_on"/>Um seine Saugbasis zu sehen (wo du den Greifer anschließen wirst), kannst du "Gebäude umschalten" in der unteren Leiste aktivieren.<break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_microtubule"/>Wir benötigen nun eine Möglichkeit, die Gegenstände vom Zytostom automatisch zu leiten. <endl /><endl />
+    Mikrotubuli sind wie kleine Schienen, die Gegenstände in der Zelle transportieren können.
+    Lass uns unsere ersten Mikrotubuli bauen.
+    Sammle die erforderlichen Materialien und reihe die Handwerke in der Werkbank ein:<break/><endl />
+    <p align="center"><icon key="item_tubulin_red"/><icon key="item_tubulin_red"/><icon key="item_microtubule_primitive"/><break/></p>
+    Warte, bis das Ergebnis fertig ist und nimm es auf.<break/>
+    Was ist passiert? Der Mikrotubulus ist verschwunden!<break/>
+    Das liegt daran, dass Mikrotubuli automatisch in ein Lager gesteckt werden, damit du sie mit einem spezifischen Werkzeug verwenden kannst.<endl/><endl/>
+    <image path="tutorial/quickstart_9.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    Wechsle nun zum Mikrotubulus-Platzierungswerkzeug mit <keycap action="switch_tool_microtubule_metatool" />, du wirst sehen, dass es mehrere Typen davon gibt, 
+    aber nur der erste ist vorerst verfügbar.<break/>
+    Der primitive Mikrotubulus ist langsamer, du musst forschen, um bessere Versionen davon zu erhalten.<break/>
+    <p align="center"><icon key="item_microtubule"/><icon key="item_microtubule_advanced"/><break/></p>
+    Klicke links, um Mikrotubuli neben der Zytostombasis zu platzieren, um die Route für die Gegenstände vorzubereiten.<break/>
+    <image path="tutorial/quickstart_10.png" scale="1" />
+    <endl />
+    Mikrotubuli können mit deiner Maus entfernt werden.
+
+  </content>
+  
+- >
+  <content>
+    <icon key="item_picker_primitive" />Wir benötigen nun einen Greifer, der verwendet wird, um Gegenstände von und zu Strukturen zu bewegen.<endl/>
+    Sammle die Materialien und reihe das Handwerk in der Werkbank ein:<endl/><recipe key="picker_primitive" compact="true" /><endl/>
+    Wenn es fertig ist, platziere den Greifer neben der Zytostombasis.<break/>
+    Mit <keycap action="execute_first_action" /> und <keycap action="execute_second_action" /> kannst du den Greifer drehen oder umdrehen. 
+    Konfiguriere ihn so, dass er vom Zytostom (der dünne Greiferteil geht unter die Zytostombasis) holt.<endl/>
+    <image path="tutorial/quickstart_11.png" scale="1" />
+    <endl/>
+
+    <icon key="ui_icon_toggle_buildings_on"/><icon key="ui_icon_toggle_walls_on"/>Um eine bessere Ansicht beim Platzieren von Strukturen zu erhalten, kannst du "Gebäude umschalten" aktivieren, was dir eine klarere, flachere Ansicht der Karte gibt.
+  </content>
+
+- >
+  <content>
+    <icon key="item_tubulin_red" />Es ist Zeit, die Produktion deiner ersten Proteine zu automatisieren!<break/>
+    <icon key="item_ribosome" />Das geschieht mit einem Ribosom, das Zwischenmaterialien herstellen kann.
+
+    Sammle die erforderlichen Gegenstände, um das Ribosom in der Werkbank zu bauen.<break/><icon key="ui_icon_open_recipe_list"/>Denke daran, die Rezeptansicht als Legende zu verwenden!<break/><endl />
+    <p align="center"><icon key="item_subunit_red"/><icon key="item_subunit_red"/><icon key="item_ribosome"/><break/></p>
+
+    Platziere nun das Ribosom in der Nähe der zuvor platzierten Mikrotubuli.<break/>
+    <icon key="ui_icon_destroy"/>Du kannst jede platzierte Struktur mit dem Werkzeug zum Zerstören von Strukturen entfernen.
+    <icon key="ui_icon_oxidation_usages"/>Oxidierte Strukturen geben den Gegenstand nicht zurück.<endl/>
+    <image path="tutorial/quickstart_12.png" scale="1" />
+    <break/>
+
+
+  </content>
+
+- >
+  <content>
+    Wir müssen das Ribosom mit den Mikrotubuli verbinden.<endl />
+    Baue einen weiteren primitiven Greifer <icon key="item_picker_primitive" /> und platziere ihn so, dass du eine vollständige Transportlinie vom Zytostom zum Ribosom hast.<endl />
+    <image path="tutorial/quickstart_13.png" scale="1" />
+    <endl />
+
+    Drücke nun <keycap action="execute_first_action" /> am Ribosom, um es so zu konfigurieren, dass es rote Tubuline <icon key="item_tubulin_red" /> produziert und beobachte dein erstes arbeitendes Ribosom!<endl /><endl />
+    <icon key="item_microtubule"/>Der Mikrotubulus geht auf den erhöhten Teil des Greifers, wo der Greiferpfeil liegt. Der untere, dünnere Teil des Greifers muss unter den Strukturen liegen.<endl /><endl />
+    <icon key="item_picker_primitive"/>Die Richtung des Greiferpfeils bestimmt, ob der Greifer in die Struktur ein- oder ausführt.
+    
+
+  </content>
+
+- >
+  <content>
+    Jetzt, da du die Grundlagen gelernt hast, ist es Zeit, dich zu verbessern!<endl />
+    Automatisiere das Sammeln von gelben Aminosäuren <icon key="item_aminoacid_yellow" /> und die Produktion von gelbem Tubulin <icon key="item_tubulin_yellow" />, indem du dieselben Operationen durchführst.
+    <break/>
+    <image path="tutorial/quickstart_14.png" scale="1" />
+    <endl />
+
+    Zu diesem Zeitpunkt synthetisiert der Organismus selbstständig sowohl rote als auch gelbe Tubuline.<break/>
+    <icon key="ui_icon_toggle_object_overlay_on" />Um zu sehen, welche Handwerksrezepte derzeit in den Strukturen eingestellt sind, kannst du die Option "Inhaltsinfo von Objekten umschalten" aktivieren.
+  </content>
+  
+- >
+  <content>
+    Automatisiere die Produktion von Mikrotubuli <icon key="item_microtubule_primitive" /> und Greifern. <icon key="item_picker_primitive" /><break/>
+    <icon key="item_assembler" />Dafür benötigen wir 2x Montageautomaten. <break/>
+    <icon key="ui_icon_open_evolution_view" />Aber wir können sie noch nicht herstellen, da wir das Rezept für den Montageautomaten in der Evolutionsansicht freischalten müssen.<break/>
+    <image path="tutorial/quickstart_17a.png" scale="1" />
+    <endl />
+    <icon key="item_evolver"/>Um neue Rezepte zu entdecken, müssen wir einen Evolver bauen, lass uns ihn erstellen und irgendwo auf dem Boden platzieren.
+  </content>
+  
+- >
+  
+  <content>
+    Der Evolver verbraucht genetisches Material, genannt Nukleobasen, um neue Rezepte zu entdecken.<break/>
+    <p align="center"><icon key="item_adenine"/><icon key="item_thymine"/><icon key="item_guanine"/><icon key="item_cytosine"/><break/></p>
+    Öffne die Evolutionsansicht mit <keycap action="open_evolution_view" />, suche nach <p color="#f5e042">Intrazelluläre Produktion</p> und starte die Forschung.<break/>
+    <image path="tutorial/quickstart_16.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_thymine"/>Füttere nun den Evolver mit den benötigten Nukleobasen, die aus dem Nichts gesammelt werden können. Warte, bis die Forschung abgeschlossen ist.<break/>
+    <icon key="item_evolver" />Der Evolver nimmt jeweils nur einen Gegenstand auf, aber du kannst mehrere Forschungen für verbesserte Effizienz bauen.<break/>
+    <image path="tutorial/quickstart_18.png" scale="1" />
+    <endl />
+    Du kannst den Status überprüfen, indem du die Evolution in der Statusleiste überfährst.<endl />
+    <image path="tutorial/quickstart_18b.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    Mit der neu erworbenen Evolution kannst du nun:<break/>
+
+    Die Montageautomaten <icon key="item_assembler" /> erstellen <break/>
+    Platziere sie in der Nähe bestehender Ribosomen <icon key="item_ribosome" /> <break/>
+    Verbinde alles mit weiteren Mikrotubuli <icon key="item_microtubule" /> und Greifern <icon key="item_picker" /> <endl />
+    Konfiguriere <keycap action="execute_first_action" /> die Montageautomaten, um Mikrotubuli <icon key="item_microtubule_primitive" /> und Greifer zu produzieren. <icon key="item_picker_primitive" /><endl />
+    <image path="tutorial/quickstart_19.png" scale="1" />
+    <endl />
+    Wir empfehlen, deine ersten Ribosomen und Montageautomaten zu bauen und die Herstellung zu automatisieren, sobald du den Dreh raus hast!<endl />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_oxidation_usages"/>Mit der Zeit werden primitive Gebäude oxidieren und unbrauchbar werden.<break/>
+    <icon key="item_cytostome1x"/><icon key="item_picker_primitive"/>Um einen oxidierten Greifer oder Zytostom zu ersetzen, baue einfach einen neuen und platziere ihn auf dem älteren.<endl />
+
+    <image path="tutorial/quickstart_oxidation.png" scale="1" />
+
+    <icon key="item_diffuser"/>Du kannst auch Gegenstandsdiffusoren bauen, die, wenn sie mit dem richtigen Gegenstand gefüttert werden, automatisch das oxidierte Gegenstück in ihrer Nähe ersetzen.<endl />
+
+    Um dieses Problem zu überwinden, musst du verbesserte Strukturen erforschen, die nicht mehr oxidieren.<endl /><endl />
+
+    <icon key="item_cytostome2x" /> Zytostom ist die verbesserte Version des primitiven Zytostoms, schneller mit doppelter Saugkapazität<endl /><endl />
+    <icon key="item_picker" /> Schwarze Greifer oxidieren nicht und können in Farb- und Materialfiltervarianten hergestellt werden<endl /><endl />
+
+    <icon key="item_atp" /> Verbesserte Strukturen benötigen Energie, um zu funktionieren!<endl /><endl />
+
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_energy_yellow" />Je weiter du in der Forschung vorankommst, wirst du bemerken, dass viele Gegenstände Energie benötigen, um zu funktionieren.<endl /><endl />
+
+    <icon key="item_energy_supplier_mk1" />Nachdem du die erforderlichen Knoten erforscht hast, kannst du ein Energieversorgungsnetzwerk mit primitiven Energielieferanten aufbauen, die die Struktur in ihrem Bereich mit Energie versorgen.<endl /><endl />
+    <icon key="item_energy_supplier_mk2" />Verbesserte Lieferanten werden Energie in einem höheren Bereich liefern.<endl /><endl />
+
+    <icon key="item_atp"/>Um Energielieferanten zu betreiben, musst du sie mit ATP-Molekülen (gefunden außerhalb im Nichts) füttern.<endl />
+    <icon key="item_adp"/>Wenn das ATP entladen wird, wird es von den Lieferanten in Form von ADP ausgegeben.<endl />Denke einfach an eine Batterie, raus das Alte, rein das Neue!<endl /><endl />
+
+    <icon key="item_energy_pole"/>Um die Reichweite zwischen zwei Energielieferanten zu erweitern, verwende Energiepole! <endl /><endl />
+    <icon key="ui_icon_toggle_power_overlay_on"/>Diese werden die Reichweite erheblich erweitern, ohne Ressourcen zu verwenden.
+
+    
+    <break/>
+  </content>
+
+
+
+- >
+  <content>
+    Jetzt ist es an der Zeit, dass du selbst die verfügbaren Evolutionen erkundest und dein Logistiksystem erweiterst! <break/>Sei dir bewusst <icon key="ui_warning_sign_red" /> <endl />
+    <image path="tutorial/quickstart_20b.png" scale="1" />
+    <endl />
+    <icon key="ui_icon_temperature" />Die Außentemperatur sinkt langsam und du benötigst eine Möglichkeit, Wärme mit einem Mitochondrium <icon key="item_mitochondrial_membrane" /> und Entkopplern <icon key="item_decoupler" /> zu erzeugen <endl /><endl />
+    <icon key="item_bacterial_vegetation_bacillus_green"/> Draußen im Dunkeln kriechen Bakterien, sei vorbereitet mit Diffusoren <icon key="item_diffuser" /> und Werfern <icon key="item_launcher1x" /> <break/>
+    <icon key="ui_icon_chunk_planner"/> Ressourcen werden schließlich erschöpft sein, du musst expandieren, um neue zu finden.
+    <break/>
+  </content> 
+
+- >
+  <content>
+    Hier endet das Tutorial vorerst! Bei Zweifeln:<break/>
+    <icon key="ui_guide_dot"/> konsultiere den Spielguide durch <keycap action="open_game_guide" /><break/>
+    <icon key="ui_guide_dot"/> erfülle Ziele, überprüfe die Reiseansicht <keycap action="open_journey_view" /> und die Zielliste <keycap action="open_goal_list" /><break/>
+    <icon key="ui_guide_dot"/> wenn du Schwierigkeiten hast, komm zu unserem Discord, wo du Hilfe finden wirst!<endl />
+    <image path="tutorial/quickstart_22.png" scale="1" /><endl/>
+    Dieses Spiel befindet sich in der Early Access-Phase, daher kann es noch Ecken und Kanten geben. Aber wenn du immer noch liest, dass deine Geduld leuchtet, bist du auf etwas Großes eingestellt!<break/>Viele Ideen werden in Zukunft umgesetzt, während die Entwicklung fortschreitet. Wir hoffen, du wirst die großartige Reise, die Lifecraft zu bieten hat, genießen!
+    <break/>
+  </content>
+  

@@ -1,0 +1,796 @@
+strings:
+  item_category_aminoacid: Aminoacido
+  item_category_protein: Proteina
+  item_category_subunit: Subunità
+  item_category_tubulin: Tubulina
+  item_category_structural_protein: Proteina Strutturale
+  item_category_logistics: Logistica
+  item_category_routing: Smistamento
+  item_category_picker: Selettore
+  item_category_storage: Stoccaggio
+  item_category_poiesis: Poiesi
+  item_category_structure: Struttura
+  item_category_energy: Energia
+  item_category_enzyme: Enzima
+  item_category_transporter: Trasportatore
+  item_category_flow: Fluidi
+  item_category_flow_urinary: Urinario
+  item_category_flow_respiratory: Respirazione
+  item_category_flow_circulatory: Circolazione
+  item_category_flow_digestive: Esofago
+  item_category_energy_production: Produzione Energia
+  item_category_molecule_synthesis: Sintesi
+  item_category_widget: Gadget
+  item_category_nutrient: Nutriente
+  item_category_element: Elemento
+  item_category_vitamin: Vitamina
+  item_category_gas: Gas
+  item_category_genetics: Genetica
+  item_category_nucleobase: Nucleobase
+  item_category_plasmid: Plasmide
+  item_category_immunity: Immunità
+  item_category_light: Illuminazione
+  item_category_organism: Organismo
+  item_category_cell: Cellula
+  item_category_bacterium: Batterio
+  item_category_uncategorized: Non Categorizzato
+  item_category_flooring: Pavimento
+  item_category_tissue: Tessuto
+  item_category_bacterial_colony: Colonia Batterica
+  item_category_unused_tissue: Non Usato
+  item_color_red: Rosso
+  item_color_yellow: Giallo
+  item_color_green: Verde
+  item_color_blue: Blue
+  item_color_white: Bianco
+  item_name_tubulin_red: Tubulina α
+  item_name_tubulin_green: Tubulina β
+  item_name_tubulin_yellow: Tubulina γ
+  item_name_tubulin_blue: Tubulina δ
+  item_name_subunit_red: Subunità Rossa
+  item_name_subunit_green: Subunità Verde
+  item_name_subunit_yellow: Subunità Gialla
+  item_name_subunit_blue: Subunità Blu
+  item_name_aminoacid_red: Glicina
+  item_name_aminoacid_yellow: Prolina
+  item_name_aminoacid_green: Glutammina
+  item_name_aminoacid_blue: Aspartato
+  item_name_alpha_ketoglutarate: α-chetoglutarato
+  item_name_collagen_chain_red: Catena Collagene α-1
+  item_name_collagen_chain_blue: Catena Collagene α-2
+  item_name_actin_f: Actina F
+  item_name_actin_g: Actina G
+  item_name_adp: ADP
+  item_name_atp: ATP
+  item_name_nad: NAD+
+  item_name_nadh: NADH
+  item_name_nadp: NADP+
+  item_name_nadph: NADPH
+  item_name_acetyl_coa: Acetil-CoA
+  item_name_interferon_alpha: Interferone-α
+  item_name_microtubule: Microtubulo
+  item_name_microtubule_primitive: Microtubulo Primitivo
+  item_name_microtubule_advanced: Microtubulo Avanzato
+  item_name_item_kicker: Direzionatore
+  item_name_picker: Selettore
+  item_name_picker_fast: Selettore Veloce
+  item_name_picker_red: Selettore Rosso
+  item_name_picker_blue: Selettore Blu
+  item_name_picker_green: Selettore Verde
+  item_name_picker_yellow: Selettore Giallo
+  item_name_picker_white: Selettore Bianco
+  item_name_picker_gaseous: Selettore Gassoso
+  item_name_picker_genetic: Selettore Genomico
+  item_name_picker_energetic: Selettore Energetico
+  item_name_picker_long: Selettore Lungo
+  item_name_picker_overlong: Selettore Lunghissimo
+  item_name_picker_filter: Selettore Filtrante
+  item_name_picker_primitive: Selettore Primitivo
+  item_name_phospholipid: Fosfolipide
+  item_name_ribosome: Ribosoma
+  item_name_assembler: Assemblatore
+  item_name_catalyzer: Catalizzatore
+  item_name_stockpile1x: Riserva Minuscola
+  item_name_stockpile2x: Riserva
+  item_name_stockpile4x: Riserva Gigante
+  item_name_stockpile_filter2x: Riserva Filtrante
+  item_name_infinite_container2x: Scatola Senza Fondo
+  item_name_infinite_container1x: Scatola Senza Fondo Minuscola
+  item_name_dna_nuclease: DNA Nucleasi
+  item_name_evolver: Evolutore
+  item_name_balancer: Ripartitore
+  item_name_item_tunnel: Tunnel
+  item_name_item_tunnel_primitive: Tunnel Primitivo
+  item_name_cytostome1x: Citostoma Primitivo
+  item_name_cytostome_ultimate: Citostoma Definitivo
+  item_name_cytostome2x: Citostoma
+  item_name_disposer1x: Smaltitore Primitivo
+  item_name_disposer2x: Smaltitore
+  item_name_launcher1x: Lanciatore Primitivo
+  item_name_launcher2x: Lanciatore
+  item_name_dispatcher_primitive: Distributore Primitivo
+  item_name_dispatcher: Distributore
+  item_name_diffuser: Diffusore
+  item_name_stasher: Immagazzinatore
+  item_name_workbench: Banco da Lavoro
+  item_name_energy_supplier_mk1: Bruciatore Primitivo
+  item_name_energy_supplier_mk2: Bruciatore
+  item_name_energy_pole: Palo di Distribuzione
+  item_name_atp_synthase: ATP SIntasi
+  item_name_atp_synthase_subunit: Subunità ATP Sintasi
+  item_name_decoupler: Disaccoppiatore
+  item_name_thermogenin: Termogenina
+  item_name_electron_transport_chain: Catena di Trasporto Elettroni
+  item_name_biolamp: Biolampada
+  item_name_biolamp_primitive: Biolampada Primitiva
+  item_name_biolamp_ultimate: Biolampada Definitiva
+  item_name_membrane_transporter1x: Uniporto di Membrana
+  item_name_membrane_transporter2x: Cotrasportatore di Membrana
+  item_name_connexin: Connessina
+  item_name_connexon: Conessone
+  item_name_uniporter_gas: Uniporto Gas
+  item_name_uniporter_glucose: Uniporto Glucosio
+  item_name_antiporter_atp_adp: Antiporto ATP ⇄ ADP
+  item_name_antiporter_nadh_nad: Antiporto NADH ⇄ NAD
+  item_name_adenine: Adenina
+  item_name_cytosine: Citosina
+  item_name_guanine: Guanina
+  item_name_thymine: Timina
+  item_name_uracil: Uracile
+  item_name_base_pair_at: Coppia A-T di Basi
+  item_name_base_pair_au: Coppia A-U di Basi
+  item_name_base_pair_cg: Coppia C-G di Basi
+  item_name_mrna: mRNA
+  item_name_plasmid_1: Plasmide
+  item_name_plasmid_2: Plasmide 2
+  item_name_cytochrome: Citocromo
+  item_name_kinesin: Kinesina
+  item_name_vimentin: Vimentina
+  item_name_luciferin: Luciferina
+  item_name_myosin: Miosina
+  item_name_alpha_helix: Alfa Elica
+  item_name_beta_sheet: Foglietto Beta
+  item_name_carbon_dioxide: Anidride Carbonica
+  item_name_oxygen: Ossigeno
+  item_name_iron: Ferro
+  item_name_copper: Rame
+  item_name_glucose: Glucosio
+  item_name_ribose: Ribosio
+  item_name_ethanol: Etanolo
+  item_name_glycerol: Glicerolo
+  item_name_lactate: Lattato
+  item_name_malate: Malato
+  item_name_oxaloacetate: Ossalacetato
+  item_name_pyruvate: Piruvato
+  item_name_vitamin_b3: Vitsamina B3
+  item_name_hemoglobin: Emoglobina
+  item_name_hemoglobin_subunit_alpha: Emoglobina Subunità α
+  item_name_hemoglobin_subunit_beta: Emoglobina Subunità β
+  item_name_item_sink: Pozzo
+  item_name_black_box: Scatola Nera
+  item_name_heater: Riscaldatore
+  item_name_infector: Infettatore
+  item_name_adp_synthase_enzyme: Enzima ADP Sintasi
+  item_name_alcohol_dehydrogenase: Alcol Deidrogenasi
+  item_name_base_pair_ligase_enzyme: Enzima Ligasi di Basi
+  item_name_glycolysis_enzyme: Enzima Glicolisi
+  item_name_krebs_cycle_enzyme: Enzima Ciclo di Krebs
+  item_name_lactate_dehydrogenase: Lattato Deidrogenasi
+  item_name_malate_dehydrogenase: Malato Deidrogenasi
+  item_name_nucleobase_synthase_enzyme: Enzima Nucleobase Sintasi
+  item_name_pentose_phosphate_pathway_enzyme: Enzima Via Pentoso Fosfati
+  item_name_nad_synthase_enzyme: Enzima NAD Sintasi
+  item_name_pyruvate_carboxylase_enzyme: Enzima Piruvato Carbossilasi
+  item_name_pyruvate_dehydrogenase_enzyme: Enzima Piruvato Deidrogenasi
+  item_name_nad_nadp_transhydrogenase_enzyme: Enzima NAD/NADP Transidrogenasi
+  item_name_luciferase_enzyme: Enzima Luciferasi
+  item_name_aspartate_aminotransferase: Aspartato Aminotransferasi
+  item_name_cell_membrane: Membrana Cellulare
+  item_name_collagen_flooring: Pavimento di Collagene
+  item_name_collagen_scaffold: Impalcatura di Collagene
+  item_name_cytoskeleton_scaffold: Impalcatura di Citoscheletro
+  item_name_staminal_tissue: Tessuto Staminale
+  item_name_necrotic_tissue: Tessuto Necrotico
+  item_name_mitochondrial_membrane: Membrana Mitocondriale
+  item_name_energy_station: Stazione Energetica
+  item_name_protease: Proteasi
+  item_name_defensin_theta: Defensina θ
+  item_name_uniporter_mrna: Uniporto mRNA
+  item_name_uniporter_pyruvate: Uniporto Piruvato
+  item_name_virus: Virus
+  item_name_bacterium_bacillus_blue: Bacillo Blu
+  item_name_bacterium_bacillus_green: Bacillo Verde
+  item_name_bacterium_coccus_red: Cocco Rosso
+  item_name_bacterium_coccus_yellow: Cocco Giallo
+  item_name_capillary: Capillare
+  item_name_artery1x1: Arteria Piccola
+  item_name_artery2x2: Arteria Media
+  item_name_artery4x4: Argeria Grande
+  item_name_vein1x1: Vena Piccola
+  item_name_vein2x2: Vena Media
+  item_name_vein4x4: Vena Grande
+  item_name_resource_heap: Cumulo di Risorse
+  item_name_missing_item: Item Mancante
+  item_name_none: Nessuno
+  evolution_name_birth_of_life: Nascita della Vita
+  evolution_description_birth_of_life: Sblocca le ricette iniziali
+  evolution_name_advanced_bioluminescence: Bioluminescenza Avanzata
+  evolution_name_advanced_distribution: Distribuzione Avanzata
+  evolution_name_advanced_primordial_immunity: Immunità Primordiale Avanzata
+  evolution_name_advanced_routing: Smistamento Avanzato
+  evolution_name_alcoholic_fermentation: Fermentazione Alcolica
+  evolution_name_beta_sheet_and_alpha_helix: Alfa Elica e Foglietto Beta
+  evolution_name_collagen: Collagene
+  evolution_name_colored_pickers: Selettori Colorati
+  evolution_name_diffuser: Diffusore
+  evolution_name_energy_distribution: Distrubuzione di Energia
+  evolution_name_evolution_1: Evoluzione 1
+  evolution_name_evolution_2: Evoluzione 2
+  evolution_name_expansion: Espansione
+  evolution_name_extracellular_distribution: Distribuzione Extracellulare
+  evolution_name_extracellular_expansion: Espansione Extracellulare
+  evolution_name_extreme_routing: Smistamento Estremo
+  evolution_name_filtering_picker: Selettore Filtrante
+  evolution_name_functional_proteins: Proteine Funzionali
+  evolution_name_gas_logistics: Logistica Gassosa
+  evolution_name_innate_response: Risposta Innata
+  evolution_name_intracellular_organization_1: Organizzazione Intracellulare 1
+  evolution_name_intracellular_organization_2: Organizzazione Intracellulare 2
+  evolution_name_intracellular_production: Produzione Intracellulare
+  evolution_name_kinesin: Kinesina
+  evolution_name_krebs_cycle: Ciclo di Krebs
+  evolution_name_membrane_transportation: Trasporto di Membrana
+  evolution_name_membrane_transportation_advanced: Trasporto Avanzato di Membrana
+  evolution_name_mitochondrion: Mitocondrio
+  evolution_name_mitochondrion_transportation: Trasporto Mitocondriale
+  evolution_name_myosin: Miosina
+  evolution_name_novel_pickers: Selettori Speciali
+  evolution_name_pentose_phosphate_pathway: Via dei Pentoso Fosfati
+  evolution_name_primitive_bioluminescence: Bioluminescenza Primitiva
+  evolution_name_primordial_immunity: Immunità Primordiale
+  evolution_name_pyruvate_manipulation: Manipolazione Piruvato
+  evolution_name_staminal_discovery: Scoperta Staminale
+  evolution_name_subunits: Subunità
+  evolution_name_tubulins: Tubuline
+  evolution_name_transportation_basic: Trasporto Base
+  evolution_name_transportation_advanced: Trasporto Avanzato
+  evolution_name_gathering_basic: Raccolta Base
+  evolution_name_primitive_logistics: Logistica Primitiva
+  evolution_name_energy_production_1: Glicolisi
+  evolution_name_energy_production_2: Metabolismo Ossidativo
+  evolution_name_energy_production_3: Generazione ATP
+  evolution_name_heat_production: Generazione Calore
+  evolution_group_evolution: Evoluzione
+  evolution_group_proteins: Proteine
+  evolution_group_logistics: Logistica
+  evolution_group_routing: Smistamento
+  evolution_group_energy: Energia
+  evolution_group_mitochondrial_energy: Energia Mitocondriale
+  item_description_picker_red: Selettore che filtra solo gli oggetti rossi
+  item_description_picker_yellow: Selettore che filtra solo gli oggetti gialli
+  item_description_picker_white: Selettore che filtra solo gli oggetti bianchi
+  item_description_picker_fast: Selettore più veloce di quello base
+  item_description_picker_overlong: Selettore che è in grado di spostare gli oggetti attraverso due tiles
+  item_description_picker_primitive: Selettore lento che si ossida con l'utilizzo
+  item_description_picker_long: Selettore che è in grado di spostare gli oggetti attraverso un tile
+  item_description_aminoacid_red: Aminoacido utilizzato per sintetizzare le proteine nei ribosomi
+  item_description_aminoacid_green: Aminoacido utilizzato per sintetizzare le proteine nei ribosomi
+  item_description_aminoacid_blue: Aminoacido utilizzato per sintetizzare le proteine nei ribosomi
+  item_description_aminoacid_yellow: Aminoacido utilizzato per sintetizzare le proteine nei ribosomi
+  item_description_tubulin_red: Proteina strutturale base utilizzata per molti elementi logistici
+  item_description_tubulin_green: Proteina strutturale base utilizzata per molti elementi logistici
+  item_description_tubulin_yellow: Proteina strutturale base utilizzata per molti elementi logistici
+  item_description_tubulin_blue: Proteina strutturale base utilizzata per molti elementi logistici
+  item_description_subunit_red: Proteina che può essere assemblata per produrre strutture
+  item_description_subunit_cyan: Proteina che può essere assemblata per produrre strutture
+  item_description_subunit_blue: Proteina che può essere assemblata per produrre strutture
+  item_description_subunit_green: Proteina che può essere assemblata per produrre strutture
+  item_description_subunit_yellow: Proteina che può essere assemblata per produrre strutture
+  item_description_oxygen: Gas utilizzato all'interno del mitocondrio per accettare elettroni
+  item_description_thermogenin: Proteina utilizzata per assemblare un <a>Disaccoppiatore</a>
+  item_description_actin_g: L'<a>Actina G</a> è un mattone di un filamento di actina
+  item_description_actin_f: L'<a>Actina F</a> è una proteina versatile usata per le parti attive di una cellula
+  item_description_atp: L'<a>ATP</a> è una molecola carica in grado di fornire energia a tutti i processi vitali
+  item_description_phospholipid: Tipo speciale di lipide utilizzato per le membrane cellulari
+  item_description_item_tunnel: Un tunnel permette lo spostamento di oggetti sotto il suolo, per utilizzarlo sono necessari due tunnel allineati
+  item_description_evolver: Struttura utilizzata per scoprire nuove evoluzioni consumando materiale genomico
+  item_description_ribosome: Struttura intracellulare che produce proteine assemblando amminoacidi
+  item_description_assembler: L'<a>assemblatore</a> è una struttura in grado di assemblare <a>proteine</a> in prodotti finiti come strutture o tessuti
+  item_description_nad_nadp_transhydrogenase_enzyme: Enzima utilizzato per spostare elettroni tra molecole di <a>NAD+</a> e <a>NADP+</a>
+  zone_layer_name_special: Speciale
+  zone_layer_name_intracellular: Intracellulare
+  zone_layer_name_extracellular: Extracellulare
+  zone_layer_name_internal: Interno
+  zone_layer_name_colony: Colonia
+  zone_name_cytoskeleton: Citoscheletro
+  zone_name_cytosol: Citosol
+  zone_name_extracellular_matrix: Matrice Extracellulare
+  zone_name_mitochondrion: Mitocondrio
+  zone_name_nucleus: Nucleo
+  zone_name_staminal_tissue: Tessuto Staminale
+  zone_name_necrosis: Necrosi
+  recipe_name_nad_synthase: NAD Sintasi
+  recipe_name_nadp_synthase: NADP Sintasi
+  recipe_name_adp_synthase: ADP Sintasi
+  recipe_name_glycolysis: Glicolisi
+  recipe_name_krebs_cycle: Ciclo di Krebs
+  recipe_name_pentose_phosphate_pathway: Via Pentoso Fosfati
+  recipe_name_pyruvate_carboxylase: Piruvato Carbossilasi
+  recipe_name_pyruvate_dehydrogenase: Piruvato Deidrogenasi
+  disease_name_infection_bacterial_bacillus_green: Infezione
+  disease_name_infection_bacterial_bacillus_blue: Infezione
+  disease_name_infection_bacterial_coccus_red: Infezione
+  disease_name_infection_bacterial_coccus_blue: Infezione
+  organism_name_bacterium_bacillus_blue: Bacillo Blu
+  organism_name_bacterium_bacillus_green: Bacillo Verde
+  organism_name_bacterium_coccus_red: Cocco Rosso
+  organism_name_bacterium_coccus_yellow: Cocco Giallo
+  organism_name_red_blood_cell: Globulo Rosso
+  organism_name_stem_cell: Cellula Staminale
+  organism_name_virus: Virus
+  ui_tool_name_hand: Strumento Mano
+  ui_tool_name_microtubule: Strumento Microtubuli
+  ui_tooltip_tool_hand: interagisci con il mondo
+  ui_tooltip_tool_destroy: distruggi strutture
+  ui_tooltip_tool_microtubule_metatool: gestione microtubuli
+  ui_tooltip_tool_chunk_planner: espandi o esegui azioni su aree
+  ui_tooltip_tool_chunk_painter: modifica zone e pavimenti
+  ui_tooltip_tool_free_build: sii la mano più forte di sempre
+  ui_tooltip_tool_microtubule_primitive_placement: piazza e rimuovi microtubuli primitivi
+  ui_tooltip_tool_microtubule_placement: piazza e rimuovi microtubuli
+  ui_tooltip_tool_microtubule_advanced_placement: piazza e rimuovi microtubuli avanzati
+  ui_tooltip_tool_commander: comanda i tuoi organismi
+  ui_tooltip_open_main_menu: apri menu principale
+  ui_tooltip_open_evolution_view: apri vista evoluzione
+  ui_tooltip_open_recipe_list: apri lista ricette
+  ui_tooltip_open_game_guide: apri guida del gioco
+  ui_tooltip_open_goal_list: apri obiettivi
+  ui_tooltip_open_tutorial: apri tutorial
+  ui_tooltip_open_minimap: apri minimappa
+  ui_tooltip_open_debug_window: apri finestra debug
+  ui_tooltip_open_extra_views_menu: apri menu viste extra
+  ui_tooltip_toggle_object_overlay: visibilità contenuto strutture
+  ui_tooltip_toggle_mouse_opacity: visibilità attorno al mouse
+  ui_tooltip_toggle_walls: visibilità muri
+  ui_tooltip_toggle_buildings: visibilità edifici
+  ui_tooltip_toggle_grid: visibilità griglia
+  ui_tooltip_zoom_out: riduci
+  ui_tooltip_zoom_in: ingrandisci
+  ui_tooltip_pause: ferma l'universo
+  ui_tooltip_game_speed1x: velocità normale
+  ui_tooltip_game_speed2x: velocità veloce
+  ui_tooltip_game_speed3x: velocità smodata
+  ui_tooltip_toggle_power_overlay: mostra layer energia
+  ui_tooltip_toggle_temperature_overlay: mostra layer temperatura
+  ui_tooltip_outside_temperature: temperatura esterna
+  ui_tooltip_playtime: tempo di gioco
+  ui_tooltip_worldtime: tempo del mondo
+  ui_info_window_section_energy_production: Produzione Energia
+  ui_info_window_section_energy_consuption: Utilizzo Energia
+  ui_info_window_section_phosphorylation: Fosforilazione
+  ui_info_window_section_heat: Calore
+  ui_info_window_section_filter: Filtro
+  ui_info_window_section_oxidation: Ossidazione
+  ui_info_window_usage: Utilizzo
+  ui_info_window_energy: Energia
+  ui_info_window_production: Produzione
+  ui_info_window_uses_left: Utilizzi Rimasti
+  ui_info_window_efficiency: Efficienza
+  ui_info_window_health: Salute
+  ui_info_window_currently_researching: Attualmente evolvendo
+  ui_info_window_receiving: Ricevendo
+  ui_info_window_producing: Producendo
+  ui_popup_menu_items: Oggetti
+  ui_popup_menu_colors: Colori
+  ui_popup_menu_categories: Categorie
+  ui_main_menu_new_game: Nuovo Gioco
+  ui_main_menu_resume_game: Continua
+  ui_main_menu_start_game: Inizia
+  ui_main_menu_save_game: Salva
+  ui_main_menu_load_game: Carica
+  ui_main_menu_load: Carica
+  ui_main_menu_delete: Elimina
+  ui_main_menu_continue_game: Continua
+  ui_main_menu_quit_game: Chiudi Gioco
+  ui_main_menu_games: Giochi
+  ui_main_menu_host: Ospita
+  ui_main_menu_join: Unisciti
+  ui_main_menu_options: Opzioni
+  ui_main_menu_exit: Esci
+  ui_main_menu_back: Indietro
+  ui_main_menu_about: Crediti
+  ui_main_menu_blog: Devblog
+  ui_main_menu_discord: Discord
+  ui_main_menu_github: GitHub
+  ui_main_menu_ok: Ok
+  ui_main_menu_cancel: Annulla
+  ui_main_menu_close: Chiudi
+  ui_main_menu_none: Nessuno
+  ui_main_menu_mods: Mods
+  ui_main_menu_advanced: Avanzato
+  ui_main_menu_puzzle: Impara
+  ui_main_menu_open_user_folder: Apri cartella utente
+  ui_main_menu_reset_window_position: Resetta posizione finestre
+  ui_main_menu_no_games_to_load: Non ci sono giochi da mostrare. Vai a giocare un po' a Lifecraft!
+  ui_main_menu_discord_link: Discord
+  ui_main_menu_discord_link_tooltip: Apri server Discord ufficiale
+  ui_main_menu_keybind_assign_dialog: Premi un tasto per assegnarlo all'azione
+  ui_main_menu_language_warning: Le traduzioni sono work in progress, potrebbero esserci traduzioni incomplete o sbagliate
+  ui_main_menu_about_early_access: Early Access
+  ui_main_menu_about_pixbits: Pixbits
+  ui_main_menu_about_credits: Crediti
+  ui_game_info_last_saved: Ultimo salvataggio
+  ui_game_info_playtime: Tempo di gioco
+  ui_game_info_seed: Seed
+  ui_new_game_advanced_settings: Impostazioni Avanzate
+  ui_new_game_enable_character: Attiva Personaggio
+  ui_new_game_unlock_research: Sblocca Ricerca
+  ui_new_game_allow_creative_tools: Tool Creativi
+  ui_new_game_enable_necrosis: Necrosi
+  ui_new_game_enable_temperature: Temperatura
+  ui_new_game_enable_bacteria: Batteri
+  ui_new_game_enable_oxidation: Ossidazione
+  ui_new_game_enable_developer: Sviluppatore
+  ui_new_game_chunk_size: Dimensione Chunk
+  ui_new_game_heap_content_multiplier: Risorse
+  ui_new_game_world_seed: Seed
+  ui_new_game_world_seed_placeholder: seed
+  ui_new_game_world_name: Nome
+  ui_new_game_world_name_placeholder: nome mondo
+  ui_new_game_darkness: Oscurità
+  ui_new_game_darkness_tranquil: Lieve
+  ui_new_game_darkness_pitch_black: Nero Pece
+  ui_new_game_starting_size: Dimensione Iniziale
+  ui_new_game_starting_size_tiny: Minuscola
+  ui_new_game_starting_size_small: Piccolo
+  ui_new_game_starting_size_normal: Normale
+  ui_new_game_starting_size_large: Grande
+  ui_new_game_starting_size_huge: Enorme
+  ui_new_game_complexity: Complessità
+  ui_new_game_complexity_casual: Casuale
+  ui_new_game_complexity_normal: 'Normale '
+  ui_new_game_custom_warning: Cambiare queste impostazioni può generare modalità distorte di gioco
+  ui_option_group_sound: Suono
+  ui_option_group_graphics: Grafica
+  ui_option_group_interface: Interfaccia
+  ui_option_group_misc: Varie
+  ui_option_group_language: Lingua
+  ui_option_group_bindings: Tasti
+  ui_option_group_controls: Controlli
+  ui_option_group_developer: Sviluppatore
+  ui_option_group_language_disabled_label: Esci dal gioco per cambiare lingua
+  ui_option_fullscreen: Schermo Intero
+  ui_option_vsync: Vsync
+  ui_option_scrolling_speed: Velocità di scorrimento
+  ui_option_interface_scale: Scala dell'interfaccia
+  ui_option_remember_window_position: Ricorda posizione finestra
+  ui_option_skip_splash_screen: Salta logo iniziale
+  ui_option_enable_hand_cursors: Utilizza grafica mano cursori
+  ui_option_use_pixel_font: Utilizza font pixelato
+  ui_option_use_compact_recipe_tooltips: Tooltip ricette compatte
+  ui_option_enable_animated_windows: Finestre Animate
+  ui_option_enable_animated_tooltips: Tooltip Animate
+  ui_option_show_information_tooltip_on_mouse: Mantieni tooltip informazioni sul mouse
+  ui_option_information_tooltip_delay: Delay tooltip informazioni
+  ui_option_show_item_count_on_object_overlay: Mostra contatori in contenuto strutture
+  ui_option_show_paused_game_hint: Mostra testo di mondo in pausa
+  ui_option_swap_mouse_buttons_for_world_interactions: Inverti bottoni mouse per interazioni con mondo
+  ui_option_invert_mouse_wheel: Inverti rotella mouse
+  ui_option_invert_pan_direction: Inverti scorrimento viewport
+  ui_option_viewport_drag_with_right_mouse_button: Permetti spostamento con drag mouse
+  ui_option_viewport_scroll_at_window_edge: Scorrimento viewport ai bordi finestra
+  ui_option_viewport_scroll_when_zooming_in: Scorrimento viewport con zoom in
+  ui_option_viewport_scroll_when_zooming_out: Scorrimento viewport con zoom out
+  ui_option_show_trivia: Mostra trivia
+  ui_option_skip_tutorial: Salta tutorial
+  ui_option_pause_game_on_focus_loss: Pausa su perdita focus
+  ui_option_start_game_as_paused: Carica partite in pausa
+  ui_option_enable_sound: Suono
+  ui_option_enable_music: Musica
+  ui_option_mute_sound_on_focus_loss: Muto su perdita focus
+  ui_option_generate_game_preview: Genera anteprima mondi
+  ui_option_try_to_guess_object_positions: Facilita orientamento oggetti
+  ui_option_highlight_evolution_path: Evidenzia evoluzione selezionata
+  ui_option_show_worlds_in_main_view: Mostra mondi nel menu principale
+  ui_option_colorblind_mode: Modalità daltonismo
+  ui_option_draw_building_shadows: Disegna ombre degli edifici
+  ui_option_hide_unknown_recipes_in_recipe_list: Nascondi ricette sconosciute dalla lista
+  ui_option_use_imperial_units: Utilizza unità imperiali
+  ui_option_save_game_on_exit: Salva automaticamente all'uscita dal mondo
+  ui_option_show_trivia_tooltip: mostra curiosità sugli oggetti e strutture
+  ui_window_name_recipe_list: Ricette
+  ui_window_name_goal_list: Obiettivi
+  ui_window_name_tutorial: Tutorial
+  ui_recipe_requires_additional_evolutions: Non hai scoperto alcune evoluzioni necessarie per questa ricetta
+  ui_recipe_is_still_work_in_progress: La meccanica è ancora in sviluppo, potrebbe non funzionare come inteso o non funzionare proprio
+  ui_recipe_cannot_produce_in_this_zone: Non può essere prodotto in questa zona
+  ui_recipe_enzyme_is_missing: Enzima mancante!
+  ui_recipe_close_popup: Chiudi
+  ui_game_paused: Il tempo è fermo
+  ui_related_recipes: Ricette Correlate
+  ui_goal_hidden: Nascosto
+  ui_ruleset_sandbox: Sandbox
+  ui_ruleset_peaceful: Pacifico
+  ui_ruleset_survival: Sopravvivenza
+  ui_ruleset_adventure: Avventura
+  ui_ruleset_custom: Personalizzato
+  ui_ruleset_description_sandbox: La modalità <n>Sandbox</n> è una modalità in cui puoi sperimentare e costruire liberamente, l'evoluzione è sbloccata, puoi posizionare oggetti gratuitamente, hai accesso a strumenti creativi per espandere e costruire nuove zone.
+  ui_ruleset_description_peaceful: La modalità <y>Pacifica</y> è una modalità in cui giochi in un ambiente tranquillo, devi creare strutture ed evolverti ma non devi preoccuparti di cosa ti avviene intorno, quindi niente nemici e niente temperatura.
+  ui_ruleset_description_survival: La modalità <r>Sopravvivenza</r> è una modalità in cui devi cercare di sopravvivere, la temperatura esterna diminuirà lentamente e dovrai essere pronto con la produzione di calore, le colonie di batteri cresceranno e ti attaccheranno se ti avvicini troppo a loro.
+  ui_ruleset_description_adventure: La modalità <H9538ff>Avventura</H> è una modalità in cui devi controllare proprio lui. Come è finito miniaturizzato in questo mondo? Dovrai scoprirlo da solo. Sopravvivi ed espandi il tuo organismo, ma non dimenticare di mantenerti in vita.
+  ui_ruleset_description_custom: La modalità <b>Personalizzata</b> ti consente di modificare il gameplay standard. Crea le tue regole e gioca al ritmo che preferisci!
+  ui_ruleset_first_game_warning: Sembra che sia il tuo primo gioco, ti suggeriamo di provare un mondo <y>pacifico</y> prima di lanciarti nella modalità <r>sopravvivenza</r>!
+  ui_evolution_is_working_in_progress: Questa evoluzione è in sviluppo, potrebbe non funzionare, potrebbe cambiare, considerala a tuo rischio e pericolo
+  ui_evolution_is_a_placeholder: Questa evoluzione verrà introdotta in un update futuro
+  ui_dialog_confirm_delete: Sei sicuro di voler eliminare questo salvataggio?
+  ui_dialog_restart_game_to_apply_changes: Perfavore riavvia il gioco per applicare le modifiche a tutti gli elementi dell'interfaccia
+  ui_popup_choose_transporter: Scegli Trasportatore
+  ui_popup_choose_recipe: Scegli Ricetta
+  ui_popup_choose_chunk_action: Scegli Azione
+  ui_popup_pickup_item: Prendi Oggetto
+  ui_save_failed: errore durante salvataggio gioco
+  ui_save_options_failed: errore durante salvataggio opzioni
+  ui_confirm_save_overwrite: Il file esiste di già, vuoi sovrascriverlo?
+  ui_cursor_open_object_context_menu: apri menu contestuale
+  ui_cursor_place_structure: piazza struttura
+  ui_cursor_pickup: prendi
+  ui_cursor_drop: lascia
+  ui_cursor_force_pickup: prendi forzatamente
+  ui_cursor_assemble: assembla
+  ui_cursor_stash: metti via
+  ui_cursor_place_microtubule: colloca
+  ui_cursor_remove_microtubule: rimuovi
+  ui_player_entered_world: '{} è entrato nel mondo'
+  ui_player_left_world: '{} è uscito dal mondo'
+  object_action_fill: Riempi
+  object_action_clear: Svuota
+  object_action_rotate_right: Ruota a Destra
+  object_action_rotate_left: Ruota a Sinistra
+  object_action_set_filter: Imposta Filtro
+  object_action_set_recipe: Imposta Ricetta
+  object_action_switch_direction: Inverti
+  object_action_refill: Riempi
+  object_action_set_input: Imposta Input
+  object_action_set_output: Imposta Output
+  object_action_assemble: Assembla
+  object_action_retrieve_enzyme: Recupera Enzima
+  object_action_deplete: Esaurisci
+  object_action_regenerate: Rigenera
+  object_action_switch_pick_mode: Cambia Modalità Output
+  object_action_switch_drop_mode: Cambia Modalità Input
+  action_name_execute_first_action: Operazione Primaria
+  action_name_execute_second_action: Operazione Secondaria
+  action_name_switch_tool_hand: Strumento Mano
+  action_name_switch_tool_destroy: Strumento Distruggi
+  action_name_switch_tool_microtubule_metatool: Strumento Microtubuli
+  place_error_message_cant_be_placed_on_membrane: Impossibile costruire su membrana, solo su capsula
+  place_error_message_requires_membrane: Dev'essere costruito su una membrana cellulare
+  place_error_message_must_be_attached_to_membrane: Dev'essere costruito sopra una membrana
+  place_error_message_must_be_placed_on_non_necrotic_chunk: Non può essere costruito su aree necrotiche
+  place_error_message_cant_be_placed_on_objects: Impossibile costruire sopra altri oggetti
+  place_error_message_cant_be_placed_on_corner: Impossibile costruire in un angolo
+  place_error_cant_be_placed_on_wall: Impossibile costruire su membrana o capsula
+  place_error_message_cant_be_placed_on_railing: Impossibile costruire su microtubuli
+  place_error_message_must_be_placed_on_existing_tile: Dev'essere costruito su tessuto esistente
+  place_error_cant_be_placed_on_this_tissue: Impossibile costruire su questo tipo di tessuto
+  place_error_message_must_be_placed_on_discovered_chunk: Impossibile costruire su chunk non scoperto
+  place_error_message_must_be_placed_on_non_diseased_tile: Impossibile costruire su tile malato
+  place_error_message_too_far_way: Troppo distante
+  object_remove_error_object_has_disease: Non può essere distrutto perché affetto da
+  too_faraway: troppo lontano
+  chunk_action_build: Costruisci {}
+  chunk_action_chunk_apoptosis: Smantella
+  chunk_action_error_cant_build: Impossibile costuire {}
+  chunk_action_error_chunk_must_be_empty: il chunk dev'essere libero da strutture
+  chunk_action_error_requires_intracellular_all_around: ha bisogno di essere circondato da zone intracellulari
+  chunk_action_cancel: Annulla Operazione
+  chunk_action_pause: Sospendi Operazione
+  chunk_action_unpause: Riprendi Operazione
+  chunk_action_no_available_actions: Nessuna azione
+  chunk_action_chunk_is_necrotic: Il chunk è necrotico
+  chunk_action_chunk_is_not_owned: Il chunk non è tuo
+  chunk_action_chunk_is_not_discovered: Il chunk non è scoperto
+  chunk_action_zone_is_not_unlocked: La zona non è stata sbloccata ancora
+  chunk_action_colony_attack: Attacca Colonia
+  research_known: Scoperto
+  research_blocked: Bloccato
+  research_researching: In evoluzione
+  research_start: Evolvi
+  research_work_in_progress: Lavori in corso
+  research_unlock: Sblocca
+  research_cancel: Annulla
+  research_search_box_placeholder: cerca
+  zone_filter_everywhere: ovunque
+  item_filter_all: tutti
+  item_filter_none: nessuno
+  chunk_healthy: Sano
+  chunk_health: Salute
+  chunk_infected: Malattia
+  chunk_temperature: Temperatura
+  notification_evolution_complete: 'Evoluzione completata: {}'
+  notification_outside_temperature_dropped: La temperatura esterna è scesa sotto {}
+  notification_chunk_died_by_necrosis: Alcune aree stanno morendo per necrosi
+  notification_chunk_is_freezing: Alcune aree sono in ipotermia
+  notification_chunk_is_unhealthy: Uno dei tuoi chunk non è in salute
+  notification_chunk_is_getting_cold: Alcune aree si stanno raffreddando
+  notification_objects_are_unpowered: Alcune delle tue strutture non stanno ricevendo abbastanza energia
+  notification_objects_are_oxidized: Alcune delle tue strutture sono ossidate
+  notification_concept_enzymes: Una struttura posizionata richiede un enzima per operare
+  notification_concept_evolution: Una struttura posizionata può essere usata per scoprire nuove evoluzioni
+  notification_concept_expansion: Una struttura posizionata può essere usata espandere l'organismo
+  notification_concept_membrane_transportation: Una struttura posizionata può trasportare oggetti attraverso membrane
+  notification_concept_energy: Una struttura posizionata richiede energia per operare
+  notification_concept_energy_distribution: A proposito della distribuzione di energia
+  notification_concept_production: Una struttura posizionata può produrre oggetti
+  notification_concept_resources: Una struttura posizionata può assorbire oggetti dall'esterno
+  notification_concept_oxidation: Alcune tue strutture sono ossidate
+  notification_concept_material_dispatch: Hai avviato un task che richiede la consegna di materiali
+  notification_concept_necrosis: Uno dei tuoi chunk è necrotico
+  notification_concept_mitochondrion: 'Hai costruito un mitocondrio: la centrale energetica della cellula!'
+  notification_concept_bacteria: Uno dei tuoi tile è stato infettato
+  notification_more_info: più informazioni
+  notification_dismiss: scarta
+  notification_go_there: naviga lì
+  goal_name_first_steps: Primi Passi
+  goal_task_text_first_steps_1: assembla un banco di lavoro per aiutarti
+  goal_name_siphon_red_aminoacid: Aspira Aminoacidi Rossi
+  goal_task_text_siphon_red_aminoacid_1: posiziona il tuo primo citostoma
+  goal_task_text_siphon_red_aminoacid_2: posiziona un selettore primitivo
+  goal_task_text_siphon_red_aminoacid_3: costruisci alcuni microtubuli
+  goal_task_text_siphon_red_aminoacid_4: aspira alcuni aminoacidi rossi
+  goal_name_automate_red_tubulin: Automatizza il Tubulina Rossa
+  goal_task_text_automate_red_tubulin_1: assembla il tuo primo ribosoma
+  goal_task_text_automate_red_tubulin_2: posiziona un altro selettore primitivo
+  goal_task_text_automate_red_tubulin_3: automatizza la produzione di tubulina rossa
+  goal_name_automate_yellow_tubulin: Automatizza il Tubulina Gialla
+  goal_task_text_automate_yellow_tubulin_1: costruisci un secondo ribosoma
+  goal_task_text_automate_yellow_tubulin_2: costruisci 1 citostoma per aminoacidi gialli
+  goal_task_text_automate_yellow_tubulin_3: costruisci 2 selettori
+  goal_task_text_automate_yellow_tubulin_4: automatizza la produzione di tubulina gialla
+  goal_name_discover_assembler: Scopri l'Assemblatore
+  goal_task_text_discover_assembler_1: costruisci un evolutore
+  goal_task_text_discover_assembler_2: scopri l'assemblatore
+  goal_name_automate_microtubule_primitive: Automatizza Microtubulo Primitivo
+  goal_task_text_automate_microtubule_primitive_1: costruisci un assemblatore
+  goal_task_text_automate_microtubule_primitive_2: automatizza la produzione di microtubuli primitivi
+  goal_name_automate_picker_primitive: Automatizza Selettore Primitivo
+  goal_task_text_automate_picker_primitive_1: costruisci un assemblatore
+  goal_task_text_automate_picker_primitive_2: automatizza la produzione di selettori primitivi
+  goal_name_automate_green_blue_tubulins: Automatizza Tubuline Verdi Blu
+  goal_task_text_automate_green_blue_tubulins_1: automatizza la produzione di tubulina verde
+  goal_task_text_automate_green_blue_tubulins_2: automatizza la produzione di tubulina blu
+  goal_name_improve_siphoning: Migliora l'Aspirazione
+  goal_task_text_improve_siphoning_1: scopri il trasporto di base
+  goal_task_text_improve_siphoning_2: costruisci 2 espulsori di oggetti
+  goal_task_text_improve_siphoning_3: raddoppia i citostomi per aminoacidi rossi
+  goal_task_text_improve_siphoning_4: raddoppia i citostomi per aminoacidi gialli
+  goal_name_build_mitochondrion: Costruisci un Mitocondrio
+  goal_task_text_build_mitochondrion_1: costruisci un mitocondrio
+  goal_name_first_expansion: Prima Espansione
+  goal_task_text_first_expansion_1: prepara una zona di citoscheletro
+  goal_task_text_first_expansion_2: espandi di un pezzo
+  goal_name_produce_nucleobase: Produci Nucleobasi
+  goal_task_text_produce_nucleobase_1: rompi i plasmidi con la DNA nucleasi
+  goal_name_transport_through_membrane: Trasporto Attraverso la Membrana
+  goal_task_text_transport_through_membrane_1: trasporta oggetti attraverso uniportatori
+  goal_task_text_transport_through_membrane_2: trasporta oggetti attraverso cotrasportatori
+  goal_name_regenerate_through_diffuser: Rigenera Attraverso il Diffusore
+  goal_task_text_regenerate_through_diffuser_1: rigenera 10 oggetti con un diffusore
+  goal_name_chunk_died_by_necrosis: Pezzo Morto per Necrosi
+  goal_task_text_chunk_died_by_necrosis_1: lascia che un pezzo muoia per necrosi
+  goal_name_killed_bacteria_by_hand: Ucciso Batterio con le Mani
+  goal_task_text_killed_bacteria_by_hand_1: uccidi un batterio a mani nude
+  goal_name_first_siphoning: Prima Aspirazione
+  goal_task_text_first_siphoning_1: aspira il tuo primo oggetto
+  goal_name_basic_siphoning: Aspirazione di Base
+  goal_task_text_basic_siphoning_1: aspira 10 oggetti
+  goal_name_intermediate_siphoning: Aspirazione Intermedia
+  goal_task_text_intermediate_siphoning_1: aspira 100 oggetti
+  goal_name_advanced_siphoning: Aspirazione Avanzata
+  goal_task_text_advanced_siphoning_1: aspira 1000 oggetti
+  goal_name_first_disposing: Prima Smaltimento
+  goal_task_text_first_disposing_1: smaltisci un oggetto
+  goal_name_basic_disposing: Smaltimento di Base
+  goal_task_text_basic_disposing_1: smaltisci 10 oggetti
+  goal_name_intermediate_disposing: Smaltimento Intermedio
+  goal_task_text_intermediate_disposing_1: smaltisci 100 oggetti
+  goal_name_advanced_disposing: Smaltimento Avanzato
+  goal_task_text_advanced_disposing_1: smaltisci 1000 oggetti
+  goal_name_first_stashing: Prima Accumulazione
+  goal_task_text_first_stashing_1: accumula un oggetto con lo stasher
+  goal_name_basic_stashing: Accumulazione Base
+  goal_task_text_basic_stashing_1: accumula 10 oggetti con lo stasher
+  goal_name_intermediate_stashing: Accumulazione Intermedia
+  goal_task_text_intermediate_stashing_1: accumula 100 oggetti con lo stasher
+  goal_name_advanced_stashing: Accumulazione Avanzata
+  goal_task_text_advanced_stashing_1: accumula 1000 oggetti con lo stasher
+  goal_name_first_catalysis: Prima Catalisi
+  goal_task_text_first_catalysis_1: catalizza la tua prima reazione
+  goal_name_basic_catalysis: Catalisi Base
+  goal_task_text_basic_catalysis_1: catalizzate 10 reazioni
+  goal_name_intermediate_catalysis: Catalisi Intermedia
+  goal_task_text_intermediate_catalysis_1: catalizzate 100 reazioni
+  goal_name_advanced_catalysis: Catalisi Avanzata
+  goal_task_text_advanced_catalysis_1: catalizzate 1000 reazioni
+  goal_name_extreme_catalysis: Catalisi Estrema
+  goal_task_text_extreme_catalysis_1: catalizzate 10000 reazioni
+  goal_name_first_atp_burning: Prima Combustione ATP
+  goal_task_text_first_atp_burning_1: brucia la tua prima molecola di ATP
+  goal_name_basic_atp_burning: Combustione Base ATP
+  goal_task_text_basic_atp_burning_1: brucia 10 molecole di ATP
+  goal_name_intermediate_atp_burning: Combustione Intermedia ATP
+  goal_task_text_intermediate_atp_burning_1: brucia 100 molecole di ATP
+  goal_name_advanced_atp_burning: Combustione Avanzata ATP
+  goal_task_text_advanced_atp_burning_1: brucia 1000 molecole di ATP
+  goal_name_extreme_atp_burning: Combustione Estrema ATP
+  goal_task_text_extreme_atp_burning_1: brucia 10000 molecole di ATP
+  goal_name_first_atp_recharging: Prima Ricarica ATP
+  goal_task_text_first_atp_recharging_1: ricarica un ATP con una sintasi
+  goal_name_basic_atp_recharging: Ricarica Base ATP
+  goal_task_text_basic_atp_recharging_1: ricarica 10 molecole di ATP
+  goal_name_intermediate_atp_recharging: Ricarica Intermedia ATP
+  goal_task_text_intermediate_atp_recharging_1: ricarica 100 molecole di ATP
+  goal_name_advanced_atp_recharging: Ricarica Avanzata ATP
+  goal_task_text_advanced_atp_recharging_1: ricarica 1000 molecole di ATP
+  goal_name_extreme_atp_recharging: Ricarica Estrema ATP
+  goal_task_text_extreme_atp_recharging_1: ricarica 10000 molecole di ATP
+  goal_name_first_cellular_respiration: Prima Respirazione Cellulare
+  goal_task_text_first_cellular_respiration_1: ossida il tuo primo NADH
+  goal_name_basic_cellular_respiration: Respirazione Cellulare Base
+  goal_task_text_basic_cellular_respiration_1: ossida 10 molecole di NADH
+  goal_name_intermediate_cellular_respiration: Respirazione Cellulare Intermedia
+  goal_task_text_intermediate_cellular_respiration_1: ossida 100 molecole di NADH
+  goal_name_advanced_cellular_respiration: Respirazione Cellulare Avanzata
+  goal_task_text_advanced_cellular_respiration_1: ossida 1000 molecole di NADH
+  goal_name_extreme_cellular_respiration: Respirazione Cellulare Estrema
+  goal_task_text_extreme_cellular_respiration_1: ossida 10000 molecole di NADH
+  goal_name_first_workbenching: Primo Lavoro al Banco
+  goal_task_text_first_workbenching_1: costruisci qualcosa con il banco di lavoro
+  goal_name_basic_workbenching: Lavoro Base al Banco
+  goal_task_text_basic_workbenching_1: usa il banco di lavoro 10 volte
+  goal_name_intermediate_workbenching: Lavoro Intermedio al Banco
+  goal_task_text_intermediate_workbenching_1: usa il banco di lavoro 100 volte
+  goal_name_first_synthesizing: Prima Sintesi
+  goal_task_text_first_synthesizing_1: sintetizza la tua prima proteina
+  goal_name_basic_synthesizing: Sintesi Base
+  goal_task_text_basic_synthesizing_1: sintetizza 10 proteine
+  goal_name_intermediate_synthesizing: Sintesi Intermedia
+  goal_task_text_intermediate_synthesizing_1: sintetizza 100 proteine
+  goal_name_advanced_synthesizing: Sintesi Avanzata
+  goal_task_text_advanced_synthesizing_1: sintetizza 1000 proteine
+  goal_name_extreme_synthesizing: Sintesi Estrema
+  goal_task_text_extreme_synthesizing_1: sintetizza 10000 proteine
+  goal_name_first_assembling: Primo Assemblaggio
+  goal_task_text_first_assembling_1: assembla il tuo primo oggetto
+  goal_name_basic_assembling: Assemblaggio Base
+  goal_task_text_basic_assembling_1: assembla 10 oggetti
+  goal_name_intermediate_assembling: Assemblaggio Intermedio
+  goal_task_text_intermediate_assembling_1: assembla 100 oggetti
+  goal_name_advanced_assembling: Assemblaggio Avanzato
+  goal_task_text_advanced_assembling_1: assembla 1000 oggetti
+  goal_name_extreme_assembling: Assemblaggio Estremo
+  goal_task_text_extreme_assembling_1: assembla 10000 oggetti
+  goal_name_first_killing_bacteria: Primo Bacteria Ucciso
+  goal_task_text_first_killing_bacteria_1: uccidi il tuo primo batterio
+  goal_name_basic_killing_bacteria: Uccisione Base di Batteri
+  goal_task_text_basic_killing_bacteria_1: uccidi 10 batteri
+  goal_name_intermediate_killing_bacteria: Uccisione Intermedia di Batteri
+  goal_task_text_intermediate_killing_bacteria_1: uccidi 100 batteri
+  goal_name_advanced_killing_bacteria: Uccisione Avanzata di Batteri
+  goal_task_text_advanced_killing_bacteria_1: uccidi 1000 batteri
+  ui_main_menu_about_early_access_message: |
+    Grazie per aver deciso di provare il nostro gioco!
+
+    Questo gioco riguarda la sopravvivenza, inizia in un brodo primordiale come una singola cellula e fai il tuo cammino nella vita creando tutta la catena di produzione necessaria!
+    La nostra visione finale è di evolvere da una semplice cellula a una creatura completamente mammifera con organi: un sistema circolatorio, un sistema respiratorio, un sistema digestivo, un sistema nervoso, e così via.. tutto questo costruendo, espandendo ed evolvendo il tuo organismo iniziale!
+    Divertiti con questo EA! Vogliamo il tuo feedback quindi per favore unisciti al nostro Discord e cercaci lì. Abbiamo bisogno del tuo aiuto :)
+  ui_main_menu_about_pixbits_message: |
+    Siamo un piccolo studio di sviluppo indie con sede in Italia!
+
+    Jacopo Santoni - codice e game design
+
+    Silvio Eusebio - grafica, musica, sfx
+  ui_main_menu_about_credits_message: |-
+    Motore Audio: FMOD Studio di Firelight Technologies Pty Ltd.
+
+    Grazie a tutti i tester che ci hanno supportato durante lo sviluppo di questo gioco. Grazie per i loro feedback e le loro mappe!

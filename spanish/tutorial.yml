@@ -1,0 +1,293 @@
+pages:
+- >   
+  <content>
+    <icon key="ui_guide_mitosis"/>¡Bienvenido al universo de Lifecraft!
+    <break/>
+    <image path="tutorial/quickstart_1.png" scale="1" />
+    <endl/>
+    Comienzas como un organismo a la deriva.
+    <break/>
+    Eventualmente enfrentarás adversidades, deberás mantenerte caliente y luchar contra invasores como bacterias y expandirte para seguir encontrando recursos.<endl/><endl/>
+    ¡No te intimides por los nombres de los ítems y las mecánicas!<break/><icon key="item_aminoacid_red"/>Los aminoácidos son esferas, <icon key="item_tubulin_yellow"/>los tubulinos son tubos, ¡solo piensa en eso y estarás listo!<endl/><endl/><icon key="ui_icon_open_recipe_list"/>¡La vista de recetas en la esquina inferior derecha es muy útil!<endl/>Úsala para ver los materiales necesarios para fabricar ítems.<endl/>
+    Al pasar el cursor sobre los ítems allí también mostrará cómo funcionan.
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_hand"/>Puedes desplazarte por el mundo con las teclas o moviendo el ratón cerca de los bordes de la pantalla (si está habilitado):<break/>
+    <p align="center">
+    <keycap action="pan_up" /><endl /><keycap action="pan_left" /><icon key="ui_guide_dot_tiny"/>
+    <keycap action="pan_down" /><icon key="ui_guide_dot_tiny"/><keycap action="pan_right" /><break/>
+    </p>
+    <icon key="ui_icon_zoom_in"/>Puedes acercar y alejar con (o la rueda del ratón):<break/>
+    <p align="center">
+    <keycap action="zoom_in" longer="true" /><icon key="ui_guide_dot_tiny"/><keycap action="zoom_out" longer="true" /><break/>
+    </p>
+    Puedes recoger y soltar ítems con tu ratón. 
+    <endl/>
+    <image path="tutorial/quickstart_2.png" scale="1" />
+    <endl/>
+    Puedes recoger hasta 4 ítems juntos, ¡inténtalo ahora con algunos ítems flotando afuera!
+    <endl/>
+  </content>
+
+- >
+  <content>
+    El vacío azul contiene muchos ítems útiles que se pueden usar para fabricar materiales intermedios, estructuras, energía, defender y expandir.<endl /><endl />
+    Tu primera tarea es recolectar una subunidad amarilla <icon key="item_subunit_yellow"/> desde afuera con tu ratón. Recuerda que cualquier recurso puede ser recogido manualmente.<endl /><endl />¡Esto puede ser útil en muchas situaciones!<endl />
+    <endl />
+    Ahora suelta la subunidad amarilla <icon key="item_subunit_yellow"/> en algún lugar del suelo de tu célula.<endl/>
+    <image path="tutorial/quickstart_3.png" scale="1" /><endl />
+    <endl />
+  </content>
+
+- >
+  <content>
+    <icon key="item_subunit_yellow"/> Busca otra subunidad amarilla afuera y recógela.
+    <endl />
+    <image path="tutorial/quickstart_4.png" scale="1" />
+    <endl/>
+    <icon key="item_workbench"/> Ahora puedes ensamblar tu primera estructura: el banco de trabajo!<endl/><endl/>
+    <icon key="item_subunit_yellow"/> Solo suelta la segunda subunidad amarilla encima de la primera<endl /> que estaba en el suelo y ¡voilà!<endl />
+    <image path="tutorial/quickstart_5.png" scale="1" />
+    <break/>
+
+    <endl />
+  </content> 
+
+- >  
+  <content>
+    <icon key="item_workbench"/>El banco de trabajo se utiliza para ensamblar estructuras manualmente que luego se utilizarán para la automatización. ¡Es ineficiente pero útil! <endl/> <endl/>
+    Ahora, recoge el banco de trabajo recién ensamblado y colócalo en algún lugar en el suelo con tu ratón.<endl />
+    <image path="tutorial/quickstart_6.png" scale="1" />
+    <endl />
+    Puedes hacer clic en los edificios para abrir su menú contextual.<endl/>
+    Algunos edificios también tienen acciones vinculadas a <keycap action="execute_first_action" /> y <keycap action="execute_second_action" /><break/>
+    <image path="tutorial/quickstart_3extra.png" scale="1" /><endl />
+  </content>
+  
+- >
+  <content>
+    Tu próximo objetivo ahora es automatizar la recolección de recursos desde un montón de recursos externo, esto requerirá que construyas múltiples ítems: <endl /><endl />
+    <icon key="ui_guide_dot"/> <icon key="item_microtubule"/> microtúbulos, que se utilizan para transportar ítems alrededor <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_picker"/> recolectores, que se utilizan para mover ítems desde y hacia estructuras <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_cytostome1x"/> citostomas, que pueden absorber ítems desde el exterior <endl />
+    <image path="tutorial/quickstart_1extra.png" scale="1" />
+    <endl />
+    Las estructuras primitivas se romperán con el tiempo por oxidación.<endl />También son lentas e ineficientes, las reemplazarás más adelante con versiones mejoradas. ¡Más sobre eso más tarde!<endl /><endl />
+  </content>
+
+- >
+  <content>
+    ¡Comencemos a fabricar las estructuras necesarias para la automatización básica!<endl /><endl />
+    En tu lista de recetas, que está en la esquina inferior derecha de la pantalla, puedes pasar el cursor sobre las recetas disponibles y ver sus materiales, vamos a pasar el cursor sobre un citostoma <icon key="item_cytostome1x"/><endl />
+    <recipe key="cytostome1x" compact="true" />Esos son los materiales necesarios para construirlo.
+    
+    Los tubulinos son un material intermedio que se utiliza para fabricar muchas estructuras básicas.<break/>
+    El banco de trabajo es útil porque puede fabricar todos los pasos de recursos intermedios usando solo los materiales base:<endl /><endl />
+    <p align="center"><icon key="item_aminoacid_blue"/><icon key="item_aminoacid_green"/><icon key="item_aminoacid_red"/><icon key="item_aminoacid_yellow"/><endl/><endl /></p>
+    Coloca los aminoácidos requeridos en el banco de trabajo, haz clic en él y elige las estructuras para ensamblar.<break/>
+    ¡También puedes hacer cola de muchas manualidades en el banco de trabajo siempre que haya suficiente espacio en él!
+    <p align="center">
+
+    </p>
+
+  </content>
+
+- >
+  <content>
+    <icon key="item_cytostome1x"/>Ahora recoge el citostoma fabricado y colócalo en una pared junto a un montón de recursos de aminoácidos rojos <icon key="item_aminoacid_red"/>.
+    <break/>
+    <image path="tutorial/quickstart_8.png" scale="1" />
+    <endl />
+    Verás que el citostoma comienza a trabajar y absorbe lentamente un ítem. Puedes recoger manualmente el ítem del citostoma con tu ratón.<break/>
+    El citostoma se coloca alto en la pared celular, pero absorbe en el suelo dentro de la célula.<break/>
+    <icon key="ui_icon_toggle_buildings_on"/>Para ver su base de absorción (donde conectarás el recolector) puedes habilitar "alternar edificios" en la barra inferior.<break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_microtubule"/>Ahora necesitamos una forma de transportar los ítems desde el citostoma automáticamente. <endl /><endl />
+    Los microtúbulos son como pequeños rieles que pueden transportar ítems en la célula.
+    Construyamos nuestros primeros microtúbulos.
+    Recolecta los materiales requeridos y haz cola de las manualidades en el banco de trabajo:<break/><endl />
+    <p align="center"><icon key="item_tubulin_red"/><icon key="item_tubulin_red"/><icon key="item_microtubule_primitive"/><break/></p>
+    Espera a que el resultado esté listo y recógelo.<break/>
+    ¿Qué pasó? ¡El microtúbulo desapareció!<break/>
+    Esto se debe a que los microtúbulos se almacenan automáticamente en un almacenamiento para que puedas usarlos con una herramienta específica.<endl/><endl/>
+    <image path="tutorial/quickstart_9.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    Ahora cambia a la herramienta de colocación de microtúbulos con <keycap action="switch_tool_microtubule_metatool" />, verás que hay varios tipos de ellos, 
+    pero solo el primero está disponible por ahora.<break/>
+    El microtúbulo primitivo es más lento, necesitas investigar para obtener mejores versiones de él.<break/>
+    <p align="center"><icon key="item_microtubule"/><icon key="item_microtubule_advanced"/><break/></p>
+    Haz clic izquierdo para colocar microtúbulos junto a la base del citostoma para preparar la ruta para los ítems.<break/>
+    <image path="tutorial/quickstart_10.png" scale="1" />
+    <endl />
+    Los microtúbulos pueden ser removidos con tu ratón.
+
+  </content>
+  
+- >
+  <content>
+    <icon key="item_picker_primitive" />Ahora necesitamos un recolector, utilizado para mover ítems desde y hacia estructuras.<endl/>
+    Recolecta los materiales y haz cola de la manualidad en el banco de trabajo:<endl/><recipe key="picker_primitive" compact="true" /><endl/>
+    Cuando esté listo, coloca el recolector junto a la base del citostoma.<break/>
+    Con <keycap action="execute_first_action" /> y <keycap action="execute_second_action" /> puedes rotar o voltear el recolector. 
+    Configúralo para que recoja desde el citostoma (la parte delgada del recolector va debajo de la base del citostoma).<endl/>
+    <image path="tutorial/quickstart_11.png" scale="1" />
+    <endl/>
+
+    <icon key="ui_icon_toggle_buildings_on"/><icon key="ui_icon_toggle_walls_on"/>Para obtener una mejor vista mientras colocas estructuras puedes habilitar "alternar edificios" que te dará una vista más clara y plana del mapa.
+  </content>
+
+- >
+  <content>
+    <icon key="item_tubulin_red" />Es hora de automatizar la producción de tus primeras proteínas!<break/>
+    <icon key="item_ribosome" />Esto se hace usando un ribosoma, que es capaz de fabricar materiales intermedios.
+
+    Recolecta los ítems necesarios para fabricar el ribosoma en el banco de trabajo.<break/><icon key="ui_icon_open_recipe_list"/>¡Recuerda usar la vista de recetas como leyenda!<break/><endl />
+    <p align="center"><icon key="item_subunit_red"/><icon key="item_subunit_red"/><icon key="item_ribosome"/><break/></p>
+
+    Ahora coloca el ribosoma cerca de los microtúbulos que colocaste anteriormente.<break/>
+    <icon key="ui_icon_destroy"/>Puedes eliminar cualquier estructura colocada con la herramienta de destruir estructuras.
+    <icon key="ui_icon_oxidation_usages"/>Las estructuras oxidadas no devolverán el ítem.<endl/>
+    <image path="tutorial/quickstart_12.png" scale="1" />
+    <break/>
+
+
+  </content>
+
+- >
+  <content>
+    Necesitamos conectar el ribosoma a los microtúbulos.<endl />
+    Fabrica otro recolector primitivo <icon key="item_picker_primitive" /> y colócalo de modo que tengas una línea de transporte completa desde el citostoma hasta el ribosoma.<endl />
+    <image path="tutorial/quickstart_13.png" scale="1" />
+    <endl />
+
+    Ahora presiona <keycap action="execute_first_action" /> en el ribosoma para configurarlo para producir tubulinos rojos <icon key="item_tubulin_red" /> y observa tu primer ribosoma trabajando!<endl /><endl />
+    <icon key="item_microtubule"/>El microtúbulo va en la parte elevada del recolector, donde yace la flecha del recolector. La parte inferior y más delgada del recolector debe ir debajo de las estructuras.<endl /><endl />
+    <icon key="item_picker_primitive"/>La dirección de la flecha del recolector determina si el recolector inserta o extrae de la estructura.
+    
+
+  </content>
+
+- >
+  <content>
+    Ahora que aprendiste lo básico, ¡es hora de mejorar!<endl />
+    Vamos a automatizar la recolección de aminoácidos amarillos <icon key="item_aminoacid_yellow" /> y la producción de tubulino amarillo <icon key="item_tubulin_yellow" />haciendo las mismas operaciones.
+    <break/>
+    <image path="tutorial/quickstart_14.png" scale="1" />
+    <endl />
+
+    En este punto, el organismo está sintetizando tubulinos rojos y amarillos por sí mismo.<break/>
+    <icon key="ui_icon_toggle_object_overlay_on" />Para ver qué recetas de fabricación están configuradas actualmente en las estructuras, puedes activar la opción "alternar información de contenido del objeto".
+  </content>
+  
+- >
+  <content>
+    Vamos a automatizar la producción de microtúbulos <icon key="item_microtubule_primitive" /> y recolectores. <icon key="item_picker_primitive" /><break/>
+    <icon key="item_assembler" />Para hacer esto necesitamos crear 2x ensambladores. <break/>
+    <icon key="ui_icon_open_evolution_view" />Pero aún no podemos fabricarlos, ya que necesitamos desbloquear la receta del ensamblador en la vista de evolución.<break/>
+    <image path="tutorial/quickstart_17a.png" scale="1" />
+    <endl />
+    <icon key="item_evolver"/>Para descubrir nuevas recetas necesitamos construir un evolucionador, vamos a crearlo y colocarlo en algún lugar en el suelo.
+  </content>
+
+- >
+  <content>
+    El evolucionador consume material genético llamado nucleobases para descubrir nuevas recetas.<break/>
+    <p align="center"><icon key="item_adenine"/><icon key="item_thymine"/><icon key="item_guanine"/><icon key="item_cytosine"/><break/></p>
+    Abre la vista de evolución con <keycap action="open_evolution_view" />, busca <p color="#f5e042">Producción Intracelular</p> y comienza su investigación.<break/>
+    <image path="tutorial/quickstart_16.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_thymine"/>Ahora alimenta al evolucionador con las nucleobases requeridas, que pueden recolectarse del vacío. Espera a que se complete la investigación.<break/>
+    <icon key="item_evolver" />El evolucionador solo acepta un ítem a la vez, pero puedes construir más investigaciones para mejorar la eficiencia.<break/>
+    <image path="tutorial/quickstart_18.png" scale="1" />
+    <endl />
+    Puedes verificar el estado pasando el cursor sobre la evolución en la barra de estado.<endl />
+    <image path="tutorial/quickstart_18b.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    Con la evolución recién adquirida, ahora puedes:<break/>
+
+    Crear los ensambladores <icon key="item_assembler" /> <break/>
+    Colócalos cerca de los ribosomas existentes <icon key="item_ribosome" /> <break/>
+    Termina de conectar todo con más microtúbulos <icon key="item_microtubule" /> y recolectores <icon key="item_picker" /> <endl />
+    Configura <keycap action="execute_first_action" /> los ensambladores para producir microtúbulos <icon key="item_microtubule_primitive" /> y recolectores. <icon key="item_picker_primitive" /><endl />
+    <image path="tutorial/quickstart_19.png" scale="1" />
+    <endl />
+    Te sugerimos construir tus primeros ribosomas y ensambladores y automatizar la fabricación tan pronto como te familiarices con ello!<endl />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_oxidation_usages"/>Con el tiempo, los edificios primitivos se oxidarán, volviéndose inoperables.<break/>
+    <icon key="item_cytostome1x"/><icon key="item_picker_primitive"/>Para reemplazar un recolector o citostoma oxidado, simplemente construye otro y colócalo encima del antiguo.<endl />
+
+    <image path="tutorial/quickstart_oxidation.png" scale="1" />
+
+    <icon key="item_diffuser"/>También puedes construir difusores de ítems que, si se alimentan con el ítem correcto, reemplazarán automáticamente al contraparte oxidada cerca de ellos.<endl />
+
+    Para superar este problema necesitas investigar estructuras mejoradas, que ya no se oxidarán.<endl /><endl />
+
+    <icon key="item_cytostome2x" /> El citostoma es la versión mejorada del citostoma primitivo, más rápido con doble capacidad de succión<endl /><endl />
+    <icon key="item_picker" /> Los recolectores negros no se oxidan y pueden ser fabricados en variantes de filtrado de color y material<endl /><endl />
+
+    <icon key="item_atp" /> ¡Las estructuras mejoradas necesitan energía para funcionar!<endl /><endl />
+
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_energy_yellow" />A medida que avances en la investigación, notarás que muchos ítems requieren energía para funcionar.<endl /><endl />
+
+    <icon key="item_energy_supplier_mk1" />Después de haber investigado los nodos requeridos, puedes comenzar a construir una red de energía con proveedores de energía primitivos, que alimentan la estructura en su rango.<endl /><endl />
+    <icon key="item_energy_supplier_mk2" />Los proveedores mejorados suministrarán energía en un rango mayor.<endl /><endl />
+
+    <icon key="item_atp"/>Para que los proveedores de energía funcionen necesitas alimentarlos con moléculas de ATP (encontradas fuera en el vacío).<endl />
+    <icon key="item_adp"/>Cuando el ATP se descarga, será expulsado por los proveedores en forma de ADP.<endl />Piensa en una batería, ¡fuera lo viejo, dentro lo nuevo!<endl /><endl />
+
+    <icon key="item_energy_pole"/>Para extender el rango entre dos proveedores de energía usa postes de energía! <endl /><endl />
+    <icon key="ui_icon_toggle_power_overlay_on"/>Estos extenderán enormemente el rango sin usar ningún recurso.
+
+    
+    <break/>
+  </content>
+
+
+
+- >
+  <content>
+    ¡Ahora es el momento de que sigas explorando las evoluciones disponibles y expandas tu sistema logístico por ti mismo! <break/>Solo ten en cuenta <icon key="ui_warning_sign_red" /> <endl />
+    <image path="tutorial/quickstart_20b.png" scale="1" />
+    <endl />
+    <icon key="ui_icon_temperature" />La temperatura exterior está bajando lentamente y necesitarás una forma de generar calor con una mitocondria <icon key="item_mitochondrial_membrane" /> y desacopladores <icon key="item_decoupler" /> <endl /><endl />
+    <icon key="item_bacterial_vegetation_bacillus_green"/> Afuera en la oscuridad, las bacterias se arrastran, prepárate con difusores <icon key="item_diffuser" /> y lanzadores <icon key="item_launcher1x" /> <break/>
+    <icon key="ui_icon_chunk_planner"/> Los recursos eventualmente se agotarán, necesitarás expandirte para encontrar nuevos.
+    <break/>
+  </content> 
+
+- >
+  <content>
+    ¡Aquí termina el tutorial por ahora! Para cualquier duda:<break/>
+    <icon key="ui_guide_dot"/> consulta la guía en el juego a través de <keycap action="open_game_guide" /><break/>
+    <icon key="ui_guide_dot"/> completa objetivos, revisa la vista de viaje <keycap action="open_journey_view" /> y la lista de objetivos <keycap action="open_goal_list" /><break/>
+    <icon key="ui_guide_dot"/> si tienes dificultades, ven a nuestro Discord donde encontrarás ayuda!<endl />
+    <image path="tutorial/quickstart_22.png" scale="1" /><endl/>
+    Este juego está en Acceso Anticipado, por lo que aún puede tener algunos problemas. Pero si todavía estás leyendo eso significa que tu paciencia brilla, ¡te espera una sorpresa!<break/>Muchas ideas se implementarán en el futuro a medida que avance el desarrollo. ¡Esperamos que disfrutes del gran viaje que Lifecraft tiene para ofrecer!
+    <break/>
+  </content>

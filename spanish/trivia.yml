@@ -1,0 +1,33 @@
+trivia:
+  item_ribosome:
+  - Bacteria ribosomes are different from ours, that's why antibiotics can kill bacteria without harming us.
+  item_catalyzer:
+  - Enzymes are able to speed up chemical reactions well over a million-fold
+  item_phospholipid:
+  - "Phospholipids are peculiar lipids which are amphiphilic, they are both hydrophilic and lipophilic"
+  - Phospholipids are a key component of cell membranes, they arrenge themselves in a lipid bilayer
+  zone_cytosol:
+  - Cytosol is a fluid in which all the organelles contained in a cell are floating
+  item_luciferin:
+  - Luciferin in nature are a class of small-molecules used by many forms of life to generate bioluminescence. Fireflies, snails, bacteria and even some fungi.
+
+tips:
+- This is not a factorio mod
+- You can hold ALT to pickup multiple items
+- Disposable items don't drop when destroyed
+- The mitochondria IS the powerhouse of the cell!
+- Microtubules can transport items in any direction
+- Item kickers can be used to force items into a specific direction
+- Some structures generate heat when working
+- Pickers can be rotated and flipped
+- Don't worry if you lose, you can always start again!
+- Don't forget to keep an eye on temperature!
+- Check the in-game reference if you need help!
+- Some evolution may require additional proteins to be discovered
+- You can assemble some items by dropping one on another
+- Use workbench to accelerate first crafts
+- Those are proteins, not shapes!
+- You can use balancers to split or merge lanes
+- Show us your creations in Discord!
+- Body must grow
+- Some floating resources will keep spawning outside

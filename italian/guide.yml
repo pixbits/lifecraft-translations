@@ -1,0 +1,1992 @@
+index:
+  children:
+
+  - title: interface
+    children:
+    - title: welcome
+      icon: ui_guide_mitosis
+    - title: controls
+      icon: ui_mouse_button_left
+    - title: symbol_legend
+      icon: ui_icon_context_help
+    - title: the_stash
+      icon: item_microtubule
+ #   - title: tips
+ #      icon: ui_icon_open_debug_window
+  - title: concepts
+    children:
+    - title: routing_items
+      icon: item_microtubule
+    - title: resources
+      icon: item_cytostome1x
+    - title: production
+      icon: ui_icon_destroy
+    - title: enzymes
+      icon: item_glycolysis_enzyme
+    - title: energy
+      icon: item_atp 
+    - title: energy_distribution
+      icon: ui_icon_energy_yellow
+    - title: evolution
+      icon: ui_icon_open_evolution_view
+    - title: oxidation
+      icon: item_carbon_dioxide 
+    - title: temperature
+      icon: ui_icon_toggle_temperature_overlay_off 
+    - title: necrosis
+      icon: item_necrotic_tissue
+    - title: tissue_types
+      icon: item_collagen_flooring 
+    - title: expansion
+      icon: ui_icon_chunk_planner
+    - title: membrane_transportation
+      icon: item_membrane_transporter2x
+    - title: mitochondrion
+      icon: item_mitochondrial_membrane
+    - title: bacteria
+      icon: item_bacterium_bacillus_green
+
+  - title: obsolete
+    hidden: true
+    children:
+    - title: resources
+      icon: ui_icon_hand
+    - title: advanced_energy_production
+      icon: item_krebs_cycle_enzyme
+ 
+    - title: useful_items
+      icon: ui_icon_destroy
+    - title: main_buildings
+      icon: item_ribosome
+
+
+    - title: managing_resources
+      icon: item_stockpile2x
+
+
+
+
+
+    - title: vessels
+      icon: item_artery2x2
+    - title: heaps
+      icon: "item_aminoacid_red"
+
+#  EXPANSION IS FOR NOW MERGED WITH CONCEPTS
+#   - title: expansion
+#     children:
+#     - title: types_of_tissues
+#       icon: item_cell_membrane
+#     - title: expansion_rules
+#       icon: ui_icon_chunk_planner
+#     - title: apoptosis
+#       icon: ui_icon_open_debug_window
+
+  - title: reference
+    hidden: true
+    children:
+    - title: structures
+      children:
+      - title: crafters
+        children:
+        - title: ribosome
+          icon: item_ribosome
+        - title: assembler
+          icon: item_assembler
+        - title: catalyzer
+          icon: item_catalyzer
+      - title: evolution
+        children:
+        - title: evolver
+          icon: item_evolver
+      - title: energy
+        children:
+        - title: electron_transport_chain
+          icon: item_electron_transport_chain
+        - title: atp_synthase
+          icon: item_atp_synthase
+        - title: energy_supplier
+          icon: item_energy_supplier_mk1
+ #       - title: energy_pole
+ #         icon: item_energy_pole
+      - title: routing
+        children:
+        - title: picker
+          icon: item_picker
+        - title: gaseous picker
+          icon: item_picker_gaseous
+        - title: genomic picker
+          icon: item_picker_genetic
+        - title: colored_picker
+          icon: item_picker_green
+        - title: microtubule
+          icon: item_microtubule
+        - title: kicker
+          icon: item_item_kicker
+        - title: item_tunnel
+          icon: item_item_tunnel
+        - title: long_picker
+          icon: item_picker_long
+        - title: balancer
+          icon: item_balancer
+        - title: membrane_transporters
+          icon: item_antiporter_nadh_nad
+      - title: stacking
+        children:
+        - title: stockpiles
+          icon: item_stockpile2x
+        - title: stasher
+          icon: item_stasher
+      - title: gathering
+        children:
+        - title: cytostome
+          icon: item_cytostome1x
+        - title: dispatcher
+          icon: item_dispatcher
+        - title: disposer
+          icon: item_disposer1x
+    - title: zones
+      children:
+      - title: cytosol
+        icon: item_cell_membrane
+      - title: extracellular_matrix
+        icon: item_collagen_flooring
+      - title: mitochondrion
+        icon: item_mitochondrial_membrane
+
+
+content:
+
+
+
+  # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  # Interface
+  # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+  # CONTROLS --------------------------------------------------------------------------
+
+  # INTERFACE BUTTONS --------------------------------------------------------------------------
+
+  "/interface/welcome": >
+    <header><icon key="ui_guide_mitosis" />Benvenuto in Lifecraft<icon key="ui_guide_mitosis" /></header><endl />
+
+     <icon key="ui_guide_exclamation"/>Benvenuto in Lifecraft!
+     <endl /><endl />
+      <icon key="ui_guide_dot"/>Questa guida ti aiuterà a capire i fondamenti di Lifecraft e mostra i concetti chiave del gioco.
+     <endl /><endl />
+     <icon key="ui_guide_dot"/>È anche un riferimento, che mostra tutte le strutture e le risorse del gioco, insieme alle loro descrizioni.
+     <endl /><endl />
+     <icon key="ui_guide_brain"/>Clicca sulla sezione desiderata nel pannello sinistro di questa finestra per <endl />mostrare i suoi contenuti.
+     <endl /><endl />
+     <icon key="ui_guide_exclamation"/>Il contenuto della guida è sicuramente ancora in lavorazione, quindi sii paziente se manca qualcosa, non è chiaro o è scritto male.
+
+  "/interface/controls": >
+    <header><icon key="ui_mouse_button_left" />Controlli</header><endl />
+
+    <icon key="ui_guide_arrow_yellow"/><name>Navigare nel mondo</name><endl/><endl/>
+
+
+    <icon key="ui_icon_pan_arrow"/>Puoi spostare il mondo utilizzando i seguenti tasti: <endl/><endl/>
+
+    <p align="center">
+    <keycap action="pan_up" /><endl /><keycap action="pan_left" /><icon key="ui_guide_dot_tiny"/>
+    <keycap action="pan_down" /><icon key="ui_guide_dot_tiny"/><keycap action="pan_right" /><endl /><endl />
+    </p>
+
+    <icon key="ui_icon_zoom_in"/>Puoi ingrandire e rimpicciolire il mondo utilizzando:<icon key="ui_guide_invisidot"/><keycap action="zoom_in" longer="true" /> <icon key="ui_guide_dot_tiny"/> <keycap action="zoom_out" longer="true" />
+    <endl/><endl/>
+
+    <icon key="ui_icon_toggle_grid_on"/>Attiva/disattiva la griglia delle piastrelle:<icon key="ui_guide_invisidot"/><keycap action="toggle_grid" />
+
+    <endl/><endl/>
+
+    <icon key="ui_guide_arrow_yellow"/><name>Overlay e altri tasti utili</name><endl/><endl/>
+
+    <icon key="ui_icon_toggle_power_overlay_on"/>Attiva/disattiva l'overlay dell'energia:<icon key="ui_guide_invisidot"/><keycap action="toggle_power_overlay" />
+    <endl/><endl/>
+
+    <icon key="ui_icon_toggle_object_overlay_on"/>Attiva/disattiva l'overlay della costruzione:<icon key="ui_guide_invisidot"/><keycap action="toggle_object_overlay" /> 
+    <endl/><endl/>
+
+    <icon key="ui_icon_chunk_planner"/>Attiva/disattiva l'espansione e la riassegnazione delle zone:<icon key="ui_guide_invisidot"/><keycap action="toggle_mouse_opacity" />
+    <endl/><endl/>
+
+    <icon key="ui_icon_toggle_mouse_opacity_on"/>Attiva/disattiva la trasparenza dell'edificio quando passi sopra con il mouse:<icon key="ui_guide_invisidot"/><keycap action="toggle_mouse_opacity" />
+    <endl/><endl/>
+
+
+
+    <icon key="ui_guide_arrow_yellow"/><name>Altri tasti utili</name><endl/><endl/>
+    
+    <icon key="ui_guide_dot_tiny"/>Descrizione del tasto di scelta rapida 1: <icon key="ui_guide_invisidot"/><keycap key="R" /><endl/>
+    <icon key="ui_guide_dot_tiny"/>Descrizione del tasto di scelta rapida 2: <icon key="ui_guide_invisidot"/><keycap key="R" /><endl/>
+    <icon key="ui_guide_dot_tiny"/>Descrizione del tasto di scelta rapida 3: <icon key="ui_guide_invisidot"/><keycap key="R" /><endl/>
+ 
+    <endl/><endl/>
+ 
+
+    <icon key="ui_guide_brain"/>Molti altri tasti di scelta rapida cambiano a seconda dello strumento che stai utilizzando.<endl />
+    Tieni d'occhio i suggerimenti sullo schermo per capire meglio ogni controllo dello strumento.
+    <endl />
+
+
+  # PULSANTI DELL'INTERFACCIA --------------------------------------------------------------------------
+
+  "/interface/interface_buttons": >
+    <header><icon key="ui_keycap" />Pulsanti dell'Interfaccia</header><endl />
+    <icon key="ui_guide_screen_tiny"/>Nella parte inferiore dello schermo vedrai la barra degli strumenti di Lifecraft.<endl />
+    Lì risiedono la maggior parte delle funzioni utili. 
+    <endl />
+    <endl />
+    <icon key="cursor_arrow"/>Per vedere cosa fa ogni pulsante, basta passarci sopra con il mouse.
+    <endl />
+    <endl />
+    <icon key="ui_guide_exclamation"/>Ogni pulsante di solito ha una scorciatoia da tastiera.<endl /><endl />
+    <icon key="ui_guide_brain"/>Abituarsi a queste scorciatoie ti aiuterà a giocare in modo più efficiente!
+    <endl /><endl /><endl /><endl /><endl /><endl /><endl />
+    <canvas size="0 0" scale="2" align="center">
+    <image key="ui_guide_quickslot" tile="1 3" />
+    <image key="ui_guide_quickslot" tile="3 3" />
+    <image key="ui_guide_quickslot" tile="5 3" />
+    <image key="ui_guide_quickslot" tile="7 3" />
+    <image key="ui_guide_quickslot" tile="9 3" />
+    <image key="ui_icon_hand" tile="1 3" />
+    <image key="ui_icon_destroy" tile="3 3" />
+    <image key="ui_icon_microtubule_metatool" tile="5 3" />
+    <image key="ui_icon_chunk_planner" tile="7 3" />
+    <image key="ui_icon_tube_placement" tile="9 3" />
+    </canvas>
+
+
+    
+  # CONSIGLI --------------------------------------------------------------------------
+
+  "/interface/tips": >
+    <header><icon key="ui_icon_open_debug_window" />Consigli</header><endl />
+    <icon key="ui_slider_right" scale="1" />Linea di consigli provvisoria uno.<endl />
+    <icon key="ui_slider_right" scale="1" />Linea di consigli provvisoria due.<endl />
+    <icon key="ui_slider_right" scale="1" />Linea di consigli provvisoria tre.<endl />
+    <icon key="ui_slider_right" scale="1" />Linea di consigli provvisoria quattro.<endl />
+    <image key="ui_guide_img_tips" scale="2" />
+
+
+  # il nascondiglio
+  "/interface/the_stash": >
+    <header><icon key="item_microtubule" />Il Nascondiglio</header><endl />
+    Alcuni oggetti non vengono utilizzati individualmente, una volta raccolti, finiscono nel nascondiglio in modo da poterli utilizzare liberamente.
+    <break/>
+    Il nascondiglio viene utilizzato per i microtubuli e i prelevatori di oggetti:<endl/>
+    <canvas size="0 0" scale="1" align="center">
+    <image key="item_microtubule_primitive" tile="0 0" />
+    <image key="item_microtubule" tile="2 0" />
+    <image key="item_microtubule_advanced" tile="4 0" />
+    <image key="item_item_kicker" tile="6 0" />
+    </canvas><endl/>
+    Quando raccogli uno di questi oggetti, vedrai scomparire. Controlla il tuo strumento microtubulo nella barra degli strumenti per verificare la quantità che hai immagazzinato.<break/>
+    <icon key="ui_guide_brain" />Puoi usare il modificatore di forza di prelievo <keycap key="ALT" longer="true" /> per forzare il prelievo degli oggetti senza inviarli al nascondiglio.<break/>
+    <icon key="ui_guide_brain" />Puoi usare il <icon key="item_stasher" /> <name>nascondiglio</name> per inviare oggetti al nascondiglio senza la necessità di interagire con essi.
+
+  # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  # Concetti
+  # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+  # risorse
+
+  "/concepts/resources": >
+    <header><icon key="item_cytostome1x" />Risorse</header><endl />
+    Le risorse si generano naturalmente fuori dal tuo organismo. Inoltre ci sono <name>mucchi di risorse</name> che contengono un sacco di loro sparse in giro.<break/>
+    <icon key="ui_warning_sign_yellow"/><warning>Alcune risorse più rare come <concept icon="item_atp" text="ATP"/> continuano a generarsi solo quando la tua quantità totale è inferiore a un massimo.</warning><break/>
+
+    Puoi interagire con le risorse in molti modi:<endl/>
+    <icon key="ui_guide_dot" /> puoi raccogliere e spostare le risorse con la tua mano <icon key="ui_icon_hand" /> <endl/>
+    <icon key="ui_guide_dot" /> puoi usare <concept icon="item_cytostome1x" text="citostomi" tooltip="cytostome1x" /> per aspirare automaticamente gli oggetti dall'esterno<endl/>
+    <icon key="ui_guide_dot" /> puoi usare <concept icon="item_disposer1x" text="smaltitori" tooltip="disposer1x" /> per liberarti degli oggetti di cui non hai più bisogno<endl/>
+    <endl/>
+    <icon key="ui_icon_idea_lamp" />Probabilmente avrai bisogno di fornire un layout intelligente con una combinazione di prelevatori per ottimizzare i risultati.<break/>
+
+    
+
+  # produzione
+
+  "/concepts/production": >
+    <header><icon key="ui_icon_destroy" />Produzione</header><endl />
+      La produzione all'interno del tuo organismo avviene grazie a diversi edifici che hanno scopi diversi.<break/>
+      <icon key="item_ribosome" /><name>Ribosomi</name> trasformano <name>aminoacidi</name> <icon key="item_aminoacid_red" /> in <name>proteine</name> <icon key="item_tubulin_red" /> <break/>
+      <icon key="item_assembler" /><name>Assemblatori</name> trasformano <name>proteine</name> <icon key="item_subunit_blue" /> in <name>strutture</name> più complesse <icon key="item_evolver" /> <break/>
+      <icon key="item_catalyzer" /><name>Catalizzatori</name> accelerano <name>reazioni</name><icon key="recipe_icon_glycolysis" /> attraverso <name>enzimi</name> <icon key="item_glycolysis_enzyme" /><break/>
+      Puoi impostare la ricetta utilizzando il menu contestuale o il tasto <keycap action="execute_first_action" />.<endl/>
+
+     <canvas size="0 0" scale="1" align="center">
+      <image key="object_ribosome" tile="0 1" align="lowerleft" />
+      <image key="object_assembler" tile="4 1" align="lowerleft" />
+      <image key="object_catalyzer" tile="8 1" align="lowerleft" />
+      <image key="ui_guide_menu_tiny" tile="2 1" />
+      <image key="ui_guide_menu_tiny" tile="6 1" />
+      <image key="ui_guide_menu_tiny" tile="10 1" />
+     </canvas><endl /><endl />
+
+     <icon key="ui_warning_sign_yellow"/><warning>Alcune ricette possono essere eseguite solo all'interno di specifici tessuti, questo è mostrato nell'angolo in basso a sinistra del loro tooltip.</warning><break/>
+     <icon key="item_catalyzer" /><name>Catalizzatori</name> richiedono un <concept text="enzima" link="/concepts/enzymes" /> per funzionare. È l'enzima che determina le ricette disponibili per un specifico catalizzatore.
+     Puoi inserire e prelevare l'enzima dal catalizzatore quante volte vuoi.
+
+
+  # instradamento degli oggetti
+
+  "/concepts/routing_items": >
+    <header><icon key="item_microtubule" />Instradamento degli oggetti</header> 
+    <endl />
+    Gli oggetti possono essere instradati con <icon key="item_microtubule"/><name>microtubuli</name> e <icon key="item_picker" /><name>prelevatori</name>.
+    <endl /><endl />
+
+    <canvas size="0 0" scale="1" align="center">
+    <image key="object_picker" batch="1" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="south" tile="9 3" align="lowerleft"/>
+    <image key="object_ribosome" tile="0 1" align="lowerleft" />
+    <image key="object_stockpile2x" tile="8 2" align="lowerleft" />
+
+    <railing from="0 0" to="5 0"/>
+    <railing from="5 0" to="5 4"/>
+    <railing from="5 4" to="9 4" emit="true"/>
+
+    <image key="item_aminoacid_red" tile="1 0" align="lowerleft" />
+    <image key="item_aminoacid_red" tile="3 0" pos="0 6" />
+    <image key="item_aminoacid_red" tile="5 1" pos="0 6" />
+    <image key="item_aminoacid_red" tile="5 3" pos="0 6" />
+    <image key="item_aminoacid_red" tile="6 4" pos="0 6" />
+    <image key="item_aminoacid_red" tile="8 4" align="lowerleft" />
+
+    </canvas> 
+    <endl /><endl />
+
+    <icon key="item_picker"/>I Selettori sono in grado di spostare oggetti da e verso gli edifici.<endl/>Ruota i selettori con il tasto <keycap action="execute_first_action" />, capovolgili con <keycap action="execute_second_action" />.<endl />
+    <endl />
+
+    <icon key="ui_warning_sign_yellow"/><warning>Qualsiasi oggetto che entra in un microtubulo si muoverà solo se
+    viene depositato su un'estremità del microtubulo o se c'è un <icon key="item_item_kicker"/><name>spingi-oggetto</name> che forza una direzione.</warning><endl/>
+    <endl/>
+
+    I microtubuli e gli spingi-oggetti vengono conservati in un deposito speciale quando vengono raccolti, puoi accedervi utilizzando il suo strumento dedicato <icon key="ui_icon_microtubule_metatool" />.
+    <break/>
+    
+    <icon key="ui_icon_idea_lamp" />Per ottimizzare il layout, ci sono molti tipi diversi di selettori e strutture aggiuntive come i tunnel o il bilanciatore:<endl/>
+    <canvas size="0 0" scale="1" align="center">
+    <image key="item_picker_red" tile="0 0" />
+    <image key="item_picker_green" tile="2 0" />
+    <image key="item_picker_long" tile="4 0" />
+    <image key="item_balancer" tile="6 0" />
+    <image key="item_item_tunnel" tile="8 0" />
+    </canvas><endl/>
+
+    <endl />
+
+
+  # ARTICOLI UTILI --------------------------------------------------------------------------
+
+  "/concepts/useful_items": >
+    <header><icon key="ui_icon_destroy" />Articoli utili</header> 
+    <endl />
+     <icon key="item_microtubule"/><name>Microtubuli</name>
+      vengono utilizzati per trasportare oggetti e articoli nella cellula.
+
+     <endl /> 
+     <endl /> 
+
+     <icon key="item_picker" /><name>Selettori</name>
+      possono spostare oggetti dai microtubuli alle strutture.
+
+     <endl /> 
+     <endl />
+
+     <icon key="item_picker_green" /><name>Selettori colorati</name> possono filtrare gli oggetti per colore, utili per organizzare gli oggetti.
+     <endl /> 
+     <endl /> 
+
+     <icon key="item_balancer" /><name>Bilanciatori di oggetti</name>possono essere utilizzati per ordinare gli oggetti sui microtubuli.  
+     <endl /> 
+     <endl /> 
+       
+     <icon key="item_item_kicker" /><name>Spingi-oggetti</name>possono essere utilizzati per impostare la direzione degli oggetti sui microtubuli. 
+     <endl /> 
+     <endl />
+       
+     <icon key="item_picker_long" /><name>Selettore lungo</name> Il selettore lungo è una variante del selettore standard.
+     <endl /> 
+     <endl />
+       
+     <icon key="item_item_tunnel" /><name>Tunnel per oggetti</name> Usalo per far passare gli oggetti sottoterra.
+     <endl /> 
+
+     Questi sono solo alcuni esempi. Ci sono molti altri oggetti da ricercare e con cui giocare che scoprirai durante il tuo viaggio! 
+   
+
+  # EDIFICI PRINCIPALI --------------------------------------------------------------------------      
+
+  "/concepts/main_buildings": >
+    <header><icon key="item_ribosome" />Edifici principali</header>
+    <endl /><endl />
+      <icon key="item_ribosome" /><name>Ribosoma</name><endl /><endl />
+      <icon key="ui_guide_dot"/>Il Ribosoma, presente in tutte le cellule, collega gli amminoacidi insieme nell'ordine specificato per creare nuovi materiali importanti. Ogni ribosoma è formato da due subunità ribosomiali.
+      È l'unità di produzione principale di ogni cellula.<endl />
+
+
+      <canvas size="0 0" scale="2" align="center">
+      <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+      <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+      <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+      <railing from="0 1" to="2 1" />"
+      <railing from="0 3" to="2 3" />"
+      <railing from="6 2" to="8 2" emit="true"/>"
+      <image key="item_aminoacid_red" tile="0 1" />
+      <image key="item_aminoacid_yellow" tile="0 3" />
+      <image key="object_ribosome" tile="3 1" align="lowerleft" />
+      <image key="item_subunit_red" tile="8 2" />
+      </canvas><endl />
+
+      <icon key="item_assembler" /><name>Assemblatore</name><endl /><endl />
+      <icon key="ui_guide_dot"/>L'assemblatore crea molti oggetti e strutture <icon key="item_microtubule" />, a partire dai due oggetti che inserisci in esso.<endl />
+
+      <canvas size="0 0" scale="2" align="center">
+
+
+      <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+      <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+      <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+
+
+      <railing from="0 1" to="2 1" />"
+      <railing from="0 3" to="2 3" />"
+      <railing from="6 2" to="8 2" emit="true"/>"
+      <image key="item_tubulin_red" tile="0 1" />
+      <image key="item_tubulin_green" tile="0 3" />
+
+      <image key="object_assembler" tile="3 1" align="lowerleft" />
+      <image key="item_microtubule" tile="8 2" />
+      </canvas><endl />
+
+      <icon key="item_catalyzer" /><name>Catalizzatore</name><endl /><endl />
+      <icon key="ui_guide_dot"/>Il catalizzatore utilizza enzimi <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
+      per specificare reazioni, che sono particolari lavorazioni avanzate che verranno utilizzate per<endl /> il metabolismo:  <icon key="item_atp" />generazione di energia, <icon key="item_adp" />riciclo di materiali e così via.<endl /><endl />
+
+      Per utilizzare il catalizzatore devi prima ricercare e creare un enzima, poi trascinalo sul catalizzatore per iniziare a utilizzare la reazione richiesta.<endl />
+      
+      <canvas size="0 0" scale="2" align="center">
+      <image key="item_alcohol_dehydrogenase" tile="4 5" />
+
+
+      <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+      <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+      <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+      <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+      <image key="object_picker" batch="1" facing="west" tile="5 3" align="lowerleft"/>
+      <image key="object_picker" batch="1" facing="west" tile="5 1" align="lowerleft"/>
+      <railing from="0 1" to="2 1" />"
+      <railing from="0 3" to="2 3" />"
+      <railing from="6 3" to="8 3"/>"
+      <railing from="6 2" to="8 2"/>"
+      <railing from="6 1" to="8 1" emit="true"/>"
+
+      <image key="item_nadh" tile="0 1" />
+      <image key="item_pyruvate" tile="0 3" />
+
+      <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+      <image key="item_carbon_dioxide" tile="8 3" />
+      <image key="item_nad+" tile="8 2" />
+      <image key="item_ethanol" tile="8 2" />
+      </canvas><endl />
+
+      <endl />
+
+# RACCOLTA AUTOMATICA --------------------------------------------------------------------------      
+
+  "/concepts/automating_gathering": >
+    <header><icon key="item_cytostome1x" />Raccolta Automatica</header> 
+    <endl />
+      <icon key="ui_guide_dot"/>Per automatizzare la raccolta delle risorse devi creare <name>citostomi</name><icon key="item_cytostome1x" /><endl /><endl />
+      
+      I citostomi sono strutture che possono assorbire automaticamente gli oggetti <icon key="item_aminoacid_red" /><icon key="item_aminoacid_green" /><icon key="item_aminoacid_blue" /> dal vuoto. 
+      Possono essere posizionati sulle membrane cellulari.<endl />
+
+      <canvas size="0 0" scale="2" align="center" key="object_usage_cytostome1x" />
+      <break /><break />
+
+      <icon key="ui_guide_dot"/>Posiziona il citostoma vicino a un mucchio di risorse per raccogliere materiali da esso. 
+      I citostomi esauriranno la loro funzione nel tempo e si ossideranno.<endl /><endl />
+      Possono essere sostituiti con un citostoma avanzato. <icon key="item_cytostome2x" /><endl /> 
+      I citostomi avanzati sono molto più efficienti ma richiedono atp <icon key="item_atp" /> per funzionare.
+
+      <canvas size="0 0" scale="2" align="center" key="object_usage_cytostome2x" />
+      <break />
+
+  # ESPANSIONE DELLA TUA CELLULA --------------------------------------------------------------------------      
+
+  "/concepts/expansion": >
+    <header><icon key="item_collagen_scaffold" />Espansione</header> 
+    <endl />
+      <icon key="ui_guide_dot"/>Espandere il tuo organismo è necessario per avere abbastanza spazio per i tuoi edifici ma anche per raccogliere risorse.<endl/>
+      L'espansione della tua cellula avviene attraverso il <concept icon="item_dispatcher" text="dispatcher" tooltip="dispatcher" /> che è in grado di consegnare materiali per le tue nuove zone.<break/>
+
+      <icon key="ui_guide_exclamation"/>Usa lo strumento della barra degli strumenti <icon key="ui_icon_chunk_planner" /> per selezionare dove espandere la tua cellula 
+      e alimenta il dispatcher con il tessuto giusto <icon key="item_cell_membrane" /> per iniziare l'espansione.
+      <endl />
+
+      <canvas size="0 0" scale="1" align="center" key="object_usage_dispatcher" /><endl/>
+
+      Ricorda che le zone intracellulari come <icon key="item_cell_membrane" /><name>cellula predefinita</name> richiedono un <icon key="item_cytoskeleton_scaffold" /><name>telaio del citoscheletro</name> da costruire sotto prima.
+      <break/>
+      Lo stesso meccanismo si applica per i tessuti extracellulari come <icon key="item_collagen_flooring" /><name>matrice extracellulare</name> che richiede un <icon key="item_collagen_scaffold"/><name>telaio di collagene</name> sottostante.
+
+      <break />
+
+  # batteri
+  "/concepts/bacteria": >
+    <header><icon key="item_bacterium_bacillus_green" />Batteri</header> 
+    <endl />
+    I batteri sono presenti nel brodo fuori dal tuo organismo e attaccheranno il tuo organismo quando si avvicinano a te.<endl/>
+    <canvas size="0 0" scale="1" align="center">
+    <image key="item_bacterium_bacillus_green" tile="0 0" />
+    <image key="item_bacterium_bacillus_blue" tile="2 0" />
+    <image key="item_bacterium_coccus_red" tile="4 0" />
+    <image key="item_bacterium_coccus_yellow" tile="6 0" />
+    </canvas><endl/>
+    
+    <icon key="ui_guide_dot" />vivono in colonie all'esterno che crescono nel tempo<endl/>
+    <icon key="ui_guide_dot" />di tanto in tanto anche i batteri vaganti verranno e ti attaccheranno<endl/>
+    <break/>
+    Possono infettare il tuo organismo, l'infezione non ti danneggia direttamente ma colpisce la salute del pezzo che alla fine porta a <concept text="necrosi" icon="item_necrotic_tissue" link="/concepts/necrosis" />.<endl/>
+    <endl/>
+    Puoi difenderti costruendo <concept text="lanciatori" icon="item_launcher1x" tooltip="launcher1x" /> che sono in grado di lanciare <concept icon="item_defensin_theta" text="defensine" tooltip="defensin_theta" /> verso di loro.
+    <endl/>
+
+#<canvas size="0 0" scale="2" align="center">
+#<zone from="0 0" to="7 5" key="cytosol" emit="true" />
+#<image key="zone_stomach_intracellular_overlay" batch="1" facing="2" tile="0 2" />
+#</canvas>
+
+  # GESTIONE DELLE RISORSE --------------------------------------------------------------------------      
+
+  "/concepts/managing_resources": >
+    <header><icon key="item_collagen_scaffold" />Gestione delle Risorse</header> 
+    <endl />
+    <icon key="ui_guide_dot" />Puoi accumulare risorse creando depositi.<endl /><endl />
+    <icon key="ui_guide_exclamation"/>Ci sono due tipi di deposito, grande e piccolo.<endl />Usali in base alle tue esigenze.
+    <endl /><endl />
+    <canvas size="0 0" scale="2" align="center">
+    <image key="object_stockpile2x" tile="0 1" align="lowerleft" />
+    <image key="item_picker" tile="0 2" />
+    <image key="object_stockpile2x" tile="3 1" align="lowerleft" />
+    <image key="item_tubulin_red" tile="3 2" />
+    <image key="object_stockpile2x" tile="0 4" align="lowerleft" />
+    <image key="item_staminal_tissue" tile="0 5" />
+    <image key="object_stockpile2x" tile="3 4" align="lowerleft" />
+    <image key="item_artery2x2" tile="3 5" />
+
+    <image key="object_stockpile2x" tile="6 1" align="lowerleft" />
+    <image key="item_tubulin_green" tile="6 2" />
+    <image key="object_stockpile2x" tile="9 1" align="lowerleft" />
+    <image key="item_tubulin_red" tile="9 2" />
+    <image key="object_stockpile2x" tile="6 4" align="lowerleft" />
+    <image key="item_microtubule" tile="6 5" />
+    <image key="object_stockpile2x" tile="9 4" align="lowerleft" />
+    <image key="item_ribosome" tile="9 5" />
+    </canvas><endl />
+
+     <icon key="ui_guide_brain" />I depositi possono accumulare diverse quantità di oggetti a seconda della loro dimensione.
+
+  "/concepts/energy": >
+    <header><icon key="item_atp" />Energia</header> 
+    <endl /> 
+    L'energia è una parte fondamentale dell'organismo, viene utilizzata per alimentare molte strutture, puoi riconoscerle da questo simbolo <icon key="ui_icon_energy_yellow" />.<break/>
+
+    L'energia viene generata bruciando <icon key="item_atp" /><name>ATP</name> in <icon key="item_adp" /><name>ADP</name>.<break/>
+    <icon key="item_energy_supplier_mk2" /><name>Fornitori di energia</name> sono strutture che possono bruciare <name>ATP</name> e distribuire energia agli edifici vicini.<break/>
+
+     <canvas size="0 0" scale="2" align="center">
+
+     <zone from="0 0" to="10 4" key="cytosol" emit="true" />
+
+     <image key="object_picker" batch="0" facing="east" tile="2 2" align="lowerleft"/>
+     <image key="object_picker" batch="1" facing="west" tile="3 2" align="lowerleft"/>
+
+     <image key="object_picker" batch="0" facing="east" tile="6 2" align="lowerleft"/>
+     <image key="object_picker" batch="1" facing="west" tile="7 2" align="lowerleft"/>
+
+    
+     <railing from="2 2" to="2 4"/>
+     <railing from="4 0" to="4 2"/>
+
+     <railing from="6 2" to="6 4"/>
+     <railing from="8 0" to="8 2" emit="true"/>
+
+     <image key="item_atp" tile="2 3" />
+     <image key="item_adp" tile="4 1" />
+
+     <image key="item_atp" tile="6 3" />
+     <image key="item_adp" tile="8 1" />
+
+     <image key="object_energy_supplier_mk1_base" tile="3 2" align="lowerleft" />
+     <image key="object_energy_supplier_mk1_rod_on" tile="3 4" align="lowerleft" />
+
+     <image key="object_energy_supplier_mk1_base" tile="7 2" align="lowerleft" />
+     <image key="object_energy_supplier_mk1_rod_off" tile="7 4" align="lowerleft" />
+     </canvas><endl />
+     Puoi trovare <icon key="item_atp" /><name>ATP</name> all'esterno o puoi ricaricare <icon key="item_adp" /><name>ADP</name> attraverso vari meccanismi.<break/>
+     <icon key="ui_guide_brain" />Puoi collegare <name>fornitori di energia</name> e <name>poli energetici</name> per creare una rete e distribuire energia a più edifici.
+     <endl/>
+     <canvas size="0 0" scale="1" align="center">
+       <image key="item_energy_supplier_mk1" tile="0 0" />
+       <image key="item_energy_supplier_mk2" tile="2 0" />
+       <image key="item_energy_pole" tile="4 0" />
+     </canvas>
+
+  # energy distribution
+  "/concepts/energy_distribution": >
+    <header><icon key="ui_icon_energy_yellow" />Distribuzione dell'Energia</header> 
+    <endl />
+    Puoi distribuire energia <icon key="ui_icon_energy_yellow" /> sia<break/> 
+    <icon key="ui_guide_dot" /> posizionando direttamente <concept icon="item_energy_supplier_mk2" text="fornitori" tooltip="energy_supplier_mk2" /> nel raggio di azione delle strutture che richiedono energia.<break/>
+    <icon key="ui_guide_dot" /> creando una rete di <concept icon="item_energy_supplier_mk2" text="fornitori" tooltip="energy_supplier_mk2" /> e <concept icon="item_energy_pole" text="poli" tooltip="energy_pole" /><break/>
+    Cercando di posizionare una struttura che può formare una rete<endl/>
+    <canvas size="0 0" scale="1" align="center">
+       <image key="item_energy_supplier_mk1" tile="0 0" />
+       <image key="item_energy_supplier_mk2" tile="2 0" />
+       <image key="item_energy_pole" tile="4 0" />
+    </canvas>
+    <endl/>
+    mostrerà due aree attorno alla struttura:<endl/>
+    <icon key="ui_guide_dot" /> <p color="#ffff00">giallo</p> il raggio è la gamma che si collega ad altri fornitori e pali<endl/>
+    <icon key="ui_guide_dot" /> <p color="#ff8000">arancione</p> il raggio è la gamma che si collega ai consumatori di energia<endl/>
+    <endl/>
+    <icon key="ui_icon_idea_lamp" /> Il <concept icon="item_energy_pole" text="polo energetico" tooltip="energy_pole" /> è speciale perché ha un lungo raggio per connettersi alla rete ma un raggio molto piccolo per i consumatori.
+
+  # symbol_legend
+  "/interface/symbol_legend": >
+   <header><icon key="ui_icon_context_help" />Simboli</header>
+   <break/> 
+   Questi simboli vengono utilizzati nell'interfaccia utente e hanno significati speciali:<break/>
+
+   <icon key="ui_icon_oxidized" /> la struttura è <concept text="usa e getta" link="/concepts/oxidation" /> e ha usi finiti<break/>
+   <icon key="ui_icon_generating_heat" /> la struttura genera <concept text="calore" link="/concepts/temperature" /><break/>
+   <icon key="ui_icon_energy_yellow" /> la struttura richiede <concept text="energia" link="/concepts/energy" /><break/>
+   <icon key="ui_icon_energy_blue" /> la struttura fa parte del <concept text="ciclo energetico mitocondriale" link="/concepts/mitochondrion" /><break/>
+   <icon key="ui_icon_indirect_build" /> la struttura è <name>extracellulare</name> e deve essere costruita dai dispatcher<break/>
+   
+   <icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /> la ricetta deve essere costruita in un edificio specifico<break/>
+   <icon key="item_mitochondrial_membrane" /><icon key="item_staminal_tissue" /><icon key="item_heart_intracellular_tissue" /> la ricetta deve essere costruita in una zona specifica<break/>
+
+   
+   <icon key="ui_icon_work_in_progress" /> la ricetta è ancora <concept text="in lavorazione" />, usala a tuo rischio e pericolo!
+
+
+  # necrosis
+
+  "/concepts/necrosis": >
+   <header><icon key="item_necrotic_tissue" />Necrosi</header>
+   <endl/> 
+   La <name>Necrosi</name> è uno stato di <red>irrecuperabile</red> del pezzo che si verifica quando la salute del pezzo scende al di sotto di una certa soglia.
+   
+   Ogni pezzo inizia al <green>100%</green> di salute ma varie condizioni possono diminuire la sua salute, quando la salute scende al di sotto del <red><value type="rule" key="physiology::necrosisHealthThreshold" format="percent" /></red> inizierà la necrosi.
+   <endl/><endl/>
+   Alcune condizioni che possono ridurre la salute sono:<break/>
+   <icon key="ui_icon_temperature"/> la temperatura del pezzo<break/>
+   <icon key="item_infector"/> piastrelle infette all'interno del pezzo<break/>
+   <icon key="item_necrotic_tissue"/> pezzi necrotici nelle vicinanze<break/>
+   <break/>
+   <icon key="ui_warning_sign_red" /><red>La necrosi non può essere curata o invertita, una volta che un pezzo inizia a diventare necrotico morirà lentamente e di solito questo è un effetto a catena.</red><endl/>
+   Questo significa che devi <name>prevenire</name> le condizioni, non agire troppo tardi!<break/>
+   <icon key="ui_icon_idea_lamp" />Quando un pezzo non ha alcuna condizione che ne influisce negativamente sulla salute, <green>si rigenererà lentamente fino al 100% di salute</green><break/>
+
+
+
+  # temperature
+  
+  "/concepts/temperature": >
+    <header><icon key="ui_icon_toggle_temperature_overlay_off" />Temperatura</header> 
+    <endl /> 
+    <icon key="ui_guide_exclamation"/>Gestire la temperatura della tua cellula è fondamentale per sopravvivere.
+    <endl /> <endl /> 
+    La temperatura esterna inizia a <value type="rule" key="physiology::voidTemperatureRange" index="1" format="temperature" />, ma diminuirà lentamente nel tempo.
+    Questo farà perdere calore al tuo organismo e alla fine sarà così freddo che subirà danni e attiverà <icon key="item_necrotic_tissue"/> <name>necrosi</name>. <endl/>
+    Il limite inferiore prima che inizi qualsiasi tipo di danno è <value type="rule" key="physiology::safeTemperatureRange" index="0" format="temperature" />.
+    <endl /> <endl /> 
+    <icon key="ui_guide_dot"/>Alcuni edifici generano calore mentre stanno lavorando, esempi sono i <name>fornitori di energia</name> o gli edifici di <name>produzione</name><endl/>
+    <canvas size="0 0" scale="1" align="center">
+    <image key="item_energy_supplier_mk2" tile="0 0" />
+    <image key="item_ribosome" tile="2 0" />
+    <image key="item_catalyzer" tile="4 0" />
+    <image key="item_assembler" tile="6 0" />
+    </canvas><endl/>
+    Puoi riconoscerli da questo <icon key="ui_icon_generating_heat" /> simbolo nel loro tooltip.<endl/><endl/>
+
+
+    <icon key="ui_guide_dot"/> Puoi anche utilizzare i <name>decoupler</name>, che sono un modo avanzato di generare calore che richiede <icon key="item_mitochondrial_membrane"/> <name>mitocondri</name>.<endl/>
+    <canvas size="0 0" scale="2" align="center"  key="object_usage_decoupler" />
+    <endl/>
+    Questo metodo richiede di investire <icon key="item_nadh" /> <name>NADH</name> in una <icon key="item_electron_transport_chain"/><name>catena di trasporto degli elettroni</name> ma genera molto calore.
+
+  "/concepts/advanced_energy_production": >
+    <header><icon key="item_krebs_cycle_enzyme" />Produzione Avanzata di Energia</header> 
+    <endl /> 
+    <icon key="ui_guide_exclamation"/>In arrivo.
+    <endl /> <endl /> 
+
+
+
+
+ # tipi di tessuto
+
+  "/concepts/tissue_types": >
+    <header><icon key="item_staminal_tissue" />Tipi di Tessuto</header>
+    <endl />
+    Il tuo organismo è composto da pezzi che possono essere di molti diversi tessuti, ognuno con la propria funzione e capacità.<endl/><endl/>
+    <icon key="item_cell_membrane" /> <name>Tessuti Intracellulari</name><break/>
+    <icon key="ui_guide_dot"/>sono murati<break/>
+    <icon key="ui_guide_dot"/>permettono <icon key="item_microtubule" /><icon key="item_picker" /><link target="/concepts/routing_items">microtubuli e selettori</link><break/>
+    <icon key="ui_guide_dot"/>permettono <icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /><link target="/concepts/production">produzione</link> di oggetti<break/>
+    <endl/>
+    <icon key="item_lung_tissue" /> <name>Tessuti Extracellulari</name><break/>
+    <icon key="ui_guide_dot"/>hanno capsule (muri ancora più alti)<break/>
+    <icon key="ui_guide_dot"/>sei autorizzato a costruire lì solo <icon key="ui_icon_indirect_build" /> indirettamente attraverso <icon key="item_dispatcher" /><name>dispacciatori</name><break/>
+    <icon key="ui_guide_dot"/>permettono <icon key="item_red_blood_cell" /><name>cellule</name> di muoversi <break/>
+    <icon key="ui_guide_dot"/>permettono <icon key="item_artery2x2"/><icon key="item_vein2x2"/><name>vassoi</name><break/>
+    <endl/>
+    Inoltre ci sono alcuni tessuti speciali:<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_staminal_tissue" /><name>tessuto staminale</name>, che può costruire tutti gli altri tessuti<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_mitochondrial_membrane" /><name>mitocondrio</name>, che è una zona murata speciale utilizzata per produrre energia e calore<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_collagen_flooring" /><name>matrice extracellulare</name>, che è un tessuto extracellulare non specializzato utile per collegare zone<endl/>
+
+  "/concepts/evolution": >
+    <header><icon key="ui_icon_open_evolution_view" />Evoluzione</header> 
+    <endl />
+    L'evoluzione è il processo di scoperta di nuove strutture, meccaniche e reazioni per lo sviluppo del tuo organismo.
+    <break/>
+    Questo è fatto con <concept text="evolvers" icon="item_evolver" tooltip="evolver" />, che sono strutture che possono elaborare materiale per scoprire nuove cose.
+    <break/>
+    <icon key="ui_guide_exclamation"/>Gli evolvers usano pezzi di dna per evolvere:<endl/>
+    <icon key="item_cytosine"/> <icon key="item_guanine"/>singole <name>nucleobasi</name>, che possono essere ricavate da <icon key="item_plasmid_1" /><name>plasmidi</name> o trovate all'esterno.
+    <endl/>
+    <icon key="item_base_pair_at"/><icon key="item_base_pair_cg"/><name>coppie di basi</name>, che devono essere assemblate con un <icon key="item_catalyzer" tooltip="catalyzer" /><name>catalizzatore</name>
+    <break/>  
+    <icon key="ui_guide_bling"/>Per aprire l'albero dell'evoluzione e scegliere cosa scoprire premi il tasto <keycap action="open_evolution_view" />. 
+      
+      <endl /><endl />
+
+      <image key="ui_guide_img_research" scale="2"/>
+      
+      <endl /><endl />
+      <icon key="ui_warning_sign_yellow"/>Per trasformare i <icon key="item_plasmid_1" /><name>plasmidi</name> in nucleobasi hai bisogno di usare un <icon key="item_dna_nuclease" /><name>DNA nuclease</name>.
+      <endl /><endl />
+
+
+  # ossidazione
+
+  "/concepts/oxidation": >
+     <header><icon key="item_carbon_dioxide" />Ossidazione</header> 
+     <endl />
+        <icon key="ui_guide_exclamation"/>L'ossidazione può lentamente consumare i tuoi edifici, rallentandoli e alla fine fermandoli.<endl /><endl />
+
+        Molti edifici primitivi nel gioco iniziale hanno un numero finito di usi, sono definiti <keyword>usa e getta</keyword>.<endl />
+        Puoi riconoscere un edificio usa e getta da questo simbolo: <icon key="ui_icon_oxidized" /> <endl/>
+        <endl/>
+        <endl/>
+        Alcune proprietà delle strutture usa e getta:<endl/>
+        <icon key="ui_guide_dot"/> Quando ossidati, lavoreranno meno efficientemente <endl/>
+        <icon key="ui_guide_dot"/> Non <red>possono</red> essere spostati: una volta distrutti, sono andati! <endl/>
+        <icon key="ui_guide_dot"/> Possono <green>essere</green> sostituiti direttamente per rigenerarli <endl/>
+        <icon key="ui_guide_dot"/> Puoi usare <concept icon="item_diffuser" tooltip="diffuser" text="diffusori" /> per rinnovarli automaticamente<endl/>
+        <endl/>
+
+        <icon key="ui_guide_brain"/>Sarai in grado di utilizzare strutture più avanzate, non usa e getta, ma alcune di esse richiederanno energia <icon key="item_atp"/> per funzionare.
+       <endl />
+
+  "/concepts/vessels": >
+     <header><icon key="item_artery2x2" />Vasi</header> 
+     <endl />
+       <icon key="ui_guide_dot"/>Arriveranno presto!
+       <endl />
+
+
+  "/concepts/heaps": >
+     <header><icon key="item_atp_synthase" />Mucchi</header> 
+     <endl />
+       <icon key="ui_guide_dot"/>I mucchi di risorse sono sparsi nel vuoto e contengono gruppi di risorse necessarie. Puoi acquisirli utilizzando un citostoma. <icon key="item_cytostome1x"/>
+
+       <endl /><endl />
+
+       <icon key="ui_guide_exclamation"/>I mucchi di risorse si esauriranno eventualmente nel tempo, quindi tieni d'occhio la loro durata e ricorda di espanderti e trovare altri mucchi per evitare di rimanere senza nutrienti importanti.
+       <endl /><endl />
+
+       Mentre progredisci e fai ricerca avrai bisogno di nuovi materiali, che appariranno in nuovi mucchi nel tempo.
+
+       <endl /><endl />
+
+       <canvas size="0 0" scale="2" align="center">
+
+       <image key="item_aminoacid_blue" tile="0 2" pos="12 2" />
+       <image key="item_aminoacid_blue" tile="1 1" />
+       <image key="item_aminoacid_blue" tile="2 1" pos="22 12" />
+       <image key="item_aminoacid_blue" tile="1 2" pos="22 32" />
+       <image key="item_aminoacid_blue" tile="2 2" pos="32 12" />
+       <image key="item_aminoacid_blue" tile="1 3" />
+       <image key="item_aminoacid_blue" tile="0 3" pos="22 12" />
+
+       <image key="item_aminoacid_blue" tile="0 2" pos="-6 5" />
+       <image key="item_aminoacid_blue" tile="1 1" pos="14 7" />
+       <image key="item_aminoacid_blue" tile="2 1" pos="4 18" />
+       <image key="item_aminoacid_blue" tile="1 2" pos="18 1" />
+       <image key="item_aminoacid_blue" tile="2 2" pos="14 -14" />
+       <image key="item_aminoacid_blue" tile="1 3" pos="22 0" />
+       <image key="item_aminoacid_blue" tile="0 3" pos="6 22" />
+
+       </canvas><endl />
+
+       <icon key="ui_guide_brain"/>Più citostomi possono essere collegati a un singolo mucchio di risorse.
+
+ # enzimi
+
+  "/concepts/enzymes": >
+    <header><icon key="item_glycolysis_enzyme" />Enzimi</header>
+    <endl/>
+      Gli enzimi sono proteine speciali necessarie per catalizzare le reazioni.<endl/>
+      Devi:<endl/>
+      <icon key="ui_guide_dot"/>creare l'enzima necessario per la reazione che vuoi avviare<endl/>
+      <icon key="ui_guide_dot"/>e inserirlo nel <concept text="catalizzatore" icon="item_catalyzer" tooltip="catalyzer"/> che vuoi utilizzare<endl/>
+      <icon key="ui_guide_dot"/>ora puoi selezionare la reazione come faresti per altri edifici di produzione<break/>
+      
+      Ad esempio, per la <concept icon="recipe_icon_glycolysis" text="glicolisi" tooltip="glycolysis" />, prima devi creare un
+      <concept icon="item_glycolysis_enzyme" text="enzima della glicolisi" tooltip="glycolysis_enzyme" />, poi puoi riempire un catalizzatore con esso.<break/>
+      
+      <icon key="ui_icon_idea_lamp" />Puoi riprendere l'enzima e metterlo altrove se necessario.<break/>
+
+      <canvas size="0 0" scale="2" align="center">
+
+      <image key="object_catalyzer" tile="0 1" align="lowerleft" />
+      <image key="item_enzyme_11" tile="1 5"   />
+
+      <image key="item_enzyme_12" tile="3 5"   />
+
+      <image key="object_catalyzer" tile="4 1" align="lowerleft" />
+      <image key="item_enzyme_8" tile="5 5"   />
+
+      <image key="item_glycolysis_enzyme" tile="7 5"   />
+
+      <image key="object_catalyzer" tile="8 1" align="lowerleft" />
+      <image key="item_enzyme_10" tile="9 5"   />
+
+      </canvas>
+      
+  # trasportatori di membrana
+  "/concepts/membrane_transportation": >
+    <header><icon key="item_membrane_transporter2x" />Trasporto Membranale</header><break/>
+    Le membrane <red>non</red> permettono ai <concept icon="item_microtubule" text="microtubuli" /> di attraversarle.<end/>
+    Devi utilizzare edifici speciali chiamati trasportatori:<endl />
+    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter1x" text="uniportatori" tooltip="membrane_transporter1x" />, che sono in grado di spostare un singolo elemento in una direzione<endl/>
+    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter2x" text="cotrasportatori" tooltip="membrane_transporter2x" />, che sono in grado di spostare due elementi accoppiati nella stessa direzione o scambiandoli<endl/>
+    <endl/>
+    I trasportatori funzionano come catalizzatori ed enzimi, devi inserire un trasportatore specifico che configura quali elementi possono essere trasportati dall'edificio.<endl/>
+    <canvas size="0 0" scale="2" align="center">
+    <image key="item_uniporter_gas" tile="0 0" />
+    <image key="item_antiporter_atp_adp" tile="2 0" />
+    <image key="item_antiporter_nadh_nad" tile="4 0" />
+    </canvas>
+    <endl/>
+    <icon key="ui_warning_sign_yellow"/><warning>I cotrasportatori funzionano solo quando entrambi gli elementi sono presenti all'interno dell'edificio. Altrimenti aspetteranno di essere riempiti.</warning><break/>
+    <canvas size="0 0" scale="1" align="center" key="object_usage_membrane_transporter2x" />
+    <icon key="ui_icon_idea_lamp" />Alcuni trasportatori possono invertire la loro direzione, basta usare <keycap action="execute_first_action" /> o il menu contestuale.<break/>
+
+  # mitocondrio
+  "/concepts/mitochondrion": >
+    <header><icon key="item_mitochondrial_membrane" />Mitocondrio</header><break/>
+    I mitocondri sono zone speciali che possono essere costruite solo all'interno di <concept icon="item_cell_membrane" text="zone intracellulari" link="/concepts/tissue_types" />.
+    <break/>
+    Il suo scopo è la produzione di energia attraverso la <concept icon="item_electron_transport_chain" text="catena di trasporto degli elettroni" tooltip="electron_transport_chain" />.
+    Questa energia può essere consumata da due edifici:<break/>
+    <concept icon="item_atp_synthase" text="ATP sintasi" tooltip="atp_synthase" />, che convertono <concept icon="item_adp" text="ADP" /> in <concept icon="item_atp" text="ATP" />
+    da consumare da <concept icon="item_energy_supplier_mk2" text="fornitori di energia" link="/concepts/energy" /><endl/>
+    <canvas size="0 0" scale="1" align="center" key="object_usage_atp_synthase" /><endl/>
+    <break/>
+    
+    <concept icon="item_decoupler" text="decoupler" tooltip="decoupler" />, che producono molto calore che aiuta a mantenere il tuo organismo <concept text="caldo" link="/concepts/temperature" /><endl/>
+    <canvas size="0 0" scale="1" align="center" key="object_usage_decoupler" /><endl/>
+    <break/>
+    <icon key="ui_icon_idea_lamp" />Per spostare gli elementi dentro e fuori dai mitocondri avrai bisogno di <concept link="/concepts/membrane_transportation" text="trasportatori di membrana" />.
+
+    
+# ---------------------
+# Structures - Crafters
+# ---------------------
+
+  "/reference/structures/crafters/ribosome": >
+    <header><icon key="item_ribosome" />Ribosome</header>
+    <endl /><endl />
+       <icon key="ui_guide_dot"/>The Ribosome, found within all cells, links amino acids together <icon key="item_aminoacid_yellow" /> <icon key="item_aminoacid_green" /><endl />in the order  specified to create new important materials.<endl /><endl /> 
+       
+       <icon key="ui_guide_dot"/>Each ribosome is formed of two ribosome subunits.
+       <icon key="item_subunit_red" /><icon key="item_subunit_red" />
+       <endl /><endl />
+       <icon key="ui_guide_exclamation"/>It is the main production unit of every cell.<endl />
+       <endl /><endl />
+
+       <canvas size="0 0" scale="2" align="center" key="object_usage_ribosome" />
+       <break />
+       <icon key="ui_guide_arrow_yellow"/><name>Ribosome craft:</name><endl/>
+       <recipe key="ribosome" compact="true" />
+
+  "/reference/structures/crafters/assembler": >
+    <header><icon key="item_assembler" />Assembler</header>
+    <endl /><endl />
+      <icon key="ui_guide_dot"/>The assembler is used to craft useful complex items with materials usually coming from a ribosome. <endl /><endl />
+
+      <canvas size="0 0" scale="2" align="center" key="object_usage_assembler" />
+      <break />
+
+      <icon key="ui_guide_arrow_yellow"/><name>Assembler craft:</name><endl/>
+      <recipe key="assembler" compact="true" />
+
+
+    
+  "/reference/structures/crafters/catalyzer": >
+    <header><icon key="item_catalyzer" />Catalyzer</header>
+    <endl /><endl />
+       The catalyser utilizes enzymes <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
+       to specify reactions, which are particular advanced crafts that will be used for metabolism: 
+       
+       <endl /><endl />
+       
+       <icon key="item_atp" /><link target="/reference/structures/energy/atp_synthase">generating energy</link>,  <icon key="item_adp" />recycling materials and so on.
+
+       <endl /><endl /><endl />
+
+       <canvas size="0 0" scale="2" align="center"  key="object_usage_catalyzer" />
+       <break />
+
+       <icon key="ui_guide_arrow_yellow"/><name>Catalyzer craft:</name><endl/>
+       <recipe key="catalyzer" compact="true" />
+
+
+  # ---------------------
+  # Structures - Crafters
+  # ---------------------
+
+  "/reference/structures/evolution/evolver": >
+    <header><icon key="item_evolver" />Evolver</header>
+    <endl /><endl />
+       The catalyser utilizes enzymes <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
+       to specify reactions, which are particular advanced crafts that will be used for metabolism: 
+       
+       <endl /><endl />
+       
+       <icon key="item_atp" /><link target="/reference/structures/energy/atp_synthase">generating energy</link>,  <icon key="item_adp" />recycling materials and so on.
+
+       <endl /><endl /><endl />
+
+       <canvas size="0 0" scale="2" align="center"  key="object_usage_evolver" />
+       <break />
+
+       <icon key="ui_guide_arrow_yellow"/><name>Evolver craft:</name><endl/>
+       <recipe key="evolver" compact="true" />
+      
+
+  # ---------------------
+  # Structures - Energy
+  # ---------------------
+
+  "/reference/structures/energy/electron_transport_chain": >
+    <header><icon key="item_electron_transport_chain" />Electron transport chain</header><endl />
+     <icon key="ui_guide_dot"/>The electron transport chain description text.
+     <endl /><endl />
+     <icon key="ui_guide_exclamation"/>This structure requires power to work.
+     <endl />
+     <canvas size="0 0" scale="2" align="center"   key="object_usage_electron_transport_chain" />
+     <break />
+     <endl />
+
+     <icon key="ui_guide_arrow_yellow"/><name>Electron Transport Chain:</name><endl/>
+     <recipe key="electron_transport_chain" compact="true" />
+
+
+  "/reference/structures/energy/atp_synthase": >
+    <header><icon key="item_atp_synthase" />Atp Synthase</header><endl />
+      The ATP synthase is a structure that catalyzes the formation of the energy storage molecule ATP <icon key="item_atp" /> using ADP <icon key="item_adp" /> 
+      <endl /><endl />
+
+     <icon key="ui_guide_exclamation"/>This structure requires power to work.
+     <endl />
+
+     <canvas size="0 0" scale="2" align="center"   key="object_usage_atp_synthase" />
+       
+     <icon key="ui_guide_arrow_yellow"/><name>Atp Synthase craft:</name><endl/>
+     <recipe key="atp_synthase" compact="true" />
+
+  "/reference/structures/energy/energy_supplier_mk1": >
+    <header><icon key="item_energy_supplier_mk1" />Energy Supplier</header><endl />
+     Energy Supplier is used to generate power that will be used by  <endl />nearby structures.
+     <endl /><endl />
+     Uses <icon key="item_atp" />ATP to generate energy, which will deplete over time when used. When depleted a ADP <icon key="item_adp" /> will be produced.
+      <endl /><endl />
+     <icon key="ui_icon_toggle_power_overlay_on"/>Toggle the power overlay:<icon key="ui_guide_invisidot"/><keycap action="toggle_power_overlay" />
+
+     <endl />
+
+     <canvas size="0 0" scale="2" align="center"   key="object_usage_energy_supplier_mk1" />
+
+
+     <icon key="ui_guide_arrow_yellow"/><name>Energy supplier craft:</name><endl/>
+     <recipe key="energy_supplier_mk1" compact="true" />
+
+# ---------------------
+# Structures - Routing
+# ---------------------
+
+  "/reference/structures/routing/picker": >
+    <header><icon key="item_picker" />Picker</header><endl />
+    <icon key="ui_guide_dot"/> Pickers are the simplest way to move items in <link target="/concepts/tissue_types">intracellular zones</link>.<endl />
+    <endl/>
+    <icon key="ui_guide_exclamation"/>The standard picker occupies one tile and expands to a neighbouring tile which is used for depositing or picking items.
+    <endl/>
+    <canvas size="0 0" scale="2" align="center"  key="object_usage_picker" />
+    <canvas size="0 0" align="center" scale="2.0">
+    <zone key="cytosol" from="0 0" to="3 2" emit="true"/>
+    <image key="object_picker" batch="0" facing="east" tile="1 1" align="lowerleft"/>
+    </canvas>
+    <endl/><endl />
+
+    <icon key="ui_guide_dot"/>You can rotate pickers by pressing <keycap key="e" /> , or change  direction with <keycap key="q" />.<endl /><endl /> 
+    <icon key="ui_guide_dot"/>To interact with Pickers, Microtubules must be placed on the side with the arrow, while the darker section must be under the desidered structure, like a Ribosome
+      (img) Starters - starters can be placed on microtubules to change the items direction.
+      <endl /><endl />
+
+    <icon key="ui_guide_dot"/> (alt text) Pickers can be rotated with first action <keycap action="execute_first_action" /> or they can switch between <p color="red">picking</p> 
+    and <p color="red">dropping</p> mode with <keycap action="execute_second_action" />.
+    <endl/><endl/>
+    <icon key="ui_guide_arrow_yellow"/><name>Picker craft:</name><endl/>
+    <recipe key="picker" compact="true" />
+
+  "/reference/structures/routing/colored_picker": >
+    <header><icon key="item_picker" />Picker</header><endl />
+    <icon key="ui_guide_dot"/>Colored Pickers can be used to sort items on stockpiles and ralining based on their color. 
+
+    <endl/>  
+    <canvas size="0 0" scale="2" align="center"  key="object_usage_picker_green" />
+    <endl/>
+    <icon key="ui_guide_exclamation"/>Item colors similar to the picker should usually work.
+    <endl/>
+     <canvas size="0 0" scale="2" align="center">
+
+     </canvas> 
+     <canvas size="0 0" align="center" scale="2.0">
+     <zone key="cytosol" from="0 0" to="3 2" emit="true"/>
+     <image key="object_picker_blue" batch="0" facing="east" tile="1 1" align="lowerleft"/>
+     </canvas>
+     <endl/><endl />
+
+    <endl/><endl/>
+    <icon key="ui_guide_arrow_yellow"/><name>Colored picker craft:</name><endl/>
+    <recipe key="picker_green" compact="true" />
+
+    
+
+  "/reference/structures/routing/microtubule": >
+    <header><icon key="item_microtubule" />Microtubule</header><endl />
+    <icon key="ui_guide_dot_tiny"/>Microtubules are used to transport items and objects in the cell.<endl /> 
+    They stack in the microtubules slot and can be gathered by right clicking<endl />on them.
+    <endl /> <endl />
+    <icon key="ui_guide_brain"/>To automate the gathering process you need to craft an item stasher <icon key="item_stasher"/> which automatically absorbs Microtubules and places them in their slot.
+
+    <canvas size="0 0" scale="2" align="center"  key="object_usage_microtubule" />
+    <endl />
+     
+    <canvas size="0 0" align="center" scale="2.0">
+    <zone key="cytosol" from="0 0" to="3 2" emit="true"/>
+     <railing from="0 0" to="2 0"/>
+     <railing from="2 0" to="2 2"/>
+     <railing from="2 2" to="3 2" emit="true"/>   
+     <image key="item_microtubule" tile="1 1" align="lowerleft" />
+     </canvas>
+    <endl/><endl />
+    <icon key="ui_guide_arrow_yellow"/><name>Microtubule craft:</name><endl/>
+    <recipe key="microtubule" compact="true" />
+
+
+  "/reference/structures/routing/kicker": >
+    <header><icon key="item_item_kicker" />Starters</header><endl />
+    The starter is used to specify the direction of an item on microtubules.
+    <endl /> To use it just place it on the desired microtubule.
+    <endl /><endl />
+
+    <canvas size="0 0" scale="2" align="center"  key="object_usage_item_kicker" />
+
+     <canvas size="0 0" align="center" scale="2.0">
+     <zone key="cytosol" from="0 0" to="3 2" emit="true"/>
+     <railing from="0 0" to="2 0"/>
+     <railing from="2 0" to="2 2"/>
+     <railing from="2 2" to="3 2" emit="true"/>   
+     <image key="item_item_kicker" tile="1 1" align="lowerleft" />
+     </canvas>
+     <endl/><endl />
+     <icon key="ui_guide_arrow_yellow"/><name>Kicker craft:</name><endl/>
+     <recipe key="item_kicker" compact="true" />
+
+
+  "/reference/structures/routing/item_tunnel": >
+    <header><icon key="item_item_tunnel" />Item Tunnel</header><endl />
+    Use the item tunnel to route items underground. 
+    <endl /><endl />
+
+    <canvas size="0 0" scale="2" align="center"  key="object_usage_item_tunnel" />
+
+      <canvas size="0 0" align="center" scale="2.0">
+     <zone key="cytosol" from="0 0" to="3 2" emit="true"/>
+     <railing from="0 0" to="2 0"/>
+     <railing from="2 0" to="2 2"/>
+     <railing from="2 2" to="3 2" emit="true"/>
+     <image key="object_item_tunnel_base" batch="0" facing="south" tile="1 1" align="lowerleft"/>   
+     <image key="object_item_tunnel_cover" batch="0" facing="south" tile="1 1" align="lowerleft"/>
+     </canvas>
+
+     <endl/><endl />
+     <icon key="ui_guide_arrow_yellow"/><name>Item tunnel craft:</name><endl/>
+     <recipe key="item_tunnel" compact="true" />
+
+
+  "/reference/structures/routing/long_picker": >
+    <header><icon key="item_picker_long" />Long Picker</header><endl />
+    <icon key="ui_guide_dot"/> Long pickers share the same concepts as normal picker, but are longer.
+    <endl /><endl /> <icon key="ui_guide_brain" />Useful to exchange items between near structures and railings.
+
+    <endl /><endl />
+    <canvas size="0 0" scale="2" align="center"  key="object_usage_picker_long" />
+    <canvas size="0 0" align="center" scale="2.0">
+    <zone key="cytosol" from="0 0" to="4 2" emit="true"/>
+    <image key="object_picker_long" batch="0" facing="east" tile="1 1" align="lowerleft"/>
+    </canvas>
+    <endl/><endl />g
+      <endl /><endl />
+
+     <icon key="ui_guide_arrow_yellow"/><name>Long picker craft:</name><endl/>
+     <recipe key="picker_long" compact="true" />
+
+
+  "/reference/structures/routing/balancer": >
+    <header><icon key="item_item_kicker" />Balancer</header><endl />
+    The balancer is useful to distribute items between different railings.
+    <endl /><endl />
+
+     <canvas size="0 0" scale="2" align="center"   key="object_usage_balancer" />
+
+      <canvas size="0 0" align="center" scale="2.0">
+     <zone key="cytosol" from="0 0" to="3 2" emit="true"/>
+     <railing from="0 0" to="2 0"/>
+     <railing from="2 0" to="2 2"/>
+     <railing from="2 2" to="3 2" emit="true"/>
+     <image key="object_item_balancer" tile="1 1" align="lowerleft" pos="0 6"  />/>
+
+     </canvas>
+     <endl /><endl />
+
+     <icon key="ui_guide_arrow_yellow"/><name>Balancer craft:</name><endl/>
+     <recipe key="balancer" compact="true" />
+
+  "/reference/structures/routing/membrane_transporters": >
+    <header><icon key="item_antiporter_nadh_nad" />Membrane transporters</header><endl />
+    Membrane transporter is used to transport specific item between cell membranes and mitochondria. Other uses may apply depending on the transporter inserted.
+    <break />
+    To use membrane transporters drag the required transporter item into it. Each transporter item allowes the membrane transporter to move items between cell walls.
+    <break />
+    There are two types of membrane transporter:
+    <break />
+    Antiporter
+    <break />
+    Uniporter
+    <endl /><endl />
+
+    <canvas size="0 0" scale="2" align="center">
+    <zone from="0 0" to="4 4" key="mitochondrion" emit="true"/>
+    <zone from="5 0" to="9 4" key="cytosol" emit="true"/>
+    <image key="ui_guide_props_wall" tile="4 1" align="lowerleft" />
+    <image key="ui_icon_new_game" tile="0 1" />
+    <image key="object_dispatcher" batch="0" facing="east" tile="7 1" align="lowerleft"/>
+    <image key="ui_icon_new_game" tile="3 2" />
+    <image key="ui_icon_new_game" tile="5 1" />
+    <image key="ui_icon_new_game" tile="0 4" />
+    <image key="ui_icon_new_game" tile="3 6" />
+    <image key="ui_icon_new_game" tile="6 5" />
+    </canvas><endl />
+    <endl /><endl />
+
+    <icon key="ui_guide_arrow_yellow"/><name>Balancer craft:</name><endl/>
+    <recipe key="balancer" compact="true" />
+
+
+  # ---------------------
+  # Stacking
+  # ---------------------
+
+  "/reference/structures/stacking/stockpiles": >
+    <header><icon key="item_collagen_scaffold" />Managing Resources</header> 
+    <endl />
+    <icon key="ui_guide_dot"/>You can stack resources by crafting stockpiles.<endl /><endl />
+    There are two types of stockpile, big and small.<endl />Use them accordingly to your needs
+    <endl /><endl />.
+    <icon key="ui_guide_brain" />You can also add more stockpile related text here, like a tip
+    <canvas size="0 0" scale="2" align="center"  key="object_usage_stockpile2x" />
+    <endl /><endl />
+    <canvas size="0 0" scale="2" align="center">
+    </canvas><endl />
+    <icon key="ui_guide_brain" />Stockpiles can stack different item quantities depending on their size.
+    <icon key="ui_guide_arrow_yellow"/><name>Stockpile craft:</name><endl/>
+    <recipe key="stockpile1x" compact="true" />
+    <recipe key="stockpile2x" compact="true" />
+
+  "/reference/structures/stacking/stasher": >
+    <header><icon key="item_stasher" />Stasher</header> 
+    <endl />
+    Stasher zone text    
+    <endl />
+    <canvas size="0 0" scale="2" align="center"  key="object_usage_stockpile2x" />
+    <endl /><endl />
+    <canvas size="0 0" scale="2" align="center">
+
+    </canvas><endl />
+    <canvas size="0 0" scale="2" align="center"> 
+
+    </canvas><endl />
+
+    <canvas size="0 0" scale="2" align="center"> 
+
+    </canvas><endl />
+
+    <canvas size="0 0" scale="2" align="center">
+
+
+    </canvas><endl />
+
+    <canvas size="0 0" scale="2" align="center">
+
+    </canvas><endl />
+
+    <canvas size="0 0" scale="2" align="center">
+
+    </canvas><endl />
+
+    <canvas size="0 0" scale="2" align="center">
+
+    </canvas><endl />
+
+
+    <canvas size="0 0" scale="2" align="center">
+
+    </canvas><endl />
+
+    <canvas size="0 0" scale="2" align="center">
+
+    </canvas><endl />
+
+    <canvas size="0 0" scale="2" align="center">
+
+    </canvas><endl />
+
+    <canvas size="0 0" scale="2" align="center">
+
+    </canvas><endl />
+
+    <canvas size="0 0" scale="2" align="center"> 
+
+    </canvas><endl />
+
+
+
+
+
+  # ---------------------
+  # Gathering
+  # ---------------------
+
+  "/reference/structures/gathering/cytostome": >
+    <header><icon key="item_cytostome1x" />Cytostome</header> 
+    <endl />
+      <icon key="ui_guide_dot"/>To automate resource gathering you need to craft <name>cytostomes</name><icon key="item_cytostome1x" /><endl /><endl />
+      
+      Cytostomes are structures that can absorb items <icon key="item_aminoacid_red" /><icon key="item_aminoacid_green" /><icon key="item_aminoacid_blue" /> from the void automatically. 
+      They can be placed on the cell membranes.<endl />
+
+      <canvas size="0 0" scale="2" align="center">
+      <zone from="4 0" to="7 3" key="cytosol"  emit="true" />
+      <image key="object_picker" batch="1" facing="west" tile="3 2" align="lowerleft"/>
+
+      <image key="ui_guide_props_void" tile="1 1" pos="0 6" />
+
+      <image key="ui_guide_props_wall" tile="3 1" align="lowerleft" />
+      <image key="ui_guide_props_wall" tile="3 0" align="lowerleft" />
+
+      <image key="object_cytostome1x" batch="0" facing="west" tile="2 2" align="lowerleft"/>
+      <image key="item_aminoacid_yellow" tile="0 1" />
+      <image key="item_aminoacid_yellow" tile="0 1" />
+      <image key="item_aminoacid_red" tile="0 3" />
+
+      <railing from="4 2" to="7 2" emit="true"/>
+
+      </canvas><endl /><endl /><endl /><endl />
+
+      <icon key="ui_guide_dot"/>Place the cytostome near a resource heap to gather materials from it. 
+      Cytostomes will deplete their function over time and will oxidate.<endl /><endl />
+      They can be replaced with an advanced cytostome. <icon key="item_cytostome2x" /><endl /> 
+      Advanced cytostomes are much more efficient but require atp <icon key="item_atp" /> to work.
+
+      <canvas size="0 0" scale="2" align="center">
+      <zone from="4 0" to="7 3" key="cytosol"  emit="true" />
+      <image key="object_picker" batch="1" facing="west" tile="3 2" align="lowerleft"/>
+      <image key="object_picker" batch="1" facing="west" tile="3 1" align="lowerleft"/>
+
+
+      <image key="ui_guide_props_void" tile="1 1"  pos="0 6" />
+      <image key="ui_guide_props_wall" tile="3 1" align="lowerleft" />
+      <image key="ui_guide_props_wall" tile="3 0" align="lowerleft" />
+
+      <image key="object_cytostome2x" batch="0" facing="west" tile="2 1" align="lowerleft"/>
+      <image key="item_aminoacid_yellow" tile="0 1" />
+      <image key="item_aminoacid_yellow" tile="0 1" />
+      <image key="item_aminoacid_red" tile="0 3" />
+      <railing from="4 2" to="7 2"/>
+      <railing from="4 1" to="7 1" emit="true"/>
+      <image key="object_energy_supplier_mk1_base" tile="9 0" align="lowerleft" />
+      <image key="object_energy_supplier_mk1_rod_on" tile="9 2" align="lowerleft" />
+
+      </canvas><endl /><endl /><endl /><endl />
+
+     <icon key="ui_guide_arrow_yellow"/><name>Cytostome craft:</name><endl/>
+     <recipe key="cytostome1x" compact="true" />
+     <recipe key="cytostome2x" compact="true" />
+
+      <endl />
+
+
+  "/reference/structures/gathering/dispatcher": >
+    <header><icon key="item_dispatcher" />Dispatcher</header> 
+    <endl />
+      <icon key="ui_guide_dot"/>Dispatcher is used to expand your tissues whem it's time to expand your starting area.<endl /><endl />  
+      <icon key="ui_guide_exclamation"/>It can be placed on ground or membranes. <endl /><endl />
+      
+      <icon key="ui_guide_dot"/>To use it activate the chunk planner.<endl /><endl />
+      <icon key="ui_icon_toggle_power_overlay_on"/>Toggle the power overlay:<icon key="ui_guide_invisidot"/><keycap action="toggle_power_overlay" />
+      <endl/><endl/>
+      <icon key="ui_guide_brain"/>After you've selected the desired chunk to expand to, make sure to feed the dispatcher the right tissue!
+      <endl />
+
+       <canvas size="0 0" scale="2" align="center">
+       <zone from="0 0" to="3 4" key="scaffold" emit="true"/>
+       <zone from="4 0" to="8 4" key="cytosol" emit="true"/>
+       <image key="ui_guide_props_wall" tile="4 1" align="lowerleft" />
+       <image key="ui_icon_new_game" tile="0 1" />
+       <image key="object_dispatcher" batch="0" facing="east" tile="7 1" align="lowerleft"/>
+       <image key="ui_icon_new_game" tile="3 2" />
+       <image key="ui_icon_new_game" tile="5 1" />
+       <image key="ui_icon_new_game" tile="0 4" />
+       <image key="ui_icon_new_game" tile="3 6" />
+       <image key="ui_icon_new_game" tile="6 5" />
+       </canvas><endl />
+
+     <icon key="ui_guide_arrow_yellow"/><name>Dispatcher craft:</name><endl/>
+     <recipe key="dispatcher" compact="true" />
+
+      <endl />
+
+  "/reference/structures/gathering/disposer": >
+    <header><icon key="item_disposer1x" />Membrane disposer</header> 
+    <endl />
+      <icon key="ui_guide_dot"/>Use the membrane disposer to get rid of the unwanted items.
+      <endl /><endl />
+   
+      <icon key="ui_guide_exclamation"/>They can be placed on the cell membranes just like the cytostomes.<endl />
+
+      <canvas size="0 0" scale="2" align="center">
+      <zone from="4 0" to="7 3" key="cytosol"  emit="true" />
+      <image key="object_picker" batch="0" facing="west" tile="3 2" align="lowerleft"/>
+
+      <image key="ui_guide_props_void" tile="1 1" pos="0 6" />
+
+      <image key="ui_guide_props_wall" tile="3 1" align="lowerleft" />
+      <image key="ui_guide_props_wall" tile="3 0" align="lowerleft" />
+
+      <image key="object_disposer1x" batch="1" facing="west" tile="2 2" align="lowerleft"/>
+      <image key="item_aminoacid_yellow" tile="0 1" />
+      <image key="item_aminoacid_yellow" tile="0 1" />
+      <image key="item_aminoacid_red" tile="0 3" />
+
+      <railing from="4 2" to="7 2" emit="true"/>
+
+      </canvas><endl />
+
+
+
+     <icon key="ui_guide_arrow_yellow"/><name>Membrane disposer craft:</name><endl/>
+     <recipe key="disposer1x" compact="true" />
+
+      <endl />
+
+  # ---------------------
+  # Expansion
+  # ---------------------
+
+  "/expansion/types_of_tissues": >
+    <header>Types of tissues</header>
+    The world of Lifecraft is composed of chunks which can be of many different tissues, each one with their own function and capabilities.<endl/><endl/>
+    Any tissue is of a specific category between 4:<endl />
+    <icon key="item_cell_membrane" /> <name>Intracellular Tissues</name> which always have a wall, they allow building of <link target="/concepts/microtubules">microtubules</link>, 
+    proteins production through ribosomes and in general they allow working with single items.<endl/><endl/>
+    <icon key="item_staminal_tissue" /> <name>Extracellular Tissues</name> which are usually the counterpart of an intracellular tissue for a specific organ. They don't allow
+    working with bla bla
+
+  "/expansion/expansion_rules": >
+    <header><icon key="ui_icon_chunk_planner" />Expansion Rules</header><endl />
+    Expansion Rules
+
+
+
+  "/expansion/apoptosis": >
+    <header><icon key="ui_icon_open_debug_window" />Apoptosis</header><endl />
+    Apoptosis text
+
+# ---------------------
+# Link Mappings
+# ---------------------
+
+  "/reference/zones/cytosol": >
+    <header>Cytosol</header><endl/>
+    <icon key="item_cell_membrane" /> <name>Cytosol</name> description coming soon.
+    <endl/><endl/>
+    
+    <icon key="ui_guide_arrow_yellow"/><name>Cytosol craft</name><endl/>
+    <recipe key="cell_membrane" compact="true" />
+
+
+  "/reference/zones/extracellular_matrix": >
+    <header>Extracellular matrix</header><endl/>
+    <icon key="item_collagen_flooring" /> <name>Extracellular matrix</name> description coming soon.
+    <endl/><endl/>
+
+    <icon key="ui_guide_arrow_yellow"/><name>Extracellular matrix craft:</name><endl/>
+    <recipe key="collagen_flooring" compact="true" />
+
+  "/reference/zones/mitochondrion": >
+    <header>Mitochondrion</header><endl/>
+    <icon key="item_mitochondrial_membrane" /> <name>Mitochondrion</name> description coming soon.
+    <endl/><endl/>
+
+    <icon key="ui_guide_arrow_yellow"/><name>Mitochondrion craft:</name><endl/>
+    <recipe key="mitochondrial_membrane" compact="true" />
+  
+    
+canvases:
+
+# ---------------------
+# ENZYMES CANVASES - some do not work, name seems correct
+# ---------------------
+
+  object_usage_adp_synthase_enzyme: >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_alcohol_dehydrogenase: >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_glycolysis_enzyme: >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_lipase_enzyme: >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_base_pair_ligase_enzyme": >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_krebs_cycle_enzyme": >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_nad_nadp_transhydrogenase_enzyme": >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_nad_synthase_enzyme": >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_nucleobase_synthase_enzyme": >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_pentose_phosphate_pathway_enzyme": >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_pyruvate_dehydrogenase_enzyme": >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_pyruvate_carboxylase_enzyme": >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+# ---------------------
+# OBJECT CANVASES - 
+# ---------------------
+
+  object_usage_cytostome2x: >
+    <zone from="4 0" to="7 3" key="cytosol"  emit="true" />
+    <image key="object_picker" batch="1" facing="west" tile="3 2"     align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="3 1" align="lowerleft"/>
+
+    <image key="ui_guide_props_void" tile="1 1"  pos="0 6" />
+    <image key="ui_guide_props_wall" tile="3 1" align="lowerleft" />
+    <image key="ui_guide_props_wall" tile="3 0" align="lowerleft" />
+
+    <image key="object_cytostome2x" batch="0" facing="west" tile="2 1" align="lowerleft"/>
+    <image key="item_aminoacid_yellow" tile="0 1" />
+    <image key="item_aminoacid_yellow" tile="0 1" />
+    <image key="item_aminoacid_red" tile="0 3" />
+    <railing from="4 2" to="7 2"/>
+    <railing from="4 1" to="7 1" emit="true"/>
+    <image key="object_energy_supplier_mk1_base" tile="9 0" align="lowerleft" />
+    <image key="object_energy_supplier_mk1_rod_on" tile="9 2" align="lowerleft" />
+
+  object_usage_dispatcher: >
+    <zone from="0 0" to="3 4" key="scaffold" emit="true"/>
+    <zone from="4 0" to="8 4" key="cytosol" emit="true"/>
+    <image key="ui_guide_props_wall" tile="4 1" align="lowerleft" />
+    <image key="ui_icon_new_game" tile="0 1" />
+    <image key="object_dispatcher" batch="0" facing="east" tile="7 1" align="lowerleft"/>
+    <image key="ui_icon_new_game" tile="3 2" />
+    <image key="ui_icon_new_game" tile="5 1" />
+    <image key="ui_icon_new_game" tile="0 4" />
+    <image key="ui_icon_new_game" tile="3 6" />
+    <image key="ui_icon_new_game" tile="6 5" />
+
+  object_usage_membrane_transporter1x: >
+    <zone from="0 0" to="4 2" key="mitochondrion" emit="true"/>
+    <zone from="5 0" to="8 2" key="cytosol" emit="true"/>
+    <image key="object_picker" batch="0" facing="east" tile="3 1" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="4 1" align="lowerleft"/>
+    <railing from="0 1" to="3 1" />
+    <railing from="4 1" to="8 1" emit="true"/>
+    <image key="item_oxygen" tile="5 1" pos="0 7"  />
+    <image key="item_oxygen" tile="7 1" pos="0 7"  />
+    <image key="item_oxygen" tile="3 1" pos="0 7"  />
+    <image key="item_oxygen" tile="1 1" pos="0 7"  />
+    <image key="ui_guide_props_wall_mito" tile="4 0" align="lowerleft" />
+    <image key="object_membrane_transporter1x" batch="0" facing="east" tile="3 0" align="lowerleft"/>
+    <image key="ui_guide_transporter1x_overlay" tile="4 2" pos="0 8"  />
+
+  object_usage_membrane_transporter2x: >
+    <zone from="0 0" to="4 3" key="mitochondrion" emit="true"/>
+    <zone from="5 0" to="8 3" key="cytosol" emit="true"/>
+    <image key="object_picker" batch="0" facing="east" tile="3 2" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="3 1" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="4 1" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="4 2" align="lowerleft"/>
+    <railing from="0 2" to="3 2" />
+    <railing from="4 2" to="8 2" />
+    <railing from="0 1" to="3 1" />
+    <railing from="4 1" to="8 1" emit="true"/>
+    <image key="item_atp" tile="3 2" pos="0 7"  />
+    <image key="item_atp" tile="1 2" pos="0 7"  />
+    <image key="item_atp" tile="5 2" pos="0 7"  />
+    <image key="item_atp" tile="7 2" pos="0 7"  />
+    <image key="item_adp" tile="5 1" pos="0 7"  />
+    <image key="item_adp" tile="7 1" pos="0 7"  />
+    <image key="item_adp" tile="3 1" pos="0 7"  />
+    <image key="item_adp" tile="1 1" pos="0 7"  />
+    <image key="ui_guide_props_wall_mito" tile="4 1" align="lowerleft" />
+    <image key="ui_guide_props_wall_mito" tile="4 0" align="lowerleft" />
+    <image key="object_membrane_transporter2x" batch="0" facing="east" tile="3 0" align="lowerleft"/>
+    <image key="ui_guide_transporter_overlay" tile="4 2" pos="0 14"  />
+
+  object_usage_disposer1x: >
+    <zone from="4 0" to="7 3" key="cytosol"  emit="true" />
+    <image key="object_picker" batch="0" facing="west" tile="3 2" align="lowerleft"/>
+    <image key="ui_guide_props_void" tile="1 1" pos="0 6" />
+    <image key="ui_guide_props_wall" tile="3 1" align="lowerleft" />
+    <image key="ui_guide_props_wall" tile="3 0" align="lowerleft" />
+    <image key="object_disposer1x" batch="0" facing="west" tile="2 2" align="lowerleft"/>
+    <image key="item_aminoacid_yellow" tile="0 1" />
+    <image key="item_aminoacid_yellow" tile="0 1" />
+    <image key="item_aminoacid_red" tile="0 3" />
+    <railing from="4 2" to="7 2" emit="true"/>
+
+  object_usage_cytostome1x: >
+    <zone from="4 0" to="7 3" key="cytosol"  emit="true" />
+    <image key="object_picker" batch="1" facing="west" tile="3 2" align="lowerleft"/>
+    <image key="ui_guide_props_void" tile="1 1" pos="0 6" />
+    <image key="ui_guide_props_wall" tile="3 1" align="lowerleft" />
+    <image key="ui_guide_props_wall" tile="3 0" align="lowerleft" />
+    <image key="object_cytostome1x" batch="0" facing="west" tile="2 2" align="lowerleft"/>
+    <image key="item_aminoacid_yellow" tile="0 1" />
+    <image key="item_aminoacid_yellow" tile="0 1" />
+    <image key="item_aminoacid_red" tile="0 3" />
+    <railing from="4 2" to="7 2" emit="true"/>
+
+  object_usage_stasher: >
+    <image key="object_picker" batch="0" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="south" tile="7 1" align="lowerleft"/>
+    <endl /><endl />
+    <image key="object_item_stasher" tile="7 2" align="lowerleft" />
+    <railing from="0 1" to="8 1" emit="true"/>
+    <image key="item_microtubule" tile="3 1" align="lowerleft" />
+    <image key="item_microtubule" tile="5 1" align="lowerleft" />
+
+  object_usage_balancer: >
+    <railing from="0 2" to="8 2"/>
+    <railing from="4 2" to="4 4"  emit="true"/>
+    <image key="object_item_balancer" tile="4 2" align="lowerleft" pos="0 6"  />/>
+    <image key="item_atp" tile="8 2" align="bottom" pos="0 6"  />/>
+    <image key="item_atp" tile="6 2" align="bottom" pos="0 6"  />/>
+    <image key="item_atp" tile="2 2" align="bottom" pos="0 6"  />/>
+    <image key="item_atp" tile="0 2" align="bottom" pos="0 6"  />/>
+    <image key="item_atp" tile="4 5" align="bottom" pos="0 6"  />/>
+    <image key="item_atp" tile="4 4" align="bottom" pos="0 0"  />/>
+
+  object_usage_picker_blue: >
+    <image key="object_picker_blue" batch="0" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker_blue" batch="1" facing="south" tile="7 1" align="lowerleft"/>
+    <railing from="0 1" to="8 1" emit="true"/>
+    <image key="item_subunit_blue" tile="2 1" pos="0 7"  />
+    <image key="item_aminoacid_blue" tile="4 1" pos="0 7"  />
+    <image key="item_collagen_chain_blue" tile="6 1" pos="0 7"  />
+
+  object_usage_picker_gaseous: >
+    <image key="object_picker_gaseous" batch="0" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker_gaseous" batch="1" facing="south" tile="7 1" align="lowerleft"/>
+    <railing from="0 1" to="8 1" emit="true"/>
+    <image key="item_oxygen" tile="2 1" pos="0 7"  />
+    <image key="item_carbon_dioxide" tile="4 1" pos="0 7"  />
+    <image key="item_oxygen" tile="6 1" pos="0 7"  />
+
+  object_usage_picker_genetic: >
+    <image key="object_picker_genetic" batch="0" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker_genetic" batch="1" facing="south" tile="7 1" align="lowerleft"/>
+    <railing from="0 1" to="8 1" emit="true"/>
+    <image key="item_base_pair_cg" tile="2 1" pos="0 7"  />
+    <image key="item_guanine" tile="4 1" pos="0 7"  />
+    <image key="item_base_pair_at" tile="6 1" pos="0 7"  />
+
+  object_usage_picker_green: >
+    <image key="object_picker_green" batch="0" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker_green" batch="1" facing="south" tile="7 1" align="lowerleft"/>
+    <railing from="0 1" to="8 1" emit="true"/>
+    <image key="item_subunit_green" tile="2 1" pos="0 7"  />
+    <image key="item_aminoacid_green" tile="4 1" pos="0 7"  />
+    <image key="item_tubulin_green" tile="6 1" pos="0 7"  />
+
+  object_usage_item_kicker: >
+    <railing from="0 0" to="9 0"/>
+    <railing from="5 0" to="5 4"/>
+    <railing from="0 4" to="9 4" emit="true"/>
+    <image key="item_aminoacid_yellow" tile="1 0" align="lowerleft" />
+    <image key="item_aminoacid_yellow" tile="3 0" align="lowerleft" />
+    <image key="item_aminoacid_yellow" tile="5 1" align="lowerleft" />
+    <image key="item_aminoacid_yellow" tile="5 3" align="lowerleft" />
+    <image key="item_aminoacid_yellow" tile="6 4" align="lowerleft" />
+    <image key="item_aminoacid_yellow" tile="8 4" align="lowerleft" />
+    <image key="item_aminoacid_yellow" tile="8 4" align="lowerleft" />
+    <image key="tile_kickers" facing="north" tile="5 0" />
+    <image key="tile_kickers" facing="east" tile="5 4" />
+
+  object_usage_item_tunnel: >
+    <image key="object_item_tunnel_base" batch="0" facing="north" tile="4 3" align="lowerleft"/>
+    <image key="object_item_tunnel_base" batch="0" facing="south" tile="4 1" align="lowerleft"/>
+    <railing from="0 0" to="4 0"/>
+    <railing from="0 2" to="8 2"/>
+    <railing from="4 0" to="4 1"/>
+    <railing from="4 3" to="4 4"/>
+    <railing from="4 4" to="8 4" emit="true"/>
+    <image key="object_item_tunnel_cover" batch="0" facing="north" tile="4 3" align="lowerleft"/>
+    <image key="object_item_tunnel_cover" batch="0" facing="south" tile="4 1" align="lowerleft"/>
+    <image key="item_cytostome1x" tile="1 0" align="lowerleft" pos="0 6"  />/>
+    <image key="item_cytostome1x" tile="3 0" align="lowerleft" pos="0 6"  />/>
+    <image key="item_cytostome1x" tile="5 4" align="lowerleft" pos="0 6"  />/>
+    <image key="item_cytostome1x" tile="7 4" align="lowerleft" pos="0 6"  />/>
+    <image key="item_adp" tile="3 2" align="lowerleft" pos="0 6"  />/>
+    <image key="item_adp" tile="1 2" align="lowerleft" pos="0 6"  />/>
+    <image key="item_adp" tile="5 2" align="lowerleft" pos="0 6"  />/>
+    <image key="item_adp" tile="7 2" align="lowerleft" pos="0 6"  />/>
+
+  object_usage_picker_long: >
+    <image key="object_picker_long" batch="0" facing="north" tile="1 1" align="lowerleft"/>
+    <image key="object_picker_long" batch="0" facing="south" tile="8 1" align="lowerleft"/>
+    <railing from="0 1" to="9 1" emit="true"/>
+    <railing from="0 3" to="9 3" emit="true"/>
+    <image key="item_aminoacid_red" tile="3 1" align="lowerleft" />
+    <image key="item_aminoacid_red" tile="3 1" align="lowerleft" />
+    <image key="item_aminoacid_blue" tile="6 1" align="lowerleft" />
+
+  object_usage_microtubule: > 
+    <image key="object_picker" batch="1" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="south" tile="9 3" align="lowerleft"/>
+    <image key="object_ribosome" tile="0 1" align="lowerleft" />
+    <image key="object_stockpile2x" tile="8 2" align="lowerleft" />
+    <railing from="0 0" to="5 0"/>
+    <railing from="5 0" to="5 4"/>
+    <railing from="5 4" to="9 4" emit="true"/>
+    <image key="item_tubulin_yellow" tile="1 0" align="lowerleft" />
+    <image key="item_tubulin_yellow" tile="3 0" align="lowerleft" />
+    <image key="item_tubulin_yellow" tile="5 1" align="lowerleft" />
+    <image key="item_tubulin_yellow" tile="5 3" align="lowerleft" />
+    <image key="item_tubulin_yellow" tile="6 4" align="lowerleft" />
+    <image key="item_tubulin_yellow" tile="8 4" align="lowerleft" />
+
+  object_usage_picker: >
+    <image key="object_picker" batch="0" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="south" tile="7 1" align="lowerleft"/>
+    <railing from="0 1" to="8 1" emit="true"/>
+    <image key="item_vimentin" tile="2 1" pos="0 7"  />
+    <image key="item_vimentin" tile="4 1" pos="0 7"  />
+    <image key="item_vimentin" tile="6 1" pos="0 7"  />
+
+  object_usage_picker_red: >
+    <image key="object_picker_red" batch="0" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker_red" batch="1" facing="south" tile="7 1" align="lowerleft"/>
+    <railing from="0 1" to="8 1" emit="true"/>
+    <image key="item_subunit_red" tile="2 1" pos="0 7"  />
+    <image key="item_aminoacid_red" tile="4 1" pos="0 7"  />
+    <image key="item_tubulin_red" tile="6 1" pos="0 7"  />
+
+  object_usage_stockpile2x: >
+    <image key="object_picker" batch="0" facing="south" tile="3 2" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="south" tile="6 2" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="north" tile="4 3" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="north" tile="7 3" align="lowerleft"/>
+    <railing from="0 3" to="10 3" emit="true"/>
+    <image key="object_stockpile2x" tile="6 1" align="lowerleft" />
+    <image key="item_aminoacid_blue" tile="6 2" pos="8 0"  />
+    <image key="item_aminoacid_blue" tile="6 2" pos="8 7"  />
+    <image key="object_stockpile2x" tile="3 1" align="lowerleft" />
+    <image key="item_tubulin_green" tile="3 2" pos="8 0"  />
+    <image key="item_tubulin_green" tile="3 2" pos="8 7"  />
+    <image key="object_stockpile2x" tile="6 4" align="lowerleft" />
+    <image key="item_staminal_tissue" tile="6 5" pos="8 0"  />
+    <image key="item_staminal_tissue" tile="6 5" pos="8 7"  />
+    <image key="object_stockpile2x" tile="3 4" align="lowerleft" />
+    <image key="item_artery2x2" tile="3 5" pos="8 0"  />
+    <image key="item_artery2x2" tile="3 5" pos="8 7"  />
+
+  object_usage_stockpile1x: >
+    <image key="object_picker" batch="0" facing="south" tile="3 2" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="south" tile="6 2" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="north" tile="4 3" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="north" tile="7 3" align="lowerleft"/>
+    <railing from="0 3" to="10 3" emit="true"/>
+    <image key="object_stockpile1x" tile="6 2" align="lowerleft" />
+    <image key="item_aminoacid_blue" tile="6 2" pos="0 6"  />
+    <image key="item_aminoacid_blue" tile="6 2" pos="0 14"  />
+    <image key="object_stockpile1x" tile="3 2" align="lowerleft" />
+    <image key="item_tubulin_green" tile="3 2" pos="0 6"  />
+    <image key="item_tubulin_green" tile="3 2" pos="0 14"  />
+    <image key="object_stockpile1x" tile="7 4" align="lowerleft" />
+    <image key="item_staminal_tissue" tile="7 4" pos="0 6"  />
+    <image key="item_staminal_tissue" tile="7 4" pos="0 14"  />
+    <image key="object_stockpile1x" tile="4 4" align="lowerleft" />
+    <image key="item_artery2x2" tile="4 4" pos="4 6"  />
+    <image key="item_artery2x2" tile="4 4" pos="4 14"  />
+
+  object_usage_picker_yellow: >
+    <image key="object_picker_yellow" batch="0" facing="north" tile="1 0" align="lowerleft"/>
+    <image key="object_picker_yellow" batch="1" facing="south" tile="7 1" align="lowerleft"/>
+    <railing from="0 1" to="8 1" emit="true"/>
+    <image key="item_subunit_yellow" tile="2 1" pos="0 7"  />
+    <image key="item_aminoacid_yellow" tile="4 1" pos="0 7"  />
+    <image key="item_tubulin_yellow" tile="6 1" pos="0 7"  />
+
+  object_usage_atp_synthase: >
+    <zone from="0 0" to="7 4" key="mitochondrion" />
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="4 2" align="lowerleft"/>
+    <image key="object_atp_synthase_subunit" tile="4 3" align="lowerleft" pos="0 10"  />
+    <image key="object_atp_synthase_subunit" tile="4 3" align="lowerleft" pos="-12 10"  />
+    <image key="object_atp_synthase_base" tile="3 1" align="lowerleft" />
+    <image key="object_atp_synthase_shaft" tile="4 2" align="lowerleft" pos="-4 7"  />
+    <image key="object_atp_synthase_subunit" tile="4 2" align="lowerleft" pos="6 18"  />
+    <image key="object_atp_synthase_subunit" tile="3 2" align="lowerleft" pos="-2 18"  />
+    <image key="object_atp_synthase_subunit" tile="4 2" align="lowerleft" pos="0 10"  />
+    <image key="object_atp_synthase_subunit" tile="4 2" align="lowerleft" pos="-12 10"  />
+    <railing from="0 1" to="2 1"/>
+    <railing from="5 2" to="7 2" emit="true"/>
+    <image key="item_adp" tile="2 1" pos="-4 7"  />
+    <image key="item_atp" tile="6 2" pos="-10 7"  />
+
+  object_usage_assembler: >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_assembler" tile="3 1" align="lowerleft" />
+    <railing from="0 1" to="2 1"/>
+    <railing from="0 3" to="2 3"/>
+    <railing from="6 2" to="8 2" emit="true"/>
+    <image key="item_aminoacid_red" tile="1 1" pos="-4 7"  />
+    <image key="item_aminoacid_yellow" tile="1 3" pos="-4 7"  />
+    <image key="item_subunit_red" tile="8 2" pos="-10 7"  />
+
+  object_usage_catalyzer: >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_catalyzer" tile="3 1" align="lowerleft" />
+    <railing from="0 1" to="2 1"/>
+    <railing from="0 3" to="2 3"/>
+    <railing from="6 2" to="8 2" emit="true"/>
+    <image key="item_aminoacid_red" tile="1 1" pos="-4 7"  />
+    <image key="item_aminoacid_yellow" tile="1 3" pos="-4 7"  />
+    <image key="item_subunit_red" tile="8 2" pos="-10 7"  />
+    <icon key="item_item_glycolysis_enzyme" tile="1 1" />
+    <image key="item_glycolysis_enzyme" tile="4 5"   />
+
+  object_usage_electron_transport_chain: >
+    <zone from="0 0" to="4 4" key="mitochondrion" emit="true" />
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 2" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="east" tile="2 1" align="lowerleft"/>
+    <railing from="0 1" to="2 1"/>
+    <railing from="0 3" to="2 3"/>
+    <railing from="0 2" to="2 2" emit="true"/>
+    <image key="item_nad" tile="1 1" pos="-4 5"  />
+    <image key="item_oxygen" tile="1 3" pos="-4 6"  />
+    <image key="item_nadh" tile="1 2" pos="-4 6"  />
+    <image key="ui_guide_props_wall_mito" tile="4 4" />
+    <image key="ui_guide_props_wall_mito" tile="4 1" />
+    <image key="object_electron_transport_chain" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+
+  object_usage_energy_supplier_mk1: >
+    <image key="object_picker" batch="0" facing="east" tile="2 2" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="3 2" align="lowerleft"/>
+    <railing from="0 2" to="2 2"/>
+    <railing from="4 2" to="6 2" emit="true"/>
+    <image key="item_atp" tile="1 2" pos="-4 7"  />
+    <image key="item_adp" tile="5 2" pos="2 7"  />
+    <image key="object_energy_supplier_mk1_base" tile="3 2" align="lowerleft" />
+    <image key="object_energy_supplier_mk1_rod_on" tile="3 4" align="lowerleft" />
+
+  object_usage_evolver: >
+    <image key="object_picker" batch="0" facing="east" tile="4 1" align="lowerleft"/>
+    <image key="object_evolver" tile="5 1" align="lowerleft" />
+    <image key="ui_guide_dna_piece_big" tile="5 4" align="lowerleft" />
+    <railing from="0 1" to="4 1" emit="true"/>
+    <image key="item_base_pair_at" tile="3 1" pos="2 7"  />
+    <image key="item_base_pair_cg" tile="1 1" pos="2 7"  />
+
+  object_usage_ribosome: >
+    <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
+    <image key="object_picker" batch="0" facing="east" tile="2 3" align="lowerleft"/>
+    <image key="object_picker" batch="1" facing="west" tile="5 2" align="lowerleft"/>
+    <image key="object_ribosome" tile="3 1" align="lowerleft" />
+    <railing from="0 1" to="2 1"/>
+    <railing from="0 3" to="2 3"/>
+    <railing from="6 2" to="8 2" emit="true"/>
+    <image key="item_aminoacid_red" tile="1 1" pos="-4 7"  />
+    <image key="item_aminoacid_yellow" tile="1 3" pos="-4 7"  />
+    <image key="item_subunit_red" tile="8 2" pos="-10 7"  />
+
+  object_usage_cell_membrane: >
+    <zone from="0 0" to="3 3" key="cytosol"  emit="true" />
+
+  object_usage_collagen_flooring: >
+    <zone from="0 0" to="3 3" key="extracellular_matrix"  emit="true" />
+
+  object_usage_collagen_scaffold: >
+    <zone from="0 0" to="3 3" key="scaffold"  emit="true" />
+
+  object_usage_mitochondrial_membrane: >
+    <zone from="0 0" to="3 3" key="mitochondrion"  emit="true" />
+
+  object_usage_uniporter_glucose: >
+    <zone from="4 0" to="7 3" key="cytosol"  emit="true" />
+    <image key="object_picker" batch="1" facing="west" tile="3 2" align="lowerleft"/>
+    <image key="ui_guide_props_void" tile="1 1" pos="0 6" />
+    <image key="ui_guide_props_wall" tile="3 1" align="lowerleft" />
+    <image key="ui_guide_props_wall" tile="3 0" align="lowerleft" />
+    <image key="object_cytostome1x" batch="0" facing="west" tile="2 2" align="lowerleft"/>
+    <image key="item_aminoacid_yellow" tile="0 1" />
+    <image key="item_aminoacid_yellow" tile="0 1" />
+    <image key="item_aminoacid_red" tile="0 3" />
+    <railing from="4 2" to="7 2" emit="true"/>
+
+  object_usage_decoupler: >
+    <zone from="0 2" to="7 3" key="mitochondrion" emit="true" />
+    <image key="ui_guide_props_wall_mito_horizontal" tile="6 2" />
+    <image key="ui_guide_props_wall_mito_horizontal" tile="3 2" />
+    <image key="ui_guide_props_wall_mito_horizontal" tile="1 2" />
+    <image key="object_electron_transport_chain" batch="0" facing="north" tile="4 1" align="lowerleft"/>
+    <image key="object_decoupler" batch="0" facing="north" tile="1 1" align="lowerleft"/>
+    <image key="ui_guide_energy_link" tile="3 3" />
+
+
+
+
+
+
+mapping:
+  object_ribosome: "/reference/structures/crafters/ribosome"
+  object_assembler: "/reference/structures/crafters/assembler"
+  object_catalyzer: "/reference/structures/crafters/assembler"
+  object_electron_transport_chain: "/reference/structures/energy/electron_transport_chain"
+  object_atp_synthase: "/reference/structures/energy/atp_synthase"
+  object_picker: "/reference/structures/routing/picker"
+  object_colored_picker: "/reference/structures/routing/colored_picker"
+  object_microtubule: "/reference/structures/routing/microtubule"
+  objectobject_kicker: "/reference/structures/routing/kicker"
+  object_item_tunnel: "/reference/structures/routing/item_tunnel"
+  object_long_picker: "/reference/structures/routing/long_picker"
+  object_balancer: "/reference/structures/routing/balancer"
+  object_stockpile2x:  "/reference/structures/routing/stockpile2x"
+  zone_cytosol: "/reference/zones/cytosol"
+  zone_cytosol: "/reference/zones/mitochondrion"
+  zone_mitochondrion: "/reference/zones/mitochondrion"
+  zone_extracellular_matrix: "/reference/zones/extracellular_matrix"

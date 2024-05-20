@@ -1,0 +1,294 @@
+pages:
+- >   
+  <content>
+    <icon key="ui_guide_mitosis"/>라이프크래프트의 세계에 오신 것을 환영합니다!
+    <break/>
+    <image path="tutorial/quickstart_1.png" scale="1" />
+    <endl/>
+    당신은 어딘가를 떠다니는 생물체로 긴 여정을 떠나게 됩니다.
+    <break/>
+    살아남기 위해서는 고난과 역경을 헤쳐 나가야 합니다. 체온을 유지하고 병균과 맞서 싸우며 더 많은 자원을 찾기 위해 끝없이 성장해 나가야 합니다.<endl/><endl/>
+    어려워 보이는 자원명과 시스템에 겁먹지 마세요!<break/><icon key="item_aminoacid_red"/>아미노산은 동그라미이고, <icon key="item_tubulin_yellow"/>튜불린은 빨대처럼 생긴 무언가에요. 그 정도만 기억하시면 됩니다!<endl/><endl/><icon key="ui_icon_open_recipe_list"/>우측 하단의 조합법 목록이 큰 도움이 될 겁니다!<endl/>자원 혹은 건물을 조합할 때 필요한 재료 목록을 확인할 때 사용해주세요.<endl/>
+    자원이나 건물 위로 커서를 대면 어떤 식으로 작동하는지 볼 수도 있어요.
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_hand"/>키를 누르거나 화면 가장자리 근처에서 마우스를 움직여서 화면을 이동시킬 수 있어요. (마우스 조작의 경우 마우스 화면 이동 활성화 필요):<break/>
+    <p align="center">
+    <keycap action="pan_up" /><endl /><keycap action="pan_left" /><icon key="ui_guide_dot_tiny"/>
+    <keycap action="pan_down" /><icon key="ui_guide_dot_tiny"/><keycap action="pan_right" /><break/>
+    </p>
+    <icon key="ui_icon_zoom_in"/>아래 키로 화면을 확대하거나 축소할 수 있어요 (마우스 휠을 쓸 수도 있어요) (or mousewheel):<break/>
+    <p align="center">
+    <keycap action="zoom_in" longer="true" /><icon key="ui_guide_dot_tiny"/><keycap action="zoom_out" longer="true" /><break/>
+    </p>
+    좌클릭으로 자원을 줍고 배치할 수 있어요.
+    <endl/>
+    <image path="tutorial/quickstart_2.png" scale="1" />
+    <endl/>
+    최대 4개의 자원까지 한 번에 들 수 있어요. 한번 밖에 둥둥 떠다니는 자원들을 주워보세요!
+    <endl/>
+  </content>
+
+- >
+  <content>
+    파란 공허는 복합 자원 합성, 구조물 생성, 에너지 생산, 방어 및 생장에 중요한 다양한 자원을 담고 있습니다.<endl /><endl />
+    당신의 첫 과제는 노란색 소단위체 <icon key="item_subunit_yellow"/> 하나를 공허에서 주워오는 것입니다. 자원은 좌클릭으로 직접 주울 수 있다는 점을 기억하세요.<endl /><endl />이 점은 여러가지 상황에서 유용하게 쓰일 것입니다!<endl />
+    <endl />
+    이제 방금 주운 노란색 소단위체 <icon key="item_subunit_yellow"/> 를 당신 세포의 세포질 어딘가에 배치해 주세요.<endl/>
+    <image path="tutorial/quickstart_3.png" scale="1" /><endl />
+    <endl />
+  </content>
+
+- >
+  <content>
+    <icon key="item_subunit_yellow"/> 한번 더 공허에서 떠다니는 노란색 소단워체 하나를 주워 와 주세요.
+    <endl />
+    <image path="tutorial/quickstart_4.png" scale="1" />
+    <endl/>
+    <icon key="item_workbench"/> 이제 당신은 당신의 첫 번째 건물을 지을 수 있어요 - 바로 작업대입니다!<endl/><endl/>
+    <icon key="item_subunit_yellow"/> 방근 주운 두 번째 소단위체를 <endl />땅에 놓인 첫 번째 소단위체 위에 겹치면...짜잔!<endl />
+    <image path="tutorial/quickstart_5.png" scale="1" />
+    <break/>
+
+    <endl />
+  </content> 
+
+- >  
+  <content>
+    <icon key="item_workbench"/>작업대는 수동으로 자원 및 건물을 합성할 때 사용합니다. 약간 비효율적이지만 편리합니다! <endl/> <endl/>
+    이제 방금 만들어진 제작대를 주워서 우클릭으로 작업대를 설치하세요.<endl />
+    <image path="tutorial/quickstart_6.png" scale="1" />
+    <endl />
+    이미 설치된 건물을 우클릭해서 상호작용 메뉴를 열 수 있어요.<endl/>
+    몇몇 건물은 <keycap action="execute_first_action" /> 키와 <keycap action="execute_second_action" /> 키에 배정된 특수 조작이 있어요. 주로 건물을 회전하거나 뒤집을 때 사용해요. <break/>
+    <image path="tutorial/quickstart_3extra.png" scale="1" /><endl />
+  </content>
+  
+- >
+  <content>
+    Your next goal is now to automate gathering of resources from an outside resource heap, this will require you to build multiple items: <endl /><endl />
+    <icon key="ui_guide_dot"/> <icon key="item_microtubule"/> microtubules, which are used to route items around <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_picker"/> pickers, which are used to move items from and to structures <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_cytostome1x"/> cytostomes, which are able to siphon items from outside <endl />
+    <image path="tutorial/quickstart_1extra.png" scale="1" />
+    <endl />
+    Primitive structures will break over time by oxidising.<endl />They're also slow and inefficient, you'll replace them down the line with improved versions. More on that later!<endl /><endl />
+  </content>
+
+- >
+  <content>
+    Let's begin crafting the structures needed for basic automation!<endl /><endl />
+    In your recipe list, which is in the lower right corner of the screen, you can hover available recipes and see their materials, let's hover a cytostome <icon key="item_cytostome1x"/><endl />
+    <recipe key="cytostome1x" compact="true" />Those are the materials needed to build it.
+    
+    Tubulins are an intermediate material that's used to craft many basic structures.<break/>
+    The workbench comes handy because it can craft all the intermediate resource steps by using just the base materials:<endl /><endl />
+    <p align="center"><icon key="item_aminoacid_blue"/><icon key="item_aminoacid_green"/><icon key="item_aminoacid_red"/><icon key="item_aminoacid_yellow"/><endl/><endl /></p>
+    Place the required amminoacids in the workbench, click on it and choose the structures to assemble.<break/>
+    You can also queue many crafts in the workbench as long as there's enough space into it!
+    <p align="center">
+
+    </p>
+
+  </content>
+
+- >
+  <content>
+    <icon key="item_cytostome1x"/>Now pickup the crafted cytostome and put it on a wall next to a <icon key="item_aminoacid_red"/> aminoacid resource heap.
+    <break/>
+    <image path="tutorial/quickstart_8.png" scale="1" />
+    <endl />
+    You will see the cytostome start working and slowly siphon an item. You can manually grab the item from the cytostome with your mouse.<break/>
+    The cytostome sits high on the cell wall, but siphons in the ground inside the cell.<break/>
+    <icon key="ui_icon_toggle_buildings_on"/>To see its syphoning base (where you will connect the picker) you can enable "toggle buildings" in the bottom bar.<break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_microtubule"/>We now need a way to route the items from the cytostome automatically. <endl /><endl />
+    Microtubules are like tiny rails that can transport items in the cell.
+    Let's build our first microtubules.
+    Gather the required materials and queue the crafts in the workbench:<break/><endl />
+    <p align="center"><icon key="item_tubulin_red"/><icon key="item_tubulin_red"/><icon key="item_microtubule_primitive"/><break/></p>
+    Wait for the result to be ready and pick it up.<break/>
+    What happened? The microtubule disappeared!<break/>
+    That's because microtubules are automatically stashed into a storage so that you can use them with a specific tool.<endl/><endl/>
+    <image path="tutorial/quickstart_9.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    Now switch to microtubule placement tool with <keycap action="switch_tool_microtubule_metatool" />, you will see that there are multiple types of them, 
+    but just the first one is available for now.<break/>
+    The primitive microtubule is slower, you need to research for better versions of it.<break/>
+    <p align="center"><icon key="item_microtubule"/><icon key="item_microtubule_advanced"/><break/></p>
+    Left click to place microtubules next to the cytostome base to prepare the route for the items.<break/>
+    <image path="tutorial/quickstart_10.png" scale="1" />
+    <endl />
+    Microtubules can be removed your mouse.
+
+  </content>
+  
+- >
+  <content>
+    <icon key="item_picker_primitive" />We now need a picker, used to move items from and to structures.<endl/>
+    Gather the materials and queue the craft in the workbench:<endl/><recipe key="picker_primitive" compact="true" /><endl/>
+    When ready place the picker next to the cytostome base.<break/>
+    With <keycap action="execute_first_action" /> and <keycap action="execute_second_action" /> you can rotate or flip the picker. 
+    Configure it so that it's fetching from the cytostome (the thin picker part goes under the cytostome base).<endl/>
+    <image path="tutorial/quickstart_11.png" scale="1" />
+    <endl/>
+
+    <icon key="ui_icon_toggle_buildings_on"/><icon key="ui_icon_toggle_walls_on"/>To get a better view while placing structures you can enable "toggle buildings" which will give you a clearer, flatter view of the map.
+  </content>
+
+- >
+  <content>
+    <icon key="item_tubulin_red" />It's time to automate the production of your first proteins!<break/>
+    <icon key="item_ribosome" />This is done by using a ribosome, which is able to craft intermediate materials.
+
+    Gather the required items to craft the ribosome in the workbench.<break/><icon key="ui_icon_open_recipe_list"/>Remember to use the recipes view as legend!<break/><endl />
+    <p align="center"><icon key="item_subunit_red"/><icon key="item_subunit_red"/><icon key="item_ribosome"/><break/></p>
+
+    Now place the ribosome near the microtubules you previously placed.<break/>
+    <icon key="ui_icon_destroy"/>You can remove any placed structure with the destroy structures tool.
+    <icon key="ui_icon_oxidation_usages"/>Oxidised structures won't drop the item back.<endl/>
+    <image path="tutorial/quickstart_12.png" scale="1" />
+    <break/>
+
+
+  </content>
+
+- >
+  <content>
+    We need to connect the ribosome to the microtubules.<endl />
+    Craft another primitive picker <icon key="item_picker_primitive" /> and place so that you have a full transport line from the cytostome to the ribosome.<endl />
+    <image path="tutorial/quickstart_13.png" scale="1" />
+    <endl />
+
+    Now press <keycap action="execute_first_action" /> on the ribosome to configure it to produce red tubulins <icon key="item_tubulin_red" /> and observe your first ribosome working!<endl /><endl />
+    <icon key="item_microtubule"/>The microtubule goes on raised part of the picker, where the picker arrow lies. The lower, thinner part of the picker must go underside the structures.<endl /><endl />
+    <icon key="item_picker_primitive"/>The picker arrow direction determines if the picker inserts of outputs from the structure.
+    
+
+  </content>
+
+- >
+  <content>
+    Now that you learned the basics it's time to improve!<endl />
+    Let's automate the gathering of yellow aminoacids <icon key="item_aminoacid_yellow" /> and production of yellow tubulin <icon key="item_tubulin_yellow" />by doing the same operations.
+    <break/>
+    <image path="tutorial/quickstart_14.png" scale="1" />
+    <endl />
+
+    At this point the organism is synthesizing both red and yellow tubulins by itself.<break/>
+    <icon key="ui_icon_toggle_object_overlay_on" />To see what crafting recipes are currently set in the structures you can toggle the "toggle object content info" option.
+  </content>
+  
+- >
+  <content>
+    Let's automate the production of microtubules <icon key="item_microtubule_primitive" /> and pickers. <icon key="item_picker_primitive" /><break/>
+    <icon key="item_assembler" />To do this we need to create 2x assemblers. <break/>
+    <icon key="ui_icon_open_evolution_view" />But we still can't craft them, as we need to unlock the assembler recipe in the evolution view.<break/>
+    <image path="tutorial/quickstart_17a.png" scale="1" />
+    <endl />
+    <icon key="item_evolver"/>To discover new recipes we need to build an evolver, let's create it and place it somewhere on ground.
+  </content>
+
+- >
+  <content>
+    The evolver consumes genetic material called nucleobases to discover new recipes.<break/>
+    <p align="center"><icon key="item_adenine"/><icon key="item_thymine"/><icon key="item_guanine"/><icon key="item_cytosine"/><break/></p>
+    Open the evolution view with <keycap action="open_evolution_view" />, search for <p color="#f5e042">Intracellular Production</p> and start its research.<break/>
+    <image path="tutorial/quickstart_16.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_thymine"/>Now feed the evolver with the required nucleobases, which can gathered from the void. Wait for the research to complete.<break/>
+    <icon key="item_evolver" />The evolver only accepts one item at a time, but you can build more researches for improved efficiency.<break/>
+    <image path="tutorial/quickstart_18.png" scale="1" />
+    <endl />
+    You can check the status by hovering evolution in status bar.<endl />
+    <image path="tutorial/quickstart_18b.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    With the newly acquired evolution, you can now:<break/>
+
+    Create the assemblers <icon key="item_assembler" /> <break/>
+    Place them nearby existing ribosomes <icon key="item_ribosome" /> <break/>
+    Finish connecting everything with more microtubules <icon key="item_microtubule" /> and pickers <icon key="item_picker" /> <endl />
+    Configure <keycap action="execute_first_action" /> the assemblers to produce microtubules <icon key="item_microtubule_primitive" /> and pickers. <icon key="item_picker_primitive" /><endl />
+    <image path="tutorial/quickstart_19.png" scale="1" />
+    <endl />
+    We suggest to build your first ribosomes and assemblers and automate the crafting as soon as you get the hang of it!<endl />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_oxidation_usages"/>Over time primitive buildings will oxidise, becoming unoperable.<break/>
+    <icon key="item_cytostome1x"/><icon key="item_picker_primitive"/>To replace an oxidised picker or cytostome just build another one and place it on top of the older one.<endl />
+
+    <image path="tutorial/quickstart_oxidation.png" scale="1" />
+
+    <icon key="item_diffuser"/>You can also build item diffusers which if fed the right item will automatically replace the oxidised counterpart near them.<endl />
+
+    To overcome this issue you need to research improved structures, which will not oxidise anymore.<endl /><endl />
+
+    <icon key="item_cytostome2x" /> Cytostome is the improved version of the primitive cytostome, faster with double sucking capacity<endl /><endl />
+    <icon key="item_picker" /> Black pickers don't oxidise and can be crafted in color and material filtering variants<endl /><endl />
+
+    <icon key="item_atp" /> Improved structures need energy to work!<endl /><endl />
+
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_energy_yellow" />As you go further in research on you'll notice that many items require energy to work.<endl /><endl />
+
+    <icon key="item_energy_supplier_mk1" />After having researched the required nodes you can start building an energy network with primitive energy suppliers, which power the structure in their range.<endl /><endl />
+    <icon key="item_energy_supplier_mk2" />Improved suppliers will supply energy in a higher range.<endl /><endl />
+
+    <icon key="item_atp"/>To make energy suppliers work you need to feed them witd ATP molecules (found outside in the void).<endl />
+    <icon key="item_adp"/>When the ATP is discharged will be outputted by the suppliers in form of ADP.<endl />Just think of a battery, out the old, in the new!<endl /><endl />
+
+    <icon key="item_energy_pole"/>To extend the range between two energy suppliers use energy poles! <endl /><endl />
+    <icon key="ui_icon_toggle_power_overlay_on"/>Those will greatly extend the range without using any resource.
+
+    
+    <break/>
+  </content>
+
+
+
+- >
+  <content>
+    Now it's time for you to keep exploring the available evolutions and expand your logistic system by yourself! <break/>Just be aware <icon key="ui_warning_sign_red" /> <endl />
+    <image path="tutorial/quickstart_20b.png" scale="1" />
+    <endl />
+    <icon key="ui_icon_temperature" />The outside temperature is slowly dropping and you'll need a way to generate heat with a mitochondrion <icon key="item_mitochondrial_membrane" /> and decouplers <icon key="item_decoupler" /> <endl /><endl />
+    <icon key="item_bacterial_vegetation_bacillus_green"/> Outside in the dark bacteria are crawling, be prepared with diffusers <icon key="item_diffuser" /> and launchers <icon key="item_launcher1x" /> <break/>
+    <icon key="ui_icon_chunk_planner"/> Resources will eventually deplete, you'll need to expand to find new ones.
+    <break/>
+  </content> 
+
+- >
+  <content>
+    The tutorial ends here for now! For any doubt:<break/>
+    <icon key="ui_guide_dot"/> consult the in game guide through <keycap action="open_game_guide" /><break/>
+    <icon key="ui_guide_dot"/> complete goals, check journey view <keycap action="open_journey_view" /> and goal list <keycap action="open_goal_list" /><break/>
+    <icon key="ui_guide_dot"/> if you're having difficulties, come to our Discord where you'll find help!<endl />
+    <image path="tutorial/quickstart_22.png" scale="1" /><endl/>
+    This game is in Early Access, so it may still be rough around the corners. But if you're still reading that your patience shines, you're in for a treat!<break/>Many ideas will be implemented in the future as the development goes on. We hope you'll enjoy the great journey Lifecraft has to offer!
+    <break/>
+  </content>
+  
