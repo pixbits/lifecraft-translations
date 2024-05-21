@@ -168,53 +168,53 @@ content:
   # INTERFACE BUTTONS --------------------------------------------------------------------------
 
   "/interface/welcome": >
-    <header><icon key="ui_guide_mitosis" />欢迎来到生命工艺<icon key="ui_guide_mitosis" /></header><endl />
+    <header><icon key="ui_guide_mitosis" />欢迎来到Lifecraft<icon key="ui_guide_mitosis" /></header><endl />
 
-     <icon key="ui_guide_exclamation"/>欢迎来到生命工艺！
+     <icon key="ui_guide_exclamation"/>欢迎来到Lifecraft！
      <endl /><endl />
-      <icon key="ui_guide_dot"/>这个指南将帮助你理解生命工艺的基本原理，并展示其核心概念。
+      <icon key="ui_guide_dot"/>该指南将会帮助你理解Lifecraft的基本玩法操作，并展示其中的核心概念。
      <endl /><endl />
-     <icon key="ui_guide_dot"/>它也是一个参考，展示了游戏中所有的结构和资源，以及它们的描述。
+     <icon key="ui_guide_dot"/>你也可以在此查阅游戏中所有结构与资源的相关描述。
      <endl /><endl />
-     <icon key="ui_guide_brain"/>点击此窗口左侧面板上的所需部分以<endl />显示其内容。
+     <icon key="ui_guide_brain"/>点击窗口左侧的章节选单来查看其中内容。
      <endl /><endl />
-     <icon key="ui_guide_exclamation"/>指南的内容肯定还在进行中，所以如果有什么缺失，不清楚或写得不好，请耐心等待。
+     <icon key="ui_guide_exclamation"/>这份指南还处于开发阶段，所以如果发现某些章节缺失或者写的让你看不懂，还请等待后续更新。
 
   "/interface/controls": >
-    <header><icon key="ui_mouse_button_left" />控制</header><endl />
+    <header><icon key="ui_mouse_button_left" />操作</header><endl />
 
-    <icon key="ui_guide_arrow_yellow"/><name>导航世界</name><endl/><endl/>
+    <icon key="ui_guide_arrow_yellow"/><name>探索世界</name><endl/><endl/>
 
 
-    <icon key="ui_icon_pan_arrow"/>你可以通过使用以下键来平移世界：<endl/><endl/>
+    <icon key="ui_icon_pan_arrow"/>你可以通过以下按键来平移你的视窗：<endl/><endl/>
 
     <p align="center">
     <keycap action="pan_up" /><endl /><keycap action="pan_left" /><icon key="ui_guide_dot_tiny"/>
     <keycap action="pan_down" /><icon key="ui_guide_dot_tiny"/><keycap action="pan_right" /><endl /><endl />
     </p>
 
-    <icon key="ui_icon_zoom_in"/>你可以通过使用以下键来放大和缩小世界：<icon key="ui_guide_invisidot"/><keycap action="zoom_in" longer="true" /> <icon key="ui_guide_dot_tiny"/> <keycap action="zoom_out" longer="true" />
+    <icon key="ui_icon_zoom_in"/>你可以通过以下按键来缩放你的视窗：<icon key="ui_guide_invisidot"/><keycap action="zoom_in" longer="true" /> <icon key="ui_guide_dot_tiny"/> <keycap action="zoom_out" longer="true" />
     <endl/><endl/>
 
-    <icon key="ui_icon_toggle_grid_on"/>切换瓷砖网格：<icon key="ui_guide_invisidot"/><keycap action="toggle_grid" />
+    <icon key="ui_icon_toggle_grid_on"/>切换建造网格可见性：<icon key="ui_guide_invisidot"/><keycap action="toggle_grid" />
 
     <endl/><endl/>
 
-    <icon key="ui_guide_arrow_yellow"/><name>覆盖和其他有用的键绑定</name><endl/><endl/>
+    <icon key="ui_guide_arrow_yellow"/><name>覆盖层与其他有用的按键绑定</name><endl/><endl/>
 
-    <icon key="ui_icon_toggle_power_overlay_on"/>切换电源覆盖：<icon key="ui_guide_invisidot"/><keycap action="toggle_power_overlay" />
+    <icon key="ui_icon_toggle_power_overlay_on"/>切换能量系统覆盖层：<icon key="ui_guide_invisidot"/><keycap action="toggle_power_overlay" />
     <endl/><endl/>
 
-    <icon key="ui_icon_toggle_object_overlay_on"/>切换建筑工艺覆盖：<icon key="ui_guide_invisidot"/><keycap action="toggle_object_overlay" /> 
+    <icon key="ui_icon_toggle_object_overlay_on"/>切换生产信息覆盖层：<icon key="ui_guide_invisidot"/><keycap action="toggle_object_overlay" /> 
     <endl/><endl/>
 
-    <icon key="ui_icon_toggle_mouse_opacity_on"/>切换鼠标悬停时的建筑透明度：<icon key="ui_guide_invisidot"/><keycap action="toggle_mouse_opacity" />
+    <icon key="ui_icon_toggle_mouse_opacity_on"/>切换鼠标悬停于上时的建筑透明度：<icon key="ui_guide_invisidot"/><keycap action="toggle_mouse_opacity" />
     <endl/><endl/>
 
  
 
-    <icon key="ui_guide_brain"/>许多其他快捷键会根据你正在使用的工具而变化。<endl />
-    请留意屏幕提示，以更好地理解每个工具的控制。
+    <icon key="ui_guide_brain"/>还有许多会根据你正在使用的工具变化的快捷键。<endl />
+    记得查看屏幕提示来更好地理解各类工具的使用方法。
     <endl />
 
 
@@ -222,15 +222,15 @@ content:
 
   "/interface/interface_buttons": >
     <header><icon key="ui_keycap" />界面按钮</header><endl />
-    <icon key="ui_guide_screen_tiny"/>在屏幕的下部，你会看到生命工艺的快捷栏。<endl />
-    这是大部分有用功能所在的地方。 
+    <icon key="ui_guide_screen_tiny"/>Lifecraft的快捷操作栏位于屏幕的底部。<endl />
+    大部分与实际游戏相关的功能都在这个位置。
     <endl />
     <endl />
-    <icon key="cursor_arrow"/>要查看每个按钮的功能，只需将鼠标悬停在其上。
+    <icon key="cursor_arrow"/>你可以通过将鼠标悬停在按钮上来查看它的功能。
     <endl />
     <endl />
-    <icon key="ui_guide_exclamation"/>每个按钮通常都有一个键盘快捷键。<endl /><endl />
-    <icon key="ui_guide_brain"/>熟悉这些快捷键将帮助你更有效地玩游戏！
+    <icon key="ui_guide_exclamation"/>你也可以使用键盘快捷键来快速切换到其中某个按钮。<endl /><endl />
+    <icon key="ui_guide_brain"/>熟悉这些快捷键能大幅度提高你的操作效率！
     <endl /><endl /><endl /><endl /><endl /><endl /><endl />
     <canvas size="0 0" scale="2" align="center">
     <image key="ui_guide_quickslot" tile="1 3" />
@@ -251,28 +251,28 @@ content:
 
   "/interface/tips": >
     <header><icon key="ui_icon_open_debug_window" />提示</header><endl />
-    <icon key="ui_slider_right" scale="1" />占位符提示行一。<endl />
-    <icon key="ui_slider_right" scale="1" />占位符提示行二。<endl />
-    <icon key="ui_slider_right" scale="1" />占位符提示行三。<endl />
-    <icon key="ui_slider_right" scale="1" />占位符提示行四。<endl />
+    <icon key="ui_slider_right" scale="1" />提示占位符一。<endl />
+    <icon key="ui_slider_right" scale="1" />提示占位符二。<endl />
+    <icon key="ui_slider_right" scale="1" />提示占位符三。<endl />
+    <icon key="ui_slider_right" scale="1" />提示占位符四。<endl />
     <image key="ui_guide_img_tips" scale="2" />
 
 
   # the stash
   "/interface/the_stash": >
-    <header><icon key="item_microtubule" />储藏处</header><endl />
-    有些物品不是单独使用的，一旦你收集了它们，它们就会被放入储藏处，<break/>以便你可以自由地使用它们。
+    <header><icon key="item_microtubule" />贮藏处</header><endl />
+    一些物品无法单独使用，需要先收集起来存放在贮藏处中，方可自由使用。
     <break/>
-    储藏处用于微管和物品踢器：<endl/>
+    储备仓库目前用于保存微管们和物品导向器：<endl/>
     <canvas size="0 0" scale="1" align="center">
     <image key="item_microtubule_primitive" tile="0 0" />
     <image key="item_microtubule" tile="2 0" />
     <image key="item_microtubule_advanced" tile="4 0" />
     <image key="item_item_kicker" tile="6 0" />
     </canvas><endl/>
-    当你拾起这些物品中的一个时，你会看到它消失。请检查工具栏中的微管工具，<break/>以查看你存储的数量。<break/>
-    <icon key="ui_guide_brain" />你可以使用强制拾取修饰符 <keycap key="ALT" longer="true" /> 来强制拾取物品，而不将它们发送到储藏处。<break/>
-    <icon key="ui_guide_brain" />你可以使用 <icon key="item_stasher" /> <name>储藏器</name> 将物品发送到储藏处，而无需与它们互动。
+    当你对上述的物品执行拾取操作，它们就会从世界上消失。<break/>此时切换到工具栏中的微管工具就能看到已贮藏的微管。<break/>
+    <icon key="ui_guide_brain" />你可以按下强制拾取键 <keycap key="ALT" longer="true" /> 来捡起而不是贮藏这些微管。<break/>
+    <icon key="ui_guide_brain" />你也可以使用 <icon key="item_stasher" /> <name>贮藏器</name>来自动发送这些物品到贮藏处。
 
   # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   # Concepts
@@ -282,27 +282,26 @@ content:
 
   "/concepts/resources": >
     <header><icon key="item_cytostome1x" />资源</header><endl />
-    资源自然地出现在你的生物体外。此外，还有一些<name>资源堆</name>，其中散布着大量的资源。<break/>
-    <icon key="ui_warning_sign_yellow"/><warning>一些较稀有的资源，如 <concept icon="item_atp" text="ATP"/>，只有当你的总量少于最大值时才会继续生成。</warning><break/>
+    资源会自发地在你的生物体外产生。此外，还有一些包含大量资源的<name>资源堆</name>散落在周围。<break/>
+    <icon key="ui_warning_sign_yellow"/><warning>一些更稀有的资源如 <concept icon="item_atp" text="ATP"/> 只会在你拥有的总量少于一定数量时才会自然生成。</warning><break/>
 
-    你可以通过多种方式与资源互动：<endl/>
-    <icon key="ui_guide_dot" /> 你可以用你的手 <icon key="ui_icon_hand" /> 拾取和移动资源 <endl/>
-    <icon key="ui_guide_dot" /> 你可以使用 <concept icon="item_cytostome1x" text="细胞口" tooltip="cytostome1x" /> 自动从外部吸取物品<endl/>
-    <icon key="ui_guide_dot" /> 你可以使用 <concept icon="item_disposer1x" text="处理器" tooltip="disposer1x" /> 来处理你不再需要的物品<endl/>
+    你可以通过以下多种方式与资源互动：<endl/>
+    <icon key="ui_guide_dot" /> 你可以使用手工具 <icon key="ui_icon_hand" /> 拾取和移动资源 <endl/>
+    <icon key="ui_guide_dot" /> 你可以使用 <concept icon="item_cytostome1x" text="细胞口" tooltip="cytostome1x" /> 来自动从外界吸入物品<endl/>
+    <icon key="ui_guide_dot" /> 你可以使用 <concept icon="item_disposer1x" text="排泄口" tooltip="disposer1x" /> 来丢弃你不再需要的物品<endl/>
     <endl/>
-    <icon key="ui_icon_idea_lamp" />你可能需要提供一个智能布局，通过组合拾取器来优化结果。<break/>
+    <icon key="ui_icon_idea_lamp" />仔细规划你的布局来更多地放置这些细胞口以优化产出。<break/>
 
     
-
   # production
 
   "/concepts/production": >
     <header><icon key="ui_icon_destroy" />生产</header><endl />
-      你的生物体内的生产是通过多个具有不同目的的建筑完成的。<break/>
+      你的生物体内的整个生产流程由多种产物各不相同的建筑完成。<break/>
       <icon key="item_ribosome" /><name>核糖体</name> 将 <name>氨基酸</name> <icon key="item_aminoacid_red" /> 转化为 <name>蛋白质</name> <icon key="item_tubulin_red" /> <break/>
-      <icon key="item_assembler" /><name>装配机</name> 将 <name>蛋白质</name> <icon key="item_subunit_blue" /> 转化为更复杂的 <name>结构</name> <icon key="item_evolver" /> <break/>
-      <icon key="item_catalyzer" /><name>催化器</name> 通过 <name>酶</name> <icon key="item_glycolysis_enzyme" />加速<name>反应</name><icon key="recipe_icon_glycolysis" /><break/>
-      你可以使用上下文菜单或键 <keycap action="execute_first_action" /> 设置配方。<endl/>
+      <icon key="item_assembler" /><name>蛋白装配体</name> 将 <name>蛋白质</name> <icon key="item_subunit_blue" /> 转换为更加复杂的 <name>结构</name> <icon key="item_evolver" /> <break/>
+      <icon key="item_catalyzer" /><name>酶催化器</name> 通过 <name>酶</name> <icon key="item_glycolysis_enzyme" /> 加速 <name>反应</name><icon key="recipe_icon_glycolysis" /> <break/>
+      你可以通过交互式菜单或者 <keycap action="execute_first_action" /> 键来设置配方。<endl/>
 
      <canvas size="0 0" scale="1" align="center">
       <image key="object_ribosome" tile="0 1" align="lowerleft" />
@@ -313,17 +312,17 @@ content:
       <image key="ui_guide_menu_tiny" tile="10 1" />
      </canvas><endl /><endl />
 
-     <icon key="ui_warning_sign_yellow"/><warning>一些配方只能在特定的组织内完成，这在它们的工具提示的左下角显示。</warning><break/>
-     <icon key="item_catalyzer" /><name>催化器</name> 需要一个 <concept text="酶" link="/concepts/enzymes" /> 才能工作。是酶决定了特定催化器的可用配方。
-     你可以随意将酶放入和取出催化器。
+     <icon key="ui_warning_sign_yellow"/><warning>一些配方只能在特定的生物组织内完成，这些需求展示在它们的提示框的左下角。</warning><break/>
+     <icon key="item_catalyzer" /><name>酶催化器</name> 需要 <concept text="酶" link="/concepts/enzymes" /> 才能运作。酶的类型决定了酶催化器的可用配方。
+     你可以随意将酶移入和移出酶催化器。
 
 
   # routing items
 
   "/concepts/routing_items": >
-    <header><icon key="item_microtubule" />物品路由</header> 
+    <header><icon key="item_microtubule" />路由</header> 
     <endl />
-    物品可以通过 <icon key="item_microtubule"/><name>微管</name> 和 <icon key="item_picker" /><name>拾取器</name> 进行路由。
+    物品可以通过 <icon key="item_microtubule"/><name>微管</name> 和 <icon key="item_picker" /><name>物品拾取器</name> 进行传递。
     <endl /><endl />
 
     <canvas size="0 0" scale="1" align="center">
@@ -346,17 +345,17 @@ content:
     </canvas> 
     <endl /><endl />
 
-    <icon key="item_picker"/>拾取器能够将物品从建筑物中移出和移入。<endl/>使用 <keycap action="execute_first_action" /> 键旋转拾取器，使用 <keycap action="execute_second_action" /> 翻转它们。<endl />
+    <icon key="item_picker"/>物品拾取器可以在建筑间装卸物品。<endl/>通过 <keycap action="execute_first_action" /> 键来旋转物品拾取器，通过 <keycap action="execute_second_action" /> 键来翻转它们的传递方向。<endl />
     <endl />
 
-    <icon key="ui_warning_sign_yellow"/><warning>任何进入微管的物品只有在
-    它被放在微管的末端或有一个 <icon key="item_item_kicker"/><name>物品踢器</name> 强制指定方向时才会移动。</warning><endl/>
+    <icon key="ui_warning_sign_yellow"/><warning>任何进入微管的物品都必须
+    被放在微管的一端或被 <icon key="item_item_kicker"/><name>物品导向器</name> 指定移动方向才能移动。</warning><endl/>
     <endl/>
 
-    当拾取微管和物品踢器时，它们会被存储在一个特殊的储藏处中，你可以通过使用其专用工具 <icon key="ui_icon_microtubule_metatool" /> 来访问它。
+    拾取操作会将微管和物品导向器存进专门的贮藏处，你可以通过专用工具<icon key="ui_icon_microtubule_metatool" />来真正使用它们。
     <break/>
     
-    <icon key="ui_icon_idea_lamp" />为了优化布局，有许多不同类型的拾取器和额外的结构，如隧道或平衡器：<endl/>
+    <icon key="ui_icon_idea_lamp" />还有更多不同类型的拾取器和额外结构如物品隧道或平衡分流器能帮助你优化布局：<endl/>
     <canvas size="0 0" scale="1" align="center">
     <image key="item_picker_red" tile="0 0" />
     <image key="item_picker_green" tile="2 0" />
@@ -367,53 +366,54 @@ content:
 
     <endl />
 
- # USEFUL CRAFTS --------------------------------------------------------------------------
+
+  # USEFUL CRAFTS --------------------------------------------------------------------------
 
   "/concepts/useful_items": >
-    <header><icon key="ui_icon_destroy" />有用的工艺品</header> 
+    <header><icon key="ui_icon_destroy" />有用的物品</header> 
     <endl />
      <icon key="item_microtubule"/><name>微管</name>
-      用于在细胞中运输物品和物体。
+      用于在胞内运输物品。
 
      <endl /> 
      <endl /> 
 
-     <icon key="item_picker" /><name>选择器</name>
-      可以将物品从微管移动到结构。
+     <icon key="item_picker" /><name>物品拾取器</name>
+      可以从微管向结构移动物品。
 
      <endl /> 
      <endl />
 
-     <icon key="item_picker_green" /><name>彩色选择器</name> 可以按颜色过滤物品，有助于整理物品。
+     <icon key="item_picker_green" /><name>彩色拾取器</name> 可以过滤相同颜色的物品，对物品分类很有用。
      <endl /> 
      <endl /> 
 
-     <icon key="item_balancer" /><name>物品平衡器</name>可以用来在微管上排序物品。  
+     <icon key="item_balancer" /><name>平衡分流器</name> 可以分流微管中的物品。
      <endl /> 
      <endl /> 
        
-     <icon key="item_item_kicker" /><name>物品踢出器</name>可以用来设置微管上物品的方向。 
+     <icon key="item_item_kicker" /><name>物品导向器</name> 可以用来设置微管上物品的方向。
      <endl /> 
      <endl />
        
-     <icon key="item_picker_long" /><name>长选择器</name> 长选择器是标准选择器的变体。
+     <icon key="item_picker_long" /><name>加长拾取器</name> 更长的物品拾取器。
      <endl /> 
      <endl />
        
-     <icon key="item_item_tunnel" /><name>物品隧道</name> 使用它将物品穿过地下。
+     <icon key="item_item_tunnel" /><name>物品隧道</name> 用它来在地下传输物品。
      <endl /> 
 
-     这只是其中的一部分。在你的旅程中，你会发现更多需要研究的物品！ 
+     这里只是其中的一部分。在旅途中还有更多物品在等你发掘研究！
    
 
   # MAIN BUILDINGS --------------------------------------------------------------------------      
 
   "/concepts/main_buildings": >
-    <header><icon key="item_ribosome" />主要建筑</header>
+    <header><icon key="item_ribosome" /></header>
     <endl /><endl />
       <icon key="item_ribosome" /><name>核糖体</name><endl /><endl />
-      <icon key="ui_guide_dot"/>核糖体存在于所有细胞中，按照指定的顺序将氨基酸链接在一起，以创建新的重要材料。每个核糖体由两个核糖体亚基组成。
-      它是每个细胞的主要生产单位。<endl />
+      <icon key="ui_guide_dot"/>核糖体在所有细胞中都存在，它通过按特定顺序链接氨基酸的方式来制造许多重要材料。一个核糖体由两个核糖体亚基构成。
+      对每个细胞来说核糖体都是最主要的生产单位。<endl />
 
 
       <canvas size="0 0" scale="2" align="center">
@@ -429,8 +429,8 @@ content:
       <image key="item_subunit_red" tile="8 2" />
       </canvas><endl />
 
-      <icon key="item_assembler" /><name>装配器</name><endl /><endl />
-      <icon key="ui_guide_dot"/>装配器可以制作许多物品和结构 <icon key="item_microtubule" />，从你插入的两个物品中。<endl />
+      <icon key="item_assembler" /><name>组装器</name><endl /><endl />
+      <icon key="ui_guide_dot"/>组装器可以用你放入的两个物品制造许多新物品 <icon key="item_microtubule" /> 和结构。<endl />
 
       <canvas size="0 0" scale="2" align="center">
 
@@ -450,11 +450,11 @@ content:
       <image key="item_microtubule" tile="8 2" />
       </canvas><endl />
 
-      <icon key="item_catalyzer" /><name>催化器</name><endl /><endl />
-      <icon key="ui_guide_dot"/>催化器使用酶 <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
-      来指定反应，这些反应是特定的高级工艺，将用于<endl /> 新陈代谢：<icon key="item_atp" />产生能量，<icon key="item_adp" />回收材料等等。<endl /><endl />
+      <icon key="item_catalyzer" /><name>酶催化器</name><endl /><endl />
+      <icon key="ui_guide_dot"/>酶催化器使用酶 <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
+      来产生特定的反应，以进行更高级的生产流程。<endl />例如新陈代谢： <icon key="item_atp" />产生能量， <icon key="item_adp" />回收材料等等。<endl /><endl />
 
-      要使用催化器，你首先需要研究和制作酶，然后将其拖到催化器上开始使用所需的反应。<endl />
+      要使用酶催化器，你首先需要研究并制造一份酶，然后将它拖拽到酶催化器上，即可开始你想要的反应过程。<endl />
       
       <canvas size="0 0" scale="2" align="center">
       <image key="item_alcohol_dehydrogenase" tile="4 5" />
@@ -483,54 +483,53 @@ content:
       <image key="item_ethanol" tile="8 2" />
       </canvas><endl />
 
-      <endl /> 
+      <endl />
 
- # 自动收集 --------------------------------------------------------------------------      
+  # AUTOMATIG GATHERING --------------------------------------------------------------------------      
 
   "/concepts/automating_gathering": >
-    <header><icon key="item_cytostome1x" />自动收集</header> 
+    <header><icon key="item_cytostome1x" />自动化收集</header> 
     <endl />
-      <icon key="ui_guide_dot"/>要实现资源的自动收集，你需要制作<name>细胞口</name><icon key="item_cytostome1x" /><endl /><endl />
-      
-      细胞口是可以自动从虚空中吸收物品<icon key="item_aminoacid_red" /><icon key="item_aminoacid_green" /><icon key="item_aminoacid_blue" />的结构。 
-      它们可以放置在细胞膜上。<endl />
+      <icon key="ui_guide_dot"/>你需要制造<name>细胞口</name><icon key="item_cytostome1x" />来实现资源的自动收集。<endl /><endl />
+      细胞口是一种可以自动从虚空中吸取物品<icon key="item_aminoacid_red" /><icon key="item_aminoacid_green" /><icon key="item_aminoacid_blue" />的结构。
+      它们可以被放置在细胞膜上。<endl />
 
       <canvas size="0 0" scale="2" align="center" key="object_usage_cytostome1x" />
       <break /><break />
 
-      <icon key="ui_guide_dot"/>将细胞口放置在资源堆附近，可以从中收集材料。 
-      细胞口会随着时间的推移耗尽其功能并氧化。<endl /><endl />
-      它们可以被高级细胞口替换。<icon key="item_cytostome2x" /><endl /> 
-      高级细胞口效率更高，但需要atp <icon key="item_atp" />才能工作。
+      <icon key="ui_guide_dot"/>通过在资源堆附近放置一个细胞口来从中收集原材料。
+      原始的细胞口的功能会随时间不断衰退并最终完全氧化。<endl /><endl />
+      你也可以用高级细胞口 <icon key="item_cytostome2x" /><endl /> 
+      高级细胞口效率更高但运转需要能量 <icon key="item_atp" />
 
       <canvas size="0 0" scale="2" align="center" key="object_usage_cytostome2x" />
       <break />
 
-  # 扩展你的细胞 --------------------------------------------------------------------------      
+  # EXPANDING YOUR CELL --------------------------------------------------------------------------      
 
   "/concepts/expansion": >
-    <header><icon key="item_collagen_scaffold" />扩展</header> 
+    <header><icon key="item_collagen_scaffold" />扩张</header> 
     <endl />
-      <icon key="ui_guide_dot"/>扩展你的生物体是必要的，以便有足够的空间放置你的建筑，同时也可以搜寻资源。<endl/>
-      通过<concept icon="item_dispatcher" text="调度器" tooltip="dispatcher" />扩展你的细胞，它能够为你的新区域提供材料。<break/>
+      <icon key="ui_guide_dot"/>为了获得更多建筑空间，你必须扩大你的生物体，<break/>这一过程中顺带着也可以收集到更多资源。<endl/>
+      通过 <concept icon="item_dispatcher" text="调度器" tooltip="dispatcher" /> 向新区域供应材料来扩大你的细胞。<break/>
 
-      <icon key="ui_guide_exclamation"/>使用快捷栏工具<icon key="ui_icon_chunk_planner" />选择要扩展的细胞区域 
-      并向调度器提供正确的组织<icon key="item_cell_membrane" />以开始扩展。
+      <icon key="ui_guide_exclamation"/>使用快捷栏工具 <icon key="ui_icon_chunk_planner" /> 选择要扩展的细胞区域
+      并向调度器提供正确的组织 <icon key="item_cell_membrane" /> 来开始扩大细胞。
       <endl />
 
       <canvas size="0 0" scale="1" align="center" key="object_usage_dispatcher" /><endl/>
 
-      请记住，像<icon key="item_cell_membrane" /><name>默认细胞</name>这样的细胞内区域需要在下面建造<icon key="item_cytoskeleton_scaffold" /><name>细胞骨架支架</name>。
+      请记住，像 <icon key="item_cell_membrane" /><name>基础细胞</name> 这样的胞内区域需要先在下面建造好 <icon key="item_cytoskeleton_scaffold" /><name>细胞骨架支架</name> 。
       <break/>
-      同样的机制也适用于像<icon key="item_collagen_flooring" /><name>细胞外基质</name>这样的细胞外组织，它们需要在下面有<icon key="item_collagen_scaffold"/><name>胶原蛋白支架</name>。
+      同样的机制也适用于像 <icon key="item_collagen_flooring" /><name>胞外基质</name> 这样的细胞外组织，它们需要的则是 <icon key="item_collagen_scaffold"/><name>胶原蛋白支架</name> 。
 
       <break />
 
-  # 细菌
+  # bacteria
   "/concepts/bacteria": >
     <header><icon key="item_bacterium_bacillus_green" />细菌</header> 
     <endl />
-    细菌存在于你的生物体外的熬煮液中，当它们靠近你时，它们会攻击你的生物体。<endl/>
+    细菌存在于你的生物体外的培养基液中，并且会在靠近你的生物体时发动攻击。<endl/>
     <canvas size="0 0" scale="1" align="center">
     <image key="item_bacterium_bacillus_green" tile="0 0" />
     <image key="item_bacterium_bacillus_blue" tile="2 0" />
@@ -538,12 +537,12 @@ content:
     <image key="item_bacterium_coccus_yellow" tile="6 0" />
     </canvas><endl/>
     
-    <icon key="ui_guide_dot" />它们在外部生活在随着时间增长的菌落中<endl/>
-    <icon key="ui_guide_dot" />偶尔也会有游荡的细菌过来攻击你<endl/>
+    <icon key="ui_guide_dot" />它们生活在会随时间扩张的外部菌落中<endl/>
+    <icon key="ui_guide_dot" />偶尔还会有游荡的细菌过来攻击你。<endl/>
     <break/>
-    它们可以感染你的生物体，感染不会直接伤害你，但会影响区块的健康，最终导致<concept text="坏死" icon="item_necrotic_tissue" link="/concepts/necrosis" />。<endl/>
+    它们可以感染你的生物体，感染不造成直接伤害，但会不断减少区块的健康度并最终使其 <concept text="坏死" icon="item_necrotic_tissue" link="/concepts/necrosis" /> 。<endl/>
     <endl/>
-    你可以通过建造<concept text="发射器" icon="item_launcher1x" tooltip="launcher1x" />来防御自己，它们能够向它们投掷<concept icon="item_defensin_theta" text="防御素" tooltip="defensin_theta" />。
+    你可以通过建造 <concept text="发射口" icon="item_launcher1x" tooltip="launcher1x" /> 来保护自己，发射口可以将 <concept icon="item_defensin_theta" text="防御素" tooltip="defensin_theta" /> 嵌入细菌。
     <endl/>
 
 #<canvas size="0 0" scale="2" align="center">
@@ -551,13 +550,13 @@ content:
 #<image key="zone_stomach_intracellular_overlay" batch="1" facing="2" tile="0 2" />
 #</canvas>
 
-  # 管理资源 --------------------------------------------------------------------------      
+  # MANAGING RESOURCES --------------------------------------------------------------------------      
 
   "/concepts/managing_resources": >
     <header><icon key="item_collagen_scaffold" />管理资源</header> 
     <endl />
-    <icon key="ui_guide_dot" />你可以通过制作储物架来堆叠资源。<endl /><endl />
-    <icon key="ui_guide_exclamation"/>有两种类型的储物架，大的和小的。<endl />根据你的需要使用它们。
+    <icon key="ui_guide_dot" />你可以通过建造储物堆来堆叠资源。<endl /><endl />
+    <icon key="ui_guide_exclamation"/>储物堆有大和小两种尺寸。<endl />你可以按需使用。
     <endl /><endl />
     <canvas size="0 0" scale="2" align="center">
     <image key="object_stockpile2x" tile="0 1" align="lowerleft" />
@@ -579,14 +578,15 @@ content:
     <image key="item_ribosome" tile="9 5" />
     </canvas><endl />
 
-     <icon key="ui_guide_brain" />储物架可以根据其大小堆叠不同数量的物品。
+     <icon key="ui_guide_brain" />储物堆可以根据其大小堆叠不同数量的物品。
+
   "/concepts/energy": >
     <header><icon key="item_atp" />能量</header> 
     <endl /> 
-    能量是生物体的基本部分，用于为许多结构供电，你可以通过这个符号<icon key="ui_icon_energy_yellow" />来识别它们。<break/>
+    能量系统是生物体的基本组成部分，许多结构需要能量才能使用，需要消耗能量的结构上会有这个符号 <icon key="ui_icon_energy_yellow" /> 。<break/>
 
-    能量是通过燃烧<icon key="item_atp" /><name>ATP</name>生成<icon key="item_adp" /><name>ADP</name>的。<break/>
-    <icon key="item_energy_supplier_mk2" /><name>能量供应器</name>是可以燃烧<name>ATP</name>并向附近的建筑分配能量的结构。<break/>
+    能量产生自燃烧 <icon key="item_atp" /><name>ATP</name> 生成 <icon key="item_adp" /><name>ADP</name> 的过程。<break/>
+    <icon key="item_energy_supplier_mk2" /><name>能量供应器</name> 可以燃烧 <name>ATP</name> 并为周围的建筑提供能量。<break/>
 
      <canvas size="0 0" scale="2" align="center">
 
@@ -617,8 +617,8 @@ content:
      <image key="object_energy_supplier_mk1_base" tile="7 2" align="lowerleft" />
      <image key="object_energy_supplier_mk1_rod_off" tile="7 4" align="lowerleft" />
      </canvas><endl />
-     你可以在外面找到<icon key="item_atp" /><name>ATP</name>，或者你可以通过各种机制为<icon key="item_adp" /><name>ADP</name>充电。<break/>
-     <icon key="ui_guide_brain" />你可以连接<name>能量供应器</name>和<name>能量杆</name>来创建一个网络，并向多个建筑分配能量。
+     你可以在细胞外找到 <icon key="item_atp" /><name>ATP</name> ，或者你可以通过各种方法为 <icon key="item_adp" /><name>ADP</name> 充能。<break/>
+     <icon key="ui_guide_brain" />你可以连接<name>能量供应器</name>和<name>能量传递杆</name>来创建一个能量网络，并向多个建筑分配能量。
      <endl/>
      <canvas size="0 0" scale="1" align="center">
        <image key="item_energy_supplier_mk1" tile="0 0" />
@@ -630,10 +630,10 @@ content:
   "/concepts/energy_distribution": >
     <header><icon key="ui_icon_energy_yellow" />能量分配</header> 
     <endl />
-    你可以通过以下方式分配能量<icon key="ui_icon_energy_yellow" />：<break/> 
-    <icon key="ui_guide_dot" />直接将<concept icon="item_energy_supplier_mk2" text="供应器" tooltip="energy_supplier_mk2" />放在需要能量的结构范围内。<break/>
-    <icon key="ui_guide_dot" />创建一个由<concept icon="item_energy_supplier_mk2" text="供应器" tooltip="energy_supplier_mk2" />和<concept icon="item_energy_pole" text="杆" tooltip="energy_pole" />组成的网络。<break/>
-    尝试放置一个可以形成网络的结构<endl/>
+    你可以通过以下方式分配能量 <icon key="ui_icon_energy_yellow" /> ：<break/> 
+    <icon key="ui_guide_dot" /> 直接将 <concept icon="item_energy_supplier_mk2" text="供应器" tooltip="energy_supplier_mk2" /> 放在建筑附近提供能量。<break/>
+    <icon key="ui_guide_dot" /> 搭建一个由 <concept icon="item_energy_supplier_mk2" text="供应器" tooltip="energy_supplier_mk2" /> 和 <concept icon="item_energy_pole" text="传递杆" tooltip="energy_pole" /> 构成的能量网络。<break/>
+    尝试使各能量结构相连以形成能量网络。<endl/>
     <canvas size="0 0" scale="1" align="center">
        <image key="item_energy_supplier_mk1" tile="0 0" />
        <image key="item_energy_supplier_mk2" tile="2 0" />
@@ -641,72 +641,75 @@ content:
     </canvas>
     <endl/>
     将显示结构周围的两个区域：<endl/>
-    <icon key="ui_guide_dot" /> <p color="#ffff00">黄色</p>半径是连接其他供应器和杆的范围<endl/>
-    <icon key="ui_guide_dot" /> <p color="#ff8000">橙色</p>半径是连接能量消费者的范围<endl/>
+    <icon key="ui_guide_dot" /> <p color="#ffff00">黄色</p> 区域是连接其他供应器和传递杆的范围<endl/>
+    <icon key="ui_guide_dot" /> <p color="#ff8000">橙色</p> 区域是连接能量消费者的范围<endl/>
     <endl/>
-    <icon key="ui_icon_idea_lamp" /> <concept icon="item_energy_pole" text="能量杆" tooltip="energy_pole" />特殊之处在于它可以长距离连接到网络，但对消费者的范围非常小。
+    <icon key="ui_icon_idea_lamp" /> <concept icon="item_energy_pole" text="能量传递杆" tooltip="energy_pole" /> 的特别之处在于它的能量传递范围很大但能量供应范围很小。
 
   # symbol_legend
   "/interface/symbol_legend": >
    <header><icon key="ui_icon_context_help" />符号</header>
    <break/> 
-   这些符号在用户界面中使用，并具有特殊的含义：<break/>
+   界面上的这些符号具有特殊的含义：<break/>
 
-   <icon key="ui_icon_oxidized" /> 结构是<concept text="一次性的" link="/concepts/oxidation" />，并具有有限的使用次数<break/>
-   <icon key="ui_icon_generating_heat" /> 结构会产生<concept text="热量" link="/concepts/temperature" /><break/>
-   <icon key="ui_icon_energy_yellow" /> 结构需要<concept text="能量" link="/concepts/energy" /><break/>
-   <icon key="ui_icon_energy_blue" /> 结构是<concept text="线粒体能量循环" link="/concepts/mitochondrion" />的一部分<break/>
-   <icon key="ui_icon_indirect_build" /> 结构是<name>细胞外的</name>，必须由调度器建造<break/>
+   <icon key="ui_icon_oxidized" /> 结构是 <concept text="一次性的" link="/concepts/oxidation" /> ，只有有限的使用次数。<break/>
+   <icon key="ui_icon_generating_heat" /> 结构产生 <concept text="热量" link="/concepts/temperature" /><break/>
+   <icon key="ui_icon_energy_yellow" /> 结构需要 <concept text="能量" link="/concepts/energy" /><break/>
+   <icon key="ui_icon_energy_blue" /> 结构是 <concept text="线粒体能量循环" link="/concepts/mitochondrion" /> 的一部分。<break/>
+   <icon key="ui_icon_indirect_build" /> 结构是 <name>细胞外</name> 的，必须由调度器建造。<break/>
    
-   <icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /> 配方必须在特定的建筑中建造<break/>
-   <icon key="item_mitochondrial_membrane" /><icon key="item_staminal_tissue" /><icon key="item_heart_intracellular_tissue" /> 配方必须在特定的区域内建造<break/>
+   <icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /> 配方必须在特定的建筑中进行。<break/>
+   <icon key="item_mitochondrial_membrane" /><icon key="item_staminal_tissue" /><icon key="item_heart_intracellular_tissue" /> 配方必须在特定的区域内进行。<break/>
 
    
-   <icon key="ui_icon_work_in_progress" /> 配方仍在<concept text="进行中" />，使用风险自负！
+   <icon key="ui_icon_work_in_progress" /> 配方仍处于 <concept text="开发中阶段" /> ，使用风险自负！
+
 
   # necrosis
 
   "/concepts/necrosis": >
    <header><icon key="item_necrotic_tissue" />坏死</header>
    <endl/> 
-   <name>坏死</name>是一个<red>无法恢复</red>的块状态，当块的健康度低于一定阈值时会发生。
+   <name>坏死</name> 是一种 <red>不可恢复</red> 的区块状态，当区块的健康度低于一定阈值时就会发生。
    
-   每个块的健康度都从<green>100%</green>开始，但各种条件可能会降低其健康度，当健康度低于<red><value type="rule" key="physiology::necrosisHealthThreshold" format="percent" /></red>时，坏死就会开始。
+   每个区块的健康度都从 <green>100%</green> 开始，但各种条件可能会降低其健康度，当健康度低于 <red><value type="rule" key="physiology::necrosisHealthThreshold" format="percent" /></red> 时，坏死就会开始。
    <endl/><endl/>
    一些可能降低健康度的条件包括：<break/>
-   <icon key="ui_icon_temperature"/> 块的温度<break/>
-   <icon key="item_infector"/> 块内的感染瓷砖<break/>
-   <icon key="item_necrotic_tissue"/> 附近的坏死块<break/>
+   <icon key="ui_icon_temperature"/> 区块的温度<break/>
+   <icon key="item_infector"/> 区块中处于感染状态的格子数<break/>
+   <icon key="item_necrotic_tissue"/> 附近的坏死区块数<break/>
    <break/>
-   <icon key="ui_warning_sign_red" /><red>坏死不能被治愈或逆转，一旦一个块开始坏死，它将慢慢死亡，这通常是一个连锁反应。</red><endl/>
-   这意味着你必须<name>预防</name>条件，不要行动太晚！<break/>
-   <icon key="ui_icon_idea_lamp" />当一个块没有任何负面影响其健康度的条件时，<green>它会慢慢恢复到100%的健康度</green><break/>
+   <icon key="ui_warning_sign_red" /><red>坏死不能被治愈或逆转，一旦坏死发生，整个区块最终会彻底死亡并引发一系列连锁反应。</red><endl/>
+   这意味着你必须做出 <name>预防</name> ，别等到一切都迟了的时候再作反应！<break/>
+   <icon key="ui_icon_idea_lamp" />当一个区块没有任何影响其健康度的负面条件时， <green>它的健康度会慢慢恢复到100%</green> 。<break/>
 
-  # 温度
 
+
+  # temperature
+  
   "/concepts/temperature": >
     <header><icon key="ui_icon_toggle_temperature_overlay_off" />温度</header> 
     <endl /> 
-    <icon key="ui_guide_exclamation"/>管理你的细胞温度对于生存至关重要。
+    <icon key="ui_guide_exclamation"/>管理好你的细胞温度是生存下去的重要流程。
     <endl /> <endl /> 
-    外部温度从<value type="rule" key="physiology::voidTemperatureRange" index="1" format="temperature" />开始，但会随着时间的推移慢慢降低。
-    这会使你的生物体失去热量，最终会冷到受到损伤并触发<icon key="item_necrotic_tissue"/> <name>坏死</name>。 <endl/>
-    任何形式的损伤开始之前的最低限度是<value type="rule" key="physiology::safeTemperatureRange" index="0" format="temperature" />。
+    外部温度从 <value type="rule" key="physiology::voidTemperatureRange" index="1" format="temperature" /> 开始，但会随着时间的推移慢慢降低。
+    温度的降低会使你的生物体失去热量，最终使其受到损伤，并引发 <icon key="item_necrotic_tissue"/> <name>坏死</name> 。<endl/>
+    避免损伤产生的最低温度是 <value type="rule" key="physiology::safeTemperatureRange" index="0" format="temperature" /> 。 
     <endl /> <endl /> 
-    <icon key="ui_guide_dot"/>一些建筑在工作时会产生热量，例如<name>能源供应商</name>或<name>生产</name>建筑<endl/>
+    <icon key="ui_guide_dot"/>一些建筑在运作时会产生热量，例如 <name>能量供应器</name> 或者各类 <name>生产</name> 建筑。<endl/>
     <canvas size="0 0" scale="1" align="center">
     <image key="item_energy_supplier_mk2" tile="0 0" />
     <image key="item_ribosome" tile="2 0" />
     <image key="item_catalyzer" tile="4 0" />
     <image key="item_assembler" tile="6 0" />
     </canvas><endl/>
-    你可以通过这个<icon key="ui_icon_generating_heat" />符号在他们的工具提示中识别它们。<endl/><endl/>
+    你可以通过提示框中的 <icon key="ui_icon_generating_heat" /> 符号来识别它们。<endl/><endl/>
 
 
-    <icon key="ui_guide_dot"/>你也可以使用<name>解耦器</name>，这是一种需要<icon key="item_mitochondrial_membrane"/> <name>线粒体</name>的产生热量的高级模式。<endl/>
+    <icon key="ui_guide_dot"/> 你也可以使用 <name>解偶联器</name> ，这是一种需要在 <icon key="item_mitochondrial_membrane"/> <name>线粒体</name> 中才能进行的高级产热方案。 <endl/>
     <canvas size="0 0" scale="2" align="center"  key="object_usage_decoupler" />
     <endl/>
-    这种方法需要投入<icon key="item_nadh" /> <name>NADH</name>在<icon key="item_electron_transport_chain"/><name>电子传递链</name>中，但它会产生大量的热量。
+    尽管这种方法需要向 <icon key="item_electron_transport_chain"/><name>电子传递链</name> 投入 <icon key="item_nadh" /> <name>NADH</name> 才能运行，但它可以产生极多的热量。
 
   "/concepts/advanced_energy_production": >
     <header><icon key="item_krebs_cycle_enzyme" />高级能源生产</header> 
@@ -716,89 +719,91 @@ content:
 
 
 
-  # 组织类型
+  # tissue types
 
   "/concepts/tissue_types": >
     <header><icon key="item_staminal_tissue" />组织类型</header>
     <endl />
-    你的生物体由可以是许多不同组织的块组成，每种组织都有自己的功能和能力。<endl/><endl/>
-    <icon key="item_cell_membrane" /> <name>细胞内组织</name><break/>
-    <icon key="ui_guide_dot"/>它们有壁<break/>
-    <icon key="ui_guide_dot"/>它们允许<icon key="item_microtubule" /><icon key="item_picker" /><link target="/concepts/routing_items">微管和选择器</link><break/>
-    <icon key="ui_guide_dot"/>它们允许<icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /><link target="/concepts/production">生产</link>物品<break/>
+    你的生物体可以由多种不同的组织区块构成，每种组织都有自己的功能。<endl/><endl/>
+    <icon key="item_cell_membrane" /> <name>胞内组织</name><break/>
+    <icon key="ui_guide_dot"/>它们有膜<break/>
+    <icon key="ui_guide_dot"/>胞内组织中允许使用 <icon key="item_microtubule" /><icon key="item_picker" /><link target="/concepts/routing_items">微管和拾取器</link><break/>
+    <icon key="ui_guide_dot"/>胞内组织中允许 <icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /><link target="/concepts/production">生产</link> 物品<break/>
     <endl/>
-    <icon key="item_lung_tissue" /> <name>细胞外组织</name><break/>
-    <icon key="ui_guide_dot"/>它们有胶囊（更高的墙）<break/>
-    <icon key="ui_guide_dot"/>你只能通过<icon key="item_dispatcher" /><name>调度员</name>间接在那里建造<icon key="ui_icon_indirect_build" /><break/>
-    <icon key="ui_guide_dot"/>它们允许<icon key="item_red_blood_cell" /><name>细胞</name>移动<break/>
-    <icon key="ui_guide_dot"/>它们允许<icon key="item_artery2x2"/><icon key="item_vein2x2"/><name>血管</name><break/>
+    <icon key="item_lung_tissue" /> <name>胞外组织</name><break/>
+    <icon key="ui_guide_dot"/>它们有被膜（比胞内组织的膜更高）<break/>
+    （被膜在现实中指的是结缔组织构成的器官膜，<break/>真实世界中并不存在这种高低比较）<break/>
+    <icon key="ui_guide_dot"/>你只能通过 <icon key="item_dispatcher" /><name>调度器</name> 间接地在这些组织上建造 <icon key="ui_icon_indirect_build" /> 。<break/>
+    <icon key="ui_guide_dot"/>胞外组织中允许 <icon key="item_red_blood_cell" /><name>细胞</name> 移动 <break/>
+    <icon key="ui_guide_dot"/>胞外组织中允许建造 <icon key="item_artery2x2"/><icon key="item_vein2x2"/><name>血管</name><break/>
     <endl/>
     另外还有一些特殊的组织：<endl/>
-    <icon key="ui_guide_dot"/><icon key="item_staminal_tissue" /><name>干细胞组织</name>，可以建造所有其他组织<endl/>
-    <icon key="ui_guide_dot"/><icon key="item_mitochondrial_membrane" /><name>线粒体</name>，这是一个用于产生能量和热量的特殊壁区域<endl/>
-    <icon key="ui_guide_dot"/><icon key="item_collagen_flooring" /><name>细胞外基质</name>，这是一个非专业的细胞外组织，用于连接区域<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_staminal_tissue" /><name>干细胞组织</name>，可以用于建造其他所有组织<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_mitochondrial_membrane" /><name>线粒体</name>，这是一个被独立的膜所包裹的用于产生能量与热量的特殊区域<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_collagen_flooring" /><name>胞外基质</name>，这是一个用于连接各区域的非特化胞外组织<endl/>
 
   "/concepts/evolution": >
     <header><icon key="ui_icon_open_evolution_view" />进化</header> 
     <endl />
     进化是发现新的结构、机制和反应以发展你的生物体的过程。
     <break/>
-    这是通过<concept text="进化器" icon="item_evolver" tooltip="evolver" />完成的，这些结构可以处理材料以发现新的事物。
+    通过使用 <concept text="进化器" icon="item_evolver" tooltip="evolver" /> 处理材料来发现新东西。
     <break/>
-    <icon key="ui_guide_exclamation"/>进化器使用dna片段进行进化：<endl/>
-    <icon key="item_cytosine"/> <icon key="item_guanine"/>单个<name>核苷酸</name>，可以从<icon key="item_plasmid_1" /><name>质粒</name>中刮取或在外部找到。
+    <icon key="ui_guide_exclamation"/>进化器使用DNA片段进行进化：<endl/>
+    <icon key="item_cytosine"/> <icon key="item_guanine"/>单个 <name>核碱基</name> 可以从 <icon key="item_plasmid_1" /><name>质粒</name> 中提取或在外部找到。
     <endl/>
-    <icon key="item_base_pair_at"/><icon key="item_base_pair_cg"/><name>碱基对</name>，必须用<icon key="item_catalyzer" tooltip="catalyzer" /><name>催化器</name>组装
+    <icon key="item_base_pair_at"/><icon key="item_base_pair_cg"/><name>碱基对</name> 必须用 <icon key="item_catalyzer" tooltip="catalyzer" /><name>酶催化器</name> 组装。
     <break/>  
-    <icon key="ui_guide_bling"/>要打开进化树并选择要发现的内容，按<keycap action="open_evolution_view" />键。 
+    <icon key="ui_guide_bling"/>要打开进化树和选择下一步要探索的内容，按 <keycap action="open_evolution_view" /> 键。 
       
       <endl /><endl />
 
       <image key="ui_guide_img_research" scale="2"/>
       
       <endl /><endl />
-      <icon key="ui_warning_sign_yellow"/>要将<icon key="item_plasmid_1" /><name>质粒</name>转化为核苷酸，你需要使用<icon key="item_dna_nuclease" /><name>DNA核酸酶</name>。
+      <icon key="ui_warning_sign_yellow"/>要将 <icon key="item_plasmid_1" /><name>质粒</name> 转化为核碱基，你需要使用 <icon key="item_dna_nuclease" /><name>DNA合酶</name>.
       <endl /><endl />
 
 
-  # 氧化
+  # oxidation
 
   "/concepts/oxidation": >
      <header><icon key="item_carbon_dioxide" />氧化</header> 
      <endl />
-        <icon key="ui_guide_exclamation"/>氧化可以慢慢消耗你的建筑，使它们减慢甚至停止。<endl /><endl />
+        <icon key="ui_guide_exclamation"/>氧化会使你的建筑缓慢失去功能。<endl /><endl />
 
-        早期游戏中的许多原始建筑有有限的使用次数，它们被定义为<keyword>一次性</keyword>。<endl />
-        你可以通过这个符号识别一次性建筑：<icon key="ui_icon_oxidized" /> <endl/>
+        游戏初期的许多初级建筑只有有限的使用次数，它们被定义为 <keyword>一次性的</keyword> 。<endl />
+        你可以通过这个符号识别一次性建筑： <icon key="ui_icon_oxidized" /> <endl/>
         <endl/>
         <endl/>
-        一次性结构的一些属性：<endl/>
-        <icon key="ui_guide_dot"/> 当氧化时，它们的工作效率会降低 <endl/>
-        <icon key="ui_guide_dot"/> 它们<red>不能</red>被移动：一旦被摧毁，就没了！ <endl/>
-        <icon key="ui_guide_dot"/> 它们<green>可以</green>直接被替换以恢复它们 <endl/>
-        <icon key="ui_guide_dot"/> 你可以使用<concept icon="item_diffuser" tooltip="diffuser" text="扩散器" />自动更新它们<endl/>
+        一次性结构有以下属性：<endl/>
+        <icon key="ui_guide_dot"/> 随着被逐渐氧化，它们的运作效率会降低 <endl/>
+        <icon key="ui_guide_dot"/> 它们<red>不能</red>被移动：一旦被拆毁，它们就没了！ <endl/>
+        <icon key="ui_guide_dot"/> 它们<green>可以</green>被直接替换来恢复运作效率 <endl/>
+        <icon key="ui_guide_dot"/> 你可以使用 <concept icon="item_diffuser" tooltip="diffuser" text="扩散器" /> 自动翻新它们 <endl/>
         <endl/>
 
-        <icon key="ui_guide_brain"/>你将能够使用更先进的，非一次性的结构，但其中一些将需要能量<icon key="item_atp"/>才能工作。
+        <icon key="ui_guide_brain"/>游戏后期你将能够使用更先进的，非一次性的结构，<break/>但其中一些会变得需要能量 <icon key="item_atp"/> 才能运转。
        <endl />
+
   "/concepts/vessels": >
      <header><icon key="item_artery2x2" />血管</header> 
      <endl />
-       <icon key="ui_guide_dot"/>即将推出！
+       <icon key="ui_guide_dot"/>即将推出。
        <endl />
 
 
   "/concepts/heaps": >
-     <header><icon key="item_atp_synthase" />堆</header> 
+     <header><icon key="item_atp_synthase" />资源堆</header> 
      <endl />
-       <icon key="ui_guide_dot"/>资源堆散布在虚空中，包含了所需资源的组合。你可以使用细胞口来获取它们。<icon key="item_cytostome1x"/>
+       <icon key="ui_guide_dot"/>资源堆散布在虚空中，包含了大量的所需资源。你可以使用细胞口来获取它们。 <icon key="item_cytostome1x"/>
 
        <endl /><endl />
 
-       <icon key="ui_guide_exclamation"/>资源堆会随着时间的推移逐渐耗尽，所以要密切关注它们的持续时间，并记住扩展并寻找其他堆，以避免缺乏重要的营养物质。
+       <icon key="ui_guide_exclamation"/>随着不断被抽取，资源堆最终会耗尽。记得关注资源堆中资源的剩余数量，扩张并寻找新的资源堆，以避免资源短缺。
        <endl /><endl />
 
-       随着你的进步和研究，你会需要新的材料，这些材料会随着时间在新的堆中出现。
+       随着你的发展和研究，你会需要许多新的材料，这些材料会随时间在新的资源堆中出现。
 
        <endl /><endl />
 
@@ -822,7 +827,7 @@ content:
 
        </canvas><endl />
 
-       <icon key="ui_guide_brain"/>多个细胞口可以连接到一个资源堆。
+       <icon key="ui_guide_brain"/>多个细胞口可以接到一个资源堆上。
 
        
   # enzymes
@@ -830,16 +835,16 @@ content:
   "/concepts/enzymes": >
     <header><icon key="item_glycolysis_enzyme" />酶</header>
     <endl/>
-      酶是一种特殊的蛋白质，对于催化反应是必需的。<endl/>
+      酶是一种催化反应必需的特殊蛋白质。<endl/>
       你必须：<endl/>
-      <icon key="ui_guide_dot"/>制作你想要发生反应所需的酶<endl/>
-      <icon key="ui_guide_dot"/>并将其放入你想要使用的<concept text="催化器" icon="item_catalyzer" tooltip="catalyzer"/><endl/>
-      <icon key="ui_guide_dot"/>现在你可以像对待其他生产建筑一样选择反应<break/>
+      <icon key="ui_guide_dot"/>制作你想要进行的反应所需的酶<endl/>
+      <icon key="ui_guide_dot"/>并将其放入你想要使用的 <concept text="酶催化器" icon="item_catalyzer" tooltip="catalyzer"/> <endl/>
+      <icon key="ui_guide_dot"/>然后就可以把它当成其他生产建筑一样选择你想要的反应类型了。<break/>
       
-      例如，对于<concept icon="recipe_icon_glycolysis" text="糖酵解" tooltip="glycolysis" />，首先你需要制作一个
-      <concept icon="item_glycolysis_enzyme" text="糖酵解酶" tooltip="glycolysis_enzyme" />，然后你可以用它填充催化器。<break/>
+      例如，如果你要进行 <concept icon="recipe_icon_glycolysis" text="糖酵解" tooltip="glycolysis" /> 反应，首先你需要制作一个
+      <concept icon="item_glycolysis_enzyme" text="糖酵解酶" tooltip="glycolysis_enzyme" /> ，并把它放进你的催化器<break/>
       
-      <icon key="ui_icon_idea_lamp" />如果需要，你可以取回酶并将其放在其他地方。<break/>
+      <icon key="ui_icon_idea_lamp" />如果需要，你也可以取回酶并将其放在其他地方。<break/>
 
       <canvas size="0 0" scale="2" align="center">
 
@@ -860,39 +865,39 @@ content:
       
   # membrane transporters
   "/concepts/membrane_transportation": >
-    <header><icon key="item_membrane_transporter2x" />膜运输</header><break/>
-    膜<red>不</red>允许<concept icon="item_microtubule" text="微管" />穿过它们。<end/>
-    你需要使用称为运输器的特殊建筑：<endl />
-    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter1x" text="单向运输器" tooltip="membrane_transporter1x" />, 它们能够将一个单一的物品向一个方向移动<endl/>
-    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter2x" text="共运输器" tooltip="membrane_transporter2x" />, 它们能够将两个配对的物品向同一方向移动或交换它们<endl/>
+    <header><icon key="item_membrane_transporter2x" />跨膜运输</header><break/>
+    膜 <red>不允许</red> <concept icon="item_microtubule" text="微管" /> 穿过它们。<end/>
+    你需要使用称为转运体的特殊建筑：<endl />
+    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter1x" text="单向转运体" tooltip="membrane_transporter1x" />，它们能够将一个单一的物品向一个方向移动<endl/>
+    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter2x" text="共转运体" tooltip="membrane_transporter2x" />，它们能够将两个配对的物品向同一方向移动或进行交换<endl/>
     <endl/>
-    运输器的工作方式类似于催化器和酶，你需要插入一个特定的运输器物品，<break/>该物品配置了建筑可以运输哪些物品。<endl/>
+    转运体的工作方式类似于催化器和酶，<break/>你必须向其中放入一个特定的物品形态转运蛋白，<break/>其中配置了该建筑可以运输哪些物品。<endl/>
     <canvas size="0 0" scale="2" align="center">
     <image key="item_uniporter_gas" tile="0 0" />
     <image key="item_antiporter_atp_adp" tile="2 0" />
     <image key="item_antiporter_nadh_nad" tile="4 0" />
     </canvas>
     <endl/>
-    <icon key="ui_warning_sign_yellow"/><warning>只有当两种物品都在建筑内时，共运输器才会工作。否则，它们会等待被填充。</warning><break/>
+    <icon key="ui_warning_sign_yellow"/><warning> 共转运体只有当两个输入口都被填充时才会运作，否则会一直等待下去。</warning><break/>
     <canvas size="0 0" scale="1" align="center" key="object_usage_membrane_transporter2x" />
-    <icon key="ui_icon_idea_lamp" />一些运输器可以翻转它们的方向，只需使用<keycap action="execute_first_action" />或上下文菜单即可。<break/>
+    <icon key="ui_icon_idea_lamp" />一些转运蛋白可以翻转它们的方向，只需要用 <keycap action="execute_first_action" /> 或者交互式菜单即可。<break/>
 
   # mitochondrion
   "/concepts/mitochondrion": >
     <header><icon key="item_mitochondrial_membrane" />线粒体</header><break/>
-    线粒体是一种特殊的区域，只能在<concept icon="item_cell_membrane" text="细胞内区域" link="/concepts/tissue_types" />内建造。
+    线粒体是一种只能建造在 <concept icon="item_cell_membrane" text="胞内" link="/concepts/tissue_types" /> 的特殊区域。
     <break/>
-    它的目的是通过<concept icon="item_electron_transport_chain" text="电子传递链" tooltip="electron_transport_chain" />进行能量生产。
-    这种能量可以被两种建筑消耗：<break/>
-    <concept icon="item_atp_synthase" text="ATP合成酶" tooltip="atp_synthase" />, 它们将<concept icon="item_adp" text="ADP" />转化为<concept icon="item_atp" text="ATP" />
-    以供<concept icon="item_energy_supplier_mk2" text="能量供应器" link="/concepts/energy" />消耗<endl/>
+    线粒体可以通过 <concept icon="item_electron_transport_chain" text="电子传递链" tooltip="electron_transport_chain" /> 产生一种特殊能量。
+    这种特殊能量可以被两种建筑消耗：<break/>
+    <concept icon="item_atp_synthase" text="ATP合酶" tooltip="atp_synthase" /> 将 <concept icon="item_adp" text="ADP" /> 转化为 <concept icon="item_atp" text="ATP" />
+    以供 <concept icon="item_energy_supplier_mk2" text="能量供应器" link="/concepts/energy" /> 消耗<endl/>
     <canvas size="0 0" scale="1" align="center" key="object_usage_atp_synthase" /><endl/>
     <break/>
     
-    <concept icon="item_decoupler" text="解耦器" tooltip="decoupler" />, 它们产生大量的热量，有助于保持你的生物体<concept text="温暖" link="/concepts/temperature" /><endl/>
+    <concept icon="item_decoupler" text="解偶联器" tooltip="decoupler" /> 产生大量的热量，有助于保持你的生物体 <concept text="温暖" link="/concepts/temperature" /><endl/>
     <canvas size="0 0" scale="1" align="center" key="object_usage_decoupler" /><endl/>
     <break/>
-    <icon key="ui_icon_idea_lamp" />要将物品移入和移出线粒体，你将需要<concept link="/concepts/membrane_transportation" text="膜运输器" />。
+    <icon key="ui_icon_idea_lamp" />要将物品移入和移出线粒体，你必须使用 <concept link="/concepts/membrane_transportation" text="膜转运体" /> 。
 
 
 # ---------------------
@@ -902,70 +907,70 @@ content:
   "/reference/structures/crafters/ribosome": >
     <header><icon key="item_ribosome" />核糖体</header>
     <endl /><endl />
-       <icon key="ui_guide_dot"/>核糖体存在于所有细胞中，将氨基酸<icon key="item_aminoacid_yellow" /> <icon key="item_aminoacid_green" /><endl />按照指定的顺序连接起来，以创建新的重要材料。<endl /><endl /> 
+       <icon key="ui_guide_dot"/>核糖体存在于所有细胞中，将氨基酸 <icon key="item_aminoacid_yellow" /> <icon key="item_aminoacid_green" /><endl /> 按指定顺序连接起来，以创造出更多重要材料。 <endl /><endl /> 
        
-       <icon key="ui_guide_dot"/>每个核糖体由两个核糖体亚基<icon key="item_subunit_red" /><icon key="item_subunit_red" />组成。
+       <icon key="ui_guide_dot"/>每个核糖体都由两个核糖体亚基 <icon key="item_subunit_red" /><icon key="item_subunit_red" /> 组成。
        <endl /><endl />
        <icon key="ui_guide_exclamation"/>它是每个细胞的主要生产单位。<endl />
        <endl /><endl />
 
        <canvas size="0 0" scale="2" align="center" key="object_usage_ribosome" />
        <break />
-       <icon key="ui_guide_arrow_yellow"/><name>核糖体制作：</name><endl/>
+       <icon key="ui_guide_arrow_yellow"/><name>核糖体可以制造：</name><endl/>
        <recipe key="ribosome" compact="true" />
 
   "/reference/structures/crafters/assembler": >
-    <header><icon key="item_assembler" />装配机</header>
+    <header><icon key="item_assembler" />蛋白装配体</header>
     <endl /><endl />
-      <icon key="ui_guide_dot"/>装配机用于用通常来自核糖体的材料制作有用的复杂物品。<endl /><endl />
+      <icon key="ui_guide_dot"/>蛋白装配体用通常来自核糖体的材料制造更复杂的产物。 <endl /><endl />
 
       <canvas size="0 0" scale="2" align="center" key="object_usage_assembler" />
       <break />
 
-      <icon key="ui_guide_arrow_yellow"/><name>装配机制作：</name><endl/>
+      <icon key="ui_guide_arrow_yellow"/><name>蛋白装配体可以制造：</name><endl/>
       <recipe key="assembler" compact="true" />
 
 
     
   "/reference/structures/crafters/catalyzer": >
-    <header><icon key="item_catalyzer" />催化器</header>
+    <header><icon key="item_catalyzer" />酶催化器</header>
     <endl /><endl />
-       催化器利用酶<icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
-       来指定反应，这些反应是特定的高级工艺，将用于新陈代谢： 
+       酶催化器利用酶 <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
+       来进行指定的反应，这些反应是较高级的生产工艺，将用于： 
        
        <endl /><endl />
        
-       <icon key="item_atp" /><link target="/reference/structures/energy/atp_synthase">产生能量</link>，  <icon key="item_adp" />回收材料等等。
+       <icon key="item_atp" /><link target="/reference/structures/energy/atp_synthase">产生能量</link>，<icon key="item_adp" />回收材料等新陈代谢流程。
 
        <endl /><endl /><endl />
 
        <canvas size="0 0" scale="2" align="center"  key="object_usage_catalyzer" />
        <break />
 
-       <icon key="ui_guide_arrow_yellow"/><name>催化器制作：</name><endl/>
+       <icon key="ui_guide_arrow_yellow"/><name>酶催化器可以制造：</name><endl/>
        <recipe key="catalyzer" compact="true" />
 
 
   # ---------------------
-  # Structures - Crafters
+  # Structures - Crafters (looks like this page wrong)
   # ---------------------
 
   "/reference/structures/evolution/evolver": >
     <header><icon key="item_evolver" />进化器</header>
     <endl /><endl />
-       进化器利用酶<icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
-       来指定反应，这些反应是特定的高级工艺，将用于新陈代谢： 
+       酶催化器利用酶 <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
+       来进行指定的反应，这些反应是较高级的生产工艺，将用于： 
        
        <endl /><endl />
        
-       <icon key="item_atp" /><link target="/reference/structures/energy/atp_synthase">产生能量</link>，  <icon key="item_adp" />回收材料等等。
+       <icon key="item_atp" /><link target="/reference/structures/energy/atp_synthase">产生能量</link>，<icon key="item_adp" />回收材料等新陈代谢流程。
 
        <endl /><endl /><endl />
 
        <canvas size="0 0" scale="2" align="center"  key="object_usage_evolver" />
        <break />
 
-       <icon key="ui_guide_arrow_yellow"/><name>进化器制作：</name><endl/>
+       <icon key="ui_guide_arrow_yellow"/><name>进化器可以制造：</name><endl/>
        <recipe key="evolver" compact="true" />
       
 
@@ -983,13 +988,13 @@ content:
      <break />
      <endl />
 
-     <icon key="ui_guide_arrow_yellow"/><name>电子传递链制作：</name><endl/>
+     <icon key="ui_guide_arrow_yellow"/><name>电子传递链可以制造：</name><endl/>
      <recipe key="electron_transport_chain" compact="true" />
 
 
   "/reference/structures/energy/atp_synthase": >
     <header><icon key="item_atp_synthase" />ATP合酶</header><endl />
-      ATP合酶是一种催化形成能量储存分子ATP<icon key="item_atp" />的结构，使用ADP<icon key="item_adp" /> 
+      ATP合酶是一种使用 <icon key="item_adp" />ADP形成能量储存分子 <icon key="item_atp" />ATP 的酶。
       <endl /><endl />
 
      <icon key="ui_guide_exclamation"/>这个结构需要电力才能工作。
@@ -997,23 +1002,23 @@ content:
 
      <canvas size="0 0" scale="2" align="center"   key="object_usage_atp_synthase" />
        
-     <icon key="ui_guide_arrow_yellow"/><name>ATP合酶制作：</name><endl/>
+     <icon key="ui_guide_arrow_yellow"/><name>ATP合酶可以制造：</name><endl/>
      <recipe key="atp_synthase" compact="true" />
 
   "/reference/structures/energy/energy_supplier_mk1": >
     <header><icon key="item_energy_supplier_mk1" />能量供应器</header><endl />
-     能量供应器用于产生将被<endl />附近结构使用的电力。
+     能量供应器用于生产电力以供周围的建筑使用。
      <endl /><endl />
-     使用<icon key="item_atp" />ATP产生能量，使用时会随时间消耗。当耗尽时，会产生一个ADP<icon key="item_adp" />。
+     使用 <icon key="item_atp" />ATP产生能量，当ATP中的能量被耗尽时会返还一个<icon key="item_adp" />ADP。
       <endl /><endl />
-     <icon key="ui_icon_toggle_power_overlay_on"/>切换电力覆盖：<icon key="ui_guide_invisidot"/><keycap action="toggle_power_overlay" />
+     <icon key="ui_icon_toggle_power_overlay_on"/>切换能量系统覆盖层： <icon key="ui_guide_invisidot"/><keycap action="toggle_power_overlay" />
 
      <endl />
 
      <canvas size="0 0" scale="2" align="center"   key="object_usage_energy_supplier_mk1" />
 
 
-     <icon key="ui_guide_arrow_yellow"/><name>能量供应器制作：</name><endl/>
+     <icon key="ui_guide_arrow_yellow"/><name>能量供应器可以制造：</name><endl/>
      <recipe key="energy_supplier_mk1" compact="true" />
 
 # ---------------------
@@ -1021,10 +1026,10 @@ content:
 # ---------------------
 
   "/reference/structures/routing/picker": >
-    <header><icon key="item_picker" />Picker</header><endl />
-    <icon key="ui_guide_dot"/> Pickers are the simplest way to move items in <link target="/concepts/tissue_types">intracellular zones</link>.<endl />
+    <header><icon key="item_picker" />拾取器</header><endl />
+    <icon key="ui_guide_dot"/> 拾取器是在 <link target="/concepts/tissue_types">胞内区域</link> 移动物品的最好选择。<endl />
     <endl/>
-    <icon key="ui_guide_exclamation"/>The standard picker occupies one tile and expands to a neighbouring tile which is used for depositing or picking items.
+    <icon key="ui_guide_exclamation"/>标准的拾取器本身占据一格，然后再向外延伸一格，用来在目标位置放下或拾起物品。
     <endl/>
     <canvas size="0 0" scale="2" align="center"  key="object_usage_picker" />
     <canvas size="0 0" align="center" scale="2.0">
@@ -1033,15 +1038,14 @@ content:
     </canvas>
     <endl/><endl />
 
-    <icon key="ui_guide_dot"/>You can rotate pickers by pressing <keycap key="e" /> , or change  direction with <keycap key="q" />.<endl /><endl /> 
-    <icon key="ui_guide_dot"/>To interact with Pickers, Microtubules must be placed on the side with the arrow, while the darker section must be under the desidered structure, like a Ribosome
-      (img) Starters - starters can be placed on microtubules to change the items direction.
+    <icon key="ui_guide_dot"/>你可以按 <keycap key="e" /> 来旋转拾取器，或者按 <keycap key="q" /> 来翻转搬运方向。<endl /><endl /> 
+    <icon key="ui_guide_dot"/>你必须在有箭头的一侧放置微管来与拾取器交互，而较黑的一侧则应该放在如核糖体的建筑下方。
+      (img) 导向器 - 可以在微管上放置物品导向器以改变物品的移动方向。
       <endl /><endl />
 
-    <icon key="ui_guide_dot"/> (alt text) Pickers can be rotated with first action <keycap action="execute_first_action" /> or they can switch between <p color="red">picking</p> 
-    and <p color="red">dropping</p> mode with <keycap action="execute_second_action" />.
+    <icon key="ui_guide_dot"/> (alt text) 拾取器可以用 <keycap action="execute_first_action" /> 来旋转，或者用 <keycap action="execute_second_action" /> 来在 <p color="red">拾起</p> 和 <p color="red">丢下</p> 两种模式中选择。
     <endl/><endl/>
-    <icon key="ui_guide_arrow_yellow"/><name>Picker craft:</name><endl/>
+    <icon key="ui_guide_arrow_yellow"/><name>拾取器可以制造：</name><endl/>
     <recipe key="picker" compact="true" />
 
   "/reference/structures/routing/colored_picker": >

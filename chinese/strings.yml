@@ -1,7 +1,9 @@
 strings:
+
+# items
   item_category_aminoacid: 氨基酸
   item_category_protein: 蛋白质
-  item_category_subunit: 亚单位
+  item_category_subunit: 蛋白亚基
   item_category_tubulin: 微管蛋白
   item_category_structural_protein: 结构蛋白
   item_category_logistics: 物流
@@ -13,11 +15,11 @@ strings:
   item_category_energy: 能量
   item_category_enzyme: 酶
   item_category_lipid: 脂质
-  item_category_transporter: 运输蛋白
-  item_category_flow: 流动
-  item_category_flow_urinary: 尿液
-  item_category_flow_respiratory: 呼吸
-  item_category_flow_circulatory: 循环
+  item_category_transporter: 转运蛋白
+  item_category_flow: 流道
+  item_category_flow_urinary: 泌尿
+  item_category_flow_respiratory: 呼吸道
+  item_category_flow_circulatory: 血液循环
   item_category_flow_digestive: 食道
   item_category_energy_production: 能量生产
   item_category_molecule_synthesis: 分子合成
@@ -27,40 +29,44 @@ strings:
   item_category_vitamin: 维生素
   item_category_gas: 气体
   item_category_genetics: 遗传学
-  item_category_nucleobase: 核苷酸
+  item_category_nucleobase: 核碱基
   item_category_plasmid: 质粒
   item_category_immunity: 免疫
-  item_category_domestic_structures: 家用结构
+  item_category_domestic_structures: 住所结构
   item_category_door: 门
-  item_category_light: 光
+  item_category_light: 光照
   item_category_organism: 生物体
   item_category_cell: 细胞
   item_category_bacterium: 细菌
   item_category_uncategorized: 未分类
+
   item_category_flooring: 地板
   item_category_tissue: 组织
-  item_category_bacterial_colony: 细菌群落
+  item_category_internal_zone: 内部结构
+  item_category_bacterial_colony: 细菌菌落
   item_category_unused_tissue: 未使用的组织
+
   item_color_red: 红色
   item_color_yellow: 黄色
   item_color_green: 绿色
   item_color_blue: 蓝色
   item_color_white: 白色
+
   item_name_tubulin_red: α-微管蛋白
   item_name_tubulin_green: β-微管蛋白
   item_name_tubulin_yellow: γ-微管蛋白
   item_name_tubulin_blue: δ-微管蛋白
-  item_name_subunit_red: 红色亚单位
-  item_name_subunit_green: 绿色亚单位
-  item_name_subunit_yellow: 黄色亚单位
-  item_name_subunit_blue: 蓝色亚单位
+  item_name_subunit_red: 红色蛋白亚基
+  item_name_subunit_green: 绿色蛋白亚基
+  item_name_subunit_yellow: 黄色蛋白亚基
+  item_name_subunit_blue: 蓝色蛋白亚基
   item_name_aminoacid_red: 甘氨酸
   item_name_aminoacid_yellow: 脯氨酸
   item_name_aminoacid_green: 谷氨酰胺
   item_name_aminoacid_blue: 天冬氨酸
   item_name_alpha_ketoglutarate: α-酮戊二酸
-  item_name_collagen_chain_red: α-1胶原链
-  item_name_collagen_chain_blue: α-2胶原链
+  item_name_collagen_chain_red: α-1 胶原蛋白链
+  item_name_collagen_chain_blue: α-2 胶原蛋白链
   item_name_actin_f: F-肌动蛋白
   item_name_actin_g: G-肌动蛋白
   item_name_adp: ADP
@@ -71,70 +77,73 @@ strings:
   item_name_nadph: NADPH
   item_name_acetyl_coa: 乙酰辅酶A
   item_name_interferon_alpha: α-干扰素
+  
   item_name_microtubule: 微管
   item_name_microtubule_primitive: 原始微管
   item_name_microtubule_advanced: 高级微管
-  item_name_item_kicker: 物品踢出器
-  item_name_picker: 选择器
-  item_name_picker_fast: 快速选择器
-  item_name_picker_red: 红色选择器
-  item_name_picker_blue: 蓝色选择器
-  item_name_picker_green: 绿色选择器
-  item_name_picker_yellow: 黄色选择器
-  item_name_picker_white: 白色选择器
-  item_name_picker_gaseous: 气体选择器
-  item_name_picker_genetic: 基因选择器
-  item_name_picker_energetic: 能量选择器
-  item_name_picker_long: 长选择器
-  item_name_picker_overlong: 超长选择器
-  item_name_picker_filter: 过滤选择器
-  item_name_picker_primitive: 原始选择器
+  item_name_item_kicker: 物品导向器
+
+  item_name_picker: 拾取器
+  item_name_picker_fast: 快速拾取器
+  item_name_picker_red: 红色拾取器
+  item_name_picker_blue: 蓝色拾取器
+  item_name_picker_green: 绿色拾取器
+  item_name_picker_yellow: 黄色拾取器
+  item_name_picker_white: 白色拾取器
+  item_name_picker_gaseous: 气体拾取器
+  item_name_picker_genetic: 基因拾取器
+  item_name_picker_energetic: 能量拾取器
+  item_name_picker_long: 加长拾取器
+  item_name_picker_overlong: 超长拾取器
+  item_name_picker_filter: 过滤拾取器
+  item_name_picker_primitive: 原始拾取器
+
   item_name_phospholipid: 磷脂
   item_name_ribosome: 核糖体
-  item_name_assembler: 组装器
-  item_name_catalyzer: 催化器
-  item_name_stockpile1x: 微型储存堆
-  item_name_stockpile2x: 储存堆
-  item_name_stockpile4x: 巨型储存堆
-  item_name_stockpile_filter2x: 过滤储存堆
+  item_name_assembler: 蛋白装配体
+  item_name_catalyzer: 酶催化器
+  item_name_stockpile1x: 微型储物堆
+  item_name_stockpile2x: 储物堆
+  item_name_stockpile4x: 巨型储物堆
+  item_name_stockpile_filter2x: 过滤储物堆
   item_name_infinite_container2x: 无底箱
   item_name_infinite_container1x: 微型无底箱
-  item_name_dna_nuclease: DNA核酸酶
+  item_name_dna_nuclease: DNA合酶
   item_name_evolver: 进化器
-  item_name_balancer: 平衡器
+  item_name_balancer: 平衡分流器
   item_name_item_tunnel: 物品隧道
   item_name_item_tunnel_primitive: 原始物品隧道
   item_name_cytostome1x: 原始细胞口
-  item_name_cytostome_ultimate: 终极细胞口
+  item_name_cytostome_ultimate: 极限细胞口
   item_name_cytostome2x: 细胞口
-  item_name_disposer1x: 原始处理器
-  item_name_disposer2x: 处理器
-  item_name_launcher1x: 原始发射器
-  item_name_launcher2x: 发射器
+  item_name_disposer1x: 原始排泄口
+  item_name_disposer2x: 排泄口
+  item_name_launcher1x: 原始发射口
+  item_name_launcher2x: 发射口
   item_name_dispatcher_primitive: 原始调度器
   item_name_dispatcher: 调度器
   item_name_diffuser: 扩散器
-  item_name_stasher: 储藏器
+  item_name_stasher: 贮藏器
   item_name_workbench: 工作台
   item_name_energy_supplier_mk1: 原始能量供应器
   item_name_energy_supplier_mk2: 能量供应器
-  item_name_energy_pole: 能量柱
-  item_name_atp_synthase: ATP合成酶
-  item_name_atp_synthase_subunit: ATP合成酶亚基
-  item_name_decoupler: 解耦器
-  item_name_thermogenin: 热原蛋白
+  item_name_energy_pole: 能量传递杆
+  item_name_atp_synthase: ATP合酶
+  item_name_atp_synthase_subunit: ATP合酶亚基
+  item_name_decoupler: 解偶联器
+  item_name_thermogenin: 解偶联蛋白
   item_name_electron_transport_chain: 电子传递链
-  item_name_biolamp: 生物灯
-  item_name_biolamp_primitive: 原始生物灯
-  item_name_biolamp_ultimate: 终极生物灯
-  item_name_membrane_transporter1x: 膜单向转运蛋白
-  item_name_membrane_transporter2x: 膜共转运蛋白
-  item_name_connexin: 连接蛋白
-  item_name_connexon: 连接孔
+  item_name_biolamp: 生物化学灯
+  item_name_biolamp_primitive: 原始生物化学灯
+  item_name_biolamp_ultimate: 极限生物化学灯
+  item_name_membrane_transporter1x: 膜单向转运体
+  item_name_membrane_transporter2x: 膜共转运体
+  item_name_connexin: 间隙连接蛋白
+  item_name_connexon: 连接子
   item_name_uniporter_gas: 气体单向转运蛋白
   item_name_uniporter_glucose: 葡萄糖单向转运蛋白
-  item_name_antiporter_atp_adp: ATP ⇄ ADP反向转运蛋白
-  item_name_antiporter_nadh_nad: NADH ⇄ NAD反向转运蛋白
+  item_name_antiporter_atp_adp: ATP ⇄ ADP 反向转运蛋白
+  item_name_antiporter_nadh_nad: NADH ⇄ NAD 反向转运蛋白
   item_name_adenine: 腺嘌呤
   item_name_cytosine: 胞嘧啶
   item_name_guanine: 鸟嘌呤
@@ -144,19 +153,22 @@ strings:
   item_name_base_pair_au: A-U碱基对
   item_name_base_pair_cg: C-G碱基对
   item_name_mrna: mRNA
-  item_name_plasmid_1: 质粒1
-  item_name_plasmid_2: 质粒2
+  item_name_plasmid_1: 质粒I
+  item_name_plasmid_2: 质粒II
+  
   item_name_cytochrome: 细胞色素
-  item_name_kinesin: 肌动蛋白
-  item_name_vimentin: 视网膜蛋白
-  item_name_luciferin: 荧光素
+  item_name_kinesin: 驱动蛋白
+  item_name_vimentin: 波形蛋白
+  item_name_luciferin: 萤光素
   item_name_myosin: 肌球蛋白
-  item_name_alpha_helix: α螺旋
-  item_name_beta_sheet: β折叠
+  item_name_alpha_helix: α-螺旋
+  item_name_beta_sheet: β-折叠
+
   item_name_carbon_dioxide: 二氧化碳
   item_name_oxygen: 氧气
   item_name_iron: 铁
   item_name_copper: 铜
+
   item_name_glucose: 葡萄糖
   item_name_ribose: 核糖
   item_name_ethanol: 乙醇
@@ -165,389 +177,469 @@ strings:
   item_name_malate: 苹果酸
   item_name_oxaloacetate: 草酰乙酸
   item_name_pyruvate: 丙酮酸
+  
   item_name_vitamin_b3: 维生素B3
   item_name_hemoglobin: 血红蛋白
-  item_name_hemoglobin_subunit_alpha: 血红蛋白亚基α
-  item_name_hemoglobin_subunit_beta: 血红蛋白亚基β
+  item_name_hemoglobin_subunit_alpha: 血红蛋白α-亚基
+  item_name_hemoglobin_subunit_beta: 血红蛋白β-亚基
+
   item_name_item_sink: 物品汇流槽
-  item_name_black_box: 黑匣子
-  item_name_energy_drain: 能量排放
+  item_name_black_box: 测试用黑箱
+  item_name_energy_drain: 能量吸收井
   item_name_heater: 加热器
   item_name_infector: 感染器
+
   item_name_adp_synthase_enzyme: ADP合成酶
-  item_name_alcohol_dehydrogenase: 酒精脱氢酶
+  item_name_alcohol_dehydrogenase: 乙醇脱氢酶
   item_name_base_pair_ligase_enzyme: 基对连接酶
   item_name_glycolysis_enzyme: 糖酵解酶
-  item_name_krebs_cycle_enzyme: 克雷布斯循环酶
+  item_name_krebs_cycle_enzyme: 三羧酸循环酶
   item_name_lactate_dehydrogenase: 乳酸脱氢酶
   item_name_malate_dehydrogenase: 苹果酸脱氢酶
-  item_name_nucleobase_synthase_enzyme: 核苷酸合成酶
-  item_name_pentose_phosphate_pathway_enzyme: 戊糖磷酸途径酶
+  item_name_nucleobase_synthase_enzyme: 核碱基合成酶
+  item_name_pentose_phosphate_pathway_enzyme: 磷酸戊糖途径酶
   item_name_nad_synthase_enzyme: NAD合成酶
   item_name_pyruvate_carboxylase_enzyme: 丙酮酸羧化酶
   item_name_pyruvate_dehydrogenase_enzyme: 丙酮酸脱氢酶
   item_name_nad_nadp_transhydrogenase_enzyme: NAD/NADP转氢酶
-  item_name_luciferase_enzyme: 荧光酶
-  item_name_aspartate_aminotransferase: 天冬氨酸氨基转移酶
+  item_name_luciferase_enzyme: 萤光素酶
+  item_name_aspartate_aminotransferase: 天冬氨酸转氨酶
+
   item_name_cell_membrane: 细胞膜
   item_name_collagen_flooring: 胶原蛋白地板
-  item_name_collagen_scaffold: 胶原蛋白脚手架
-  item_name_cytoskeleton_scaffold: 细胞骨架脚手架
+  item_name_collagen_scaffold: 胶原蛋白支架
+  item_name_cytoskeleton_scaffold: 细胞骨架支架
   item_name_staminal_tissue: 干细胞组织
   item_name_necrotic_tissue: 坏死组织
   item_name_mitochondrial_membrane: 线粒体膜
-  item_name_bacterial_vegetation_bacillus_blue: 蓝色芽孢杆菌细菌植被
-  item_name_bacterial_vegetation_bacillus_green: 绿色芽孢杆菌细菌植被
-  item_name_bacterial_vegetation_coccus_red: 红色球菌细菌植被
-  item_name_bacterial_vegetation_coccus_yellow: 黄色球菌细菌植被
-  item_name_energy_pole_extracellular: 胞外能量杆
+
+  item_name_bacterial_vegetation_bacillus_blue: 蓝色芽孢杆菌菌落植被
+  item_name_bacterial_vegetation_bacillus_green: 绿色芽孢杆菌菌落植被
+  item_name_bacterial_vegetation_coccus_red: 红色球菌菌落植被
+  item_name_bacterial_vegetation_coccus_yellow: 黄色球菌菌落植被
+
+  item_name_energy_pole_extracellular: 胞外能量传递杆
   item_name_energy_station: 能量站
+
   item_name_protease: 蛋白酶
   item_name_defensin_theta: θ-防御素
+
   item_name_uniporter_mrna: mRNA单向转运蛋白
   item_name_uniporter_pyruvate: 丙酮酸单向转运蛋白
+
   item_name_virus: 病毒
-  item_name_bacterium_bacillus_blue: 蓝色芽孢杆菌
-  item_name_bacterium_bacillus_green: 绿色芽孢杆菌
-  item_name_bacterium_coccus_red: 红色球菌
-  item_name_bacterium_coccus_yellow: 黄色球菌
+  item_name_bacterium_bacillus_blue: 蓝色芽孢杆菌 
+  item_name_bacterium_bacillus_green: 绿色芽孢杆菌 
+  item_name_bacterium_coccus_red: 红色球菌 
+  item_name_bacterium_coccus_yellow: 黄色球菌 
+
   item_name_capillary: 毛细血管
-  item_name_artery1x1: 小动脉
-  item_name_artery2x2: 中动脉
-  item_name_artery4x4: 大动脉
-  item_name_vein1x1: 小静脉
-  item_name_vein2x2: 中静脉
-  item_name_vein4x4: 大静脉
-  item_name_perforator_artery1x1: 小穿支动脉
-  item_name_perforator_artery2x2: 中穿支动脉
-  item_name_perforator_artery4x4: 大穿支动脉
-  item_name_perforator_vein1x1: 小穿支静脉
-  item_name_perforator_vein2x2: 中穿支静脉
-  item_name_perforator_vein4x4: 大穿支静脉
+  item_name_artery1x1: 小型动脉
+  item_name_artery2x2: 中型动脉
+  item_name_artery4x4: 大型动脉
+  item_name_vein1x1: 小型静脉
+  item_name_vein2x2: 中型静脉
+  item_name_vein4x4: 大型静脉
+  item_name_perforator_artery1x1: 小型穿支动脉
+  item_name_perforator_artery2x2: 中型穿支动脉
+  item_name_perforator_artery4x4: 大型穿支动脉
+  item_name_perforator_vein1x1: 小型穿支静脉
+  item_name_perforator_vein2x2: 中型穿支静脉
+  item_name_perforator_vein4x4: 大型穿支静脉
   item_name_perforator_capillary: 穿支毛细血管
-  item_name_cardiac_pump1x1: 小心脏泵
-  item_name_cardiac_pump2x2: 中心脏泵
+  item_name_cardiac_pump1x1: 小型心脏泵
+  item_name_cardiac_pump2x2: 中型心脏泵
+
   item_name_resource_heap: 资源堆
-  item_name_building_site: 建筑工地
+  item_name_building_site: 建筑区域
+
   item_name_missing_item: 缺失物品
   item_name_none: 无
+
+# evolution
+
   evolution_name_birth_of_life: 生命的诞生
   evolution_description_birth_of_life: 解锁初始配方
+
   evolution_name_advanced_bioluminescence: 高级生物发光
-  evolution_name_advanced_distribution: 高级分布
+  evolution_name_advanced_distribution: 高级能量分配
   evolution_name_advanced_primordial_immunity: 高级原始免疫
   evolution_name_advanced_routing: 高级路由
-  evolution_name_alcoholic_fermentation: 酒精发酵
+  evolution_name_alcoholic_fermentation: 乙醇发酵
   evolution_name_beta_sheet_and_alpha_helix: β-折叠和α-螺旋
   evolution_name_collagen: 胶原蛋白
-  evolution_name_colored_pickers: 彩色选择器
+  evolution_name_colored_pickers: 彩色拾取器
   evolution_name_diffuser: 扩散器
-  evolution_name_energy_distribution: 能量分布
-  evolution_name_evolution_1: 进化1
-  evolution_name_evolution_2: 进化2
+  evolution_name_energy_distribution: 能量分配
+  evolution_name_evolution_1: 进化I
+  evolution_name_evolution_2: 进化II
   evolution_name_expansion: 扩张
-  evolution_name_extracellular_distribution: 胞外分布
+  evolution_name_extracellular_distribution: 胞外能量分配
   evolution_name_extracellular_expansion: 胞外扩张
-  evolution_name_extreme_routing: 极端路由
+  evolution_name_extreme_routing: 极限路由
   evolution_name_filtering_picker: 过滤选择器
   evolution_name_functional_proteins: 功能蛋白
   evolution_name_gas_logistics: 气体物流
   evolution_name_innate_response: 先天反应
-  evolution_name_intracellular_organization_1: 细胞内组织1
-  evolution_name_intracellular_organization_2: 细胞内组织2
-  evolution_name_intracellular_production: 细胞内生产
-  evolution_name_kinesin: 肌动蛋白
-  evolution_name_krebs_cycle: 克雷布斯循环
-  evolution_name_membrane_transportation: 膜运输
-  evolution_name_membrane_transportation_advanced: 高级膜运输
+  evolution_name_intracellular_organization_1: 胞内组织I
+  evolution_name_intracellular_organization_2: 胞内组织II
+  evolution_name_intracellular_production: 胞内生产
+  evolution_name_kinesin: 驱动蛋白
+  evolution_name_krebs_cycle: 三羧酸循环
+  evolution_name_membrane_transportation: 跨膜运输
+  evolution_name_membrane_transportation_advanced: 高级跨膜运输
   evolution_name_mitochondrion: 线粒体
   evolution_name_mitochondrion_transportation: 线粒体运输
   evolution_name_myosin: 肌球蛋白
-  evolution_name_novel_pickers: 新型选择器
-  evolution_name_pentose_phosphate_pathway: 戊糖磷酸途径
+  evolution_name_novel_pickers: 新型拾取器
+  evolution_name_pentose_phosphate_pathway: 磷酸戊糖途径(PPP)
   evolution_name_primitive_bioluminescence: 原始生物发光
   evolution_name_primordial_immunity: 原始免疫
-  evolution_name_pyruvate_manipulation: 丙酮酸操控
+  evolution_name_pyruvate_manipulation: 丙酮酸操纵
   evolution_name_staminal_discovery: 干细胞发现
-  evolution_name_subunits: 亚单位
+  evolution_name_subunits: 蛋白亚基
   evolution_name_tubulins: 微管蛋白
+
   evolution_name_transportation_basic: 基础运输
   evolution_name_transportation_advanced: 高级运输
   evolution_name_gathering_basic: 基础采集
+
   evolution_name_furniture_primitive: 原始家具
+
   evolution_name_primitive_logistics: 原始物流
-  evolution_description_primitive_logistics: 发现<r>微管</r>，<r>拾取器</r>和<r>细胞口</r>，这些用于在细胞内部路由物品并从外部抽取物品
-  evolution_description_transportation_basic: 发现不可氧化的<r>微管</r>和<r>拾取器</r>，发现<r>物品踢出器</r>，用于在管道上强制方向和<r>原始隧道</r>
+  evolution_description_primitive_logistics: 发现<r>微管</r>、<r>拾取器</r>和<r>细胞口</r>，这些用于在细胞内部路由物品并从外部抽取物品的设备
+  evolution_description_transportation_basic: 发现不可氧化的<r>微管</r>和<r>拾取器</r>，发现用于在微管上指定运输方向的<r>物品导向器</r>还有<r>原始隧道</r>
+
   evolution_name_energy_production_1: 糖酵解
-  evolution_description_energy_production_1: 发现<r>糖酵解</r>，这是生产能量的最简单方式
+  evolution_description_energy_production_1: 发现<r>糖酵解</r>，生产能量的最简单方式
+
   evolution_name_energy_production_2: 氧化代谢
-  evolution_description_energy_production_2: 发现发生在<r>线粒体</r>内的氧化代谢，它能产生大量的能量或热量
-  evolution_name_energy_production_3: ATP生成
-  evolution_description_energy_production_3: 发现如何使用<r>电子传递链</r>产生的能量将<r>ADP</r>充电为<r>ATP</r>
-  evolution_name_heat_production: 热量生成
+  evolution_description_energy_production_2: 发现发生在<r>线粒体</r>中的氧化代谢反应，能产生大量的能量或热量
+
+  evolution_name_energy_production_3: ATP产出
+  evolution_description_energy_production_3: 发现如何使用<r>电子传递链</r>产生的能量将<r>ADP</r>充能为<r>ATP</r>
+
+  evolution_name_heat_production: 热量产出
   evolution_description_heat_production: 发现如何使用<r>电子传递链</r>产生的能量生成热量
-  evolution_description_expansion: 发现如何扩展你的细胞
-  evolution_description_intracellular_production: 发现<r>装配器</r>和<r>催化剂</r>，这些用于生产复杂的物体或催化化学反应
-  evolution_description_alcoholic_fermentation: 发现酒精发酵，一种通过产生<r>乙醇</r>从<r>NADH</r>恢复<r>NAD</r>的方法
-  evolution_description_pyruvate_manipulation: 发现丙酮酸操控，这是生产用于克雷布斯循环的分子所必需的
-  evolution_description_evolution_1: 发现如何解构和再次将核苷酸结合到碱基对
-  evolution_description_tubulins: 发现<r>微管蛋白</r>，这些是用于生产微管，物品踢出器和最基本结构的蛋白质
-  evolution_description_subunits: 发现<r>亚基</r>，这些是组装成结构的大型蛋白质
-  evolution_description_kinesin: 发现<r>肌动蛋白</r>，它用于生产过滤物品的结构
-  evolution_description_functional_proteins: 发现<r>肌动蛋白</r>和<r>泡沫蛋白</r>，这些蛋白质用于构建动态和存储结构
-  evolution_description_advanced_routing: 发现<r>隧道</r>和<r>平衡器</r>，这些用于优化路由和物品管理
-  evolution_description_membrane_transportation: 发现<r>膜运输器</r>，这些用于在细胞膜之间运输物品
-  evolution_description_mitochondrion: 发现<r>线粒体</r>，这是一个特殊的细胞内区域，可以用来产生热量和能量
-  evolution_description_mitochondrion_transportation: 发现<r>线粒体运输</r>，以允许运输器可以用于传送丙酮酸，交换NAD+/NADH和ADP/ATP之间的线粒体和包含它的细胞内区域
+
+  evolution_description_expansion: 发现如何扩张你的细胞
+  evolution_description_intracellular_production: 发现<r>蛋白装配体</r>和<r>酶催化器</r>，用于生产复杂的物体或催化化学反应
+
+  evolution_description_alcoholic_fermentation: 发现乙醇发酵，一种通过产生<r>乙醇</r>将<r>NADH</r>恢复为<r>NAD</r>的方法
+  evolution_description_pyruvate_manipulation: 发现丙酮酸操纵，以生产三羧酸循环所必需的分子
+
+  evolution_description_evolution_1: 发现如何解构和再次将核碱基结合为碱基对
+  evolution_description_tubulins: 发现<r>微管蛋白</r>，用于生产微管，物品导向器和最基本结构的蛋白质
+  evolution_description_subunits: 发现<r>蛋白亚基</r>，这些是组装成结构的大型蛋白质
+  evolution_description_kinesin: 发现<r>驱动蛋白</r>，它用于生产过滤物品的结构
+  evolution_description_functional_proteins: 发现<r>肌动蛋白</r>和<r>波形蛋白</r>，用于构建物流和存储结构
+  evolution_description_advanced_routing: 发现<r>隧道</r>和<r>平衡分流器</r>，用于优化路由和物品管理
+  evolution_description_membrane_transportation: 发现<r>膜转运体</r>，用于在细胞膜之间运输物品
+  evolution_description_mitochondrion: 发现<r>线粒体</r>，一个特殊的胞内区域，可以用来产生热量和能量
+  evolution_description_lysosome: 发现<r>溶酶体</r>，一个特殊的胞内区域，可以用来回收和拆解物品
+
+
   evolution_group_evolution: 进化
   evolution_group_proteins: 蛋白质
   evolution_group_logistics: 物流
   evolution_group_routing: 路由
   evolution_group_energy: 能量
   evolution_group_mitochondrial_energy: 线粒体能量
-  item_description_picker: <a>拾取器</a>可以从微管和结构中拾取和放下物品
-  item_description_picker_red: 一个只与红色物品工作的<a>拾取器</a>
-  item_description_picker_green: 一个只与绿色物品工作的<a>拾取器</a>
-  item_description_picker_blue: 一个只与蓝色物品工作的<a>拾取器</a>
-  item_description_picker_yellow: 一个只与黄色物品工作的<a>拾取器</a>
-  item_description_picker_white: 一个只与白色物品工作的<a>拾取器</a>
-  item_description_picker_genetic: 一个只与遗传材料工作的<a>拾取器</a>
-  item_description_picker_gaseous: 一个只与气态物品工作的<a>拾取器</a>
-  item_description_picker_energetic: 一个与高能分子工作的<a>拾取器</a>
-  item_description_picker_filter: 一个可以配置为过滤特定物品的<a>拾取器</a>
-  item_description_picker_fast: <a>迅捷拾取器</a>是一个可以更快移动物品的拾取器
-  item_description_picker_overlong: <a>超长拾取器</a>的工作方式与普通拾取器相同，但其跨度为两个瓷砖
-  item_description_picker_primitive: <a>原始拾取器</a>是一个慢速的拾取器，会氧化
-  item_description_picker_long: <a>长拾取器</a>的工作方式与普通拾取器相同，但它更长，因此它允许用一个物体将物品放入结构中
-  item_description_balancer: <a>平衡器</a>能够均匀地分割或合并多个输入或输出
+  evolution_group_organelles: 细胞器
+
+  item_description_picker: 一个可以从微管和结构中拾取和放下物品的<a>拾取器</a>
+  item_description_picker_red: 一个只与红色物品互动的<a>拾取器</a>
+  item_description_picker_green: 一个只与绿色物品互动的<a>拾取器</a>
+  item_description_picker_blue: 一个只与蓝色物品互动的<a>拾取器</a>
+  item_description_picker_yellow: 一个只与黄色物品互动的<a>拾取器</a>
+  item_description_picker_white: 一个只与白色物品互动的<a>拾取器</a>
+  item_description_picker_genetic: 一个只与遗传材料互动的<a>拾取器</a>
+  item_description_picker_gaseous: 一个只与气态物品互动的<a>拾取器</a>
+  item_description_picker_energetic: 一个只与高能分子互动的<a>拾取器</a>
+  item_description_picker_filter: 一个可以过滤特定物品的<a>拾取器</a>
+  item_description_picker_fast: 一个可以高速移动物品的<a>快速拾取器</a>
+  item_description_picker_overlong: 一个像普通拾取器一样运作但跨度有两格的<a>超长拾取器</a>
+  item_description_picker_primitive: 一个运作缓慢且会氧化的<a>原始拾取器</a>
+
+  item_description_picker_long: <a>加长拾取器</a>的运作方式与普通拾取器相同，但它更长，因此它允许一步就将物品从一个结构放入另一个结构中
+  item_description_balancer: <a>平衡分流器</a>能够均匀地分割或合并多个输入或输出
   item_description_aminoacid_red: 在核糖体中用于合成蛋白质的基本氨基酸
   item_description_aminoacid_green: 在核糖体中用于合成蛋白质的基本氨基酸
   item_description_aminoacid_blue: 在核糖体中用于合成蛋白质的基本氨基酸
   item_description_aminoacid_yellow: 在核糖体中用于合成蛋白质的基本氨基酸
-  item_description_tubulin_red: 用于构建许多物流元素的基本结构蛋白质
-  item_description_tubulin_green: 用于构建许多物流元素的基本结构蛋白质
-  item_description_tubulin_yellow: 用于构建许多物流元素的基本结构蛋白质
-  item_description_tubulin_blue: 用于构建许多物流元素的基本结构蛋白质
-  item_description_subunit_red: 这种<a>蛋白质</a>可以组装成结构
-  item_description_subunit_cyan: 这种<a>蛋白质</a>可以组装成结构
-  item_description_subunit_blue: 这种<a>蛋白质</a>可以组装成结构
-  item_description_subunit_green: 这种<a>蛋白质</a>可以组装成结构
-  item_description_subunit_yellow: 这种<a>蛋白质</a>可以组装成结构
+  item_description_tubulin_red: 用于构建许多物流元素的基本结构蛋白
+  item_description_tubulin_green: 用于构建许多物流元素的基本结构蛋白
+  item_description_tubulin_yellow: 用于构建许多物流元素的基本结构蛋白
+  item_description_tubulin_blue: 用于构建许多物流元素的基本结构蛋白
+  item_description_subunit_red: 这种<a>蛋白质</a>可以组装成结构体
+  item_description_subunit_cyan: 这种<a>蛋白质</a>可以组装成结构体
+  item_description_subunit_blue: 这种<a>蛋白质</a>可以组装成结构体
+  item_description_subunit_green: 这种<a>蛋白质</a>可以组装成结构体
+  item_description_subunit_yellow: 这种<a>蛋白质</a>可以组装成结构体
+
   item_description_oxygen: <a>氧气</a>是一种在线粒体内用于接受电子的气体
-  item_description_carbon_dioxide: <a>二氧化碳</a>是一种产生能量的反应的废物气体
-  item_description_glucose: <a>葡萄糖</a>是一种用于糖酵解产生能量的碳水化合物
-  item_description_pyruvate: <a>丙酮酸</a>是糖酵解的最终产物，可以转化为<a>醋酸辅酶A</a>
-  item_description_acetyl_coa: <a>醋酸辅酶A</a>用作克雷布斯循环的底物，以产生<a>NADH</a>
-  item_description_dispatcher_subunit: 这种<a>蛋白质</a>可以组装成<a>调度员</a>
+  item_description_carbon_dioxide: <a>二氧化碳</a>是一种产生能量的反应中额外产出的废气
+  item_description_glucose: <a>葡萄糖</a>是一种用于在糖酵解中产生能量的碳水化合物
+  item_description_pyruvate: <a>丙酮酸</a>是糖酵解的最终产物，可以转化为<a>乙酰辅酶A</a>
+  item_description_acetyl_coa: <a>乙酰辅酶A</a>被用作三羧酸循环的底物，以产生<a>NADH</a>
+
+  item_description_dispatcher_subunit: 这种<a>蛋白质</a>可以组装成<a>调度器</a>
   item_description_atp_synthase_subunit: 这种<a>蛋白质</a>用于组装<a>ATP合酶</a>
-  item_description_connexin: 这种<a>蛋白质</a>用于组装<a>联接蛋白</a>
-  item_description_thermogenin: 这种<a>蛋白质</a>用于组装<a>解耦蛋白</a>
-  item_description_actin_g: <a>G-肌动蛋白</a>是肌动蛋白纤维的构建块
-  item_description_actin_f: <a>肌动蛋白</a>是一种多用途蛋白质，用于细胞的活动部分
-  item_description_myosin: <a>肌球蛋白</a>是一种功能性蛋白质，用于肌肉收缩
-  item_description_alpha_helix: <a>α-螺旋</a>是一种通用的结构蛋白质
-  item_description_beta_sheet: <a>β-折叠</a>是一种通用的结构蛋白质
-  item_description_kinesin: <a>肌动蛋白</a>是一种参与过滤物品的结构的蛋白质
-  item_description_vimentin: <a>泡沫蛋白</a>是一种用于存储结构的蛋白质
-  item_description_collagen_chain_red: <a>红色胶原蛋白链</a>是一种用于生产细胞外组织的蛋白质
-  item_description_collagen_chain_blue: <a>蓝色胶原蛋白链</a>是一种用于生产细胞外组织的蛋白质
-  item_description_cytochrome: <a>细胞色素</a>是一种用于某些酶内或组装<a>电子传递链</a>的蛋白质
-  item_description_atp: <a>ATP</a>是一种带电分子，可以为生命中的所有过程提供能量
-  item_description_adp: <a>ADP</a>是一种未带电的分子，可以转化回<a>ATP</a>并再次用于提供能量
-  item_description_adenine: <a>腺嘌呤</a>是一种核苷酸，用于进化和合成其他分子
-  item_description_thymine: <a>胸腺嘧啶</a>是一种核苷酸，用于进化和合成其他分子
-  item_description_guanine: <a>鸟嘌呤</a>是一种核苷酸，用于进化和合成其他分子
-  item_description_cytosine: <a>胞嘧啶</a>是一种核苷酸，用于进化和合成其他分子
-  item_description_base_pair_cg: <a>碱基对</a>是DNA的基本砖块，用于进化
-  item_description_base_pair_at: <a>碱基对</a>是DNA的基本砖块，用于进化
-  item_description_base_pair_au: <a>碱基对</a>是DNA的基本砖块，用于进化
+  item_description_connexin: 这种<a>蛋白质</a>用于组装<a>连接子</a>
+  item_description_thermogenin: 这种<a>蛋白质</a>用于组装<a>解偶联器</a>
+  item_description_actin_g: <a>G-肌动蛋白</a>是肌动蛋白丝的组成部分
+  item_description_actin_f: <a>肌动蛋白</a>是一种多用途蛋白质，用于组成细胞的可活动部分
+  item_description_myosin: <a>肌球蛋白</a>是一种功能蛋白，用于肌肉收缩活动
+  item_description_alpha_helix: <a>α-螺旋</a>是一种通用的结构蛋白
+  item_description_beta_sheet: <a>β-折叠</a>是一种通用的结构蛋白
+  item_description_kinesin: <a>驱动蛋白</a>是一种参与过滤物品的结构的蛋白质
+  item_description_vimentin: <a>波形蛋白</a>是一种用于存储结构的蛋白质
+  item_description_collagen_chain_red: <a>α-1 胶原蛋白链</a>是一种用于生产细胞外组织的蛋白质
+  item_description_collagen_chain_blue: <a>α-2 胶原蛋白链</a>是一种用于生产细胞外组织的蛋白质
+  item_description_cytochrome: <a>细胞色素</a>是一种用于某些酶或组装<a>电子传递链</a>的蛋白质
+  item_description_atp: <a>ATP</a>是一种高能分子，可以为生命中的所有过程提供能量
+  item_description_adp: <a>ADP</a>是一种可以转化回<a>ATP</a>并再次用于提供能量的分子
+  item_description_adenine: <a>腺嘌呤</a>是一种核碱基，用于进化和合成其他分子
+  item_description_thymine: <a>胸腺嘧啶</a>是一种核碱基，用于进化和合成其他分子
+  item_description_guanine: <a>鸟嘌呤</a>是一种核碱基，用于进化和合成其他分子
+  item_description_cytosine: <a>胞嘧啶</a>是一种核碱基，用于进化和合成其他分子
+  item_description_uracil: <a>尿嘧啶</a>是一种核碱基，用于进化和合成其他分子
+  item_description_base_pair_cg: <a>碱基对</a>是搭建DNA的基本砖块，用于进化
+  item_description_base_pair_at: <a>碱基对</a>是搭建DNA的基本砖块，用于进化
+  item_description_base_pair_au: <a>碱基对</a>是搭建DNA的基本砖块，用于进化
   item_description_phospholipid: <a>磷脂</a>是一种特殊的脂质，用于构建细胞膜。
-  item_description_hemoglobin: <a>血红蛋白</a>是<a>红血细胞</a>中的氧气携带蛋白质
-  item_description_plasmid_1: <a>质粒</a>在<a>进化器</a>中用于解锁新的发现
-  item_description_plasmid_2: <a>质粒</a>在<a>进化器</a>中用于解锁新的发现
-  item_description_microtubule: <a>微管</a>是在<a>细胞内</a>区域运输物品的主要方式
-  item_description_microtubule_primitive: <a>原始微管</a>是在<a>细胞内</a>区域运输物品的非常慢的方式
-  item_description_microtubule_advanced: <a>高级微管</a>是在<a>细胞内</a>区域快速运输的方式
-  item_description_luciferase_enzyme: <a>荧光酶</a>是一种能够改变<a>荧光素</a>并使其发光的酶
-  item_description_luciferin: <a>荧光素</a>是一种在<a>荧光酶</a>的作用下可以发光的分子
-  item_description_biolamp_primitive: <a>原始生物灯</a>可以通过处理<a>氧气</a>和<a>荧光素</a>发光一段时间
-  item_description_biolamp: <a>生物灯</a>是一种更先进的光源，可以直接使用细胞内能量产生光
-  item_description_item_kicker: 一个<a>物品踢器</a>可以放置在<a>微管</a>上，以强制物品通过的特定方向
-  item_description_item_tunnel: 一个<a>物品隧道</a>可以将物品移动到地下，两个隧道必须对齐才能正常工作
-  item_description_item_tunnel_primitive: 一个<a>原始物品隧道</a>可以将物品移动到地下，两个隧道必须对齐才能正常工作
+  item_description_hemoglobin: <a>血红蛋白</a>是<a>血红细胞</a>中的携带氧气的蛋白质
+  item_description_plasmid_1: <a>质粒</a>用于在<a>进化器</a>中解锁新的发现
+  item_description_plasmid_2: <a>质粒</a>用于在<a>进化器</a>中解锁新的发现
+  item_description_microtubule: <a>微管</a>是在<a>胞内</a>运输物品的主要方式
+  item_description_microtubule_primitive: <a>原始微管</a>是在<a>胞内</a>缓慢运输物品的方式
+  item_description_microtubule_advanced: <a>高级微管</a>是在<a>胞内</a>快速运输物品的方式
+
+  item_description_acid_hydrolase_enzyme: <a>酸性水解酶</a>是制造分解器所必要的酶
+  
+  item_description_luciferase_enzyme: <a>萤光素酶</a>是一种能够改变<a>荧光素</a>并使其发光的酶
+  item_description_luciferin: <a>荧光素</a>是一种在<a>萤光素酶</a>的作用下可以发光的分子
+  item_description_biolamp_primitive: <a>原始生物化学灯</a>可以通过处理<a>氧气</a>和<a>荧光素</a>发光一段时间
+  item_description_biolamp: <a>生物化学灯</a>是一种更先进的光源，可以直接使用能量来产生光
+
+  item_description_item_kicker: 一个<a>物品导向</a>可以放置在<a>微管</a>上来强制物品走向特定的方向
+  item_description_item_tunnel: 一个<a>物品隧道</a>可以使物品通过地下移动，两个隧道必须对齐才能正常工作
+  item_description_item_tunnel_primitive: 一个<a>原始物品隧道</a>可以使物品通过地下移动，两个隧道必须对齐才能正常工作
   item_description_workbench: 一个<a>工作台</a>是一种能够组装蛋白质的结构，但只能手动使用
-  item_description_evolver: 一个<a>进化器</a>是一种通过消耗<a>核苷酸</a>来发现新技术的结构
+  item_description_evolver: 一个<a>进化器</a>是一种通过消耗<a>核碱基</a>来发现新技术的结构
   item_description_ribosome: 一个<a>核糖体</a>是一种能够通过组装<a>氨基酸</a>来生产<a>蛋白质</a>的结构
-  item_description_catalyzer: 一个<a>催化器</a>是一种能够将一些输入物品转换为一些输出物品的结构，它需要一个<a>酶</a>来操作
-  item_description_assembler: 一个<a>装配器</a>是一种可以将<a>蛋白质</a>组装成成品的结构，如建筑物或组织
-  item_description_dna_nuclease: 一个<a>DNA内切酶</a>是一种可以将<a>质粒</a>分解成可以用于进化的<a>核苷酸</a>的结构
-  item_description_stockpile2x: 一个<a>储存堆</a>可以用作存储一些物品的缓冲区
-  item_description_stockpile1x: 一个<a>小型储存堆</a>可以用作存储少量物品的缓冲区
-  item_description_stockpile4x: 一个<s>巨大的储存堆</s>可以存储大量的物品
-  item_description_stockpile_filter2x: 一个可以设置为只接受特定物品的<a>储存堆</a>
-  item_description_stasher: 一个<a>储藏者</a>可以将允许的物品，如微管或物品踢器，直接放入储藏处，无需与它们互动
-  item_description_membrane_transporter1x: 一个<a>膜转运蛋白</a>能够在特定方向上穿过膜转运特定物品
-  item_description_membrane_transporter2x: 一个<a>膜共转运蛋白</a>能够一起或通过交换它们来穿过膜转运两个物品
-  item_description_connexon: 一个<a>连接子</a>能够与另一个连接子配对，以在两个不同的细胞内区域之间创建间隙连接，这允许物品通过
-  item_description_atp_synthase: 一个<a>ATP合酶</a>可以使用附近的<a>电子传递链</a>在线粒体内产生的能量来将<r>ADP</r>充电成<r>ATP</r>
-  item_description_electron_transport_chain: <a>电子传递链</a>可以为附近的<a>ATP合酶</a>充电或为<a>解耦器</a>提供能量，通过氧化<r>NADH</r>成<r>NAD</r>并消耗<r>氧气</r>来产生热量
-  item_description_decoupler: <a>解耦器</a>可以使用附近的<a>电子传递链</a>产生的能量来产生热量
-  item_description_energy_supplier_mk1: <a>能量供应器</a>能够通过燃烧<r>ATP</r>成<r>ADP</r>来分配给附近的细胞内建筑物能量，但效率不高；它可以连接到其他供应器以增加范围
-  item_description_energy_supplier_mk2: <a>能量供应器Mk2</a>能够通过燃烧<r>ATP</r>成<r>ADP</r>来分配给附近的细胞内建筑物能量；它可以连接到其他供应器以增加范围
-  item_description_energy_pole: <a>能量杆</a>对于将供应器产生的能量传输到比普通供应器更远的地方非常有用
-  item_description_energy_station: <a>能量站</a>能够通过杆将能量分配给细胞外的结构
-  item_description_energy_pole_extracellular: <a>细胞外能量杆</a>对于将能量传输到细胞外非常有用
-  item_description_cytostome1x: 一个<a>小型细胞口</a>可以从外部吸取物品。它必须放置在面向外部的膜上。它无需能量就可以操作。
-  item_description_cytostome2x: 一个<a>细胞口</a>可以从外部吸取物品。它必须放置在面向外部的膜上。它比<a>小型细胞口</a>更快，但需要能量来操作
-  item_description_disposer1x: 一个<a>小型处理器</a>用于通过将物品扔出细胞来处理物品。它无需能量就可以操作
-  item_description_disposer2x: 一个<a>处理器</a>用于通过将物品扔出细胞来处理物品。它比<a>小型处理器</a>更好，但需要能量来操作
-  item_description_dispatcher: 一个<a>调度器</a>用于将材料发送到正在生长的块或必须在细胞外建造的建筑物
-  item_description_dispatcher_primitive: 一个<a>调度器</a>用于将材料发送到块或必须在细胞外建造的建筑物
-  item_description_diffuser: 一个<a>扩散器</a>能够在本地交付材料，它可以治愈受感染的瓷砖或替换氧化的建筑物
-  item_description_mitochondrial_membrane: <a>线粒体膜</a>用于在细胞内区域内建造线粒体
-  item_description_collagen_scaffold: 这是基本的细胞外组织，可以为更先进的组织生长提供支架
-  item_description_cytoskeleton_scaffold: 这个基本的支架需要在其上建造细胞内组织
+  item_description_catalyzer: 一个<a>酶催化器</a>是一种能够将一些输入物品转换为一些输出物品的结构，它需要一个<a>酶</a>来操作
+  item_description_assembler: 一个<a>蛋白装配体</a>是一种可以将<a>蛋白质</a>组装成像建筑或组织之类的成品的结构
+  item_description_catabolyzer: 一个<a>分解器</a>是一种可以将物品拆解为原材料的结构
+  item_description_dna_nuclease: 一个<a>DNA合酶</a>是一种可以将<a>质粒</a>分解成可以用于进化的<a>核碱基</a>的结构
+  item_description_stockpile2x: 一个<a>储物堆</a>可以用作存储一些物品的缓冲区
+  item_description_stockpile1x: 一个<a>微型储物堆</a>可以用作存储少量物品的缓冲区
+  item_description_stockpile4x: 一个<s>巨型储物堆</s>可以存储大量的物品
+  item_description_stockpile_filter2x: 一个可以设置为只接受特定物品的<a>储物堆</a>
+  item_description_stasher: 一个<a>贮藏器</a>可以将允许的物品，如微管或者物品导向器，直接放入贮藏处，无需与它们互动
+  item_description_membrane_transporter1x: 一个<a>膜单向转运体</a>能够在特定方向上跨膜转运特定物品
+  item_description_membrane_transporter2x: 一个<a>膜共转运体</a>能够以并行或对换的模式来同时跨膜转运两个物品
+  item_description_connexon: 一个<a>连接子</a>能够与另一个连接子配对，以在两个不同的胞内区域之间创建一个允许物品通过的间隙连接
+  item_description_atp_synthase: 一个<a>ATP合酶</a>可以使用附近的<a>电子传递链</a>在线粒体内产生的能量来将<r>ADP</r>充能为<r>ATP</r>
+  item_description_electron_transport_chain: <a>电子传递链</a>可以通过氧化<r>NADH</r>为<r>NAD</r>并消耗<r>氧气</r>来激活附近的<a>ATP合酶</a>或<a>解偶联器</a>，以为ADP充能或产生热量
+  item_description_decoupler: <a>解偶联器</a>可以使用附近的<a>电子传递链</a>产生的能量来产生热量
+  item_description_energy_supplier_mk1: <a>能量供应器</a>能够通过燃烧<r>ATP</r>为<r>ADP</r>来分配给附近的胞内建筑能量，但效率不高；它可以连接到其他供应器以增加范围
+  item_description_energy_supplier_mk2: <a>高级能量供应器</a>能够通过燃烧<r>ATP</r>为<r>ADP</r>来分配给附近的胞内建筑能量；它可以连接到其他供应器以增加范围
+  item_description_energy_pole: <a>能量传递杆</a>对于将供应器产生的能量传输到比普通供应器更远的地方非常有用
+  item_description_energy_station: <a>能量站</a>能够通过传递杆将能量分配给细胞外的结构
+  item_description_energy_pole_extracellular: <a>胞外能量传递杆</a>对于将能量传输到细胞外非常有用
+  item_description_cytostome1x: 一个<a>原始细胞口</a>可以从外部吸取物品。它必须放置在面向外部的膜上。它无需能量就可以运作
+  item_description_cytostome2x: 一个<a>细胞口</a>可以从外部吸取物品。它必须放置在面向外部的膜上。它比<a>原始细胞口</a>更快，但需要能量来运作
+  item_description_disposer1x: 一个<a>原始排泄口</a>用于通过将物品扔出细胞来处理物品。它无需能量就可以运作
+  item_description_disposer2x: 一个<a>排泄口</a>用于通过将物品扔出细胞来处理物品。它比<a>原始排泄口</a>更好，但需要能量来运作
+  item_description_dispatcher: 一个<a>调度器</a>用于将材料调度到生长中的区块或必须在细胞外建造的建筑上
+  item_description_dispatcher_primitive: 一个<a>调度器</a>用于将材料调度到生长中的区块或必须在细胞外建造的建筑上
+  item_description_diffuser: 一个<a>扩散器</a>能够在局部供应材料，它可以治愈受感染的格子或替换被氧化的建筑
+  item_description_mitochondrial_membrane: <a>线粒体膜</a>用于在胞内建造线粒体
+  item_description_lysosomal_membrane: <a>溶酶体膜</a>用于在胞内建造溶酶体
+  item_description_collagen_scaffold: 这是最基本的胞外组织，可以为更高级的组织提供生长支架
+  item_description_cytoskeleton_scaffold: 建造胞内组织需要这个支架作为基础
   item_description_endothelium: <a>内皮</a>是所有血管的内部衬里
-  item_description_smooth_muscular_tissue: <a>平滑肌肉组织</a>是一种用于构造各种血管的收缩组织
-  item_description_staminal_tissue: <a>干细胞组织</a>是一种特殊的未分化组织，可以产生所有其他类型的组织
-  item_description_collagen_flooring: <a>胶原蛋白地板</a>是一种细胞外组织，可以为所有类型的血管提供支持
-  item_description_cell_membrane: 这是用于扩展初始生物体的基本的非专业细胞内组织
-  item_description_uniporter_gas: 这个转运蛋白能够将气体穿过膜
-  item_description_uniporter_pyruvate: 这个转运蛋白能够将<a>丙酮酸</a>穿过膜
+  item_description_smooth_muscular_tissue: <a>平滑肌组织</a>是一种用于构造各种血管的可收缩组织
+  item_description_staminal_tissue: <a>干细胞组织</a>是一种特殊的未分化组织，其上可以生产所有其他类型的组织
+  item_description_collagen_flooring: <a>胶原蛋白地板</a>是一种胞外组织，可以为所有类型的血管提供支持
+  item_description_cell_membrane: 这是用于扩展你最初的生物体的基本的非特化胞内组织
+  
+  item_description_uniporter_gas: 这个转运蛋白能够使气体穿过膜
+  item_description_uniporter_pyruvate: 这个转运蛋白能够使<a>丙酮酸</a>穿过膜
+  item_description_uniporter_lysosome_inward: 这个转运蛋白能够将可拆解的物品送入<a>溶酶体</a>
+  item_description_uniporter_lysosome_outward: 这个转运蛋白能够将拆解产生的原料送出<a>溶酶体</a>
   item_description_antiporter_atp_adp: 这个反向转运蛋白能够在膜上交换<a>ATP</a>和<a>ADP</a>
   item_description_antiporter_nadh_nad: 这个反向转运蛋白能够在膜上交换<a>NADH</a>和<a>NAD</a>
-  item_description_launcher1x: <a>小型发射器</a>用于向细菌投掷防御素。它无需能量即可运作
-  item_description_launcher2x: <a>发射器</a>用于向细菌投掷防御素。它需要能量，但其射速比<a>小型发射器</a>更高
-  item_description_defensin_theta: <a>θ-防御素</a>是一种可以用来杀死<a>细菌</a>的蛋白质。必须由<a>发射器</a>投掷
-  item_description_protease: 这种蛋白酶可以用来拆解支架或细菌群落，必须由<a>调度员</a>传送
-  item_description_capillary: <a>毛细血管</a>是最细的血管。它们能够与外部交换内容，并且必须从<a>动脉</a>连接到<a>静脉</a>以提供血液流动
-  item_description_artery1x1: <a>动脉</a>可以将血液从<a>心脏泵</a>输送到细胞外组织周围
-  item_description_artery2x2: <a>动脉</a>可以将血液从<a>心脏泵</a>输送到细胞外组织周围
-  item_description_artery4x4: <a>动脉</a>可以将血液从<a>心脏泵</a>输送到细胞外组织周围
+  
+  item_description_launcher1x: <a>小型发射口</a>用于向细菌投掷防御素。它无需能量即可运作
+  item_description_launcher2x: <a>发射口</a>用于向细菌投掷防御素。它需要能量，但其射速比<a>小型发射器</a>更高
+  item_description_defensin_theta: <a>θ-防御素</a>是一种可以用来杀死<a>细菌</a>的蛋白质。必须由<a>发射口</a>投掷
+  item_description_protease: 这种蛋白酶可以用来拆解支架或细菌群落，必须由<a>调度器</a>输送
+
+  item_description_capillary: <a>毛细血管</a>是最细的血管。它们能够与外界交换内容，并且必须从<a>动脉</a>连接到<a>静脉</a>以产生血液流动。
+  item_description_artery1x1: <a>动脉</a>可以将血液从<a>心脏泵</a>输送到胞外组织周围
+  item_description_artery2x2: <a>动脉</a>可以将血液从<a>心脏泵</a>输送到胞外组织周围
+  item_description_artery4x4: <a>动脉</a>可以将血液从<a>心脏泵</a>输送到胞外组织周围
+
   item_description_door_intracellular3x: 这个结构可以开启和关闭，以允许生物通过
+
   item_description_nad_synthase_enzyme: 这种酶用于合成<a>NAD+</a>和<a>NADH</a>
   item_description_nad_nadp_transhydrogenase_enzyme: 这种酶用于在<a>NAD+</a>和<a>NADP+</a>分子之间移动电子
-  item_description_nucleobase_synthase_enzyme: 这种酶用于从原始组件合成<a>核苷酸</a>
+  item_description_nucleobase_synthase_enzyme: 这种酶用于从原料开始合成<a>核碱基</a>
   item_description_alcohol_dehydrogenase: 这种酶用于将<a>丙酮酸</a>转化为<a>乙醇</a>，并可以反向转化
-  item_description_energy_drain: 可定制的能量排放器，可以用来吸收细胞内能量
-  item_description_black_box: 可定制的结构，可以将任何特定物品转换为任何其他特定物品
-  item_description_heater: 一种可定制的结构，无需能量即可产生热量
-  zone_description_cytosol: <a>细胞质</a>是一个非专门化的区域，可以包含所有基本结构，能够合成<a>蛋白质</a>并产生<a>能量</a>
-  zone_description_extracellular_matrix: <a>结缔组织</a>是一个可以用于通过血管和管道进行运输的区域。这里不能放置专门的建筑
+
+  item_description_energy_drain: 自定义能量井，可以用来吸收胞内能量
+  item_description_black_box: 自定义结构，可以将任何特定物品转换为任何其他特定物品
+  item_description_heater: 自定义结构，无需能量即可产生热量
+
+  zone_description_cytosol: <a>细胞质</a>是一个非特化区域，可以包含所有基本结构，能够合成<a>蛋白质</a>并产生<a>能量</a>
+  zone_description_extracellular_matrix: <a>结缔组织</a>是一个可以用于通过血管和管道进行运输的区域。这里不能放置其他建筑
+  zone_description_lysosome: <a>溶酶体</a>是一个可以把物品拆解为原料的区域</a>"
+  
+   # Special, Intracellular, Extracellular, Inner, Outside, Colony, Replacing 
+
   zone_layer_name_special: 特殊
-  zone_layer_name_intracellular: 细胞内
-  zone_layer_name_extracellular: 细胞外
-  zone_layer_name_internal: 内部
-  zone_layer_name_colony: 集群
+  zone_layer_name_intracellular: 胞内区域
+  zone_layer_name_extracellular: 胞外区域
+  zone_layer_name_internal: 内部结构
+  zone_layer_name_colony: 菌落
+
   zone_name_scaffold: 支架
   zone_name_cytoskeleton: 细胞骨架
   zone_name_cytosol: 细胞质
-  zone_name_extracellular_matrix: 细胞外基质
+  zone_name_extracellular_matrix: 胞外基质
   zone_name_mitochondrion: 线粒体
   zone_name_nucleus: 核
   zone_name_staminal_tissue: 干细胞组织
   zone_name_necrosis: 坏死
-  zone_name_bacterial_vegetation_bacillus_blue: 蓝色芽孢杆菌植被
-  zone_name_bacterial_vegetation_bacillus_green: 绿色芽孢杆菌植被
-  zone_name_bacterial_vegetation_coccus_red: 红色球菌植被
-  zone_name_bacterial_vegetation_coccus_yellow: 黄色球菌植被
+  zone_name_lysosome: 溶酶体
+  
+  zone_name_bacterial_vegetation_bacillus_blue: 蓝色芽孢杆菌菌落植被
+  zone_name_bacterial_vegetation_bacillus_green: 绿色芽孢杆菌菌落植被
+  zone_name_bacterial_vegetation_coccus_red: 红色球菌菌落植被
+  zone_name_bacterial_vegetation_coccus_yellow: 黄色球菌菌落植被
+
   recipe_name_nad_synthase: NAD合成酶
   recipe_name_nadp_synthase: NADP合成酶
   recipe_name_adp_synthase: ADP合成酶
-  recipe_name_aspartate_aminotransferase_reverse: 天门冬氨酸氨基转移酶（反向）
+  recipe_name_aspartate_aminotransferase_reverse: 天冬氨酸转氨酶（反向）
   recipe_name_glycolysis: 糖酵解
-  recipe_name_krebs_cycle: 克雷布斯循环
+  recipe_name_krebs_cycle: 三羧酸循环
   recipe_name_lipase_diglyceride: 二酸甘油酯脂肪酶
   recipe_name_lipase_monoglyceride: 单酸甘油酯脂肪酶
   recipe_name_lipase_triglyceride: 三酸甘油酯脂肪酶
   recipe_name_malate_dehydrogenase_reverse: 苹果酸脱氢酶（反向）
   recipe_name_nad_nadp_transhydrogenase: NAD/NADP转氢酶
-  recipe_name_pentose_phosphate_pathway: 戊糖磷酸途径
+  recipe_name_pentose_phosphate_pathway: 磷酸戊糖途径
   recipe_name_pyruvate_carboxylase: 丙酮酸羧化酶
   recipe_name_pyruvate_dehydrogenase: 丙酮酸脱氢酶
   recipe_name_viral_replication: 病毒复制
-  recipe_description_glycolysis: <a>糖酵解</a>是通过将<r>ADP</r>转化为<r>ATP</r>来储存能量的最简单方式，它需要<r>葡萄糖</r>，但不需要<r>氧气</r>
-  recipe_description_alcohol_dehydrogenase: <a>酒精脱氢酶</a>可以将<r>NADH</r>转化为<r>NAD</r>，同时产生<r>乙醇</r>和<r>二氧化碳</r>
-  recipe_description_krebs_cycle: <a>克雷布斯循环</a>是一种在线粒体内发生的复杂反应，它是使用来自其他代谢途径的<r>乙酰辅酶A</r>将<r>NAD</r>还原为<r>NADH</r>的非常有效的方式
-  recipe_description_pyruvate_dehydrogenase: <a>丙酮酸脱氢酶</a>是一种反应，它将从糖酵解得到的<r>丙酮酸</r>连接起来，产生<r>乙酰辅酶A</r>，这是克雷布斯循环的主要底物
-  recipe_description_pyruvate_carboxylase: <a>丙酮酸羧化酶</a>是一种用于从<r>丙酮酸</r>合成<r>草酰乙酸</r>以供克雷布斯循环使用的反应
-  recipe_description_nad_nadp_transhydrogenase: <a>NAD-NADP转氢酶</a>是一种用于交换<r>NAD</r>和<r>NADP</r>的还原形式的反应
-  recipe_description_pentose_phosphate_pathway: <a>戊糖磷酸途径</a>是一种用于产生<r>NADPH</r>和<r>核糖</r>的途径，这些物质用于合成许多分子
+
+  recipe_description_glycolysis: <a>糖酵解</a>是将<r>ADP</r>转化为<r>ATP</r>来储存能量的最简单方式，它需要<r>葡萄糖</r>，但不需要<r>氧气</r>
+  recipe_description_alcohol_dehydrogenase: <a>乙醇脱氢酶</a>可以将<r>NADH</r>转化为<r>NAD</r>，同时产生<r>乙醇</r>和<r>二氧化碳</r>
+  recipe_description_krebs_cycle: <a>三羧酸循环</a>是一种在线粒体内发生的复杂反应，它是使用来自其他代谢途径的<r>乙酰辅酶A</r>将<r>NAD</r>还原为<r>NADH</r>的非常有效的方式
+  recipe_description_pyruvate_dehydrogenase: <a>丙酮酸脱氢酶</a>是一种反应酶，它将从糖酵解中得到的<r>丙酮酸</r>连接起来，生成三羧酸循环的主要底物<r>乙酰辅酶A</r>。
+  recipe_description_pyruvate_carboxylase: <a>丙酮酸羧化酶</a>是一种用于从<r>丙酮酸</r>合成<r>草酰乙酸</r>以供三羧酸循环使用的反应酶
+  recipe_description_nad_nadp_transhydrogenase: <a>NAD/NADP转氢酶</a>是一种用于交换<r>NAD</r>和<r>NADP</r>的还原形式的反应酶
+  recipe_description_pentose_phosphate_pathway: <a>磷酸戊糖途径</a>是一种用于产生<r>NADPH</r>和<r>核糖</r>的途径，这些物质可以用于合成许多分子
   recipe_description_nad_synthase: <a>NAD合成酶</a>用于合成新的<r>NAD</r>
   recipe_description_nadp_synthase: <a>NADP合成酶</a>用于通过消耗能量将<r>NAD</r>转化为<r>NADP</r>
   recipe_description_adp_synthase: <a>ADP合成酶</a>用于合成新的<r>ADP</r>
-  recipe_description_base_pair_ligase_enzyme: 这种酶能够连接两个互补的碱基对。
+  recipe_description_base_pair_ligase_enzyme: 这种酶能够连接两个互补的碱基
+
   disease_name_infection_bacterial_bacillus_green: 感染
   disease_name_infection_bacterial_bacillus_blue: 感染
   disease_name_infection_bacterial_coccus_red: 感染
   disease_name_infection_bacterial_coccus_blue: 感染
+
   organism_name_bacterium_bacillus_blue: 蓝色芽孢杆菌
   organism_name_bacterium_bacillus_green: 绿色芽孢杆菌
   organism_name_bacterium_coccus_red: 红色球菌
   organism_name_bacterium_coccus_yellow: 黄色球菌
-  organism_name_red_blood_cell: 红血细胞
+  organism_name_red_blood_cell: 血红细胞
   organism_name_stem_cell: 干细胞
-  organism_name_stem_cell_myeloid: 髓样干细胞
+  organism_name_stem_cell_myeloid: 骨髓干细胞
   organism_name_virus: 病毒
+
+
+
+
+
+
+
+
+
+
+
+
+# ui
+
   ui_tool_name_hand: 手工具
   ui_tool_name_microtubule: 微管工具
   ui_tooltip_tool_hand: 与世界互动
-  ui_tooltip_tool_destroy: 销毁结构
+  ui_tooltip_tool_destroy: 摧毁结构
   ui_tooltip_tool_microtubule_metatool: 微管管理
-  ui_tooltip_tool_chunk_planner: 扩展或在区域执行任务
-  ui_tooltip_tool_indirect_build: 管理细胞外建筑工地
+  ui_tooltip_tool_chunk_planner: 扩张或执行区域行动
+  ui_tooltip_tool_indirect_build: 管理胞外建筑区域
   ui_tooltip_tool_chunk_painter: 设置区块类型和地板
-  ui_tooltip_tool_free_build: 成为最强的手，永远
+  ui_tooltip_tool_free_build: 使用有史以来最强的手工具
   ui_tooltip_tool_blueprint_placement: 蓝图放置
   ui_tooltip_tool_microtubule_primitive_placement: 放置和移除原始微管
   ui_tooltip_tool_microtubule_placement: 放置和移除微管
   ui_tooltip_tool_microtubule_advanced_placement: 放置和移除高级微管
-  ui_tooltip_tool_item_kicker_placement: 放置和移除物品踢出器
-  ui_tooltip_tool_commander: 指挥你的生物
+  ui_tooltip_tool_item_kicker_placement: 放置和移除物品导向器
+  ui_tooltip_tool_commander: 指挥你的生物体
   ui_tooltip_open_main_menu: 打开主菜单
   ui_tooltip_open_evolution_view: 打开进化视图
   ui_tooltip_open_recipe_list: 打开配方列表
   ui_tooltip_open_game_guide: 打开游戏指南
   ui_tooltip_open_goal_list: 打开目标列表
   ui_tooltip_open_journey_view: 打开旅程视图
+  ui_tooltip_open_pathways_view: 打开步骤图
   ui_tooltip_open_tutorial: 打开教程
   ui_tooltip_open_minimap: 打开小地图
   ui_tooltip_open_debug_window: 打开调试窗口
-  ui_tooltip_open_extra_views_menu: 显示额外视图菜单
-  ui_tooltip_toggle_object_overlay: 切换对象内容信息
-  ui_tooltip_toggle_mouse_opacity: 切换鼠标光标上的透明度
-  ui_tooltip_toggle_walls: 切换墙壁
-  ui_tooltip_toggle_buildings: 切换建筑
-  ui_tooltip_toggle_grid: 在游戏视口上切换网格
+  ui_tooltip_open_extra_views_menu: 显示更多菜单视图
+  ui_tooltip_toggle_object_overlay: 切换生产信息覆盖层
+  ui_tooltip_toggle_mouse_opacity: 切换鼠标悬停时的透明度
+  ui_tooltip_toggle_walls: 切换墙壁可见性
+  ui_tooltip_toggle_buildings: 切换建筑可见性
+  ui_tooltip_toggle_grid: 切换网格可见性
   ui_tooltip_zoom_out: 缩小
   ui_tooltip_zoom_in: 放大
-  ui_tooltip_pause: 暂停宇宙
-  ui_tooltip_game_speed1x: 设置正常速度
-  ui_tooltip_game_speed2x: 设置更快的速度
-  ui_tooltip_game_speed3x: 设置荒谬的速度
-  ui_tooltip_toggle_power_overlay: 切换能量覆盖层
-  ui_tooltip_toggle_temperature_overlay: 切换温度覆盖层
+  ui_tooltip_pause: 暂停世界
+  ui_tooltip_game_speed1x: 设置一倍速
+  ui_tooltip_game_speed2x: 设置二倍速
+  ui_tooltip_game_speed3x: 设置三倍速
+  ui_tooltip_toggle_power_overlay: 切换能量系统覆盖层
+  ui_tooltip_toggle_temperature_overlay: 切换温度系统覆盖层
   ui_tooltip_outside_temperature: 外部温度
   ui_tooltip_playtime: 游戏时间
   ui_tooltip_worldtime: 世界时间
-  ui_tooltip_journey_view_disabled: 在此游戏模式中禁用旅程
+  ui_tooltip_journey_view_disabled: 在此游戏模式中禁用旅程进度
+  
   ui_info_window_section_energy_production: 能量生产
   ui_info_window_section_energy_consuption: 能量使用
   ui_info_window_section_phosphorylation: 磷酸化
   ui_info_window_section_heat: 热量
   ui_info_window_section_filter: 过滤器
   ui_info_window_section_oxidation: 氧化
-  ui_info_window_usage: 使用
-  ui_info_window_energy: 能量
+  ui_info_window_usage: 已使用
+  ui_info_window_energy: 能量储存
   ui_info_window_fulfillment: 满足度
-  ui_info_window_production: 生产
+  ui_info_window_production: 产生
   ui_info_window_uses_left: 剩余使用次数
-  ui_info_window_efficiency: 效率
+  ui_info_window_efficiency: 运作效率
   ui_info_window_health: 健康
   ui_info_window_currently_researching: 当前研究中
+  ui_info_window_receiving: 接收中
+  ui_info_window_producing: 生产中
+
   ui_popup_menu_items: 物品
   ui_popup_menu_colors: 颜色
-  ui_popup_menu_categories: 类别
+  ui_popup_menu_categories: 分类
+  
   ui_main_menu_new_game: 新游戏
   ui_main_menu_resume_game: 继续
   ui_main_menu_start_game: 开始游戏
@@ -557,7 +649,7 @@ strings:
   ui_main_menu_delete: 删除
   ui_main_menu_continue_game: 继续游戏
   ui_main_menu_quit_game: 退出游戏
-  ui_main_menu_games: 游戏
+  ui_main_menu_games: 游戏档案
   ui_main_menu_host: 主机
   ui_main_menu_join: 加入
   ui_main_menu_options: 选项
@@ -575,22 +667,27 @@ strings:
   ui_main_menu_advanced: 高级
   ui_main_menu_puzzle: 学习
   ui_main_menu_open_user_folder: 打开用户文件夹
-  ui_main_menu_purge_games: 清除游戏
+  ui_main_menu_reset_window_position: 重置窗口位置
+  ui_main_menu_purge_games: 清除游戏档案
   ui_main_menu_reset_achievements: 重置成就
   ui_main_menu_no_games_to_load: |
-    没有可以显示的游戏。
-    去玩一些Lifecraft吧！
+    没有可以加载的游戏档案。
+    先开始玩一局Lifecraft吧！
   ui_main_menu_reset_puzzles: 重置谜题
   ui_main_menu_discord_link: Discord
   ui_main_menu_discord_link_tooltip: 打开官方Discord服务器
-  ui_main_menu_keybind_assign_dialog: 按一个键来分配给动作
-  ui_main_menu_language_warning: 翻译正在进行中，可能存在一些缺失或错误的翻译。
-  ui_main_menu_about_early_access: 早期访问
+  ui_main_menu_changelog: 更新日志
+  ui_main_menu_keybind_assign_dialog: 按下一个键以将其分配给该操作
+  ui_main_menu_language_warning: 翻译正在进行中，可能存在一些缺失或错误的翻译。如果想提供帮助，欢迎加入Discord！
+
+  ui_main_menu_about_early_access: 抢先体验
   ui_main_menu_about_pixbits: Pixbits
-  ui_main_menu_about_credits: 制作人员名单
+  ui_main_menu_about_credits: Credits
+
   ui_game_info_last_saved: 最后保存
   ui_game_info_playtime: 游戏时间
-  ui_game_info_seed: 种子
+  ui_game_info_seed: 世界种子
+
   ui_new_game_advanced_settings: 高级设置
   ui_new_game_enable_character: 启用角色
   ui_new_game_unlock_research: 解锁研究
@@ -600,32 +697,37 @@ strings:
   ui_new_game_enable_bacteria: 细菌
   ui_new_game_enable_oxidation: 氧化
   ui_new_game_enable_developer: 开发者
-  ui_new_game_chunk_size: 区块大小
-  ui_new_game_heap_content_multiplier: 资源数量
+  ui_new_game_chunk_size: 初始区块数量
+  ui_new_game_heap_content_multiplier: 资源倍率
   ui_new_game_world_seed: 种子
   ui_new_game_world_seed_placeholder: 世界种子
   ui_new_game_world_name: 名称
   ui_new_game_world_name_placeholder: 世界名称
-  ui_new_game_darkness: 黑暗
+
+  ui_new_game_darkness: 黑暗程度
   ui_new_game_darkness_tranquil: 宁静
   ui_new_game_darkness_moody: 忧郁
   ui_new_game_darkness_pitch_black: 漆黑
+
   ui_new_game_starting_size: 初始大小
   ui_new_game_starting_size_tiny: 微小
   ui_new_game_starting_size_small: 小
   ui_new_game_starting_size_normal: 正常
   ui_new_game_starting_size_large: 大
   ui_new_game_starting_size_huge: 巨大
-  ui_new_game_complexity: 复杂性
-  ui_new_game_complexity_casual: 随便
+
+  ui_new_game_complexity: 复杂度
+  ui_new_game_complexity_casual: 休闲
   ui_new_game_complexity_normal: 正常
-  ui_new_game_custom_warning: 更改这些设置可能会导致游戏情况扭曲
+  
+  ui_new_game_custom_warning: 更改这些设置可能会导致游戏变得扭曲
+
   ui_option_group_sound: 声音
   ui_option_group_graphics: 图形
   ui_option_group_interface: 界面
   ui_option_group_misc: 杂项
   ui_option_group_language: 语言
-  ui_option_group_bindings: 键绑定
+  ui_option_group_bindings: 按键绑定
   ui_option_group_controls: 控制
   ui_option_group_developer: 开发者
   ui_option_group_language_disabled_label: 退出游戏以更改语言
@@ -635,21 +737,22 @@ strings:
   ui_option_interface_scale: 界面比例
   ui_option_remember_window_position: 记住窗口位置
   ui_option_skip_splash_screen: 跳过开场画面
-  ui_option_enable_hand_cursors: 使用手型光标
-  ui_option_use_pixel_font: 使用像素字体
-  ui_option_use_compact_recipe_tooltips: 紧凑配方提示
-  ui_option_enable_animated_windows: 动画窗口
-  ui_option_enable_animated_tooltips: 动画提示
-  ui_option_show_information_tooltip_on_mouse: 在鼠标上保持信息提示
+  ui_option_enable_hand_cursors: 启用手型光标
+  ui_option_use_pixel_font: 启用像素字体
+  ui_option_use_compact_recipe_tooltips: 启用更紧凑的配方提示
+  ui_option_enable_animated_windows: 启用窗口动画
+  ui_option_enable_animated_tooltips: 启用提示框动画
+  ui_option_show_information_tooltip_on_mouse: 在鼠标位置显示信息提示框
   ui_option_information_tooltip_delay: 信息提示延迟
-  ui_option_show_item_count_on_object_overlay: 在覆盖层显示物品数量
+  ui_option_show_item_count_on_object_overlay: 在生产信息覆盖层上显示物品数量
   ui_option_show_paused_game_hint: 显示暂停游戏提示
+  ui_option_swap_mouse_buttons_for_world_interactions: 与世界交互时反转鼠标左右键
   ui_option_invert_mouse_wheel: 反转鼠标滚轮
   ui_option_invert_pan_direction: 反转平移方向
-  ui_option_viewport_drag_with_right_mouse_button: 允许使用鼠标拖动视口
-  ui_option_viewport_scroll_at_window_edge: 允许在窗口边缘滚动视口
-  ui_option_viewport_scroll_when_zooming_in: 放大时滚动视口
-  ui_option_viewport_scroll_when_zooming_out: 缩小时滚动视图窗口。
+  ui_option_viewport_drag_with_right_mouse_button: 允许使用鼠标拖动可视窗口
+  ui_option_viewport_scroll_at_window_edge: 允许通过窗口边缘拖动可视窗口
+  ui_option_viewport_scroll_when_zooming_in: 放大时滚动可视窗口
+  ui_option_viewport_scroll_when_zooming_out: 缩小时滚动可视窗口
   ui_option_show_trivia: 显示小知识
   ui_option_skip_tutorial: 跳过教程
   ui_option_pause_game_on_focus_loss: 失去焦点时暂停游戏
@@ -657,70 +760,93 @@ strings:
   ui_option_enable_sound: 声音
   ui_option_enable_music: 音乐
   ui_option_mute_sound_on_focus_loss: 失去焦点时静音
-  ui_option_generate_game_preview: 生成游戏预览
-  ui_option_try_to_guess_object_positions: 尝试猜测物体面向
-  ui_option_highlight_evolution_path: 高亮显示演化路径
-  ui_option_show_worlds_in_main_view: 在主菜单显示世界
+  ui_option_generate_game_preview: 生成游戏档案预览图
+  ui_option_try_to_guess_object_positions: 尝试猜测物体朝向
+  ui_option_highlight_evolution_path: 高亮显示进化路径
+  ui_option_show_worlds_in_main_view: 在主菜单的背景图中显示世界
   ui_option_colorblind_mode: 色盲模式
+  ui_option_draw_building_shadows: 绘制建筑阴影
   ui_option_hide_unknown_recipes_in_recipe_list: 在配方列表中隐藏未知配方
   ui_option_use_imperial_units: 使用英制单位
-  ui_option_enable_evolution_tree_collapse: 启用演化树折叠
+  ui_option_enable_evolution_tree_collapse: 启用进化树折叠功能
   ui_option_save_game_on_exit: 退出时自动保存游戏/退出游戏
-  ui_option_show_paused_game_hint_tooltip: 当游戏暂停时明确显示标签
+
+  ui_option_show_paused_game_hint_tooltip: 当游戏暂停时显示暂停标签
   ui_option_show_trivia_tooltip: 显示关于物品和结构的杂项趣闻
+
   ui_window_name_recipe_list: 配方
   ui_window_name_goal_list: 目标
   ui_window_name_tutorial: 教程
+
   ui_puzzle_group_intro: 介绍
   ui_puzzle_group_beginner: 初级
   ui_puzzle_group_advanced: 高级
-  ui_recipe_requires_additional_evolutions: 你缺少这个配方所需的一些进化
-  ui_recipe_is_still_work_in_progress: 机制仍在开发中，可能无法按预期工作，或者根本无法工作
-  ui_recipe_cannot_produce_in_this_zone: 无法在此区域制作
-  ui_recipe_enzyme_is_missing: 酶缺失了！
+
+  ui_recipe_requires_additional_evolutions: 你缺少这个配方所需的一些进化步骤
+  ui_recipe_is_still_work_in_progress: 机制仍在开发中，可能无法按预期运作，或者根本无法运作
+  ui_recipe_cannot_produce_in_this_zone: 无法在此区域生产
+  ui_recipe_enzyme_is_missing: 缺少酶！
   ui_recipe_choose_set_none: 设为无
   ui_recipe_close_popup: 关闭
   ui_game_paused: 时间已冻结
   ui_related_recipes: 相关配方
   ui_goal_hidden: 隐藏
+
   ui_ruleset_sandbox: 沙盒
   ui_ruleset_peaceful: 和平
   ui_ruleset_survival: 生存
   ui_ruleset_adventure: 冒险
   ui_ruleset_custom: 自定义
   ui_ruleset_tip: 提示
-  ui_ruleset_description_sandbox: <n>沙盒</n>模式是一个你可以自由实验和建造的模式，进化完全解锁，你可以免费放置物品，你有创造工具来扩展和建造新的区域。
-  ui_ruleset_description_peaceful: <y>和平</y>模式是一个你在和平环境中玩的模式，你需要创建结构和进化自己，但你不需要关心环境，所以没有敌人和温度。
-  ui_ruleset_description_survival: <r>生存</r>模式是一个你必须努力生存的模式，温度会慢慢下降，你必须准备好热量生产，细菌群落会增长并攻击你，如果你靠近他们。
-  ui_ruleset_description_adventure: <H9538ff>冒险</H>模式是一个你控制他的模式。他是如何在这个世界中缩小的呢？你将不得不自己找出来。生存并扩大你的生物体，但别忘了保持自己的生命。
-  ui_ruleset_description_custom: <b>自定义</b>模式允许你修改标准游戏玩法。制定自己的规则，按你喜欢的节奏玩！
-  ui_ruleset_description_tip: <n>提示</n>模式用于生成新的游戏玩法提示作为世界
-  ui_ruleset_first_game_warning: 看起来这是你的第一场游戏，我们建议你在挑战自己进入<r>生存</r>之前尝试一个<y>和平</y>的世界！
-  ui_evolution_is_working_in_progress: 这个进化仍在开发中，可能无法工作，可能会改变或被移动，探索风险自负
+
+  ui_ruleset_description_sandbox: <n>沙盒</n>模式是一个用于实验和建造的模式，已经自动解锁了所有的进化，你可以随意放置物体，并使用专门的创造工具来扩展和建造区块。
+  ui_ruleset_description_peaceful: <y>和平</y>模式是一个环境完全处于和平状态的模式，你只需要建造各种结构体和进化自己而不需要关心环境中的威胁，因为根本没有敌人和温度系统。
+  ui_ruleset_description_survival: <r>生存</r>模式是一个需要努力才能生存的模式，整个世界的温度会缓慢下降，你需要维持足够的热量产出，细菌菌群也会不断扩张并攻击你的生物体。
+  ui_ruleset_description_adventure: <H9538ff>冒险</H>模式是一个拥有主角的模式，他是如何在这个世界中缩小的呢？你得自己找出答案，扩张并进化你的生物体，同时也别忘了让自己活下去。
+  ui_ruleset_description_custom: <b>自定义</b>模式允许你修改游戏规则。制定自己的规则，按你喜欢的节奏玩！
+  ui_ruleset_description_tip: <n>提示</n>模式用来生成教学游戏玩法的世界
+
+  ui_ruleset_first_game_warning: 看起来这是你的第一场游戏，我们建议你开启一场<r>生存</r>游戏之前先尝试一次<y>和平</y>的世界！
+  ui_evolution_is_working_in_progress: 这个进化还在开发中，可能无法运作，可能会被修改或被移动，使用风险自负
   ui_evolution_is_a_placeholder: 这个进化将在未来的更新中出现
+  
   ui_dialog_confirm_delete: 你确定要删除这个存档吗？
-  ui_popup_choose_transporter: 选择运输工具
-  ui_popup_choose_recipe: 选择配方
-  ui_popup_choose_chunk_action: 选择动作
-  ui_popup_pickup_item: 拾取物品
+  ui_dialog_restart_game_to_apply_changes: 重启游戏来更改UI元素设置
+
+  ui_popup_choose_transporter: "选择转运蛋白"
+  ui_popup_choose_recipe: "选择配方"
+  ui_popup_choose_chunk_action: "选择行动"
+  ui_popup_pickup_item: "拾取物品"
+
   ui_save_failed: 保存游戏时出错
-  ui_save_options_failed: 保存选项时出错
+  ui_save_options_failed: 保存设置时出错
   ui_autosave_failed_no_save_name: 自动保存失败：游戏没有文件名
-  ui_autosave_success: 游戏自动保存
-  ui_confirm_save_overwrite: 文件已存在，你想要覆盖吗？
+  ui_autosave_success: 游戏已自动保存
+  ui_confirm_save_overwrite: 发现已存在的文件，要覆盖它吗？
+
+  ui_cursor_open_object_context_menu: 打开交互式菜单
   ui_cursor_place_structure: 放置结构
+  ui_cursor_pickup: 拾取
+  ui_cursor_drop: 放下
+  ui_cursor_force_pickup: 强制拾取
+  ui_cursor_assemble: 组装
+  ui_cursor_stash: 贮藏
+  ui_cursor_place_microtubule: 放置
+  ui_cursor_remove_microtubule: 移除
+
   ui_player_entered_world: '{}进入了世界'
   ui_player_left_world: '{}离开了世界'
+
   object_action_fill: 填充
   object_action_clear: 清除
   object_action_rotate_right: 向右旋转
   object_action_rotate_left: 向左旋转
   object_action_flip: 翻转
-  object_action_set_filter: 设置过滤器
-  object_action_set_spec: 设置规格
+  object_action_set_filter: 设置过滤类型
+  object_action_set_spec: 设置规则
   object_action_set_recipe: 设置配方
   object_action_switch_direction: 翻转
-  object_action_refill: 重新填充
+  object_action_refill: 再填充
   object_action_change_demand: 改变需求
   object_action_toggle: 切换
   object_action_set_input: 设置输入
@@ -732,188 +858,239 @@ strings:
   object_action_switch_pick_mode: 切换取出模式
   object_action_switch_drop_mode: 切换放入模式
   object_action_switch_state: 切换状态
+
   action_name_execute_first_action: 物体动作1
   action_name_execute_second_action: 物体动作2
-  action_name_switch_tool_hand: 手动工具
-  action_name_switch_tool_destroy: 销毁工具
+  action_name_switch_tool_hand: 手工具
+  action_name_switch_tool_destroy: 摧毁工具
   action_name_switch_tool_microtubule_metatool: 微管工具
   open_achievement_unlock_window: 成就窗口
-  place_error_message_cant_be_placed_on_membrane: 无法在膜上建造，只能在胶囊上
+
+  place_error_message_cant_be_placed_on_membrane: 无法在膜上建造，只能在被膜上建造
   place_error_message_requires_membrane: 必须在细胞膜上建造
   place_error_message_must_be_attached_to_membrane: 必须附着在膜上
   place_error_message_must_be_placed_on_non_changing_chunk: 无法在未完成的区域上建造
   place_error_message_must_be_placed_on_non_necrotic_chunk: 无法在坏死的区域上建造
-  place_error_message_cant_be_placed_on_objects: 无法放置在现有的物体上
+  place_error_message_cant_be_placed_on_objects: 无法放置在已存在的物体上
   place_error_message_cant_be_placed_on_corner: 无法在角落上建造
-  place_error_cant_be_placed_on_wall: 无法在膜或胶囊上建造
+  place_error_cant_be_placed_on_wall: 无法在膜或被膜上建造
   place_error_message_cant_be_placed_on_railing: 无法在微管上建造
   place_error_message_must_be_placed_on_existing_tile: 必须在现有的组织上建造
   place_error_cant_be_placed_on_this_tissue: 无法在这种类型的组织上建造
-  place_error_message_must_be_placed_on_discovered_chunk: 不能在未发现的区块上建造
-  place_error_message_must_be_placed_on_non_diseased_tile: 不能在病变的瓷砖上建造
-  place_error_message_cant_be_placed_on_wild_tiles: 不能放置在野生的瓷砖上
+  place_error_message_must_be_placed_on_discovered_chunk: 无法在未发现的区块上建造
+  place_error_message_must_be_placed_on_non_diseased_tile: 无法在病变的格子上放置
+  place_error_message_cant_be_placed_on_wild_tiles: 无法在不受控制的格子上放置
   place_error_message_too_far_way: 太远了
-  object_remove_error_object_has_disease: 不能被摧毁，因为它受到了影响
+  
+  object_remove_error_object_has_disease: 无法移除，因为它受到了疾病影响
   too_faraway: 太远了
+
   chunk_action_build: 建造 {}
   chunk_action_chunk_apoptosis: 拆除
   chunk_action_error_cant_build: 不能建造 {}
-  chunk_action_error_chunk_must_be_empty: 区块必须为空的结构
-  chunk_action_error_requires_intracellular_all_around: 需要周围都是细胞内的区域
+  chunk_action_error_chunk_must_be_empty: 区块内必须没有任何结构
+  chunk_action_error_requires_intracellular_all_around: 需要周围都是胞内区域
   chunk_action_cancel: 取消任务
   chunk_action_pause: 暂停任务
   chunk_action_unpause: 继续任务
   chunk_action_no_available_actions: 没有可用的操作
-  chunk_action_chunk_is_necrotic: 区块是坏死的
-  chunk_action_chunk_is_not_owned: 区块不是自己的
-  chunk_action_chunk_is_not_discovered: 区块未被发现
+  chunk_action_chunk_is_necrotic: 该区块是坏死的
+  chunk_action_chunk_is_not_owned: 该区块不受你控制
+  chunk_action_chunk_is_not_discovered: 该区块未被发现
   chunk_action_zone_is_not_unlocked: 区域还未解锁
-  chunk_action_colony_attack: 攻击殖民地
+  chunk_action_colony_attack: 攻击菌落
+  
   research_known: 已知
-  research_blocked: 被阻止
+  research_blocked: 不可达
   research_researching: 进化中
   research_start: 开始进化
-  research_work_in_progress: 工作进行中
+  research_work_in_progress: 开发中
   research_unlock: 解锁
   research_cancel: 取消
   research_search_box_placeholder: 搜索
-  zone_filter_everywhere: 到处
-  zone_filter_nowhere: 无处
+
+  zone_filter_everywhere: 任何区域
+  zone_filter_nowhere: 无
+
   item_filter_all: 所有物品
   item_filter_none: 无
+
   chunk_healthy: 健康
   chunk_health: 健康
   chunk_infected: 疾病
   chunk_temperature: 温度
+
   infection_bacterial: 细菌感染
-  notification_evolution_complete: '进化步骤完成: {}'
+
+  notification_evolution_complete: '进化完成: {}'
   notification_achievement_unlocked: '解锁成就: {}'
-  notification_outside_temperature_dropped: 外部温度下降到 {}
+  notification_outside_temperature_dropped: 外界温度下降到 {}
+
   notification_chunk_died_by_necrosis: 一些区域正在坏死
   notification_chunk_is_freezing: 一些区域正在冻结
-  notification_chunk_is_unhealthy: 你的一个区块不健康
+  notification_chunk_is_unhealthy: 一些区域不太健康
   notification_chunk_is_getting_cold: 一些区域正在变冷
-  notification_objects_are_unpowered: 你的一些结构没有足够的能量
+  notification_objects_are_unpowered: 你的一些结构没有足够的能量运作
   notification_objects_are_oxidized: 你的一些结构被氧化了
+
   notification_concept_enzymes: 你放置的一个结构需要酶来操作
   notification_concept_evolution: 你放置的一个结构可以用来发现新的进化
-  notification_concept_expansion: 你放置的一个结构可以扩展你的生物体
+  notification_concept_expansion: 你放置的一个结构可以扩张你的生物体
   notification_concept_membrane_transportation: 你放置的一个结构用于跨膜运输物品
   notification_concept_energy: 你放置的一个结构需要能量来操作
-  notification_concept_energy_distribution: 在这里了解能量分布
+  notification_concept_energy_distribution: 在这里了解能量分配
   notification_concept_production: 你放置的一个结构可以生产物品
   notification_concept_resources: 你放置的一个结构可以从外部吸收物品
   notification_concept_oxidation: 你的一些结构被氧化了
-  notification_concept_routing: 你需要用微管和选择器来路由物品
-  notification_concept_material_dispatch: 你开始了一个需要派遣材料的任务
-  notification_concept_necrosis: 你的一个区块变成了坏死的
+  notification_concept_routing: 你需要用微管和选择器来输送物品
+  notification_concept_material_dispatch: 你开始了一个需要调度材料的任务
+  notification_concept_necrosis: 你的一个区块彻底坏死了
   notification_concept_mitochondrion: 你建造了一个线粒体：细胞的能量工厂！
-  notification_concept_bacteria: 你的一个瓷砖被感染了！
+  notification_concept_bacteria: 你的一个格子被感染了！
+
   notification_more_info: 更多信息
   notification_dismiss: 忽略
   notification_go_there: 去那里
+# goals
   goal_name_first_steps: 第一步
   goal_task_text_first_steps_1: 组装一个工作台来帮助你
+  
   goal_name_siphon_red_aminoacid: 吸取红色氨基酸
   goal_task_text_siphon_red_aminoacid_1: 放置你的第一个细胞口
-  goal_task_text_siphon_red_aminoacid_2: 放置一个原始的选择器
+  goal_task_text_siphon_red_aminoacid_2: 放置一个原始的拾取器
   goal_task_text_siphon_red_aminoacid_3: 建造一些微管
   goal_task_text_siphon_red_aminoacid_4: 吸取一些红色氨基酸
+  
   goal_name_automate_red_tubulin: 自动化红色微管蛋白
   goal_task_text_automate_red_tubulin_1: 组装你的第一个核糖体
-  goal_task_text_automate_red_tubulin_2: 放置另一个原始选择器
+  goal_task_text_automate_red_tubulin_2: 放置另一个原始拾取器
   goal_task_text_automate_red_tubulin_3: 自动化生产红色微管蛋白
+  
   goal_name_automate_yellow_tubulin: 自动化黄色微管蛋白
   goal_task_text_automate_yellow_tubulin_1: 建造第二个核糖体
   goal_task_text_automate_yellow_tubulin_2: 为黄色氨基酸建造1个细胞口
-  goal_task_text_automate_yellow_tubulin_3: 建造2个选择器
+  goal_task_text_automate_yellow_tubulin_3: 建造2个拾取器
   goal_task_text_automate_yellow_tubulin_4: 自动化生产黄色微管蛋白
-  goal_name_discover_assembler: 发现装配机
+  
+  goal_name_discover_assembler: 发现蛋白装配体
   goal_task_text_discover_assembler_1: 建造一个进化器
-  goal_task_text_discover_assembler_2: 发现装配机
+  goal_task_text_discover_assembler_2: 发现蛋白装配体
+  
   goal_name_automate_microtubule_primitive: 自动化原始微管
-  goal_task_text_automate_microtubule_primitive_1: 建造一个装配机
+  goal_task_text_automate_microtubule_primitive_1: 建造一个蛋白装配体
   goal_task_text_automate_microtubule_primitive_2: 自动化原始微管生产
-  goal_name_automate_picker_primitive: 自动化原始选择器
-  goal_task_text_automate_picker_primitive_1: 建造一个装配机
-  goal_task_text_automate_picker_primitive_2: 自动化原始选择器生产
+  
+  goal_name_automate_picker_primitive: 自动化原始拾取器
+  goal_task_text_automate_picker_primitive_1: 建造一个蛋白装配体
+  goal_task_text_automate_picker_primitive_2: 自动化原始拾取器生产
+  
   goal_name_automate_green_blue_tubulins: 自动化绿色蓝色微管蛋白
   goal_task_text_automate_green_blue_tubulins_1: 自动化生产绿色微管蛋白
   goal_task_text_automate_green_blue_tubulins_2: 自动化生产蓝色微管蛋白
+  
   goal_name_improve_siphoning: 提高虹吸效率
   goal_task_text_improve_siphoning_1: 发现基础运输
-  goal_task_text_improve_siphoning_2: 建造2个物品踢出器
-  goal_task_text_improve_siphoning_3: 为红色氨基酸加倍细胞口
-  goal_task_text_improve_siphoning_4: 为黄色氨基酸加倍细胞口
+  goal_task_text_improve_siphoning_2: 建造2个物品导向器
+  goal_task_text_improve_siphoning_3: 翻倍红色氨基酸的细胞口
+  goal_task_text_improve_siphoning_4: 翻倍黄色氨基酸的细胞口
+  
   goal_name_build_mitochondrion: 建造线粒体
   goal_task_text_build_mitochondrion_1: 建造一个线粒体
+  
   goal_name_first_expansion: 首次扩张
   goal_task_text_first_expansion_1: 准备一个细胞骨架区域
   goal_task_text_first_expansion_2: 扩张一个区块
-  goal_name_produce_nucleobase: 生产核苷酸
+  
+  goal_name_produce_nucleobase: 生产核碱基
   goal_task_text_produce_nucleobase_1: 用DNA核酸酶分解质粒
+  
   goal_name_transport_through_membrane: 通过膜运输
-  goal_task_text_transport_through_membrane_1: 通过单向转运蛋白运输物品
-  goal_task_text_transport_through_membrane_2: 通过共转运蛋白运输物品
+  goal_task_text_transport_through_membrane_1: 通过单向转运体运输物品
+  goal_task_text_transport_through_membrane_2: 通过共转运体运输物品
+  
   goal_name_regenerate_through_diffuser: 通过扩散器再生
   goal_task_text_regenerate_through_diffuser_1: 用扩散器再生10个物体
-  goal_name_chunk_died_by_necrosis: 区块因坏死而死亡
+  
+  goal_name_chunk_died_by_necrosis: 区块坏死
   goal_task_text_chunk_died_by_necrosis_1: 让一个区块因坏死而死亡
+  
   goal_name_killed_bacteria_by_hand: 手动杀死细菌
-  goal_task_text_killed_bacteria_by_hand_1: 用赤手杀死一只细菌
+  goal_task_text_killed_bacteria_by_hand_1: 赤手杀死一只细菌
+  
   goal_name_first_siphoning: 首次虹吸
   goal_task_text_first_siphoning_1: 虹吸你的第一个物品
+  
   goal_name_basic_siphoning: 基础虹吸
   goal_task_text_basic_siphoning_1: 虹吸10个物品
+  
   goal_name_intermediate_siphoning: 中级虹吸
   goal_task_text_intermediate_siphoning_1: 虹吸100个物品
+  
   goal_name_advanced_siphoning: 高级虹吸
   goal_task_text_advanced_siphoning_1: 虹吸1000个物品
-  goal_name_first_disposing: 首次处理
-  goal_task_text_first_disposing_1: 处理一个物品
-  goal_name_basic_disposing: 基础处理
-  goal_task_text_basic_disposing_1: 处理10个物品
-  goal_name_intermediate_disposing: 中级处理
-  goal_task_text_intermediate_disposing_1: 处理100个物品
-  goal_name_advanced_disposing: 高级处理
-  goal_task_text_advanced_disposing_1: 处理1000个物品
-  goal_name_first_stashing: 首次储存
-  goal_task_text_first_stashing_1: 用储存器储存一个物品
-  goal_name_basic_stashing: 基础储存
-  goal_task_text_basic_stashing_1: 用储存器储存10个物品
-  goal_name_intermediate_stashing: 中级储存
-  goal_task_text_intermediate_stashing_1: 用储存器储存100个物品
-  goal_name_advanced_stashing: 高级储存
-  goal_task_text_advanced_stashing_1: 用储存器储存1000个物品
+  
+  goal_name_first_disposing: 首次排泄
+  goal_task_text_first_disposing_1: 排出一个物品
+  
+  goal_name_basic_disposing: 基础排泄
+  goal_task_text_basic_disposing_1: 排出10个物品
+  
+  goal_name_intermediate_disposing: 中级排泄
+  goal_task_text_intermediate_disposing_1: 排出100个物品
+  
+  goal_name_advanced_disposing: 高级排泄
+  goal_task_text_advanced_disposing_1: 排出1000个物品
+  
+  goal_name_first_stashing: 首次贮藏
+  goal_task_text_first_stashing_1: 用贮藏器贮藏一个物品
+  
+  goal_name_basic_stashing: 基础贮藏
+  goal_task_text_basic_stashing_1: 用贮藏器贮藏10个物品
+  
+  goal_name_intermediate_stashing: 中级贮藏
+  goal_task_text_intermediate_stashing_1: 用贮藏器贮藏100个物品
+  
+  goal_name_advanced_stashing: 高级贮藏
+  goal_task_text_advanced_stashing_1: 用贮藏器贮藏1000个物品
+  
   goal_name_first_catalysis: 首次催化
   goal_task_text_first_catalysis_1: 催化你的第一个反应
+  
   goal_name_basic_catalysis: 基础催化
   goal_task_text_basic_catalysis_1: 催化10个反应
+  
   goal_name_intermediate_catalysis: 中级催化
   goal_task_text_intermediate_catalysis_1: 催化100个反应
+  
   goal_name_advanced_catalysis: 高级催化
   goal_task_text_advanced_catalysis_1: 催化1000个反应
+  
   goal_name_extreme_catalysis: 极限催化
   goal_task_text_extreme_catalysis_1: 催化10000个反应
-  goal_name_first_atp_burning: 首次燃烧ATP
+  
+  goal_name_first_atp_burning: 首次ATP燃烧
   goal_task_text_first_atp_burning_1: 燃烧你的第一个ATP分子
-  goal_name_basic_atp_burning: 基础燃烧ATP
+  
+  goal_name_basic_atp_burning: 基础ATP燃烧
   goal_task_text_basic_atp_burning_1: 燃烧10个ATP分子
-  goal_name_intermediate_atp_burning: 中级燃烧ATP
+  
+  goal_name_intermediate_atp_burning: 中级ATP燃烧
   goal_task_text_intermediate_atp_burning_1: 燃烧100个ATP分子
-  goal_name_advanced_atp_burning: 高级燃烧ATP
+  
+  goal_name_advanced_atp_burning: 高级ATP燃烧
   goal_task_text_advanced_atp_burning_1: 燃烧1000个ATP分子
+  
   goal_name_extreme_atp_burning: 极限ATP燃烧
   goal_task_text_extreme_atp_burning_1: 燃烧10000个ATP分子
-  goal_name_first_atp_recharging: 首次ATP充能
-  goal_task_text_first_atp_recharging_1: 使用合酶为一个ATP充能
-  goal_name_basic_atp_recharging: 基础ATP充能
+  goal_name_first_atp_recharging: 首次ATP再充能
+  goal_task_text_first_atp_recharging_1: 使用ATP合酶为一个ATP分子充能
+  goal_name_basic_atp_recharging: 基础ATP再充能
   goal_task_text_basic_atp_recharging_1: 为10个ATP分子充能
-  goal_name_intermediate_atp_recharging: 中级ATP充能
+  goal_name_intermediate_atp_recharging: 中级ATP再充能
   goal_task_text_intermediate_atp_recharging_1: 为100个ATP分子充能
-  goal_name_advanced_atp_recharging: 高级ATP充能
+  goal_name_advanced_atp_recharging: 高级ATP再充能
   goal_task_text_advanced_atp_recharging_1: 为1000个ATP分子充能
-  goal_name_extreme_atp_recharging: 极限ATP充能
+  goal_name_extreme_atp_recharging: 极限ATP再充能
   goal_task_text_extreme_atp_recharging_1: 为10000个ATP分子充能
   goal_name_first_cellular_respiration: 首次细胞呼吸
   goal_task_text_first_cellular_respiration_1: 氧化你的第一个NADH
@@ -926,7 +1103,7 @@ strings:
   goal_name_extreme_cellular_respiration: 极限细胞呼吸
   goal_task_text_extreme_cellular_respiration_1: 氧化10000个NADH分子
   goal_name_first_workbenching: 首次工作台使用
-  goal_task_text_first_workbenching_1: 使用工作台制造东西
+  goal_task_text_first_workbenching_1: 使用工作台造点什么东西
   goal_name_basic_workbenching: 基础工作台使用
   goal_task_text_basic_workbenching_1: 使用工作台10次
   goal_name_intermediate_workbenching: 中级工作台使用
@@ -959,19 +1136,33 @@ strings:
   goal_task_text_intermediate_killing_bacteria_1: 杀死100个细菌
   goal_name_advanced_killing_bacteria: 高级杀菌
   goal_task_text_advanced_killing_bacteria_1: 杀死1000个细菌
-  ui_main_menu_about_early_access_message: |
-    感谢你决定尝试我们的游戏！
 
-    这个游戏是关于生存的，它是关于从原始的汤中作为一个单细胞生物开始，通过创建所有需要的生产链条来生存！
-    我们的最终愿景是从一个简单的细胞进化到一个完全的哺乳动物，具有器官： 循环系统，呼吸系统，消化系统，神经系统等等.. 所有这些都是通过建造，扩展和进化你的初始生物来实现的！
-    希望你能在这个EA中找到乐趣！我们需要你的反馈，所以请加入我们的Discord并在那里找到我们。我们需要你的帮助 :)
-  ui_main_menu_about_pixbits_message: |
+  ui_main_menu_about_early_access_message: >
+    感谢你愿意尝试我们的游戏！
+
+    这个游戏是关于生命的，从原始汤中的一个单细胞生物开始，通过创建所有需要的生产链来生存！
+    我们的最终愿景是从一个简单的细胞进化到一个具有完整器官的哺乳动物： 循环系统，呼吸系统，消化系统，神经系统等等.. 所有这些都是通过建造，扩张和进化你最初的生物体来实现的！
+    希望你能在这个抢先体验版本中找到乐趣！我们乐意见到你的反馈，所以请加入Discord并在那里找我们。我们需要你的帮助 :)
+
+  ui_main_menu_about_pixbits_message: >
     我们是一家位于意大利的小型独立开发工作室！
 
     Jacopo Santoni - 代码和游戏设计
 
     Silvio Eusebio - 图形，音乐，音效
-  ui_main_menu_about_credits_message: |-
+    
+  ui_main_menu_about_credits_message: >
     音频引擎：FMOD Studio，由Firelight Technologies Pty Ltd.提供。
 
-    感谢所有在游戏开发过程中支持我们的测试人员。感谢他们的反馈和他们的地图！
+    感谢所有在游戏开发过程中支持我们的测试人员。感谢他们的反馈和提供信息！
+
+  # These strings are added by translator, so they may not follow the original order, and might become invalid after next update. Pay attention!
+  item_name_door_intracellular3x: 胞内门
+  item_name_alcohol_dehydrogenase_enzyme: 乙醇脱氢酶
+  evolution_name_energy_carriers: 能量载体
+  evolution_name_lysosome: 溶酶体
+  item_name_lysosomal_membrane: 溶酶体膜
+  item_name_acid_hydrolase_enzyme: 酸性水解酶
+  item_name_catabolyzer: 分解器
+  item_description_uniporter_lysosome_inward: 溶酶体输入单向转运蛋白
+  item_description_uniporter_lysosome_outward: 溶酶体输出单向转运蛋白
