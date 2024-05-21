@@ -1164,5 +1164,5 @@ strings:
   item_name_lysosomal_membrane: 溶酶体膜
   item_name_acid_hydrolase_enzyme: 酸性水解酶
   item_name_catabolyzer: 分解器
-  item_description_uniporter_lysosome_inward: 溶酶体输入单向转运蛋白
-  item_description_uniporter_lysosome_outward: 溶酶体输出单向转运蛋白
+  item_name_uniporter_lysosome_inward: 溶酶体输入单向转运蛋白
+  item_name_uniporter_lysosome_outward: 溶酶体输出单向转运蛋白
