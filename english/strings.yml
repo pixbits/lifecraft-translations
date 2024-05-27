@@ -546,7 +546,7 @@ strings:
   recipe_description_nad_synthase: "<a>NAD Synthase</a> is used to synthesize de novo <r>NAD</r>"
   recipe_description_nadp_synthase: "<a>NADP Synthase</a> is used to convert <r>NAD</r> into <r>NADP</r> by spending energy"
   recipe_description_adp_synthase: "<a>ADP Synthase</a> is used to synthesize de novo <r>ADP</r>"
-  recipe_description_base_pair_ligase_enzyme: "This enzyme is able to join two complementary base pairs."
+  recipe_description_base_pair_ligase_enzyme: "This enzyme is able to join two complementary nucleobases."
 
   disease_name_infection_bacterial_bacillus_green: Infection
   disease_name_infection_bacterial_bacillus_blue: Infection
