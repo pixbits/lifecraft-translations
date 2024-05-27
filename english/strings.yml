@@ -336,7 +336,7 @@ strings:
   evolution_description_advanced_routing: Discover <r>tunnels</r> and <r>balancers</r>, which are used to optimize routing and management of items
   evolution_description_membrane_transportation: Discover <r>membrane transporters</r>, which are used to transport items between cell membranes
   evolution_description_mitochondrion: Discover <r>mitochondrion</r>, a special intracellular zone that can be used to produce heat and energy
-  evolution_description_lysosome: Discover <r>mitochondrion</r>, a special intracellular zone that can be used to recycle and dismantle items
+  evolution_description_lysosome: Discover <r>lysosome</r>, a special intracellular zone that can be used to recycle and dismantle items
 
 
   evolution_group_evolution: Evolution
