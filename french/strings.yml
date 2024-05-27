@@ -298,6 +298,7 @@ strings:
   evolution_description_advanced_routing: Découvrez les <r>tunnels</r> et les <r>égaliseurs</r>, qui sont utilisés pour optimiser l'acheminement et la gestion des objets
   evolution_description_membrane_transportation: Découvrez les <r>transporteurs membranaires</r>, qui sont utilisés pour transporter des objets entre les membranes cellulaires
   evolution_description_mitochondrion: Découvrez la <r>mitochondrie</r>, une zone intracellulaire spéciale qui peut être utilisée pour produire de la chaleur et de l'énergie
+  evolution_description_lysosome: Découvrez le <r>lysosome</r>, une zone intracellulaire spéciale qui peut être utilisé pour recycler et démonter des objets
   evolution_description_mitochondrion_transportation: Découvrez le <r>transport mitochondrial</r>, pour permettre aux transporteurs d'être utilisés pour transporter le pyruvate, échanger NAD+/NADH et ADP/ATP entre la mitochondrie et les zones intracellulaires qui le contiennent
   evolution_group_evolution: Évolution
   evolution_group_proteins: Protéines
@@ -369,6 +370,7 @@ strings:
   item_description_microtubule: Les <a>Microtubules</a> sont le principal moyen de transporter des objets dans les zones <a>intracellulaires</a>
   item_description_microtubule_primitive: Les <a>Microtubules Primitifs</a> sont un moyen très lent de transporter des objets dans les zones <a>intracellulaires</a>
   item_description_microtubule_advanced: Les <a>Microtubules Avancés</a> sont un moyen rapide de transporter dans les zones <a>intracellulaires</a>
+  item_description_acid_hydrolase_enzyme: Enzyme nécessaire à la fabrication de cataboliseur
   item_description_luciferase_enzyme: <a>La luciférase</a> est une enzyme capable de modifier la <a>luciférine</a> pour la faire émettre de la lumière
   item_description_luciferin: <a>La luciférine</a> est une molécule qui peut émettre de la lumière lorsqu'elle est traitée par l'enzyme <a>luciférase</a>
   item_description_biolamp_primitive: <a>La Biolampe Primitive</a> peut émettre de la lumière pendant un certain temps en traitant de l'<a>oxygène</a> et une <a>luciférine</a>
@@ -381,6 +383,7 @@ strings:
   item_description_ribosome: Un <a>ribosome</a> est une structure capable de produire des <a>protéines</a> en assemblant des <a>acides aminés</a>
   item_description_catalyzer: Un <a>catalyseur</a> est une structure qui convertit certains éléments d'entrée en certains éléments de sortie, il nécessite une <a>enzyme</a> pour fonctionner
   item_description_assembler: Un <a>assembleur</a> est une structure qui peut assembler des <a>protéines</a> en produits finis comme des bâtiments ou des tissus
+  item_description_catabolyzer: Un <a>cataboliseur</a> est une structure qui permet de démonter un objet en ses composants bruts
   item_description_dna_nuclease: Une <a>nuclease ADN</a> est une structure qui peut décomposer des <a>plasmides</a> en <a>nucléotides</a> qui peuvent être utilisées pour l'évolution
   item_description_stockpile2x: Une <a>réserve</a> peut être utilisé comme tampon pour stocker certains objets
   item_description_stockpile1x: Une <a>petite réserve</a> peut être utilisé comme tampon pour stocker quelques objets
@@ -406,6 +409,7 @@ strings:
   item_description_dispatcher_primitive: Un <a>dispatcheur</a> est utilisé pour envoyer des matériaux à des morceaux ou à des bâtiments qui doivent être construits hors des cellules
   item_description_diffuser: Un <a>diffuseur</a> est capable de livrer des matériaux localement, il peut guérir les tuiles infectées ou remplacer les bâtiments oxydés
   item_description_mitochondrial_membrane: <a>La Membrane Mitochondriale</a> est utilisée pour construire des mitochondries à l'intérieur des zones intracellulaires
+  item_description_lysosomal_membrane: "<a>La Membrane Lysosomale</a> est utilisé pour construire des lysosomes à l'intérieur des zones intracellulaires"
   item_description_collagen_scaffold: Il s'agit du tissu extracellulaire de base qui peut produire un échafaudage pour la croissance de tissus plus avancés
   item_description_cytoskeleton_scaffold: Cet échafaudage de base est nécessaire pour construire des tissus intracellulaires dessus
   item_description_endothelium: L'<a>Endothélium</a> est le revêtement intérieur de tous les vaisseaux sanguins
@@ -415,6 +419,8 @@ strings:
   item_description_cell_membrane: Il s'agit du tissu intracellulaire de base non spécialisé utilisé pour agrandir votre organisme initial
   item_description_uniporter_gas: Ce transporteur est capable de déplacer le gaz à travers les membranes
   item_description_uniporter_pyruvate: Ce transporteur est capable de transporter le <a>Pyruvate</a> à travers une membrane
+  item_description_uniporter_lysosome_inward: Ce transporteur est capable de transporter des objets démontables à l'intérieur d'un lysosome
+  item_description_uniporter_lysosome_outward: Ce transporteur est capable de transporter des éléments bruts vers l'extérieur d'un lysosome
   item_description_antiporter_atp_adp: Cet antiporteur est capable d'échanger l'<a>ATP</a> et l'<a>ADP</a> à travers une membrane
   item_description_antiporter_nadh_nad: Cet antiporteur est capable d'échanger le <a>NADH</a> et le <a>NAD</a> à travers une membrane
   item_description_launcher1x: Un <a>petit lanceur</a> est utilisé pour lancer des défensines sur les bactéries. Il ne nécessite pas d'énergie pour fonctionner
@@ -576,6 +582,8 @@ strings:
   ui_main_menu_advanced: Avancé
   ui_main_menu_puzzle: Apprendre
   ui_main_menu_open_user_folder: Ouvrir le dossier utilisateur
+  ui_main_menu_reset_window_position: Réinit. position de la fenêtre
+  ui_main_menu_generate_font_atlas: Regénérer atlas des polices
   ui_main_menu_purge_games: Purger les jeux
   ui_main_menu_reset_achievements: Réinitialiser les succès
   ui_main_menu_no_games_to_load: |
@@ -645,6 +653,7 @@ strings:
   ui_option_information_tooltip_delay: Délai d'apparition de l'infobulle
   ui_option_show_item_count_on_object_overlay: Afficher le nombre d'objet (calque bâtiments)
   ui_option_show_paused_game_hint: Afficher l'indication de jeu en pause
+  ui_option_swap_mouse_buttons_for_world_interactions: Inverser les buttons d'interactions de la souris
   ui_option_invert_mouse_wheel: Inverser la molette de la souris
   ui_option_invert_pan_direction: Inverser la direction du déplacement
   ui_option_viewport_drag_with_right_mouse_button: Autoriser le déplacement avec la souris
@@ -663,6 +672,7 @@ strings:
   ui_option_highlight_evolution_path: Mettre en évidence le chemin d'évolution
   ui_option_show_worlds_in_main_view: Afficher les mondes au menu principal
   ui_option_colorblind_mode: Mode daltonien
+  ui_option_draw_building_shadows: Dessiner ombre des bâtiments
   ui_option_hide_unknown_recipes_in_recipe_list: Masquer les recettes inconnues
   ui_option_use_imperial_units: Utiliser les unités impériales
   ui_option_enable_evolution_tree_collapse: Activer la réduction de l'arbre d'évolution
