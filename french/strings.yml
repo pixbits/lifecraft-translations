@@ -676,7 +676,7 @@ strings:
   ui_option_hide_unknown_recipes_in_recipe_list: Masquer les recettes inconnues
   ui_option_use_imperial_units: Utiliser les unités impériales
   ui_option_enable_evolution_tree_collapse: Activer la réduction de l'arbre d'évolution
-  ui_option_save_game_on_exit: Sauvegarde automatique à la sortie/fermeture du jeu
+  ui_option_save_game_on_exit: Sauvegarde auto. à la sortie/fermeture du jeu
   ui_option_show_paused_game_hint_tooltip: Affiche explicitement une étiquette lorsque le jeu est en pause
   ui_option_show_trivia_tooltip: Affiche diverses anecdotes curieuses sur les objets et les structures
   ui_window_name_recipe_list: Recettes

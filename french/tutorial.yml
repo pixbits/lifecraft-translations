@@ -80,11 +80,11 @@ pages:
 - >
   <content>
     Commençons à fabriquer les structures nécessaires pour l'automatisation de base !<endl /><endl />
-    Dans votre liste de recettes, qui se trouve en bas à droite de l'écran, vous pouvez survoler les recettes disponibles et voir leurs matériaux, survolons un cytostome <icon key="item_cytostome1x"/><endl />
+    Dans votre liste de recettes, en bas à droite de l'écran, vous pouvez survoler les recettes et voir leurs matériaux. Survolons un cytostome <icon key="item_cytostome1x"/><endl />
     <recipe key="cytostome1x" compact="true" />Voici les matériaux nécessaires pour le construire.
     
     Les tubulines sont des matériaux intermédiaires utilisés pour fabriquer de nombreuses structures de base.<break/>
-    L'établi est pratique car il peut fabriquer automatiquement toutes les étapes intermédiaires en utilisant juste les matériaux de base :<endl /><endl />
+    L'établi est pratique car il peut fabriquer toutes les étapes intermédiaires en utilisant juste les matériaux de base :<endl /><endl />
     <p align="center"><icon key="item_aminoacid_blue"/><icon key="item_aminoacid_green"/><icon key="item_aminoacid_red"/><icon key="item_aminoacid_yellow"/><endl/><endl /></p>
     Placez les acides aminés requis dans l'établi, cliquez dessus et choisissez les structures à assembler.<break/>
     Vous pouvez également mettre en file d'attente plusieurs fabrications dans l'établi tant qu'il y a assez d'espace dedans !
@@ -259,7 +259,7 @@ pages:
     <icon key="item_energy_supplier_mk2" />Les fournisseurs améliorés fourniront de l'énergie sur une plus grande portée.<endl /><endl />
 
     <icon key="item_atp"/>Pour que les fournisseurs d'énergie fonctionnent, vous devez les alimenter avec des molécules d'ATP (trouvées à l'extérieur dans le vide).<endl />
-    <icon key="item_adp"/>Lorsque l'ATP est déchargé, il sera expulsé par les fournisseurs sous forme d'ADP.<endl />Pensez y comme une batterie, remplacez l'ancienne par la nouvelle !<endl /><endl />
+    <icon key="item_adp"/>Lorsque l'ATP est déchargé, il sera expulsé par les fournisseurs sous forme d'ADP.<endl />Pensez à une batterie, remplacez l'ancienne par la nouvelle !<endl /><endl />
 
     <icon key="item_energy_pole"/>Pour étendre la portée entre deux fournisseurs d'énergie, utilisez des poteaux énergétiques ! <endl /><endl />
     <icon key="ui_icon_toggle_power_overlay_on"/>Cela étendra considérablement la portée sans utiliser de ressource.
