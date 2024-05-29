@@ -21,6 +21,7 @@ strings:
   item_category_flow_respiratory: Respiratory
   item_category_flow_circulatory: Circulatory
   item_category_flow_digestive: Esophagus
+  item_category_flow_secretory: Secretory
   item_category_energy_production: Energy
   item_category_molecule_synthesis: Synthesis
   item_category_widget: Widget
@@ -39,6 +40,8 @@ strings:
   item_category_cell: Cell
   item_category_bacterium: Bacterium
   item_category_uncategorized: Uncategorized
+  
+  item_category_sugar: Sugar
 
   item_category_flooring: Flooring
   item_category_tissue: Tissue
@@ -233,6 +236,7 @@ strings:
   item_name_bacterium_coccus_red: Red Coccus 
   item_name_bacterium_coccus_yellow: Yellow Coccus 
 
+
   item_name_capillary: Capillary
   item_name_artery1x1: Small Artery
   item_name_artery2x2: Medium Artery
@@ -247,6 +251,10 @@ strings:
   item_name_perforator_vein2x2: Medium Perforator Vein
   item_name_perforator_vein4x4: Large Perforator Vein
   item_name_perforator_capillary: Perforator Capillary
+
+  item_name_duct1x1: Small Duct
+
+
   item_name_cardiac_pump1x1: Small Cardiac Pump
   item_name_cardiac_pump2x2: Medium Cardiac Pump
 
@@ -335,8 +343,8 @@ strings:
   evolution_description_functional_proteins: Discover <r>Actin</r> and <r>vimentin</r>, which are proteins which are used to build dynamic and storage structures
   evolution_description_advanced_routing: Discover <r>tunnels</r> and <r>balancers</r>, which are used to optimize routing and management of items
   evolution_description_membrane_transportation: Discover <r>membrane transporters</r>, which are used to transport items between cell membranes
-  evolution_description_mitochondrion: Discover <r>mitochondrion</r>, a special intracellular zone that can be used to produce heat and energy
-  evolution_description_lysosome: Discover <r>lysosome</r>, a special intracellular zone that can be used to recycle and dismantle items
+  evolution_description_mitochondrion: Discover <r>mitochondria</r>, a special intracellular zone that can be used to produce heat and energy
+  evolution_description_lysosome: Discover <r>lysosomes</r>, a special intracellular zone that can be used to recycle and dismantle items
 
 
   evolution_group_evolution: Evolution
@@ -676,8 +684,10 @@ strings:
   ui_main_menu_discord_link: Discord
   ui_main_menu_discord_link_tooltip: Open official Discord server
   ui_main_menu_changelog: Changelog
+  ui_main_menu_wiki: Wiki
   ui_main_menu_keybind_assign_dialog: Press a key to assign it to action
-  ui_main_menu_language_warning: "Translations are working in progress, there may be some missing or incorrect translations.\n\nFeel free to join our Discord if you want to contrubute!"
+  ui_main_menu_language_warning: "Translations are working in progress, there may be some missing or incorrect translations.\nHelp us to improve them!"
+  ui_main_menu_language_contribute: "Contribute!"
 
   ui_main_menu_about_early_access: Early Access
   ui_main_menu_about_pixbits: Pixbits

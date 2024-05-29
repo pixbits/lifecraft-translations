@@ -1936,6 +1936,9 @@ canvases:
   object_usage_mitochondrial_membrane: >
     <zone from="0 0" to="3 3" key="mitochondrion"  emit="true" />
 
+  object_usage_lysosomal_membrane: >
+    <zone from="0 0" to="3 3" key="lysosome"  emit="true" />
+
   object_usage_uniporter_glucose: >
     <zone from="4 0" to="7 3" key="cytosol"  emit="true" />
     <image key="object_picker" batch="1" facing="west" tile="3 2" align="lowerleft"/>
