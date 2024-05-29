@@ -168,9 +168,9 @@ content:
   # INTERFACE BUTTONS --------------------------------------------------------------------------
 
   "/interface/welcome": >
-    <header><icon key="ui_guide_mitosis" />Bienvenue à Lifecraft<icon key="ui_guide_mitosis" /></header><endl />
+    <header><icon key="ui_guide_mitosis" />Bienvenue dans Lifecraft<icon key="ui_guide_mitosis" /></header><endl />
 
-     <icon key="ui_guide_exclamation"/>Bienvenue à Lifecraft!
+     <icon key="ui_guide_exclamation"/>Bienvenue dans Lifecraft!
      <endl /><endl />
       <icon key="ui_guide_dot"/>Ce guide vous aidera à comprendre les fondamentaux de Lifecraft, et vous montrera les concepts clés du jeu.
      <endl /><endl />
@@ -205,24 +205,15 @@ content:
     <icon key="ui_icon_toggle_power_overlay_on"/>Activer/désactiver la superposition de puissance:<icon key="ui_guide_invisidot"/><keycap action="toggle_power_overlay" />
     <endl/><endl/>
 
-    <icon key="ui_icon_toggle_object_overlay_on"/>Activer/désactiver la superposition de construction:<icon key="ui_guide_invisidot"/><keycap action="toggle_object_overlay" /> 
+    <icon key="ui_icon_toggle_object_overlay_on"/>Activer/désactiver l'affichage de contenu des bâtiments:<icon key="ui_guide_invisidot"/><keycap action="toggle_object_overlay" /> 
     <endl/><endl/>
 
     <icon key="ui_icon_chunk_planner"/>Activer/désactiver l'extension et la réaffectation des zones:<icon key="ui_guide_invisidot"/><keycap action="toggle_mouse_opacity" />
     <endl/><endl/>
 
-    <icon key="ui_icon_toggle_mouse_opacity_on"/>Activer/désactiver la transparence des bâtiments lorsqu'ils sont survolés:<icon key="ui_guide_invisidot"/><keycap action="toggle_mouse_opacity" />
+    <icon key="ui_icon_toggle_mouse_opacity_on"/>Activer/désactiver la transparence des bâtiments au survol:<icon key="ui_guide_invisidot"/><keycap action="toggle_mouse_opacity" />
     <endl/><endl/>
 
-
-
-    <icon key="ui_guide_arrow_yellow"/><name>Autres raccourcis utiles</name><endl/><endl/>
-    
-    <icon key="ui_guide_dot_tiny"/>Description du raccourci clé de substitution 1: <icon key="ui_guide_invisidot"/><keycap key="R" /><endl/>
-    <icon key="ui_guide_dot_tiny"/>Description du raccourci clé de substitution 1: <icon key="ui_guide_invisidot"/><keycap key="R" /><endl/>
-    <icon key="ui_guide_dot_tiny"/>Description du raccourci clé de substitution 1: <icon key="ui_guide_invisidot"/><keycap key="R" /><endl/>
- 
-    <endl/><endl/>
  
 
     <icon key="ui_guide_brain"/>De nombreux autres raccourcis changent en fonction de l'outil que vous utilisez.<endl />
@@ -272,10 +263,10 @@ content:
 
   # le stock
   "/interface/the_stash": >
-    <header><icon key="item_microtubule" />Le Stock</header><endl />
-    Certains articles ne sont pas utilisés individuellement, une fois que vous les avez rassemblés, ils finissent dans le stock afin que vous puissiez les utiliser librement.
+    <header><icon key="item_microtubule" />La réserve</header><endl />
+    Certains objets ne sont pas utilisés individuellement, une fois que vous les avez rassemblés, ils finissent dans la réserve afin que vous puissiez les utiliser librement.
     <break/>
-    Le stock est utilisé pour les microtubules et les expulseurs d'objets:<endl/>
+    La réserve est utilisée pour les microtubules et les expulseurs d'objets:<endl/>
     <canvas size="0 0" scale="1" align="center">
     <image key="item_microtubule_primitive" tile="0 0" />
     <image key="item_microtubule" tile="2 0" />
@@ -283,17 +274,17 @@ content:
     <image key="item_item_kicker" tile="6 0" />
     </canvas><endl/>
     Lorsque vous ramassez un de ces objets, vous le verrez disparaître. Veuillez vérifier votre outil microtubule dans la barre d'outils pour vérifier la quantité que vous avez stockée.<break/>
-    <icon key="ui_guide_brain" />Vous pouvez utiliser le modificateur de ramassage forcé <keycap key="ALT" longer="true" /> pour forcer la récupération des objets sans les envoyer au stock.<break/>
-    <icon key="ui_guide_brain" />Vous pouvez utiliser le <icon key="item_stasher" /> <name>stockeur</name> pour envoyer des objets au stock sans avoir besoin d'interagir avec eux.
+    <icon key="ui_guide_brain" />Vous pouvez utiliser le ramassage forcé avec <keycap key="ALT" longer="true" /> pour forcer la récupération des objets sans les envoyer en réserve.<break/>
+    <icon key="ui_guide_brain" />Vous pouvez utiliser le <icon key="item_stasher" /> <name>récolteur</name> pour envoyer des objets en réserve sans avoir besoin d'interagir avec eux.
   # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   # Concepts
   # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
   # ressources
 
-  "/concepts/resources": >
+  "/obsolete/resources": >
     <header><icon key="item_cytostome1x" />Ressources</header><endl />
-    Les ressources apparaissent naturellement à l'extérieur de votre organisme. De plus, il existe des <name>tas de ressources</name> qui en contiennent beaucoup et qui sont dispersés un peu partout.<break/>
+    Les ressources apparaissent naturellement à l'extérieur de votre organisme. De plus, il existe des <name>amas de ressources</name> qui en contiennent beaucoup et qui sont dispersés un peu partout.<break/>
     <icon key="ui_warning_sign_yellow"/><warning>Certaines ressources plus rares comme <concept icon="item_atp" text="ATP"/> continuent à apparaître seulement lorsque votre quantité totale est inférieure à un maximum.</warning><break/>
 
     Vous pouvez interagir avec les ressources de plusieurs façons:<endl/>
@@ -301,7 +292,7 @@ content:
     <icon key="ui_guide_dot" /> vous pouvez utiliser <concept icon="item_cytostome1x" text="cytostomes" tooltip="cytostome1x" /> pour aspirer automatiquement les objets de l'extérieur<endl/>
     <icon key="ui_guide_dot" /> vous pouvez utiliser <concept icon="item_disposer1x" text="disposers" tooltip="disposer1x" /> pour vous débarrasser des objets dont vous n'avez plus besoin<endl/>
     <endl/>
-    <icon key="ui_icon_idea_lamp" />Vous aurez probablement besoin de fournir une disposition intelligente avec une combinaison de sélecteurs pour optimiser les résultats.<break/>
+    <icon key="ui_icon_idea_lamp" />Vous aurez probablement besoin de fournir une disposition intelligente avec une combinaison de ramasseurs pour optimiser les résultats.<break/>
 
     
 
@@ -312,7 +303,7 @@ content:
       La production à l'intérieur de votre organisme est réalisée grâce à plusieurs bâtiments qui ont des objectifs différents.<break/>
       <icon key="item_ribosome" /><name>Les ribosomes</name> transforment <name>les acides aminés</name> <icon key="item_aminoacid_red" /> en <name>protéines</name> <icon key="item_tubulin_red" /> <break/>
       <icon key="item_assembler" /><name>Les assembleurs</name> transforment <name>les protéines</name> <icon key="item_subunit_blue" /> en <name>structures</name> plus complexes <icon key="item_evolver" /> <break/>
-      <icon key="item_catalyzer" /><name>Les catalyseurs</name> accélèrent <name>les réactions</name><icon key="recipe_icon_glycolysis" /> grâce à <name>les enzymes</name> <icon key="item_glycolysis_enzyme" /><break/>
+      <icon key="item_catalyzer" /><name>Les catalyseurs</name> accélèrent <name>les réactions</name><icon key="recipe_icon_glycolysis" /> grâce aux <name>enzymes</name> <icon key="item_glycolysis_enzyme" /><break/>
       Vous pouvez définir la recette en utilisant le menu contextuel ou la touche <keycap action="execute_first_action" />.<endl/>
 
      <canvas size="0 0" scale="1" align="center">
@@ -324,7 +315,7 @@ content:
       <image key="ui_guide_menu_tiny" tile="10 1" />
      </canvas><endl /><endl />
 
-     <icon key="ui_warning_sign_yellow"/><warning>Certaines recettes ne peuvent être réalisées que dans des tissus spécifiques, cela est indiqué dans le coin inférieur gauche de leur infobulle.</warning><break/>
+     <icon key="ui_warning_sign_yellow"/><warning>Certaines recettes ne peuvent être réalisées que dans des tissus spécifiques, c'est indiqué dans le coin inférieur gauche de leur infobulle.</warning><break/>
      <icon key="item_catalyzer" /><name>Les catalyseurs</name> nécessitent une <concept text="enzyme" link="/concepts/enzymes" /> pour fonctionner. C'est l'enzyme qui détermine les recettes disponibles pour un catalyseur spécifique.
      Vous pouvez mettre et retirer l'enzyme du catalyseur autant de fois que vous le souhaitez.
 
@@ -332,9 +323,9 @@ content:
   # acheminement des articles
 
   "/concepts/routing_items": >
-    <header><icon key="item_microtubule" />Acheminement des articles</header> 
+    <header><icon key="item_microtubule" />Transport des objets</header> 
     <endl />
-    Les articles peuvent être acheminés avec <icon key="item_microtubule"/><name>microtubules</name> et <icon key="item_picker" /><name>sélecteurs</name>.
+    Les objets peuvent être transportés à l'aide de <icon key="item_microtubule"/><name>microtubules</name> et <icon key="item_picker" /><name>ramasseur</name>.
     <endl /><endl />
 
     <canvas size="0 0" scale="1" align="center">
@@ -357,16 +348,16 @@ content:
     </canvas> 
     <endl /><endl />
 
-    <icon key="item_picker"/>Les sélecteurs sont capables de déplacer les articles de et vers les bâtiments.<endl/>Tournez les sélecteurs avec la touche <keycap action="execute_first_action" />, retournez-les avec la touche <keycap action="execute_second_action" />.<endl />
+    <icon key="item_picker"/>Les ramasseurs sont capables de déplacer les articles depuis et vers les bâtiments.<endl/>Tournez les ramasseurs avec la touche <keycap action="execute_first_action" />, retournez-les avec la touche <keycap action="execute_second_action" />.<endl />
     <endl />
 
-    <icon key="ui_warning_sign_yellow"/><warning>Tout article entrant dans un microtubule ne se déplacera que s'il est déposé à une extrémité du microtubule ou s'il y a un <icon key="item_item_kicker"/><name>expulseur d'articles</name> qui force une direction.</warning><endl/>
+    <icon key="ui_warning_sign_yellow"/><warning>Tout objet entrant dans un microtubule ne se déplacera que s'il est déposé à une extrémité du microtubule ou s'il y a un <icon key="item_item_kicker"/><name>expulseur d'objets</name> qui force une direction.</warning><endl/>
     <endl/>
 
-    Les microtubules et les expulseurs d'articles sont stockés dans une cachette spéciale lorsqu'ils sont ramassés, vous pouvez y accéder en utilisant son outil dédié <icon key="ui_icon_microtubule_metatool" />.
+    Les microtubules et les expulseurs d'objets sont stockés dans une réserve spéciale lorsqu'ils sont ramassés, vous pouvez y accéder en utilisant son outil dédié <icon key="ui_icon_microtubule_metatool" />.
     <break/>
     
-    <icon key="ui_icon_idea_lamp" />Pour optimiser la disposition, il existe de nombreux types de sélecteurs et de structures supplémentaires comme les tunnels ou le répartiteur:<endl/>
+    <icon key="ui_icon_idea_lamp" />Pour optimiser la disposition, il existe de nombreux types de ramasseurs et de structures supplémentaires comme les tunnels ou l'égaliseur:<endl/>
     <canvas size="0 0" scale="1" align="center">
     <image key="item_picker_red" tile="0 0" />
     <image key="item_picker_green" tile="2 0" />
@@ -380,46 +371,46 @@ content:
 
  # ARTISANAT UTILE --------------------------------------------------------------------------
 
-  "/concepts/useful_items": >
+  "/obsolete/useful_items": >
     <header><icon key="ui_icon_destroy" />Artisanat utile</header> 
     <endl />
      <icon key="item_microtubule"/><name>Microtubules</name>
-      sont utilisés pour transporter des objets et des articles dans la cellule.
+      sont utilisés pour transporter des objets dans la cellule.
 
      <endl /> 
      <endl /> 
 
-     <icon key="item_picker" /><name>Preneurs</name>
-      peuvent déplacer des objets des microtubules vers les structures.
+     <icon key="item_picker" /><name>Ramasseur</name>
+      peuvent déplacer des objets des microtubules vers les structures et vice-versa.
 
      <endl /> 
      <endl />
 
-     <icon key="item_picker_green" /><name>Preneurs colorés</name> peuvent filtrer les objets par leur couleur, utile pour organiser les objets.
+     <icon key="item_picker_green" /><name>Ramasseurs colorés</name> peuvent filtrer les objets par leur couleur, utile pour organiser les objets.
      <endl /> 
      <endl /> 
 
-     <icon key="item_balancer" /><name>Équilibreurs d'objets</name>peuvent être utilisés pour trier les objets sur les microtubules.  
+     <icon key="item_balancer" /><name>Égaliseur d'objets</name> peuvent être utilisés pour trier les objets sur les microtubules.  
      <endl /> 
      <endl /> 
        
-     <icon key="item_item_kicker" /><name>Expulseurs d'objets</name>peuvent être utilisés pour définir la direction des objets sur les microtubules. 
+     <icon key="item_item_kicker" /><name>Expulseurs d'objets</name> peuvent être utilisés pour définir la direction des objets sur les microtubules. 
      <endl /> 
      <endl />
        
-     <icon key="item_picker_long" /><name>Long Preneur</name> Le long preneur est une variante du preneur standard.
+     <icon key="item_picker_long" /><name>Long Ramasseur</name> est une variante du ramasseur standard.
      <endl /> 
      <endl />
        
-     <icon key="item_item_tunnel" /><name>Tunnel d'objets</name> Utilisez-le pour passer des objets sous terre.
+     <icon key="item_item_tunnel" /><name>Tunnel d'objets</name> utilisez-le pour passer des objets sous terre.
      <endl /> 
 
-     Ce ne sont que quelques exemples. Il y a beaucoup plus d'objets à rechercher et à jouer avec que vous découvrirez au cours de votre voyage! 
+     Ce ne sont que quelques exemples. Il y a beaucoup plus d'objets à rechercher pour jouer avec que vous découvrirez au cours de votre voyage! 
    
 
   # BÂTIMENTS PRINCIPAUX --------------------------------------------------------------------------      
 
-  "/concepts/main_buildings": >
+  "/obsolete/main_buildings": >
     <header><icon key="item_ribosome" />Bâtiments principaux</header>
     <endl /><endl />
       <icon key="item_ribosome" /><name>Ribosome</name><endl /><endl />
@@ -441,7 +432,7 @@ content:
       </canvas><endl />
 
       <icon key="item_assembler" /><name>Assembleur</name><endl /><endl />
-      <icon key="ui_guide_dot"/>L'assembleur fabrique de nombreux objets et structures <icon key="item_microtubule" />, à partir des deux objets que vous y insérez.<endl />
+      <icon key="ui_guide_dot"/>L'assembleur fabrique de nombreux objets et structures <icon key="item_microtubule" />, à partir des objets que vous y insérez.<endl />
 
       <canvas size="0 0" scale="2" align="center">
 
@@ -463,7 +454,7 @@ content:
 
       <icon key="item_catalyzer" /><name>Catalyseur</name><endl /><endl />
       <icon key="ui_guide_dot"/>Le catalyseur utilise des enzymes <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
-      pour spécifier des réactions, qui sont des artisanats avancés particuliers qui seront utilisés pour<endl /> le métabolisme:  <icon key="item_atp" />générer de l'énergie, <icon key="item_adp" />recycler des matériaux et ainsi de suite.<endl /><endl />
+      pour spécifier des réactions, qui sont des recettes avancées particulieres qui seront utilisées pour<endl /> le métabolisme:  <icon key="item_atp" />générer de l'énergie, <icon key="item_adp" />recycler des matériaux et ainsi de suite.<endl /><endl />
 
       Pour utiliser le catalyseur, vous devez d'abord rechercher et fabriquer une enzyme, puis la glisser sur le catalyseur pour commencer à utiliser la réaction requise.<endl />
       
@@ -503,12 +494,12 @@ content:
       <icon key="ui_guide_dot"/>Pour automatiser la collecte de ressources, vous devez fabriquer des <name>cytostomes</name><icon key="item_cytostome1x" /><endl /><endl />
       
       Les cytostomes sont des structures qui peuvent absorber automatiquement des objets <icon key="item_aminoacid_red" /><icon key="item_aminoacid_green" /><icon key="item_aminoacid_blue" /> du vide. 
-      Ils peuvent être placés sur les membranes cellulaires.<endl />
+      Ils ne peuvent être placés que sur les membranes cellulaires.<endl />
 
       <canvas size="0 0" scale="2" align="center" key="object_usage_cytostome1x" />
       <break /><break />
 
-      <icon key="ui_guide_dot"/>Placez le cytostome près d'un tas de ressources pour collecter des matériaux à partir de celui-ci. 
+      <icon key="ui_guide_dot"/>Placez le cytostome près d'un amas de ressources pour y collecter ses matériaux. 
       Les cytostomes épuiseront leur fonction avec le temps et s'oxyderont.<endl /><endl />
       Ils peuvent être remplacés par un cytostome avancé. <icon key="item_cytostome2x" /><endl /> 
       Les cytostomes avancés sont beaucoup plus efficaces mais nécessitent de l'atp <icon key="item_atp" /> pour fonctionner.
@@ -522,17 +513,17 @@ content:
     <header><icon key="item_collagen_scaffold" />Expansion</header> 
     <endl />
       <icon key="ui_guide_dot"/>L'expansion de votre organisme est nécessaire pour avoir suffisamment d'espace pour vos bâtiments mais aussi pour récupérer des ressources.<endl/>
-      L'expansion de votre cellule se fait par le biais du <concept icon="item_dispatcher" text="dispatcher" tooltip="dispatcher" /> qui est capable de livrer des matériaux pour vos nouvelles zones.<break/>
+      L'expansion de votre cellule se fait par le biais du <concept icon="item_dispatcher" text="dispatcheur" tooltip="dispatcher" /> qui est capable de livrer des matériaux pour vos nouvelles zones.<break/>
 
       <icon key="ui_guide_exclamation"/>Utilisez l'outil de la barre d'outils <icon key="ui_icon_chunk_planner" /> pour sélectionner où étendre votre cellule 
-      et donnez au dispatcher le bon tissu <icon key="item_cell_membrane" /> pour commencer l'expansion.
+      et donnez au dispatcheur le bon tissu <icon key="item_cell_membrane" /> pour commencer l'expansion.
       <endl />
 
       <canvas size="0 0" scale="1" align="center" key="object_usage_dispatcher" /><endl/>
 
-      N'oubliez pas que les zones intracellulaires comme <icon key="item_cell_membrane" /><name>cellule par défaut</name> nécessitent un <icon key="item_cytoskeleton_scaffold" /><name>échafaudage de cytosquelette</name> pour être construites en dessous.
+      N'oubliez pas que les zones intracellulaires comme <icon key="item_cell_membrane" /><name>la cellule par défaut</name> nécessite un <icon key="item_cytoskeleton_scaffold" /><name>échafaudage de cytosquelette</name> pour être construites dessus.
       <break/>
-      Le même mécanisme est appliqué pour les tissus extracellulaires comme <icon key="item_collagen_flooring" /><name>matrice extracellulaire</name> qui nécessitent un <icon key="item_collagen_scaffold"/><name>échafaudage de collagène</name> en dessous.
+      Le même mécanisme est appliqué pour les tissus extracellulaires comme <icon key="item_collagen_flooring" /><name>la matrice extracellulaire</name> qui nécessite un <icon key="item_collagen_scaffold"/><name>échafaudage de collagène</name> en dessous.
 
       <break />
 
@@ -563,7 +554,7 @@ content:
 
   # GESTION DES RESSOURCES --------------------------------------------------------------------------      
 
-  "/concepts/managing_resources": >
+  "/obsolete/managing_resources": >
     <header><icon key="item_collagen_scaffold" />Gestion des Ressources</header> 
     <endl />
     <icon key="ui_guide_dot" />Vous pouvez empiler des ressources en fabriquant des réserves.<endl /><endl />
@@ -596,8 +587,8 @@ content:
     <endl /> 
     L'énergie est une partie fondamentale de l'organisme, elle est utilisée pour alimenter de nombreuses structures, vous pouvez les reconnaître par ce symbole <icon key="ui_icon_energy_yellow" />.<break/>
 
-    L'énergie est générée en brûlant <icon key="item_atp" /><name>ATP</name> en <icon key="item_adp" /><name>ADP</name>.<break/>
-    <icon key="item_energy_supplier_mk2" /><name>Fournisseurs d'énergie</name> sont des structures qui peuvent brûler <name>ATP</name> et distribuer de l'énergie aux bâtiments à proximité.<break/>
+    L'énergie est générée en brûlant l'<icon key="item_atp" /><name>ATP</name> en <icon key="item_adp" /><name>ADP</name>.<break/>
+    <icon key="item_energy_supplier_mk2" /><name>Les fournisseurs d'énergie</name> sont des structures qui peuvent brûler l'<name>ATP</name> et distribuer de l'énergie aux bâtiments à proximité.<break/>
 
      <canvas size="0 0" scale="2" align="center">
 
@@ -628,8 +619,8 @@ content:
      <image key="object_energy_supplier_mk1_base" tile="7 2" align="lowerleft" />
      <image key="object_energy_supplier_mk1_rod_off" tile="7 4" align="lowerleft" />
      </canvas><endl />
-     Vous pouvez trouver <icon key="item_atp" /><name>ATP</name> à l'extérieur ou vous pouvez recharger <icon key="item_adp" /><name>ADP</name> par divers mécanismes.<break/>
-     <icon key="ui_guide_brain" />Vous pouvez connecter <name>fournisseurs d'énergie</name> et <name>poteaux d'énergie</name> pour créer un réseau et distribuer de l'énergie à plusieurs bâtiments.
+     Vous pouvez trouver de l'<icon key="item_atp" /><name>ATP</name> à l'extérieur ou vous pouvez recharger l'<icon key="item_adp" /><name>ADP</name> par divers mécanismes.<break/>
+     <icon key="ui_guide_brain" />Vous pouvez connecter des <name>fournisseurs d'énergie</name> et des <name>poteaux d'énergie</name> pour créer un réseau et distribuer de l'énergie à plusieurs bâtiments.
      <endl/>
      <canvas size="0 0" scale="1" align="center">
        <image key="item_energy_supplier_mk1" tile="0 0" />
@@ -641,9 +632,9 @@ content:
   "/concepts/energy_distribution": >
     <header><icon key="ui_icon_energy_yellow" />Distribution d'énergie</header> 
     <endl />
-    Vous pouvez distribuer de l'énergie <icon key="ui_icon_energy_yellow" /> soit<break/> 
+    Vous pouvez distribuer de l'énergie<icon key="ui_icon_energy_yellow" />soit<break/> 
     <icon key="ui_guide_dot" /> en plaçant directement <concept icon="item_energy_supplier_mk2" text="fournisseurs" tooltip="energy_supplier_mk2" /> à portée des structures demandant de l'énergie.<break/>
-    <icon key="ui_guide_dot" /> en créant un réseau de <concept icon="item_energy_supplier_mk2" text="fournisseurs" tooltip="energy_supplier_mk2" /> et <concept icon="item_energy_pole" text="poteaux" tooltip="energy_pole" /><break/>
+    <icon key="ui_guide_dot" /> en créant un réseau de <concept icon="item_energy_supplier_mk2" text="fournisseurs" tooltip="energy_supplier_mk2" /> et de <concept icon="item_energy_pole" text="poteaux" tooltip="energy_pole" /><break/>
     En essayant de placer une structure qui peut former un réseau<endl/>
     <canvas size="0 0" scale="1" align="center">
        <image key="item_energy_supplier_mk1" tile="0 0" />
@@ -651,11 +642,11 @@ content:
        <image key="item_energy_pole" tile="4 0" />
     </canvas>
     <endl/>
-    montrera deux zones autour de la structure:<endl/>
-    <icon key="ui_guide_dot" /> <p color="#ffff00">jaune</p> le rayon est la portée qui se connecte à d'autres fournisseurs et poteaux<endl/>
-    <icon key="ui_guide_dot" /> <p color="#ff8000">orange</p> le rayon est la portée qui connecte les consommateurs d'énergie<endl/>
+    celle-ci montrera deux zones autour d'elle:<endl/>
+    <icon key="ui_guide_dot" /> Le rayon <p color="#ffff00">jaune</p> défini la portée qui se connecte à d'autres fournisseurs et poteaux<endl/>
+    <icon key="ui_guide_dot" /> Le rayon <p color="#ff8000">orange</p> défini la portée qui connecte les consommateurs d'énergie<endl/>
     <endl/>
-    <icon key="ui_icon_idea_lamp" /> Le <concept icon="item_energy_pole" text="poteaux d'énergie" tooltip="energy_pole" /> est spécial car il a une longue portée pour se connecter au réseau mais une très petite portée pour les consommateurs.
+    <icon key="ui_icon_idea_lamp" /> Le <concept icon="item_energy_pole" text="poteau d'énergie" tooltip="energy_pole" /> est spécial car il a une longue portée pour se connecter au réseau mais une très petite portée pour les consommateurs.
 
   # symbol_legend
   "/interface/symbol_legend": >
@@ -663,17 +654,17 @@ content:
    <break/> 
    Ces symboles sont utilisés dans l'interface utilisateur et ont des significations spéciales:<break/>
 
-   <icon key="ui_icon_oxidized" /> la structure est <concept text="jetable" link="/concepts/oxidation" /> et a des utilisations finies<break/>
-   <icon key="ui_icon_generating_heat" /> la structure génère <concept text="chaleur" link="/concepts/temperature" /><break/>
-   <icon key="ui_icon_energy_yellow" /> la structure nécessite <concept text="énergie" link="/concepts/energy" /><break/>
-   <icon key="ui_icon_energy_blue" /> la structure fait partie de <concept text="boucle d'énergie mitochondriale" link="/concepts/mitochondrion" /><break/>
-   <icon key="ui_icon_indirect_build" /> la structure est <name>extracellulaire</name> et doit être construite par des expéditeurs<break/>
+   <icon key="ui_icon_oxidized" /> la structure est <concept text="jetable" link="/concepts/oxidation" /> et a un nombre d'utilisations fini<break/>
+   <icon key="ui_icon_generating_heat" /> la structure génère de la <concept text="chaleur" link="/concepts/temperature" /><break/>
+   <icon key="ui_icon_energy_yellow" /> la structure nécessite de l'<concept text="énergie" link="/concepts/energy" /><break/>
+   <icon key="ui_icon_energy_blue" /> la structure fait partie d'une <concept text="boucle d'énergie mitochondriale" link="/concepts/mitochondrion" /><break/>
+   <icon key="ui_icon_indirect_build" /> la structure est <name>extracellulaire</name> et doit être construite par des dispatcheurs<break/>
    
    <icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /> la recette doit être construite dans un bâtiment spécifique<break/>
    <icon key="item_mitochondrial_membrane" /><icon key="item_staminal_tissue" /><icon key="item_heart_intracellular_tissue" /> la recette doit être construite dans une zone spécifique<break/>
 
    
-   <icon key="ui_icon_work_in_progress" /> la recette est encore <concept text="en cours de travail" />, utilisez à vos propres risques!
+   <icon key="ui_icon_work_in_progress" /> la recette est encore <concept text="en cours de développement" />, utilisez à vos risques et périls!
 
 
   # necrosis
@@ -681,18 +672,18 @@ content:
   "/concepts/necrosis": >
    <header><icon key="item_necrotic_tissue" />Nécrose</header>
    <endl/> 
-   La <name>Nécrose</name> est un état de morceau <red>irrécupérable</red> qui se produit lorsque la santé du morceau descend en dessous d'un certain seuil.
+   La <name>Nécrose</name> est un état <red>irrécupérable</red> d'un morceau qui se produit lorsque la santé de ce morceau descend en dessous d'un certain seuil.
    
    Chaque morceau commence à <green>100%</green> de santé mais diverses conditions peuvent diminuer sa santé, lorsque la santé descend en dessous de <red><value type="rule" key="physiology::necrosisHealthThreshold" format="percent" /></red> la nécrose commencera.
    <endl/><endl/>
    Certaines conditions qui peuvent réduire la santé sont:<break/>
    <icon key="ui_icon_temperature"/> la température du morceau<break/>
    <icon key="item_infector"/> les tuiles infectées à l'intérieur du morceau<break/>
-   <icon key="item_necrotic_tissue"/> les morceaux nécrotiques à proximité<break/>
+   <icon key="item_necrotic_tissue"/> les morceaux nécrosés à proximité<break/>
    <break/>
-   <icon key="ui_warning_sign_red" /><red>La nécrose ne peut pas être guérie ou inversée, une fois qu'un morceau commence à devenir nécrotique, il mourra lentement et c'est généralement une réaction en chaîne.</red><endl/>
-   Cela signifie que vous devez <name>prévenir</name> les conditions, n'agissez pas trop tard!<break/>
-   <icon key="ui_icon_idea_lamp" />Quand un morceau n'a aucune condition qui affecte négativement sa santé, <green>il se régénérera lentement à 100% de santé</green><break/>
+   <icon key="ui_warning_sign_red" /><red>La nécrose ne peut pas être guérie ou inversée, une fois qu'un morceau commence à devenir nécrosé, il mourra lentement et c'est généralement une réaction en chaîne.</red><endl/>
+   Cela signifie que vous devez <name>prévenir</name> ces conditions, n'agissez pas trop tard!<break/>
+   <icon key="ui_icon_idea_lamp" />Quand un morceau n'a aucune condition qui affecte négativement sa santé, <green>il régénérera sa santé jusqu'à 100%</green><break/>
 
 
 
@@ -704,8 +695,8 @@ content:
     <icon key="ui_guide_exclamation"/>Gérer la température de votre cellule est fondamental pour survivre.
     <endl /> <endl /> 
     La température extérieure commence à <value type="rule" key="physiology::voidTemperatureRange" index="1" format="temperature" />, mais elle diminuera lentement avec le temps.
-    Cela fera perdre de la chaleur à votre organisme et finalement il fera si froid qu'il sera endommagé et déclenchera <icon key="item_necrotic_tissue"/> <name>nécrose</name>. <endl/>
-    La limite inférieure avant tout type de dommage commence est <value type="rule" key="physiology::safeTemperatureRange" index="0" format="temperature" />.
+    Cela fera perdre de la chaleur à votre organisme et, possiblement, il fera si froid qu'il sera endommagé et déclenchera la <icon key="item_necrotic_tissue"/> <name>nécrose</name>. <endl/>
+    La limite inférieure avant que tout type de dommage commence est <value type="rule" key="physiology::safeTemperatureRange" index="0" format="temperature" />.
     <endl /> <endl /> 
     <icon key="ui_guide_dot"/>Certains bâtiments génèrent de la chaleur lorsqu'ils fonctionnent, par exemple les <name>fournisseurs d'énergie</name> ou les bâtiments de <name>production</name><endl/>
     <canvas size="0 0" scale="1" align="center">
@@ -717,12 +708,12 @@ content:
     Vous pouvez les reconnaître par ce <icon key="ui_icon_generating_heat" /> symbole dans leur infobulle.<endl/><endl/>
 
 
-    <icon key="ui_guide_dot"/> Vous pouvez également utiliser des <name>découpleurs</name>, qui sont un mode avancé de génération de chaleur qui nécessite <icon key="item_mitochondrial_membrane"/> <name>mitochondries</name>.<endl/>
+    <icon key="ui_guide_dot"/> Vous pouvez également utiliser des <name>découpleurs</name>, qui sont un mode avancé de génération de chaleur qui nécessite des <icon key="item_mitochondrial_membrane"/> <name>mitochondries</name>.<endl/>
     <canvas size="0 0" scale="2" align="center"  key="object_usage_decoupler" />
     <endl/>
-    Cette méthode nécessite d'investir <icon key="item_nadh" /> <name>NADH</name> dans une <icon key="item_electron_transport_chain"/><name>chaîne de transport d'électrons</name> mais elle génère beaucoup de chaleur.
+    Cette méthode nécessite d'investir du <icon key="item_nadh" /> <name>NADH</name> dans une <icon key="item_electron_transport_chain"/><name>chaîne de transport d'électrons</name> mais elle génère beaucoup de chaleur.
 
-  "/concepts/advanced_energy_production": >
+  "/obsolete/advanced_energy_production": >
     <header><icon key="item_krebs_cycle_enzyme" />Production d'énergie avancée</header> 
     <endl /> 
     <icon key="ui_guide_exclamation"/>À venir.
@@ -735,22 +726,22 @@ content:
   "/concepts/tissue_types": >
     <header><icon key="item_staminal_tissue" />Types de tissus</header>
     <endl />
-    Votre organisme est composé de morceaux qui peuvent être de nombreux tissus différents, chacun avec sa propre fonction et ses capacités.<endl/><endl/>
+    Votre organisme est composé de morceaux qui peuvent être de tissus différents, chacun avec sa propre fonction et ses capacités.<endl/><endl/>
     <icon key="item_cell_membrane" /> <name>Tissus intracellulaires</name><break/>
     <icon key="ui_guide_dot"/>ils sont cloisonnés<break/>
-    <icon key="ui_guide_dot"/>ils permettent <icon key="item_microtubule" /><icon key="item_picker" /><link target="/concepts/routing_items">microtubules et sélecteurs</link><break/>
-    <icon key="ui_guide_dot"/>ils permettent <icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /><link target="/concepts/production">production</link> d'articles<break/>
+    <icon key="ui_guide_dot"/>ils permettent les <icon key="item_microtubule" /><icon key="item_picker" /><link target="/concepts/routing_items">microtubules et ramasseurs</link><break/>
+    <icon key="ui_guide_dot"/>ils permettent la <icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /><link target="/concepts/production">production</link> d'objets<break/>
     <endl/>
     <icon key="item_lung_tissue" /> <name>Tissus extracellulaires</name><break/>
     <icon key="ui_guide_dot"/>ils ont des capsules (des murs encore plus hauts)<break/>
-    <icon key="ui_guide_dot"/>vous êtes autorisé à y construire uniquement <icon key="ui_icon_indirect_build" /> indirectement par le biais de <icon key="item_dispatcher" /><name>dispatchers</name><break/>
+    <icon key="ui_guide_dot"/>vous n'êtes autorisé à y construire <icon key="ui_icon_indirect_build" />qu'indirectement par le biais de <icon key="item_dispatcher" /><name>dispatcheurs</name><break/>
     <icon key="ui_guide_dot"/>ils permettent aux <icon key="item_red_blood_cell" /><name>cellules</name> de se déplacer <break/>
-    <icon key="ui_guide_dot"/>ils permettent <icon key="item_artery2x2"/><icon key="item_vein2x2"/><name>vaisseaux</name><break/>
+    <icon key="ui_guide_dot"/>ils permettent les <icon key="item_artery2x2"/><icon key="item_vein2x2"/><name>vaisseaux</name><break/>
     <endl/>
     En plus, il y a quelques tissus spéciaux:<endl/>
-    <icon key="ui_guide_dot"/><icon key="item_staminal_tissue" /><name>tissu staminal</name>, qui peut construire tous les autres tissus<endl/>
-    <icon key="ui_guide_dot"/><icon key="item_mitochondrial_membrane" /><name>mitochondrion</name>, qui est une zone spéciale cloisonnée qui est utilisée pour produire de l'énergie et de la chaleur<endl/>
-    <icon key="ui_guide_dot"/><icon key="item_collagen_flooring" /><name>matrice extracellulaire</name>, qui est un tissu extracellulaire non spécialisé utile pour connecter des zones<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_staminal_tissue" /><name>Le tissu staminal</name>, qui peut construire tous les autres tissus<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_mitochondrial_membrane" /><name>La mitochondrie</name>, qui est une zone spéciale cloisonnée qui est utilisée pour produire de l'énergie et de la chaleur<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_collagen_flooring" /><name>La matrice extracellulaire</name>, qui est un tissu extracellulaire non spécifique utile pour connecter des zones<endl/>
 
   "/concepts/evolution": >
     <header><icon key="ui_icon_open_evolution_view" />Évolution</header> 
@@ -760,9 +751,9 @@ content:
     Ceci est fait avec des <concept text="évolueurs" icon="item_evolver" tooltip="evolver" />, qui sont des structures qui peuvent traiter du matériel pour découvrir de nouvelles choses.
     <break/>
     <icon key="ui_guide_exclamation"/>Les évolueurs utilisent des morceaux d'ADN pour évoluer:<endl/>
-    <icon key="item_cytosine"/> <icon key="item_guanine"/>des <name>nucleobases</name> simples, qui peuvent être récupérées à partir de <icon key="item_plasmid_1" /><name>plasmides</name> ou trouvées à l'extérieur.
+    <icon key="item_cytosine"/> <icon key="item_guanine"/>des <name>nucléotides</name> simples, qui peuvent être récupérées à partir de <icon key="item_plasmid_1" /><name>plasmides</name> ou trouvées à l'extérieur.
     <endl/>
-    <icon key="item_base_pair_at"/><icon key="item_base_pair_cg"/><name>paires de bases</name>, qui doivent être assemblées avec un <icon key="item_catalyzer" tooltip="catalyzer" /><name>catalyseur</name>
+    <icon key="item_base_pair_at"/><icon key="item_base_pair_cg"/>des <name>paires de bases</name>, qui doivent être assemblées avec un <icon key="item_catalyzer" tooltip="catalyzer" /><name>catalyseur</name>
     <break/>  
     <icon key="ui_guide_bling"/>Pour ouvrir l'arbre de l'évolution et choisir ce que vous voulez découvrir, appuyez sur la touche <keycap action="open_evolution_view" />. 
       
@@ -771,7 +762,7 @@ content:
       <image key="ui_guide_img_research" scale="2"/>
       
       <endl /><endl />
-      <icon key="ui_warning_sign_yellow"/>Pour transformer les <icon key="item_plasmid_1" /><name>plasmides</name> en nucléobases, vous devez utiliser une <icon key="item_dna_nuclease" /><name>nucléase d'ADN</name>.
+      <icon key="ui_warning_sign_yellow"/>Pour transformer les <icon key="item_plasmid_1" /><name>plasmides</name> en nucléotides, vous devez utiliser une <icon key="item_dna_nuclease" /><name>nucléase d'ADN</name>.
       <endl /><endl />
 
 
@@ -780,7 +771,7 @@ content:
   "/concepts/oxidation": >
      <header><icon key="item_carbon_dioxide" />Oxydation</header> 
      <endl />
-        <icon key="ui_guide_exclamation"/>L'oxydation peut lentement consommer vos bâtiments, les ralentir et finalement les arrêter.<endl /><endl />
+        <icon key="ui_guide_exclamation"/>L'oxydation peut lentement consumer vos bâtiments, les ralentir et finalement les arrêter.<endl /><endl />
 
         De nombreux bâtiments primitifs au début du jeu ont un nombre fini d'utilisations, ils sont définis comme <keyword>jetables</keyword>.<endl />
         Vous pouvez reconnaître un bâtiment jetable par ce symbole: <icon key="ui_icon_oxidized" /> <endl/>
@@ -788,7 +779,7 @@ content:
         <endl/>
         Certaines propriétés des structures jetables:<endl/>
         <icon key="ui_guide_dot"/> Lorsqu'elles sont oxydées, elles fonctionneront moins efficacement <endl/>
-        <icon key="ui_guide_dot"/> Elles <red>ne peuvent pas</red> être déplacées : une fois détruites, elles sont parties ! <endl/>
+        <icon key="ui_guide_dot"/> Elles <red>ne peuvent pas</red> être déplacées : une fois détruites, elles disparaissent ! <endl/>
         <icon key="ui_guide_dot"/> Elles <green>peuvent</green> être remplacées directement pour les régénérer <endl/>
         <icon key="ui_guide_dot"/> Vous pouvez utiliser des <concept icon="item_diffuser" tooltip="diffuser" text="diffuseurs" /> pour les renouveler automatiquement<endl/>
         <endl/>
@@ -796,24 +787,24 @@ content:
         <icon key="ui_guide_brain"/>Vous pourrez utiliser des structures plus avancées, non jetables, mais certaines d'entre elles nécessiteront de l'énergie <icon key="item_atp"/> pour fonctionner.
        <endl />
 
-  "/concepts/vessels": >
+  "/obsolete/vessels": >
      <header><icon key="item_artery2x2" />Vaisseaux</header> 
      <endl />
        <icon key="ui_guide_dot"/>À venir!
        <endl />
 
 
-  "/concepts/heaps": >
-     <header><icon key="item_atp_synthase" />Tas</header> 
+  "/obsolete/heaps": >
+     <header><icon key="item_atp_synthase" />Amas</header> 
      <endl />
-       <icon key="ui_guide_dot"/>Les tas de ressources sont dispersés dans le vide et contiennent des groupes de ressources nécessaires. Vous pouvez les acquérir en utilisant un cytostome. <icon key="item_cytostome1x"/>
+       <icon key="ui_guide_dot"/>Les amas de ressources sont dispersés dans le vide et contiennent des groupes de ressources nécessaires. Vous pouvez les acquérir en utilisant un cytostome. <icon key="item_cytostome1x"/>
 
        <endl /><endl />
 
-       <icon key="ui_guide_exclamation"/>Les tas de ressources finiront par s'épuiser avec le temps, alors gardez un œil sur leur durée et n'oubliez pas de vous étendre et de trouver d'autres tas pour éviter de manquer de nutriments importants.
+       <icon key="ui_guide_exclamation"/>Les amas de ressources finiront par s'épuiser avec le temps, alors gardez un œil sur leur durée et n'oubliez pas de vous étendre et de trouver d'autres amas pour éviter de manquer de nutriments importants.
        <endl /><endl />
 
-       Au fur et à mesure que vous progressez et que vous faites des recherches, vous aurez besoin de nouveaux matériaux, qui apparaîtront dans de nouveaux tas au fil du temps.
+       Au fur et à mesure que vous progressez et que vous faites des recherches, vous aurez besoin de nouveaux matériaux, qui apparaîtront dans de nouveaux amas au fil du temps.
 
        <endl /><endl />
 
@@ -837,7 +828,7 @@ content:
 
        </canvas><endl />
 
-       <icon key="ui_guide_brain"/>Plusieurs cytostomes peuvent être connectés à un seul tas de ressources.
+       <icon key="ui_guide_brain"/>Plusieurs cytostomes peuvent être connectés à un seul amas de ressources.
 
        
   # enzymes
@@ -845,9 +836,9 @@ content:
   "/concepts/enzymes": >
     <header><icon key="item_glycolysis_enzyme" />Enzymes</header>
     <endl/>
-      Les enzymes sont des protéines spéciales qui sont nécessaires pour catalyser les réactions.<endl/>
+      Les enzymes sont des protéines spéciales qui sont nécessaires pour catalyser des réactions.<endl/>
       Vous devez:<endl/>
-      <icon key="ui_guide_dot"/>fabriquer l'enzyme nécessaire pour la réaction que vous voulez faire se produire<endl/>
+      <icon key="ui_guide_dot"/>fabriquer l'enzyme nécessaire pour la réaction que vous voulez produire<endl/>
       <icon key="ui_guide_dot"/>et la déposer dans le <concept text="catalyseur" icon="item_catalyzer" tooltip="catalyzer"/> que vous voulez utiliser<endl/>
       <icon key="ui_guide_dot"/>maintenant vous pouvez sélectionner la réaction comme vous le feriez pour d'autres bâtiments de production<break/>
       
@@ -876,19 +867,19 @@ content:
   # transporteurs de membrane
   "/concepts/membrane_transportation": >
     <header><icon key="item_membrane_transporter2x" />Transport membranaire</header><break/>
-    Les membranes <red>ne</red> permettent <concept icon="item_microtubule" text="pas aux microtubules" /> de les traverser.<end/>
+    Les membranes <red>ne permettent pas</red> aux <concept icon="item_microtubule" text="microtubules" /> de les traverser.<end/>
     Vous devez utiliser des bâtiments spéciaux appelés transporteurs:<endl />
-    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter1x" text="uniporteurs" tooltip="membrane_transporter1x" />, qui sont capables de déplacer un seul élément dans une direction<endl/>
-    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter2x" text="cotransporteurs" tooltip="membrane_transporter2x" />, qui sont capables de déplacer deux éléments appariés dans la même direction ou en les échangeant<endl/>
+    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter1x" text="uniporteurs" tooltip="membrane_transporter1x" />, qui sont capables de déplacer un seul objet dans une direction<endl/>
+    <icon key="ui_guide_dot" /> <concept icon="item_membrane_transporter2x" text="cotransporteurs" tooltip="membrane_transporter2x" />, qui sont capables de déplacer deux objets apparéiés dans la même direction ou en les échangeant<endl/>
     <endl/>
-    Les transporteurs fonctionnent comme les catalyseurs et les enzymes, vous devez insérer un élément de transporteur spécifique qui configure quels éléments peuvent être transportés par le bâtiment.<endl/>
+    Les transporteurs fonctionnent comme les catalyseurs et les enzymes, vous devez insérer une configuration de transporteur spécifique qui définie quels objets peuvent être transportés par celui-ci.<endl/>
     <canvas size="0 0" scale="2" align="center">
     <image key="item_uniporter_gas" tile="0 0" />
     <image key="item_antiporter_atp_adp" tile="2 0" />
     <image key="item_antiporter_nadh_nad" tile="4 0" />
     </canvas>
     <endl/>
-    <icon key="ui_warning_sign_yellow"/><warning>Les cotransporteurs ne fonctionnent que lorsque les deux éléments sont présents à l'intérieur du bâtiment. Sinon, ils attendront d'être remplis.</warning><break/>
+    <icon key="ui_warning_sign_yellow"/><warning>Les cotransporteurs ne fonctionnent que lorsque les deux éléments sont présents à l'intérieur du transporteur. Sinon, ils attendront d'être remplis.</warning><break/>
     <canvas size="0 0" scale="1" align="center" key="object_usage_membrane_transporter2x" />
     <icon key="ui_icon_idea_lamp" />Certains transporteurs peuvent inverser leur direction, il suffit d'utiliser <keycap action="execute_first_action" /> ou le menu contextuel.<break/>
 
@@ -899,15 +890,15 @@ content:
     <break/>
     Son but est la production d'énergie par le biais de la <concept icon="item_electron_transport_chain" text="chaîne de transport d'électrons" tooltip="electron_transport_chain" />.
     Cette énergie peut être consommée par deux bâtiments:<break/>
-    <concept icon="item_atp_synthase" text="ATP synthases" tooltip="atp_synthase" />, qui convertissent l'<concept icon="item_adp" text="ADP" /> en <concept icon="item_atp" text="ATP" />
+    <concept icon="item_atp_synthase" text="Les ATP synthases" tooltip="atp_synthase" /> convertissent l'<concept icon="item_adp" text="ADP" /> en <concept icon="item_atp" text="ATP" />
     pour être consommés par les <concept icon="item_energy_supplier_mk2" text="fournisseurs d'énergie" link="/concepts/energy" /><endl/>
     <canvas size="0 0" scale="1" align="center" key="object_usage_atp_synthase" /><endl/>
     <break/>
     
-    <concept icon="item_decoupler" text="découpleurs" tooltip="decoupler" />, qui produisent beaucoup de chaleur qui aide à maintenir votre organisme <concept text="chaud" link="/concepts/temperature" /><endl/>
+    <concept icon="item_decoupler" text="Les découpleurs" tooltip="decoupler" /> produisent beaucoup de chaleur qui aide à maintenir votre organisme <concept text="chaud" link="/concepts/temperature" /><endl/>
     <canvas size="0 0" scale="1" align="center" key="object_usage_decoupler" /><endl/>
     <break/>
-    <icon key="ui_icon_idea_lamp" />Pour déplacer des éléments à l'intérieur et à l'extérieur des mitochondries, vous aurez besoin de <concept link="/concepts/membrane_transportation" text="transporteurs de membrane" />.
+    <icon key="ui_icon_idea_lamp" />Pour déplacer des éléments à l'intérieur et à l'extérieur des mitochondries, vous aurez besoin de <concept link="/concepts/membrane_transportation" text="transporteurs membranaires" />.
     
 
 # ---------------------
@@ -917,71 +908,68 @@ content:
   "/reference/structures/crafters/ribosome": >
     <header><icon key="item_ribosome" />Ribosome</header>
     <endl /><endl />
-       <icon key="ui_guide_dot"/>The Ribosome, found within all cells, links amino acids together <icon key="item_aminoacid_yellow" /> <icon key="item_aminoacid_green" /><endl />in the order  specified to create new important materials.<endl /><endl /> 
+       <icon key="ui_guide_dot"/>Le Ribosome, présent dans toutes les cellules, lie les acides aminés ensemble <icon key="item_aminoacid_yellow" /> <icon key="item_aminoacid_green" /><endl />dans un ordre spécifique pour créer de nouveaux matériaux importants.<endl /><endl /> 
        
-       <icon key="ui_guide_dot"/>Each ribosome is formed of two ribosome subunits.
+       <icon key="ui_guide_dot"/>Chaque ribosome est formé de deux sous-unités.
        <icon key="item_subunit_red" /><icon key="item_subunit_red" />
        <endl /><endl />
-       <icon key="ui_guide_exclamation"/>It is the main production unit of every cell.<endl />
+       <icon key="ui_guide_exclamation"/>C'est l'unité de production principal de toute cellule.<endl />
        <endl /><endl />
 
        <canvas size="0 0" scale="2" align="center" key="object_usage_ribosome" />
        <break />
-       <icon key="ui_guide_arrow_yellow"/><name>Ribosome craft:</name><endl/>
+       <icon key="ui_guide_arrow_yellow"/><name>Fabrication de ribosome:</name><endl/>
        <recipe key="ribosome" compact="true" />
 
   "/reference/structures/crafters/assembler": >
-    <header><icon key="item_assembler" />Assembler</header>
+    <header><icon key="item_assembler" />Assembleur</header>
     <endl /><endl />
-      <icon key="ui_guide_dot"/>The assembler is used to craft useful complex items with materials usually coming from a ribosome. <endl /><endl />
+      <icon key="ui_guide_dot"/>L'assembleur est utilisée pour fabriquer des objets complexes à l'aide de matériaux provenant généralement d'un ribosome. <endl /><endl />
 
       <canvas size="0 0" scale="2" align="center" key="object_usage_assembler" />
       <break />
 
-      <icon key="ui_guide_arrow_yellow"/><name>Assembler craft:</name><endl/>
+      <icon key="ui_guide_arrow_yellow"/><name>Fabrication d'assembleur:</name><endl/>
       <recipe key="assembler" compact="true" />
 
 
     
   "/reference/structures/crafters/catalyzer": >
-    <header><icon key="item_catalyzer" />Catalyzer</header>
+    <header><icon key="item_catalyzer" />Catalyseur</header>
     <endl /><endl />
        The catalyser utilizes enzymes <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
        to specify reactions, which are particular advanced crafts that will be used for metabolism: 
+       Le catalyseur utilise des enzymes <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
+       pour définir des réactions, qui sont des recettes avancées qui sont utilisés pour métaboliser: 
        
        <endl /><endl />
        
-       <icon key="item_atp" /><link target="/reference/structures/energy/atp_synthase">generating energy</link>,  <icon key="item_adp" />recycling materials and so on.
+       <icon key="item_atp" /><link target="/reference/structures/energy/atp_synthase">La génération d'énergie</link>,  <icon key="item_adp" />le recyclage de matériaux, etc.
 
        <endl /><endl /><endl />
 
        <canvas size="0 0" scale="2" align="center"  key="object_usage_catalyzer" />
        <break />
 
-       <icon key="ui_guide_arrow_yellow"/><name>Catalyzer craft:</name><endl/>
+       <icon key="ui_guide_arrow_yellow"/><name>Fabrication de catalyseur:</name><endl/>
        <recipe key="catalyzer" compact="true" />
 
 
   # ---------------------
-  # Structures - Crafters
+  # Structures - Evolution
   # ---------------------
 
   "/reference/structures/evolution/evolver": >
-    <header><icon key="item_evolver" />Evolver</header>
+    <header><icon key="item_evolver" />Évolueur</header>
     <endl /><endl />
-       The catalyser utilizes enzymes <icon key="item_glycolysis_enzyme" /><icon key="item_krebs_cycle_enzyme" /><icon key="item_lipase_enzyme" />
-       to specify reactions, which are particular advanced crafts that will be used for metabolism: 
+       L'évolueur est un bâtiment utilisant des <concept icon="item_cytosine" text="nucléotides" /> ou des <concept icon="item_base_pair_cg" text="paires de base" /> pour effectuer des <link target="/concepts/evolution">recherches</link>.
        
        <endl /><endl />
-       
-       <icon key="item_atp" /><link target="/reference/structures/energy/atp_synthase">generating energy</link>,  <icon key="item_adp" />recycling materials and so on.
-
-       <endl /><endl /><endl />
 
        <canvas size="0 0" scale="2" align="center"  key="object_usage_evolver" />
        <break />
 
-       <icon key="ui_guide_arrow_yellow"/><name>Evolver craft:</name><endl/>
+       <icon key="ui_guide_arrow_yellow"/><name>Fabrication d'évolueur:</name><endl/>
        <recipe key="evolver" compact="true" />
       
 

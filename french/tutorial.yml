@@ -7,9 +7,9 @@ pages:
     <endl/>
     Vous commencez comme un organisme à la dérive.
     <break/>
-    Vous devrez vous chauffer et combattre des envahisseurs comme les bactéries pour trouver des ressources.<endl/><endl/>
-    Ne soyez pas intimidé par les noms des objets et les mécaniques !<break/><icon key="item_aminoacid_red"/>Les acides aminés sont des sphères, <icon key="item_tubulin_yellow"/>les tubulines sont des tubes.<endl/><endl/><icon key="ui_icon_open_recipe_list"/>La vue des recettes en bas à droite est très utile !<endl/>Utilisez-la pour voir les matériaux nécessaires.<endl/>
-    Survolez les objets pour voir leur fonctionnement.
+    Vous devrez vous chauffer, combattre des envahisseurs comme les bactéries et vous étendre pour trouver des ressources.<endl/><endl/>
+    Ne soyez pas intimidé par les noms des objets et les mécaniques !<break/><icon key="item_aminoacid_red"/>Les acides aminés sont des sphères, <icon key="item_tubulin_yellow"/>les tubulines sont des tubes.<endl/><endl/><icon key="ui_icon_open_recipe_list"/>La liste des recettes en bas à droite est très utile !<endl/>Utilisez-la pour voir les matériaux nécessaires à la création d'objets.<endl/>
+    Survolez les objets permet de voir leur fonctionnement.
   </content>
 
 - >
@@ -33,7 +33,7 @@ pages:
 
 - >
   <content>
-    Le vide bleu contient de nombreux objets utiles pour fabriquer des matériaux intermédiaires, des structures, de l'énergie, défendre et étendre.<endl /><endl />
+    Le vide bleu contient de nombreux objets utiles pour fabriquer des matériaux intermédiaires, des structures, de l'énergie, se défendre et s'étendre.<endl /><endl />
     Votre première tâche est de rassembler une sous-unité jaune <icon key="item_subunit_yellow"/> avec votre souris. Toute ressource peut être ramassée manuellement.<endl /><endl />Cela peut être utile dans de nombreuses situations !<endl />
     <endl />
     Maintenant, déposez la sous-unité jaune <icon key="item_subunit_yellow"/> quelque part sur le sol de votre cellule.<endl/>
@@ -58,7 +58,7 @@ pages:
 - >  
   <content>
     <icon key="item_workbench"/>L'établi est utilisé pour assembler manuellement des structures qui seront utilisées plus tard pour l'automatisation. C'est inefficace mais pratique ! <endl/> <endl/>
-    Maintenant, prenez l'établi assemblé et placez-le quelque part sur le sol avec votre souris.<endl />
+    Maintenant, prenez l'établi et placez-le quelque part sur le sol avec votre souris.<endl />
     <image path="tutorial/quickstart_6.png" scale="1" />
     <endl />
     Vous pouvez cliquer sur les bâtiments pour ouvrir leur menu contextuel.<endl/>
@@ -68,9 +68,9 @@ pages:
   
 - >
   <content>
-    Votre prochain objectif est maintenant d'automatiser la collecte de ressources depuis un tas de ressources extérieur, cela nécessitera de construire plusieurs objets : <endl /><endl />
+    Votre prochain objectif est maintenant d'automatiser la collecte de ressources depuis un amas de ressources extérieur, cela nécessitera de construire plusieurs objets : <endl /><endl />
     <icon key="ui_guide_dot"/> <icon key="item_microtubule"/> microtubules, utilisés pour acheminer les objets <break/>
-    <icon key="ui_guide_dot"/> <icon key="item_picker"/> sélecteurs, utilisés pour déplacer les objets vers et depuis les structures <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_picker"/> ramasseurs, utilisés pour déplacer les objets vers et depuis les structures <break/>
     <icon key="ui_guide_dot"/> <icon key="item_cytostome1x"/> cytostomes, capables de siphonner les objets de l'extérieur <endl />
     <image path="tutorial/quickstart_1extra.png" scale="1" />
     <endl />
@@ -80,11 +80,11 @@ pages:
 - >
   <content>
     Commençons à fabriquer les structures nécessaires pour l'automatisation de base !<endl /><endl />
-    Dans votre liste de recettes, qui se trouve en bas à droite de l'écran, vous pouvez survoler les recettes disponibles et voir leurs matériaux, survolons un cytostome <icon key="item_cytostome1x"/><endl />
+    Dans votre liste de recettes, en bas à droite de l'écran, vous pouvez survoler les recettes et voir leurs matériaux. Survolons un cytostome <icon key="item_cytostome1x"/><endl />
     <recipe key="cytostome1x" compact="true" />Voici les matériaux nécessaires pour le construire.
     
-    Les tubulines sont un matériel intermédiaire utilisé pour fabriquer de nombreuses structures de base.<break/>
-    L'établi est pratique car il peut fabriquer toutes les étapes des ressources intermédiaires en utilisant juste les matériaux de base :<endl /><endl />
+    Les tubulines sont des matériaux intermédiaires utilisés pour fabriquer de nombreuses structures de base.<break/>
+    L'établi est pratique car il peut fabriquer toutes les étapes intermédiaires en utilisant juste les matériaux de base :<endl /><endl />
     <p align="center"><icon key="item_aminoacid_blue"/><icon key="item_aminoacid_green"/><icon key="item_aminoacid_red"/><icon key="item_aminoacid_yellow"/><endl/><endl /></p>
     Placez les acides aminés requis dans l'établi, cliquez dessus et choisissez les structures à assembler.<break/>
     Vous pouvez également mettre en file d'attente plusieurs fabrications dans l'établi tant qu'il y a assez d'espace dedans !
@@ -96,13 +96,13 @@ pages:
 
 - >
   <content>
-    <icon key="item_cytostome1x"/>Maintenant, prenez le cytostome fabriqué et placez-le sur un mur à côté d'un tas de ressources en acide aminé rouge <icon key="item_aminoacid_red"/>.
+    <icon key="item_cytostome1x"/>Maintenant, prenez le cytostome et placez-le sur un mur à côté d'un tas de ressources en acide aminé rouge <icon key="item_aminoacid_red"/>.
     <break/>
     <image path="tutorial/quickstart_8.png" scale="1" />
     <endl />
     Vous verrez le cytostome commencer à travailler et siphonner lentement un objet. Vous pouvez saisir manuellement l'objet du cytostome avec votre souris.<break/>
-    Le cytostome est haut sur le mur de la cellule, mais siphonne au sol à l'intérieur de la cellule.<break/>
-    <icon key="ui_icon_toggle_buildings_on"/>Pour voir sa base de siphonnage (où vous connecterez le sélecteur) vous pouvez activer "afficher les bâtiments" dans la barre inférieure.<break/>
+    Le cytostome syphonne en haut du mur de la cellule, mais relâche au sol à l'intérieur de la cellule.<break/>
+    <icon key="ui_icon_toggle_buildings_on"/>Pour voir sa base (où vous connecterez le ramasseur) vous pouvez activer l'option "afficher les bâtiments" dans la barre inférieure.<break/>
   </content>
 
 - >
@@ -110,11 +110,11 @@ pages:
     <icon key="item_microtubule"/>Nous avons maintenant besoin d'un moyen d'acheminer automatiquement les objets depuis le cytostome. <endl /><endl />
     Les microtubules sont comme de petits rails qui peuvent transporter des objets dans la cellule.
     Construisons nos premiers microtubules.
-    Rassemblez les matériaux nécessaires et mettez les fabrications en file d'attente dans l'établi :<break/><endl />
+    Rassemblez les matériaux nécessaires et mettez leurs fabrications en file d'attente dans l'établi :<break/><endl />
     <p align="center"><icon key="item_tubulin_red"/><icon key="item_tubulin_red"/><icon key="item_microtubule_primitive"/><break/></p>
     Attendez que le résultat soit prêt et prenez-le.<break/>
     Que s'est-il passé ? Le microtubule a disparu !<break/>
-    C'est parce que les microtubules sont automatiquement stockés dans un entrepôt pour que vous puissiez les utiliser avec un outil spécifique.<endl/><endl/>
+    C'est parce que les microtubules sont automatiquement stockés dans une réserve pour que vous puissiez les utiliser avec un outil spécifique.<endl/><endl/>
     <image path="tutorial/quickstart_9.png" scale="1" />
     <break/>
   </content>
@@ -123,9 +123,9 @@ pages:
   <content>
     Maintenant, passez à l'outil de placement de microtubule avec <keycap action="switch_tool_microtubule_metatool" />, vous verrez qu'il y a plusieurs types de microtubules, 
     mais seul le premier est disponible pour l'instant.<break/>
-    Le microtubule primitif est plus lent, vous devez rechercher de meilleures versions.<break/>
+    Le microtubule primitif est le plus lent, vous devrez rechercher de meilleures versions.<break/>
     <p align="center"><icon key="item_microtubule"/><icon key="item_microtubule_advanced"/><break/></p>
-    Cliquez à gauche pour placer des microtubules à côté de la base du cytostome pour préparer l'itinéraire pour les objets.<break/>
+    Cliquez gauche pour placer des microtubules à côté de la base du cytostome pour préparer l'itinéraire pour les objets.<break/>
     <image path="tutorial/quickstart_10.png" scale="1" />
     <endl />
     Les microtubules peuvent être retirés avec votre souris.
@@ -134,15 +134,15 @@ pages:
   
 - >
   <content>
-    <icon key="item_picker_primitive" />Nous avons maintenant besoin d'un sélecteur, utilisé pour déplacer des objets vers et depuis les structures.<endl/>
-    Rassemblez les matériaux et mettez la fabrication en file d'attente dans l'établi :<endl/><recipe key="picker_primitive" compact="true" /><endl/>
-    Une fois prêt, placez le sélecteur à côté de la base du cytostome.<break/>
-    Avec <keycap action="execute_first_action" /> et <keycap action="execute_second_action" /> vous pouvez faire pivoter ou retourner le sélecteur. 
-    Configurez-le pour qu'il récupère depuis le cytostome (la partie fine du sélecteur va sous la base du cytostome).<endl/>
+    <icon key="item_picker_primitive" />Nous avons maintenant besoin d'un ramasseur, utilisé pour déplacer des objets vers et depuis les structures.<endl/>
+    Rassemblez les matériaux et mettez leur fabrication en file d'attente dans l'établi :<endl/><recipe key="picker_primitive" compact="true" /><endl/>
+    Une fois prêt, placez le ramasseur à la base du cytostome.<break/>
+    Avec <keycap action="execute_first_action" /> et <keycap action="execute_second_action" /> vous pouvez faire pivoter ou retourner le ramasseur. 
+    Configurez-le pour qu'il récupère depuis le cytostome (la partie fine du ramasseur va sous la base du cytostome).<endl/>
     <image path="tutorial/quickstart_11.png" scale="1" />
     <endl/>
 
-    <icon key="ui_icon_toggle_buildings_on"/><icon key="ui_icon_toggle_walls_on"/>Pour obtenir une meilleure vue lors de la pose des structures, vous pouvez activer "afficher les bâtiments" qui vous donnera une vue plus claire et plus plate de la carte.
+    <icon key="ui_icon_toggle_buildings_on"/><icon key="ui_icon_toggle_walls_on"/>Pour obtenir une meilleure vue lors de la pose des structures, vous pouvez activer l'option "afficher les bâtiments" qui vous donnera une vue plus claire et plus plate de la carte.
   </content>
 
 - >
@@ -150,12 +150,12 @@ pages:
     <icon key="item_tubulin_red" />Il est temps d'automatiser la production de vos premières protéines !<break/>
     <icon key="item_ribosome" />Cela se fait en utilisant un ribosome, capable de fabriquer des matériaux intermédiaires.
 
-    Rassemblez les objets nécessaires pour fabriquer le ribosome dans l'établi.<break/><icon key="ui_icon_open_recipe_list"/>N'oubliez pas d'utiliser la vue des recettes comme légende !<break/><endl />
+    Rassemblez les objets nécessaires pour fabriquer le ribosome dans l'établi.<break/><icon key="ui_icon_open_recipe_list"/>N'oubliez pas d'utiliser la liste des recettes comme légende !<break/><endl />
     <p align="center"><icon key="item_subunit_red"/><icon key="item_subunit_red"/><icon key="item_ribosome"/><break/></p>
 
     Maintenant, placez le ribosome près des microtubules que vous avez précédemment placés.<break/>
-    <icon key="ui_icon_destroy"/>Vous pouvez retirer toute structure placée avec l'outil de destruction des structures.
-    <icon key="ui_icon_oxidation_usages"/>Les structures oxydées ne rendront pas l'objet.<endl/>
+    <icon key="ui_icon_destroy"/>Vous pouvez retirer toute structure placée avec l'outil de destruction.
+    <icon key="ui_icon_oxidation_usages"/>Les structures oxydées ne rendent pas d'objet.<endl/>
     <image path="tutorial/quickstart_12.png" scale="1" />
     <break/>
 
@@ -165,13 +165,13 @@ pages:
 - >
   <content>
     Nous devons connecter le ribosome aux microtubules.<endl />
-    Fabriquez un autre sélecteur primitif <icon key="item_picker_primitive" /> et placez-le de manière à avoir une ligne de transport complète du cytostome au ribosome.<endl />
+    Fabriquez un autre ramasseur primitif <icon key="item_picker_primitive" /> et placez-le de manière à avoir une ligne de transport complète du cytostome au ribosome.<endl />
     <image path="tutorial/quickstart_13.png" scale="1" />
     <endl />
 
-    Appuyez maintenant sur <keycap action="execute_first_action" /> sur le ribosome pour le configurer pour produire des tubulines rouges <icon key="item_tubulin_red" /> et observez votre premier ribosome fonctionner !<endl /><endl />
-    <icon key="item_microtubule"/>Le microtubule se trouve sur la partie surélevée du sélecteur, là où se trouve la flèche du sélecteur. La partie inférieure et plus fine du sélecteur doit passer sous les structures.<endl /><endl />
-    <icon key="item_picker_primitive"/>La direction de la flèche du sélecteur détermine si le sélecteur insère ou extrait de la structure.
+    Appuyez maintenant sur <keycap action="execute_first_action" /> sur le ribosome afin de le configurer pour produire des tubulines rouges <icon key="item_tubulin_red" /> et observez votre premier ribosome fonctionner !<endl /><endl />
+    <icon key="item_microtubule"/>Le microtubule se trouve sur la partie surélevée du ramasseur, là où se trouve la flèche du ramasseur. La partie inférieure et plus fine du ramasseur doit passer sous les structures.<endl /><endl />
+    <icon key="item_picker_primitive"/>La direction de la flèche du ramasseur détermine si le ramasseur insère ou extrait de la structure.
     
 
   </content>
@@ -190,9 +190,9 @@ pages:
   
 - >
   <content>
-    Automatisons la production de microtubules <icon key="item_microtubule_primitive" /> et de sélecteurs. <icon key="item_picker_primitive" /><break/>
+    Automatisons la production de microtubules <icon key="item_microtubule_primitive" /> et de ramasseurs. <icon key="item_picker_primitive" /><break/>
     <icon key="item_assembler" />Pour cela, nous devons créer 2x assembleurs. <break/>
-    <icon key="ui_icon_open_evolution_view" />Mais nous ne pouvons toujours pas les fabriquer, car nous devons débloquer la recette de l'assembleur dans la vue évolution.<break/>
+    <icon key="ui_icon_open_evolution_view" />Mais nous ne pouvons pas encore les fabriquer, car nous devons débloquer la recette de l'assembleur dans la vue évolution.<break/>
     <image path="tutorial/quickstart_17a.png" scale="1" />
     <endl />
     <icon key="item_evolver"/>Pour découvrir de nouvelles recettes, nous devons construire un évolueur, créons-le et plaçons-le quelque part sur le sol.
@@ -200,7 +200,7 @@ pages:
 
 - >
   <content>
-    L'évolueur consomme du matériel génétique appelé nucléobases pour découvrir de nouvelles recettes.<break/>
+    L'évolueur consomme du matériel génétique appelé nucléotides pour découvrir de nouvelles recettes.<break/>
     <p align="center"><icon key="item_adenine"/><icon key="item_thymine"/><icon key="item_guanine"/><icon key="item_cytosine"/><break/></p>
     Ouvrez la vue évolution avec <keycap action="open_evolution_view" />, recherchez <p color="#f5e042">Production Intracellulaire</p> et commencez sa recherche.<break/>
     <image path="tutorial/quickstart_16.png" scale="1" />
@@ -209,11 +209,11 @@ pages:
 
 - >
   <content>
-    <icon key="item_thymine"/>Maintenant, nourrissez l'évolueur avec les nucléobases requises, qui peuvent être collectées dans le vide. Attendez que la recherche soit terminée.<break/>
-    <icon key="item_evolver" />L'évolueur n'accepte qu'un objet à la fois, mais vous pouvez construire plusieurs recherches pour améliorer l'efficacité.<break/>
+    <icon key="item_thymine"/>Maintenant, nourrissez l'évolueur avec les nucléotides requises, qui peuvent être collectées dans le vide. Attendez que la recherche soit terminée.<break/>
+    <icon key="item_evolver" />L'évolueur n'accepte qu'un seul objet à la fois, mais vous pouvez construire plusieurs évolueur pour améliorer l'efficacité.<break/>
     <image path="tutorial/quickstart_18.png" scale="1" />
     <endl />
-    Vous pouvez vérifier l'état en survolant l'évolution dans la barre d'état.<endl />
+    Vous pouvez vérifier l'état en survolant l'évolueur dans la barre d'état.<endl />
     <image path="tutorial/quickstart_18b.png" scale="1" />
     <break/>
   </content>
@@ -224,8 +224,8 @@ pages:
 
     Créer les assembleurs <icon key="item_assembler" /> <break/>
     Placez-les à proximité des ribosomes existants <icon key="item_ribosome" /> <break/>
-    Terminez de connecter tout avec plus de microtubules <icon key="item_microtubule" /> et de sélecteurs <icon key="item_picker" /> <endl />
-    Configurez <keycap action="execute_first_action" /> les assembleurs pour produire des microtubules <icon key="item_microtubule_primitive" /> et des sélecteurs. <icon key="item_picker_primitive" /><endl />
+    Terminez de connecter tout avec plus de microtubules <icon key="item_microtubule" /> et de ramasseurs <icon key="item_picker" /> <endl />
+    Configurez <keycap action="execute_first_action" /> les assembleurs pour produire des microtubules <icon key="item_microtubule_primitive" /> et des ramasseurs. <icon key="item_picker_primitive" /><endl />
     <image path="tutorial/quickstart_19.png" scale="1" />
     <endl />
     Nous vous suggérons de construire vos premiers ribosomes et assembleurs et d'automatiser la fabrication dès que vous maîtrisez le processus !<endl />
@@ -234,17 +234,17 @@ pages:
 
 - >
   <content>
-    <icon key="ui_icon_oxidation_usages"/>Avec le temps, les bâtiments primitifs s'oxyderont, devenant inopérants.<break/>
-    <icon key="item_cytostome1x"/><icon key="item_picker_primitive"/>Pour remplacer un sélecteur ou un cytostome oxydé, construisez-en simplement un autre et placez-le sur l'ancien.<endl />
+    <icon key="ui_icon_oxidation_usages"/>Avec le temps, les structures primitives s'oxyderont, devenant inopérantes.<break/>
+    <icon key="item_cytostome1x"/><icon key="item_picker_primitive"/>Pour remplacer un ramasseur ou un cytostome oxydé, construisez-en simplement un autre et placez-le sur l'ancien.<endl />
 
     <image path="tutorial/quickstart_oxidation.png" scale="1" />
 
     <icon key="item_diffuser"/>Vous pouvez également construire des diffuseurs d'objets qui, s'ils sont alimentés avec l'objet approprié, remplaceront automatiquement leur équivalent oxydé à proximité.<endl />
 
-    Pour surmonter ce problème, vous devez rechercher des structures améliorées, qui ne s'oxyderont plus.<endl /><endl />
+    Pour surmonter ce problème, vous devrez rechercher des structures améliorées, qui ne s'oxyderont plus.<endl /><endl />
 
     <icon key="item_cytostome2x" /> Le cytostome est la version améliorée du cytostome primitif, plus rapide avec une capacité d'aspiration double.<endl /><endl />
-    <icon key="item_picker" /> Les sélecteurs noirs ne s'oxydent pas et peuvent être fabriqués en variantes de filtrage de couleur et de matériel.<endl /><endl />
+    <icon key="item_picker" /> Les ramasseurs noirs ne s'oxydent pas et peuvent être fabriqués en variantes pour filtrer par couleur et matériel.<endl /><endl />
 
     <icon key="item_atp" /> Les structures améliorées nécessitent de l'énergie pour fonctionner !<endl /><endl />
 
@@ -259,7 +259,7 @@ pages:
     <icon key="item_energy_supplier_mk2" />Les fournisseurs améliorés fourniront de l'énergie sur une plus grande portée.<endl /><endl />
 
     <icon key="item_atp"/>Pour que les fournisseurs d'énergie fonctionnent, vous devez les alimenter avec des molécules d'ATP (trouvées à l'extérieur dans le vide).<endl />
-    <icon key="item_adp"/>Lorsque l'ATP est déchargé, il sera expulsé par les fournisseurs sous forme d'ADP.<endl />Pensez à une batterie, retirez l'ancien, mettez le nouveau !<endl /><endl />
+    <icon key="item_adp"/>Lorsque l'ATP est déchargé, il sera expulsé par les fournisseurs sous forme d'ADP.<endl />Pensez à une batterie, remplacez l'ancienne par la nouvelle !<endl /><endl />
 
     <icon key="item_energy_pole"/>Pour étendre la portée entre deux fournisseurs d'énergie, utilisez des poteaux énergétiques ! <endl /><endl />
     <icon key="ui_icon_toggle_power_overlay_on"/>Cela étendra considérablement la portée sans utiliser de ressource.
@@ -272,10 +272,10 @@ pages:
 
 - >
   <content>
-    Il est maintenant temps pour vous de continuer à explorer les évolutions disponibles et d'élargir votre système logistique par vous-même ! <break/>Soyez conscient <icon key="ui_warning_sign_red" /> <endl />
+    Il est maintenant temps pour vous de continuer à explorer les évolutions disponibles et d'élargir votre système logistique par vous-même ! <break/>Soyez attentifs <icon key="ui_warning_sign_red" /> <endl />
     <image path="tutorial/quickstart_20b.png" scale="1" />
     <endl />
-    <icon key="ui_icon_temperature" />La température extérieure baisse lentement et vous aurez besoin d'un moyen de générer de la chaleur avec un mitochondrion <icon key="item_mitochondrial_membrane" /> et des découpleurs <icon key="item_decoupler" /> <endl /><endl />
+    <icon key="ui_icon_temperature" />La température extérieure baisse lentement et vous aurez besoin d'un moyen de générer de la chaleur avec une mitochondrie <icon key="item_mitochondrial_membrane" /> et des découpleurs <icon key="item_decoupler" /> <endl /><endl />
     <icon key="item_bacterial_vegetation_bacillus_green"/> À l'extérieur dans l'obscurité, des bactéries rampent, soyez prêt avec des diffuseurs <icon key="item_diffuser" /> et des lanceurs <icon key="item_launcher1x" /> <break/>
     <icon key="ui_icon_chunk_planner"/> Les ressources finiront par s'épuiser, vous devrez vous étendre pour en trouver de nouvelles.
     <break/>
@@ -284,10 +284,10 @@ pages:
 - >
   <content>
     Le tutoriel se termine ici pour l'instant ! En cas de doute :<break/>
-    <icon key="ui_guide_dot"/> consultez le guide en jeu via <keycap action="open_game_guide" /><break/>
-    <icon key="ui_guide_dot"/> complétez les objectifs, consultez la vue du voyage <keycap action="open_journey_view" /> et la liste des objectifs <keycap action="open_goal_list" /><break/>
-    <icon key="ui_guide_dot"/> si vous rencontrez des difficultés, venez sur notre Discord où vous trouverez de l'aide !<endl />
+    <icon key="ui_guide_dot"/> Consultez le guide en jeu via <keycap action="open_game_guide" /><break/>
+    <icon key="ui_guide_dot"/> Complétez les objectifs, consultez l'odyssée <keycap action="open_journey_view" /> et la liste des objectifs <keycap action="open_goal_list" /><break/>
+    <icon key="ui_guide_dot"/> Si vous rencontrez des difficultés, venez sur notre Discord où vous trouverez de l'aide !<endl />
     <image path="tutorial/quickstart_22.png" scale="1" /><endl/>
-    Ce jeu est en accès anticipé, il peut donc encore être imparfait. Mais si vous lisez toujours, cela montre votre patience, vous êtes en bonne voie !<break/>De nombreuses idées seront mises en œuvre à l'avenir au fur et à mesure du développement. Nous espérons que vous apprécierez le grand voyage que Lifecraft a à offrir !
+    Ce jeu est en accès anticipé, il peut donc encore être imparfait. Mais si vous lisez encore cecie, merci de votre patience, elle sera récompensée !<break/>De nombreuses idées seront ajouter à l'avenir au fur et à mesure du développement. Nous espérons que vous apprécierez le grand voyage que Lifecraft a à offrir !
     <break/>
   </content>
