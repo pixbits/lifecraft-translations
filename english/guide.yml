@@ -39,6 +39,8 @@ index:
       icon: item_collagen_flooring 
     - title: expansion
       icon: ui_icon_chunk_planner
+    - title: extracellular_buildings
+      icon: ui_icon_indirect_build
     - title: membrane_transportation
       icon: item_membrane_transporter2x
     - title: mitochondrion
@@ -172,13 +174,20 @@ content:
 
      <icon key="ui_guide_exclamation"/>Welcome to lifecraft!
      <endl /><endl />
-      <icon key="ui_guide_dot"/>This guide will help you understanding the fundamentals of the Lifecraft, and shows the core concepts of it.
-     <endl /><endl />
-     <icon key="ui_guide_dot"/>It's also a reference, which shows all the structures and resources of the game, among with their description.
-     <endl /><endl />
-     <icon key="ui_guide_brain"/>Click on the desired section on the left pane of this window to <endl />show its contents.
-     <endl /><endl />
-     <icon key="ui_guide_exclamation"/>The content of the guide is definitely still WIP so please be patient if something is missing, is not clear or is poorly written.
+     This is a quite challenging game which requires to understand the fundamentals and mechanics to properly survive with you organism!<end />
+     We encourage you to use the tools that we provided to help you undersand how to play!
+     
+     <break />
+     <icon key="ui_guide_dot"/><icon key="ui_icon_open_game_guide"/>This guide will help you understanding the fundamentals of the game, and explains the core concepts of it. <keycap action="open_game_guide" />
+     <break />
+     <icon key="ui_guide_dot"/><icon key="ui_icon_open_tutorial"/> There is a tutorial which guides you through the first steps to start surviving <keycap action="open_tutorial" />
+     <break />
+     <icon key="ui_guide_dot"/><icon key="ui_icon_open_pathways_view"/> There is a pathways view which can be opened from top bar that shows at a glance the interactions between the structures of the game <keycap action="open_pathways_view" />
+     <break />
+     <icon key="ui_guide_dot"/>If you need any additional support don't forget to join our Discord and ask for help!
+     <break />
+     <icon key="ui_warning_sign_yellow"/><warning>The content of the guide is definitely still WIP so please be patient if something is missing, is not clear or is poorly written.
+     We're improving it update after update to cover all the topics.</warning>
 
   "/interface/controls": >
     <header><icon key="ui_mouse_button_left" />Controls</header><endl />
@@ -526,6 +535,14 @@ content:
       The same mechanism is applied for extracellular tissues like <icon key="item_collagen_flooring" /><name>extracellular matrix</name> which require <icon key="item_collagen_scaffold"/><name>collagen scaffold</name> underneath.
 
       <break />
+      
+  # extracellular buildings
+  "/concepts/extracellular_buildings": >
+    <header><icon key="ui_icon_indirect_build" />Extracellular Buildings</header>
+    Extracellular buildings are special compared to intracellular buildings.<endl/>
+    You can't build them directly, you must use <concept icon="item_dispatcher" text="dispatchers" tooltip="dispatcher" /> to deliver materials
+    and build them.
+    <endl />
 
   # bacteria
   "/concepts/bacteria": >
@@ -734,7 +751,7 @@ content:
     <endl/>
     <icon key="item_lung_tissue" /> <name>Extracellular Tissues</name><break/>
     <icon key="ui_guide_dot"/>they have capsules (even higher walls)<break/>
-    <icon key="ui_guide_dot"/>you are allowed to build there only <icon key="ui_icon_indirect_build" /> indirectly through <icon key="item_dispatcher" /><name>dispatchers</name><break/>
+    <icon key="ui_guide_dot"/>you are allowed to build there only <concept text="indirectly" icon="ui_icon_indirect_build" link="/concepts/extracellular_buildings" /> through <concept text="dispatchers" icon="item_dispatcher" tooltip="dispatcher" /><break/>
     <icon key="ui_guide_dot"/>they allow <icon key="item_red_blood_cell" /><name>cells</name> to move around <break/>
     <icon key="ui_guide_dot"/>they allow <icon key="item_artery2x2"/><icon key="item_vein2x2"/><name>vessels</name><break/>
     <endl/>
@@ -1939,7 +1956,7 @@ canvases:
   object_usage_lysosomal_membrane: >
     <zone from="0 0" to="3 3" key="lysosome"  emit="true" />
 
-  object_usage_uniporter_glucose: >
+  object_usage_uniporter_glucose____: >
     <zone from="4 0" to="7 3" key="cytosol"  emit="true" />
     <image key="object_picker" batch="1" facing="west" tile="3 2" align="lowerleft"/>
     <image key="ui_guide_props_void" tile="1 1" pos="0 6" />

@@ -7,21 +7,27 @@ strings:
   item_category_tubulin: Tubulin
   item_category_structural_protein: Structural
   item_category_logistics: Logistics
+  item_category_carrier: Carrier
   item_category_routing: Routing
   item_category_picker: Picker
+  item_category_tunnel: Tunnel
   item_category_storage: Storage
   item_category_poiesis: Poiesis
   item_category_structure: Structure
   item_category_energy: Energy
   item_category_enzyme: Enzyme
+  item_category_extracellular_enzyme: Extracellular Enzyme
   item_category_lipid: Lipid
   item_category_transporter: Transporter
   item_category_flow: Flow
   item_category_flow_urinary: Urinary
   item_category_flow_respiratory: Respiratory
   item_category_flow_circulatory: Circulatory
-  item_category_flow_digestive: Esophagus
-  item_category_flow_secretory: Secretory
+  item_category_flow_control: Flow Control
+  item_category_subsystem: Subsystem
+  item_category_subsystem_circulatory: Circulatory
+  item_category_subsystem_digestive: Digestive
+  item_category_subsystem_secretory: Secretory
   item_category_energy_production: Energy
   item_category_molecule_synthesis: Synthesis
   item_category_widget: Widget
@@ -40,13 +46,15 @@ strings:
   item_category_cell: Cell
   item_category_bacterium: Bacterium
   item_category_uncategorized: Uncategorized
+ 
+  item_category_extracellular_nutrient: Extracellular Nutrient
   
-  item_category_sugar: Sugar
 
   item_category_flooring: Flooring
   item_category_tissue: Tissue
   item_category_internal_zone: Internal
   item_category_bacterial_colony: Colony
+  item_category_resource_cluster: Resource Cluster
   item_category_unused_tissue: Unused
 
   item_color_red: Red
@@ -65,7 +73,7 @@ strings:
   item_name_subunit_blue: Blue Subunit
   item_name_aminoacid_red: Glycine
   item_name_aminoacid_yellow: Proline
-  item_name_aminoacid_green: Glutammine
+  item_name_aminoacid_green: Glutamine
   item_name_aminoacid_blue: Aspartate
   item_name_alpha_ketoglutarate: α-ketoglutarate
   item_name_collagen_chain_red: α-1 Collagen Chain
@@ -88,26 +96,27 @@ strings:
 
   item_name_picker: Picker
   item_name_picker_fast: Swift Picker
-  item_name_picker_red: Red Picker
+  item_name_picker_red: Picker <X999>(Red)
   item_name_picker_blue: Blue Picker
   item_name_picker_green: Green Picker
-  item_name_picker_yellow: Yellow Picker
+  item_name_picker_yellow: Picker <X999>(Yellow)
   item_name_picker_white: White Picker
   item_name_picker_gaseous: Gas Picker
   item_name_picker_genetic: Genomic Picker
+  item_name_picker_tissutal: Tissutal Picker
   item_name_picker_energetic: Energetic Picker
-  item_name_picker_long: Long Picker
-  item_name_picker_overlong: Overlong Picker
+  item_name_picker_long: Picker <X999>(Long)
+  item_name_picker_overlong: Picker <X999>(Overlong)
   item_name_picker_filter: Filtering Picker
-  item_name_picker_primitive: Primitive Picker
+  item_name_picker_primitive: Picker <X999>(Primitive)
 
   item_name_phospholipid: Phospholipid
   item_name_ribosome: Ribosome
   item_name_assembler: Assembler
   item_name_catalyzer: Catalyzer
-  item_name_stockpile1x: Tiny Stockpile
+  item_name_stockpile1x: Stockpile <X999>(Tiny)
   item_name_stockpile2x: Stockpile
-  item_name_stockpile4x: Huge Stockpile
+  item_name_stockpile4x: Stockpile <X999>(Huge)
   item_name_stockpile_filter2x: Filtering Stockpile
   item_name_infinite_container2x: Bottomless Box
   item_name_infinite_container1x: Tiny Bottomless Box
@@ -115,20 +124,22 @@ strings:
   item_name_evolver: Evolver
   item_name_balancer: Balancer
   item_name_item_tunnel: Item Tunnel
-  item_name_item_tunnel_primitive: Primitive Item Tunnel
-  item_name_cytostome1x: Primitive Cytostome
-  item_name_cytostome_ultimate: Ultimate Cytostome
+  item_name_item_tunnel_primitive: Item Tunnel  <X999>(Primitive)
+  item_name_item_tunnel_advanced: Item Tunnel <X999>(Advanced)
+  item_name_cytostome1x: Cytostome <X999>(Primitive)
+  item_name_cytostome_ultimate: Cytostome <X999>(Ultimate)
   item_name_cytostome2x: Cytostome
-  item_name_disposer1x: Primitive Disposer
+  item_name_disposer1x: Disposer <X999>(Primitive)
   item_name_disposer2x: Disposer
-  item_name_launcher1x: Primitive Launcher
+  item_name_launcher1x: Launcher <X999>(Primitive)
   item_name_launcher2x: Launcher
-  item_name_dispatcher_primitive: Primitive Dispatcher
+  item_name_dispatcher_primitive: Dispatcher <X999>(Primitive)
   item_name_dispatcher: Dispatcher
   item_name_diffuser: Diffuser
+  item_name_retriever: Retriever
   item_name_stasher: Stasher
   item_name_workbench: Workbench
-  item_name_energy_supplier_mk1: Primitive Energy Supplier
+  item_name_energy_supplier_mk1: Energy Supplier <X999>(Primitive)
   item_name_energy_supplier_mk2: Energy Supplier
   item_name_energy_pole: Energy Pole
   item_name_atp_synthase: ATP Synthase
@@ -215,6 +226,8 @@ strings:
   item_name_staminal_tissue: Staminal Tissue
   item_name_necrotic_tissue: Necrotic Tissue
   item_name_mitochondrial_membrane: Mitochondrial Membrane
+  item_name_small_intestine_extracellular_tissue: Small Intestine Tissue <X999>(Extracellular)
+  item_name_small_intestine_intracellular_tissue: Small Intestine Tissue <X999>(Intracellular)
 
   item_name_bacterial_vegetation_bacillus_blue: Blue Bacillus Bacterial Vegetation
   item_name_bacterial_vegetation_bacillus_green: Green Bacillus Bacterial Vegetation
@@ -229,6 +242,7 @@ strings:
 
   item_name_uniporter_mrna: mRNA Uniporter
   item_name_uniporter_pyruvate: Pyruvate Uniporter
+  item_name_uniporter_glucose: Glucose Uniporter
 
   item_name_virus: Virus
   item_name_bacterium_bacillus_blue: Blue Bacillus 
@@ -236,24 +250,30 @@ strings:
   item_name_bacterium_coccus_red: Red Coccus 
   item_name_bacterium_coccus_yellow: Yellow Coccus 
 
+  item_name_ileum1x1: Ileum <X999>(1x)
+  item_name_ileum2x2: Ileum <X999>(2x)
+  item_name_ileum4x4: Ileum <X999>(4x)
 
   item_name_capillary: Capillary
-  item_name_artery1x1: Small Artery
-  item_name_artery2x2: Medium Artery
-  item_name_artery4x4: Large Artery
-  item_name_vein1x1: Small Vein
-  item_name_vein2x2: Medium Vein
-  item_name_vein4x4: Large Vein
-  item_name_perforator_artery1x1: Small Perforator Artery
-  item_name_perforator_artery2x2: Medium Perforator Artery
-  item_name_perforator_artery4x4: Large Perforator Artery
-  item_name_perforator_vein1x1: Small Perforator Vein
-  item_name_perforator_vein2x2: Medium Perforator Vein
-  item_name_perforator_vein4x4: Large Perforator Vein
+  item_name_artery1x1: Artery <X999>(1x)
+  item_name_artery2x2: Artery <X999>(2x)
+  item_name_artery4x4: Artery <X999>(4x)
+  item_name_vein1x1: Vein <X999>(1x)
+  item_name_vein2x2: Vein <X999>(2x)
+  item_name_vein4x4: Vein <X999>(4x)
   item_name_perforator_capillary: Perforator Capillary
 
-  item_name_duct1x1: Small Duct
+  item_name_duct1x1: Duct <X999>(1x)
+  item_name_duct2x2: Duct <X999>(2x)
+  item_name_duct4x4: Duct <X999>(4x)
 
+  item_name_valve1x1: Valve <X999>(1x)
+  item_name_valve2x2: Valve <X999>(2x)
+  item_name_valve4x4: Valve <X999>(4x)
+
+  item_name_perforator_vessel1x1: Vessel Perforator <X999>(1x)
+  item_name_perforator_vessel2x2: Vessel Perforator <X999>(2x)
+  item_name_perforator_vessel4x4: Vessel Perforator <X999>(4x)
 
   item_name_cardiac_pump1x1: Small Cardiac Pump
   item_name_cardiac_pump2x2: Medium Cardiac Pump
@@ -354,6 +374,7 @@ strings:
   evolution_group_energy: Energy
   evolution_group_mitochondrial_energy: Mitochondrial Energy
   evolution_group_organelles: Organelles
+  evolution_group_digestion: Digestion
 
   item_description_picker: A <a>picker</a> can pick and drop items from microtubules and structures
   item_description_picker_red: A <a>picker</a> which works with red items only
@@ -363,6 +384,7 @@ strings:
   item_description_picker_white: A <a>picker</a> which works with white items only
   item_description_picker_genetic: A <a>picker</a> which works with genetic materials only
   item_description_picker_gaseous: A <a>picker</a> which works with gaseous items only
+  item_description_picker_tissutal: A <a>picker</a> which works with tissue items only
   item_description_picker_energetic: A <a>picker</a> which works with high energy molecules
   item_description_picker_filter: A <a>picker</a> which can be configured to filter specific items
   item_description_picker_fast: A <a>swift picker</a> is a picker which can move items faster
@@ -407,6 +429,8 @@ strings:
   item_description_cytochrome: "<a>Cytochromes</a> are proteins which are used inside some enzymes or to assemble an <a>Electron Transport Chain</a>"
   item_description_atp: "<a>ATP</a> is a charged molecule which can provide energy for all the processes involved in life"
   item_description_adp: "<a>ADP</a> is an uncharged molecule which can be turned back into <a>ATP</a> and used again to provide energy"
+  item_description_mega_atp: "<a>Mega ATP</a> is a compound <a>ATP</a> molecule used to fuel <a>energy stations</a> for extracellular energy production"
+  item_description_mega_adp: "<a>Mega ADP</a> is a compound uncharged <a>ADP</a> molecule used in extracellular energy production"
   item_description_adenine: "<a>Adenine</a> is a nucleobase, used for evolution and for synthesis of other molecules"
   item_description_thymine: "<a>Thymine</a> is a nucleobase, used for evolution and for synthesis of other molecules"
   item_description_guanine: "<a>Guanine</a> is a nucleobase, used for evolution and for synthesis of other molecules"
@@ -432,6 +456,7 @@ strings:
 
   item_description_item_kicker: An <a>item kicker</a> can be placed over <a>microtubule</a> to force a specific direction for items passing by
   item_description_item_tunnel: An <a>item tunnel</a> can move items below ground, two tunnels must be aligned to work properly
+  item_description_item_tunnel_advanced: An <a>advanced item tunnel</a> can move items below ground, two tunnels must be aligned to work properly
   item_description_item_tunnel_primitive: A <a>primitive item tunnel</a> can move items below ground, two tunnels must be aligned to work properly
   item_description_workbench: A <a>workbench</a> is a structure which is able to assemble proteins but can be used only manually
   item_description_evolver: An <a>evolver</a> is a structure used to discover new technologies by consuming <a>nucleobases</a>
@@ -462,7 +487,8 @@ strings:
   item_description_disposer2x: A <a>disposer</a> is used to get rid of items by throwing them outside the cell. It's better than a <a>small disposer</a> but requires energy to operate
   item_description_dispatcher: A <a>dispatcher</a> is used to send materials to growing chunks or to buildings which must be built outside cells
   item_description_dispatcher_primitive: A <a>dispatcher</a> is used to send materials to chunks or to buildings which must be built outside cells
-  item_description_diffuser: A <a>diffuser</a> is able to deliver materials locally, it can heal infected tiles or replace oxidized buildings
+  item_description_diffuser: A <a>diffuser</a> is able to deliver materials locally, it can heal infected tiles by suppling tissues or replace oxidized buildings
+  item_description_retriever: A <a>retriever</a> is able to retrieve floating items inside your organism
   item_description_mitochondrial_membrane: "<a>Mitochondrial Membrane</a> is used to build mitochondria inside intracellular zones"
   item_description_lysosomal_membrane: "<a>Lysosomal Membrane</a> is used to build lysosomes inside intracellular zones"
   item_description_collagen_scaffold: This is the basic extracellular tissue which can produce a scaffold for more advanced tissues to grow on
@@ -473,7 +499,14 @@ strings:
   item_description_collagen_flooring: <a>Collagen Flooring</a> is an extracellular tissue which can provide support for all kind of vessels
   item_description_cell_membrane: This is the basic unspecialized intracellular tissue used to expand your initial organism
   
+  item_description_small_intestine_intracellular_tissue: This tissue is able to absorb nutrients from intestine vessels and produce basic primitive enzymes to digest food
+  item_description_small_intestine_extracellular_tissue: This tissue is necessary to host <a>tanks</a> which are used to digest food into nutritive elements which can be absorbed
+  
+  item_description_uniporter_glucose: This transporter is able to transport glucose across membranes
   item_description_uniporter_gas: This transporter is able to move gas across membranes
+  item_description_uniporter_aminoacid: This transporter is able to transport aminoacid over membranes
+  item_description_uniporter_lipid: This transporter is able to transport lipids over membranes
+  item_description_uniporter_enzyme: This transporter is able to transport enzymes outside cells, this is useful to send digestive enzymes to process nutrients
   item_description_uniporter_pyruvate: This transporter is able to transport <a>Pyruvate</a> across a membrane
   item_description_uniporter_lysosome_inward: This transporter can move dismantable items into <a>lysosomes</a>
   item_description_uniporter_lysosome_outward: This transporter can move raw components outside <a>lysosomes</a>
@@ -490,6 +523,26 @@ strings:
   item_description_artery2x2: <a>Arteries</a> can transport blood from <a>cardiac pumps</a> around extracellular tissues
   item_description_artery4x4: <a>Arteries</a> can transport blood from <a>cardiac pumps</a> around extracellular tissues
 
+  item_description_perforator_vessel1x1: <a>Perforator Vessels</a> can connect two vessls of the same type with an underground connection, to help in crossing multiple lines
+  item_description_perforator_vessel2x2: ~item_description_perforator_vessel1x1
+  item_description_perforator_vessel4x4: ~item_description_perforator_vessel1x1
+
+  item_description_stoma: A <a>stoma</a> is a structure which can absorb a lot of resources from <a>clusters</a> in the void, it's the most primitive digestive system gatherer
+  item_description_primordial_anus: A <a>primordial anus</a> is a structure used to dispose of waste or unprocessed items from digestion
+  item_description_tank: <a>Tanks</a> are general purpose containers which can be used to process substances in extracellular zones
+  item_description_ileum1x1: <a>Ileum vessels</a> can transport nutrients in digestive system
+  item_description_ileum2x2: ~item_description_ileum1x1
+  item_description_ileum4x4: ~item_description_ileum1x1
+
+  item_description_valve1x1: <a>Valves</a> can be used to manually block transit between vessels
+  item_description_valve2x2: ~item_description_valve1x1
+  item_description_valve4x4: ~item_description_valve1x1
+
+  item_description_secretor: A <a>secretor</a> is used as a starting point which pushes enzymes through ducts toward <a>tanks</a>
+  item_description_duct1x1: <a>Ducts</a> are used to transport enzymes produced in intracellular tissues toward <a>tanks</a>
+  item_description_duct2x2: ~item_description_duct1x1
+  item_description_duct4x4: ~item_description_duct1x1
+
   item_description_door_intracellular3x: This structure can be opened and closed to allow organisms to pass through
 
   item_description_nad_synthase_enzyme: "This enzyme is used to synthesize <a>NAD+</a> and <a>NADH</a>"
@@ -497,6 +550,10 @@ strings:
   item_description_nucleobase_synthase_enzyme: This enzyme is used to synthesize <a>nucleobases</a> from raw components
   item_description_alcohol_dehydrogenase: This enzyme is used to convert <a>pyruvate</a> back and forth to <a>ethanol</a>
 
+  item_description_amilase_enzyme: This enzyme is able to break down starch down to glucose
+  item_description_proteinase_enzyme: This enzyme is able to break down complex proteins down to aminoacids
+  item_description_lipase_enzyme: This enzyme is able to break down lipids to an assimilable form
+  
   item_description_energy_drain: A customizable energy drain that can be used to absorb intracellular energy
   item_description_black_box: A customizable structure which can convert any specific item into any other specific item
   item_description_heater: A customizable structure which produces heat with no energy required
@@ -505,6 +562,7 @@ strings:
   zone_description_extracellular_matrix: "<a>Connective Tissue</a> is a zone which can be used for transportation by vessels and tubings. No specialized building can be placed here"
   zone_description_lysosome: <a>Lysosome</a> is a zone which can be used to disassemble items in their raw materials</a>"
   
+  
    # Special, Intracellular, Extracellular, Inner, Outside, Colony, Replacing 
 
   zone_layer_name_special: Special
@@ -512,6 +570,7 @@ strings:
   zone_layer_name_extracellular: Extracellular
   zone_layer_name_internal: Internal
   zone_layer_name_colony: Colony
+  zone_layer_name_deposit: Resource
 
   zone_name_scaffold: Scaffold
   zone_name_cytoskeleton: Cytoskeleton
@@ -555,6 +614,8 @@ strings:
   recipe_description_nadp_synthase: "<a>NADP Synthase</a> is used to convert <r>NAD</r> into <r>NADP</r> by spending energy"
   recipe_description_adp_synthase: "<a>ADP Synthase</a> is used to synthesize de novo <r>ADP</r>"
   recipe_description_base_pair_ligase_enzyme: "This enzyme is able to join two complementary nucleobases."
+  recipe_description_mega_atp_synthase: This reaction is used to produce a <a>Mega-ATP</a> from single <a>ATP</a> molecules. This is used to fuel extracellular energy production
+  recipe_description_mega_atp_synthase_reverse: This reaction is used to turn <a>Mega-ADP</a> back to single <a>ADP</a> molecules. This is used to recharge waste from extracellular energy production
 
   disease_name_infection_bacterial_bacillus_green: Infection
   disease_name_infection_bacterial_bacillus_blue: Infection
@@ -626,14 +687,18 @@ strings:
   ui_tooltip_playtime: playtime
   ui_tooltip_worldtime: worldtime
   ui_tooltip_journey_view_disabled: journey is disabled in this game mode
+  ui_tooltip_choose_item: choose item
   
   ui_info_window_section_energy_production: Energy Production
   ui_info_window_section_energy_consuption: Energy Usage
+  ui_info_window_section_energy_network: Energy Network
   ui_info_window_section_phosphorylation: Phosphorylation
   ui_info_window_section_heat: Heat
   ui_info_window_section_filter: Filter
   ui_info_window_section_oxidation: Oxidation
+  ui_info_window_section_flow_content: Content
   ui_info_window_usage: Usage
+  ui_info_window_charge: Charge
   ui_info_window_energy: Energy
   ui_info_window_fulfillment: Fulfillment
   ui_info_window_production: Production
@@ -768,6 +833,7 @@ strings:
   ui_option_start_game_as_paused: Start game as paused
   ui_option_enable_sound: Sound
   ui_option_enable_music: Music
+  ui_option_ambient_volume: Ambient
   ui_option_mute_sound_on_focus_loss: Mute on focus loss
   ui_option_generate_game_preview: Generate world preview
   ui_option_try_to_guess_object_positions: Try to guess object facings
@@ -838,10 +904,17 @@ strings:
   ui_cursor_pickup: pick up
   ui_cursor_drop: drop
   ui_cursor_force_pickup: force pick up
+  ui_cursor_fill_hand: fill hand
+  ui_cursor_empty_hand: empy hand
   ui_cursor_assemble: assemble
   ui_cursor_stash: stash
   ui_cursor_place_microtubule: place
   ui_cursor_remove_microtubule: remove
+  ui_cursor_place_microtubule_start: start path
+  ui_cursor_place_microtubule_end: place path
+  ui_cursor_place_microtubule_cancel: cancel
+  ui_cursor_place_microtubule_flip: flip path
+  ui_cursor_drag: drag
 
   ui_player_entered_world: "{} entered the world"
   ui_player_left_world: "{} left the world"
@@ -867,6 +940,8 @@ strings:
   object_action_switch_pick_mode: Switch Out Mode
   object_action_switch_drop_mode: Switch In Mode
   object_action_switch_state: Switch State
+  object_action_pause_task: Pause Task
+  object_action_resume_task: Resume Task
 
   action_name_execute_first_action: Object Action 1
   action_name_execute_second_action: Object Action 2
@@ -889,6 +964,7 @@ strings:
   place_error_message_must_be_placed_on_discovered_chunk: Cannot build on undiscovered chunk
   place_error_message_must_be_placed_on_non_diseased_tile: Can't build on diseased tile
   place_error_message_cant_be_placed_on_wild_tiles: Can't be placed on wild tiles
+  place_error_extracellular_building_requires_indirect_build: Extracellular building can't be placed manually
   place_error_message_too_far_way: Too far away
   
   object_remove_error_object_has_disease: Can't be destroyed because it's affected by
@@ -941,6 +1017,8 @@ strings:
   notification_chunk_is_getting_cold: Some areas are getting colder
   notification_objects_are_unpowered: Some of your structures are not receiving enough energy
   notification_objects_are_oxidized: Some of your structers are oxidized
+  notification_energy_production_too_low_intracellular: Intracellular energy production requires more producers
+  notification_energy_production_too_low_extracellular: Extracellular energy production requires more producers
 
   notification_concept_enzymes: A structure you placed requires an enzyme to operate
   notification_concept_evolution: A structure you placed can be used to discover new evolutions
@@ -956,6 +1034,8 @@ strings:
   notification_concept_necrosis: One of your chunks became necrotic
   notification_concept_mitochondrion: "You built a mitochondrion: the powerhouse of the cell!"
   notification_concept_bacteria: One of your tiles have been infected!
+  notification_concept_extracellular_buildings: You placed an extracellular building site
+  notification_concept_welcome: Welcome to Lifecraft! Take your time to learn the basics
 
   notification_more_info: more info
   notification_dismiss: dismiss
