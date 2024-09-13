@@ -7,7 +7,7 @@ pages:
     <endl/>
     你从一个漂浮的生物体开始。
     <break/>
-    你将面临挑战，需要保持温暖并抵御入侵者如细菌，并扩展资源寻找范围。<endl/><endl/>
+    你将面临挑战，需要保持温暖并抵御入侵者如细菌，<break/>并扩大资源寻找范围。<endl/><endl/>
     不要被复杂的生物学名词和机制吓到！<break/><icon key="item_aminoacid_red"/>氨基酸是球状，<icon key="item_tubulin_yellow"/>微管蛋白是管状，像这样记住就能应对自如了！<endl/><endl/><icon key="ui_icon_open_recipe_list"/>右下角的配方视图非常有用！<endl/>使用它就能查看制作物品所需的材料。<endl/>
     悬停物品还可以显示它们的功能。
   </content>
