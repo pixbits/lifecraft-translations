@@ -7,20 +7,27 @@ strings:
   item_category_tubulin: 微管蛋白
   item_category_structural_protein: 结构蛋白
   item_category_logistics: 物流
+  item_category_carrier: 载体
   item_category_routing: 路由
   item_category_picker: 拾取器
+  item_category_tunnel: 隧道
   item_category_storage: 存储
   item_category_poiesis: 生成
   item_category_structure: 结构
   item_category_energy: 能量
   item_category_enzyme: 酶
+  item_category_extracellular_enzyme: 胞外酶
   item_category_lipid: 脂质
   item_category_transporter: 转运蛋白
   item_category_flow: 流道
   item_category_flow_urinary: 泌尿
   item_category_flow_respiratory: 呼吸道
   item_category_flow_circulatory: 血液循环
-  item_category_flow_digestive: 食道
+  item_category_flow_control: 流道控制
+  item_category_subsystem: 子系统
+  item_category_subsystem_circulatory: 循环系统
+  item_category_subsystem_digestive: 消化系统
+  item_category_subsystem_secretory: 分泌系统
   item_category_energy_production: 能量生产
   item_category_molecule_synthesis: 分子合成
   item_category_widget: 部件
@@ -39,11 +46,15 @@ strings:
   item_category_cell: 细胞
   item_category_bacterium: 细菌
   item_category_uncategorized: 未分类
-
+  
+  item_category_extracellular_nutrient: 胞外营养物质
+  
+  
   item_category_flooring: 地板
   item_category_tissue: 组织
   item_category_internal_zone: 内部结构
   item_category_bacterial_colony: 细菌菌落
+  item_category_resource_cluster: 资源簇
   item_category_unused_tissue: 未使用的组织
 
   item_color_red: 红色
@@ -85,14 +96,15 @@ strings:
 
   item_name_picker: 拾取器
   item_name_picker_fast: 快速拾取器
-  item_name_picker_red: 红色拾取器
-  item_name_picker_blue: 蓝色拾取器
-  item_name_picker_green: 绿色拾取器
-  item_name_picker_yellow: 黄色拾取器
-  item_name_picker_white: 白色拾取器
-  item_name_picker_gaseous: 气体拾取器
-  item_name_picker_genetic: 基因拾取器
-  item_name_picker_energetic: 能量拾取器
+  item_name_picker_red: 拾取器 <X999>（红色）
+  item_name_picker_blue: 拾取器 <X999>（蓝色）
+  item_name_picker_green: 拾取器 <X999>（绿色）
+  item_name_picker_yellow: 拾取器 <X999>（黄色）
+  item_name_picker_white: 拾取器 <X999>（白色）
+  item_name_picker_gaseous: 拾取器 <X999>（气体）
+  item_name_picker_genetic: 拾取器 <X999>（基因）
+  item_name_picker_tissutal: 拾取器 <X999>（组织）
+  item_name_picker_energetic: 拾取器 <X999>（能量）
   item_name_picker_long: 加长拾取器
   item_name_picker_overlong: 超长拾取器
   item_name_picker_filter: 过滤拾取器
@@ -102,9 +114,9 @@ strings:
   item_name_ribosome: 核糖体
   item_name_assembler: 蛋白装配体
   item_name_catalyzer: 酶催化器
-  item_name_stockpile1x: 微型储物堆
+  item_name_stockpile1x: 储物堆 <X999>（小型）
   item_name_stockpile2x: 储物堆
-  item_name_stockpile4x: 巨型储物堆
+  item_name_stockpile4x: 储物堆 <X999>（巨型）
   item_name_stockpile_filter2x: 过滤储物堆
   item_name_infinite_container2x: 无底箱
   item_name_infinite_container1x: 微型无底箱
@@ -113,6 +125,7 @@ strings:
   item_name_balancer: 平衡分流器
   item_name_item_tunnel: 物品隧道
   item_name_item_tunnel_primitive: 原始物品隧道
+  item_name_item_tunnel_advanced: 高级物品隧道
   item_name_cytostome1x: 原始细胞口
   item_name_cytostome_ultimate: 极限细胞口
   item_name_cytostome2x: 细胞口
@@ -123,6 +136,7 @@ strings:
   item_name_dispatcher_primitive: 原始调度器
   item_name_dispatcher: 调度器
   item_name_diffuser: 扩散器
+  item_name_retriever: 寻回器
   item_name_stasher: 贮藏器
   item_name_workbench: 工作台
   item_name_energy_supplier_mk1: 原始能量供应器
@@ -212,6 +226,8 @@ strings:
   item_name_staminal_tissue: 干细胞组织
   item_name_necrotic_tissue: 坏死组织
   item_name_mitochondrial_membrane: 线粒体膜
+  item_name_small_intestine_extracellular_tissue: 小肠组织 <X999>(胞外)
+  item_name_small_intestine_intracellular_tissue: 小肠组织 <X999>(胞内)
 
   item_name_bacterial_vegetation_bacillus_blue: 蓝色芽孢杆菌菌落植被
   item_name_bacterial_vegetation_bacillus_green: 绿色芽孢杆菌菌落植被
@@ -226,6 +242,7 @@ strings:
 
   item_name_uniporter_mrna: mRNA单向转运蛋白
   item_name_uniporter_pyruvate: 丙酮酸单向转运蛋白
+  item_name_uniporter_glucose: 葡萄糖单向转运蛋白
 
   item_name_virus: 病毒
   item_name_bacterium_bacillus_blue: 蓝色芽孢杆菌 
@@ -233,20 +250,31 @@ strings:
   item_name_bacterium_coccus_red: 红色球菌 
   item_name_bacterium_coccus_yellow: 黄色球菌 
 
+  item_name_ileum1x1: 回肠 <X999>（1x）
+  item_name_ileum2x2: 回肠 <X999>（2x）
+  item_name_ileum4x4: 回肠 <X999>（4x）
+
   item_name_capillary: 毛细血管
-  item_name_artery1x1: 小型动脉
-  item_name_artery2x2: 中型动脉
-  item_name_artery4x4: 大型动脉
-  item_name_vein1x1: 小型静脉
-  item_name_vein2x2: 中型静脉
-  item_name_vein4x4: 大型静脉
-  item_name_perforator_artery1x1: 小型穿支动脉
-  item_name_perforator_artery2x2: 中型穿支动脉
-  item_name_perforator_artery4x4: 大型穿支动脉
-  item_name_perforator_vein1x1: 小型穿支静脉
-  item_name_perforator_vein2x2: 中型穿支静脉
-  item_name_perforator_vein4x4: 大型穿支静脉
+  item_name_artery1x1: 动脉 <X999>（1x）
+  item_name_artery2x2: 动脉 <X999>（2x）
+  item_name_artery4x4: 动脉 <X999>（4x）
+  item_name_vein1x1: 静脉 <X999>（1x）
+  item_name_vein2x2: 静脉 <X999>（2x）
+  item_name_vein4x4: 静脉 <X999>（4x）
   item_name_perforator_capillary: 穿支毛细血管
+
+  item_name_duct1x1: 腺导管 <X999>（1x）
+  item_name_duct2x2: 腺导管 <X999>（2x）
+  item_name_duct4x4: 腺导管 <X999>（4x）
+
+  item_name_valve1x1: 瓣膜 <X999>（1x）
+  item_name_valve2x2: 瓣膜 <X999>（2x）
+  item_name_valve4x4: 瓣膜 <X999>（4x）
+
+  item_name_perforator_vessel1x1: 穿支血管 <X999>（1x）
+  item_name_perforator_vessel2x2: 穿支血管 <X999>（2x）
+  item_name_perforator_vessel4x4: 穿支血管 <X999>（4x）
+
   item_name_cardiac_pump1x1: 小型心脏泵
   item_name_cardiac_pump2x2: 中型心脏泵
 
@@ -311,7 +339,7 @@ strings:
   evolution_description_transportation_basic: 发现不可氧化的<r>微管</r>和<r>拾取器</r>，发现用于在微管上指定运输方向的<r>物品导向器</r>还有<r>原始隧道</r>
 
   evolution_name_energy_production_1: 糖酵解
-  evolution_description_energy_production_1: 发现<r>糖酵解</r>，生产能量的最简单方式
+  evolution_description_energy_production_1: 发现<r>糖酵解</r>，最简单的能量生产方式
 
   evolution_name_energy_production_2: 氧化代谢
   evolution_description_energy_production_2: 发现发生在<r>线粒体</r>中的氧化代谢反应，能产生大量的能量或热量
@@ -330,13 +358,13 @@ strings:
 
   evolution_description_evolution_1: 发现如何解构和再次将核碱基结合为碱基对
   evolution_description_tubulins: 发现<r>微管蛋白</r>，用于生产微管，物品导向器和最基本结构的蛋白质
-  evolution_description_subunits: 发现<r>蛋白亚基</r>，这些是组装成结构的大型蛋白质
-  evolution_description_kinesin: 发现<r>驱动蛋白</r>，它用于生产过滤物品的结构
-  evolution_description_functional_proteins: 发现<r>肌动蛋白</r>和<r>波形蛋白</r>，用于构建物流和存储结构
-  evolution_description_advanced_routing: 发现<r>隧道</r>和<r>平衡分流器</r>，用于优化路由和物品管理
-  evolution_description_membrane_transportation: 发现<r>膜转运体</r>，用于在细胞膜之间运输物品
-  evolution_description_mitochondrion: 发现<r>线粒体</r>，一个特殊的胞内区域，可以用来产生热量和能量
-  evolution_description_lysosome: 发现<r>溶酶体</r>，一个特殊的胞内区域，可以用来回收和拆解物品
+  evolution_description_subunits: 发现<r>蛋白亚基</r>，用于组装结构体的大型蛋白质
+  evolution_description_kinesin: 发现<r>驱动蛋白</r>，用于生产过滤物品结构的蛋白质
+  evolution_description_functional_proteins: 发现<r>肌动蛋白</r>和<r>波形蛋白</r>，可以用于构建物流和存储结构
+  evolution_description_advanced_routing: 发现<r>隧道</r>和<r>平衡分流器</r>，可以用于优化路由和物品管理
+  evolution_description_membrane_transportation: 发现<r>膜转运体</r>，可以用于在细胞膜之间运输物质
+  evolution_description_mitochondrion: 发现<r>线粒体</r>，一个特殊的胞内区域，可以用于产生热量和能量
+  evolution_description_lysosome: 发现<r>溶酶体</r>，一个特殊的胞内区域，可以用于回收和拆解物质
 
 
   evolution_group_evolution: 进化
@@ -346,6 +374,7 @@ strings:
   evolution_group_energy: 能量
   evolution_group_mitochondrial_energy: 线粒体能量
   evolution_group_organelles: 细胞器
+  evolution_group_digestion: 消化
 
   item_description_picker: 一个可以从微管和结构中拾取和放下物品的<a>拾取器</a>
   item_description_picker_red: 一个只与红色物品互动的<a>拾取器</a>
@@ -355,18 +384,19 @@ strings:
   item_description_picker_white: 一个只与白色物品互动的<a>拾取器</a>
   item_description_picker_genetic: 一个只与遗传材料互动的<a>拾取器</a>
   item_description_picker_gaseous: 一个只与气态物品互动的<a>拾取器</a>
+  item_description_picker_tissutal: 一个只与组织材料互动的<a>拾取器</a>
   item_description_picker_energetic: 一个只与高能分子互动的<a>拾取器</a>
   item_description_picker_filter: 一个可以过滤特定物品的<a>拾取器</a>
   item_description_picker_fast: 一个可以高速移动物品的<a>快速拾取器</a>
   item_description_picker_overlong: 一个像普通拾取器一样运作但跨度有两格的<a>超长拾取器</a>
-  item_description_picker_primitive: 一个运作缓慢且会氧化的<a>原始拾取器</a>
+  item_description_picker_primitive: 一个运作缓慢而且还会氧化的<a>原始拾取器</a>
 
-  item_description_picker_long: <a>加长拾取器</a>的运作方式与普通拾取器相同，但它更长，因此它允许一步就将物品从一个结构放入另一个结构中
+  item_description_picker_long: <a>加长拾取器</a>的运作方式与普通拾取器相同，但它更长，因此它允许一步就将物品从一个结构放入另一个结构中（也可以用于交叉运输）
   item_description_balancer: <a>平衡分流器</a>能够均匀地分割或合并多个输入或输出
-  item_description_aminoacid_red: 在核糖体中用于合成蛋白质的基本氨基酸
-  item_description_aminoacid_green: 在核糖体中用于合成蛋白质的基本氨基酸
-  item_description_aminoacid_blue: 在核糖体中用于合成蛋白质的基本氨基酸
-  item_description_aminoacid_yellow: 在核糖体中用于合成蛋白质的基本氨基酸
+  item_description_aminoacid_red: 用于在核糖体中合成蛋白质的基本氨基酸
+  item_description_aminoacid_green: 用于在核糖体中合成蛋白质的基本氨基酸
+  item_description_aminoacid_blue: 用于在核糖体中合成蛋白质的基本氨基酸
+  item_description_aminoacid_yellow: 用于在核糖体中合成蛋白质的基本氨基酸
   item_description_tubulin_red: 用于构建许多物流元素的基本结构蛋白
   item_description_tubulin_green: 用于构建许多物流元素的基本结构蛋白
   item_description_tubulin_yellow: 用于构建许多物流元素的基本结构蛋白
@@ -381,14 +411,14 @@ strings:
   item_description_carbon_dioxide: <a>二氧化碳</a>是一种产生能量的反应中额外产出的废气
   item_description_glucose: <a>葡萄糖</a>是一种用于在糖酵解中产生能量的碳水化合物
   item_description_pyruvate: <a>丙酮酸</a>是糖酵解的最终产物，可以转化为<a>乙酰辅酶A</a>
-  item_description_acetyl_coa: <a>乙酰辅酶A</a>被用作三羧酸循环的底物，以产生<a>NADH</a>
+  item_description_acetyl_coa: <a>乙酰辅酶A</a>可以被用作三羧酸循环的底物，以产生<a>NADH</a>
 
   item_description_dispatcher_subunit: 这种<a>蛋白质</a>可以组装成<a>调度器</a>
   item_description_atp_synthase_subunit: 这种<a>蛋白质</a>用于组装<a>ATP合酶</a>
   item_description_connexin: 这种<a>蛋白质</a>用于组装<a>连接子</a>
   item_description_thermogenin: 这种<a>蛋白质</a>用于组装<a>解偶联器</a>
   item_description_actin_g: <a>G-肌动蛋白</a>是肌动蛋白丝的组成部分
-  item_description_actin_f: <a>肌动蛋白</a>是一种多用途蛋白质，用于组成细胞的可活动部分
+  item_description_actin_f: <a>F-肌动蛋白</a>是一种多用途蛋白质，用于组成细胞的可活动部分
   item_description_myosin: <a>肌球蛋白</a>是一种功能蛋白，用于肌肉收缩活动
   item_description_alpha_helix: <a>α-螺旋</a>是一种通用的结构蛋白
   item_description_beta_sheet: <a>β-折叠</a>是一种通用的结构蛋白
@@ -399,6 +429,8 @@ strings:
   item_description_cytochrome: <a>细胞色素</a>是一种用于某些酶或组装<a>电子传递链</a>的蛋白质
   item_description_atp: <a>ATP</a>是一种高能分子，可以为生命中的所有过程提供能量
   item_description_adp: <a>ADP</a>是一种可以转化回<a>ATP</a>并再次用于提供能量的分子
+  item_description_mega_atp: "<a>Mega-ATP</a>是一种<a>ATP</a>化合物大分子，用于为胞外<a>能量站</a>提供能量。"
+  item_description_mega_adp: "<a>Mega-ADP</a>是一种<a>ADP</a>化合物大分子，需要再次充能才能提供能量"
   item_description_adenine: <a>腺嘌呤</a>是一种核碱基，用于进化和合成其他分子
   item_description_thymine: <a>胸腺嘧啶</a>是一种核碱基，用于进化和合成其他分子
   item_description_guanine: <a>鸟嘌呤</a>是一种核碱基，用于进化和合成其他分子
@@ -422,8 +454,9 @@ strings:
   item_description_biolamp_primitive: <a>原始生物化学灯</a>可以通过处理<a>氧气</a>和<a>荧光素</a>发光一段时间
   item_description_biolamp: <a>生物化学灯</a>是一种更先进的光源，可以直接使用能量来产生光
 
-  item_description_item_kicker: 一个<a>物品导向</a>可以放置在<a>微管</a>上来强制物品走向特定的方向
+  item_description_item_kicker: 一个<a>物品导向器</a>可以放置在<a>微管</a>上来强制物品走向特定的方向
   item_description_item_tunnel: 一个<a>物品隧道</a>可以使物品通过地下移动，两个隧道必须对齐才能正常工作
+  item_description_item_tunnel_advanced: 一个<a>高级物品隧道</a>可以使物品通过地下移动，两个隧道必须对齐才能正常工作
   item_description_item_tunnel_primitive: 一个<a>原始物品隧道</a>可以使物品通过地下移动，两个隧道必须对齐才能正常工作
   item_description_workbench: 一个<a>工作台</a>是一种能够组装蛋白质的结构，但只能手动使用
   item_description_evolver: 一个<a>进化器</a>是一种通过消耗<a>核碱基</a>来发现新技术的结构
@@ -455,6 +488,7 @@ strings:
   item_description_dispatcher: 一个<a>调度器</a>用于将材料调度到生长中的区块或必须在细胞外建造的建筑上
   item_description_dispatcher_primitive: 一个<a>调度器</a>用于将材料调度到生长中的区块或必须在细胞外建造的建筑上
   item_description_diffuser: 一个<a>扩散器</a>能够在局部供应材料，它可以治愈受感染的格子或替换被氧化的建筑
+  item_description_retriever: 一个<a>寻回器</a>能够自动寻回你的生物体内漂浮的物质
   item_description_mitochondrial_membrane: <a>线粒体膜</a>用于在胞内建造线粒体
   item_description_lysosomal_membrane: <a>溶酶体膜</a>用于在胞内建造溶酶体
   item_description_collagen_scaffold: 这是最基本的胞外组织，可以为更高级的组织提供生长支架
@@ -465,7 +499,14 @@ strings:
   item_description_collagen_flooring: <a>胶原蛋白地板</a>是一种胞外组织，可以为所有类型的血管提供支持
   item_description_cell_membrane: 这是用于扩展你最初的生物体的基本的非特化胞内组织
   
+  item_description_small_intestine_intracellular_tissue: 这种组织能够从肠道血管吸收营养物质，并产生基本原始的酶来消化食物
+  item_description_small_intestine_extracellular_tissue: 这种组织是容纳<a>贮囊</a>的必要条件，这些贮囊用于将食物消化成可被吸收的营养元素
+
+  item_description_uniporter_glucose: 这个转运蛋白能够使葡萄糖穿过膜
   item_description_uniporter_gas: 这个转运蛋白能够使气体穿过膜
+  item_description_uniporter_aminoacid: 这个转运蛋白能够使氨基酸穿过膜
+  item_description_uniporter_lipid: 这个转运蛋白能够使脂质穿过膜
+  item_description_uniporter_enzyme: 这个转运蛋白能够使酶穿过膜，对于供应消化酶很有用
   item_description_uniporter_pyruvate: 这个转运蛋白能够使<a>丙酮酸</a>穿过膜
   item_description_uniporter_lysosome_inward: 这个转运蛋白能够将可拆解的物品送入<a>溶酶体</a>
   item_description_uniporter_lysosome_outward: 这个转运蛋白能够将拆解产生的原料送出<a>溶酶体</a>
@@ -477,10 +518,30 @@ strings:
   item_description_defensin_theta: <a>θ-防御素</a>是一种可以用来杀死<a>细菌</a>的蛋白质。必须由<a>发射口</a>投掷
   item_description_protease: 这种蛋白酶可以用来拆解支架或细菌群落，必须由<a>调度器</a>输送
 
-  item_description_capillary: <a>毛细血管</a>是最细的血管。它们能够与外界交换内容，并且必须从<a>动脉</a>连接到<a>静脉</a>以产生血液流动。
+  item_description_capillary: <a>毛细血管</a>是最细的血管。它们能够与外界交换内容，并且必须从<a>动脉</a>连接到<a>静脉</a>以产生血液流动
   item_description_artery1x1: <a>动脉</a>可以将血液从<a>心脏泵</a>输送到胞外组织周围
   item_description_artery2x2: <a>动脉</a>可以将血液从<a>心脏泵</a>输送到胞外组织周围
   item_description_artery4x4: <a>动脉</a>可以将血液从<a>心脏泵</a>输送到胞外组织周围
+
+  item_description_perforator_vessel1x1: <a>穿支血管</a>能够从下方连接两条同类血管，对于交叉运输很有用
+  item_description_perforator_vessel2x2: ~item_description_perforator_vessel1x1
+  item_description_perforator_vessel4x4: ~item_description_perforator_vessel1x1
+
+  item_description_stoma: <a>原口</a>是可以从<a>资源簇</a>中吸取资源的结构，它是最原始的消化系统采集者
+  item_description_primordial_anus: <a>原始肛门</a>是排泄废物或未消化物质的结构
+  item_description_tank: <a>贮囊</a>是一种通用的处理胞外物质的容器
+  item_description_ileum1x1: <a>回肠</a>可以在消化系统内输送营养物质
+  item_description_ileum2x2: ~item_description_ileum1x1
+  item_description_ileum4x4: ~item_description_ileum1x1
+
+  item_description_valve1x1: <a>瓣膜</a>可用于手动阻止任意管道之间的流动
+  item_description_valve2x2: ~item_description_valve1x1
+  item_description_valve4x4: ~item_description_valve1x1
+
+  item_description_secretor: <a>分泌小泡</a>是酶从腺导管进入<a>贮囊</a>的起点
+  item_description_duct1x1: <a>腺导管</a>将胞内组织产生的酶输送到<a>贮囊</a>
+  item_description_duct2x2: ~item_description_duct1x1
+  item_description_duct4x4: ~item_description_duct1x1
 
   item_description_door_intracellular3x: 这个结构可以开启和关闭，以允许生物通过
 
@@ -488,6 +549,10 @@ strings:
   item_description_nad_nadp_transhydrogenase_enzyme: 这种酶用于在<a>NAD+</a>和<a>NADP+</a>分子之间移动电子
   item_description_nucleobase_synthase_enzyme: 这种酶用于从原料开始合成<a>核碱基</a>
   item_description_alcohol_dehydrogenase: 这种酶用于将<a>丙酮酸</a>转化为<a>乙醇</a>，并可以反向转化
+
+  item_description_amilase_enzyme: 这种酶可以将淀粉分解成葡萄糖
+  item_description_proteinase_enzyme: 这种酶可以将复杂蛋白质分解为氨基酸
+  item_description_lipase_enzyme: 这种酶可以将脂质分解为可同化的形态
 
   item_description_energy_drain: 自定义能量井，可以用来吸收胞内能量
   item_description_black_box: 自定义结构，可以将任何特定物品转换为任何其他特定物品
@@ -497,6 +562,7 @@ strings:
   zone_description_extracellular_matrix: <a>结缔组织</a>是一个可以用于通过血管和管道进行运输的区域。这里不能放置其他建筑
   zone_description_lysosome: <a>溶酶体</a>是一个可以把物品拆解为原料的区域</a>"
   
+
    # Special, Intracellular, Extracellular, Inner, Outside, Colony, Replacing 
 
   zone_layer_name_special: 特殊
@@ -504,6 +570,7 @@ strings:
   zone_layer_name_extracellular: 胞外区域
   zone_layer_name_internal: 内部结构
   zone_layer_name_colony: 菌落
+  zone_layer_name_deposit: 资源
 
   zone_name_scaffold: 支架
   zone_name_cytoskeleton: 细胞骨架
@@ -547,6 +614,8 @@ strings:
   recipe_description_nadp_synthase: <a>NADP合成酶</a>用于通过消耗能量将<r>NAD</r>转化为<r>NADP</r>
   recipe_description_adp_synthase: <a>ADP合成酶</a>用于合成新的<r>ADP</r>
   recipe_description_base_pair_ligase_enzyme: 这种酶能够连接两个互补的碱基
+  recipe_description_mega_atp_synthase: 该反应会用数个<a>ATP</a>制造<a>Mega-ATP</a>，以用于胞外能量分配
+  recipe_description_mega_adp_lyase: 该反应会把<a>Mega-ADP</a>变回独立的<a>ADP</a>，以再次充能
 
   disease_name_infection_bacterial_bacillus_green: 感染
   disease_name_infection_bacterial_bacillus_blue: 感染
@@ -621,10 +690,12 @@ strings:
   
   ui_info_window_section_energy_production: 能量生产
   ui_info_window_section_energy_consuption: 能量使用
+  ui_info_window_section_energy_network: 能量网络
   ui_info_window_section_phosphorylation: 磷酸化
   ui_info_window_section_heat: 热量
   ui_info_window_section_filter: 过滤器
   ui_info_window_section_oxidation: 氧化
+  ui_info_window_section_flow_content: 内容物
   ui_info_window_usage: 已使用
   ui_info_window_energy: 能量储存
   ui_info_window_fulfillment: 满足度
@@ -632,7 +703,7 @@ strings:
   ui_info_window_uses_left: 剩余使用次数
   ui_info_window_efficiency: 运作效率
   ui_info_window_health: 健康
-  ui_info_window_currently_researching: 当前研究中
+  ui_info_window_currently_researching: 正在研究
   ui_info_window_receiving: 接收中
   ui_info_window_producing: 生产中
 
@@ -674,11 +745,14 @@ strings:
     没有可以加载的游戏档案。
     先开始玩一局Lifecraft吧！
   ui_main_menu_reset_puzzles: 重置谜题
+  ui_main_menu_generate_font_atlas: 重新生成字符集
   ui_main_menu_discord_link: Discord
   ui_main_menu_discord_link_tooltip: 打开官方Discord服务器
   ui_main_menu_changelog: 更新日志
+  ui_main_menu_wiki: Wiki
   ui_main_menu_keybind_assign_dialog: 按下一个键以将其分配给该操作
   ui_main_menu_language_warning: 翻译正在进行中，可能存在一些缺失或错误的翻译。如果想提供帮助，欢迎加入Discord！
+  ui_main_menu_language_contribute: "参与贡献！"
 
   ui_main_menu_about_early_access: 抢先体验
   ui_main_menu_about_pixbits: Pixbits
@@ -759,6 +833,7 @@ strings:
   ui_option_start_game_as_paused: 以暂停状态开始游戏
   ui_option_enable_sound: 声音
   ui_option_enable_music: 音乐
+  ui_option_ambient_volume: 氛围音
   ui_option_mute_sound_on_focus_loss: 失去焦点时静音
   ui_option_generate_game_preview: 生成游戏档案预览图
   ui_option_try_to_guess_object_positions: 尝试猜测物体朝向
@@ -829,6 +904,8 @@ strings:
   ui_cursor_pickup: 拾取
   ui_cursor_drop: 放下
   ui_cursor_force_pickup: 强制拾取
+  ui_cursor_fill_hand: 全部拾取
+  ui_cursor_empty_hand: 全部放下
   ui_cursor_assemble: 组装
   ui_cursor_stash: 贮藏
   ui_cursor_place_microtubule: 放置
@@ -858,6 +935,8 @@ strings:
   object_action_switch_pick_mode: 切换取出模式
   object_action_switch_drop_mode: 切换放入模式
   object_action_switch_state: 切换状态
+  object_action_pause_task: 暂停任务
+  object_action_resume_task: 恢复任务
 
   action_name_execute_first_action: 物体动作1
   action_name_execute_second_action: 物体动作2
@@ -880,6 +959,7 @@ strings:
   place_error_message_must_be_placed_on_discovered_chunk: 无法在未发现的区块上建造
   place_error_message_must_be_placed_on_non_diseased_tile: 无法在病变的格子上放置
   place_error_message_cant_be_placed_on_wild_tiles: 无法在不受控制的格子上放置
+  place_error_extracellular_building_requires_indirect_build: 无法手动建造胞外建筑
   place_error_message_too_far_way: 太远了
   
   object_remove_error_object_has_disease: 无法移除，因为它受到了疾病影响
@@ -932,6 +1012,8 @@ strings:
   notification_chunk_is_getting_cold: 一些区域正在变冷
   notification_objects_are_unpowered: 你的一些结构没有足够的能量运作
   notification_objects_are_oxidized: 你的一些结构被氧化了
+  notification_energy_production_too_low_intracellular: 胞内能量不足
+  notification_energy_production_too_low_extracellular: 胞外能量不足
 
   notification_concept_enzymes: 你放置的一个结构需要酶来操作
   notification_concept_evolution: 你放置的一个结构可以用来发现新的进化
@@ -947,6 +1029,8 @@ strings:
   notification_concept_necrosis: 你的一个区块彻底坏死了
   notification_concept_mitochondrion: 你建造了一个线粒体：细胞的能量工厂！
   notification_concept_bacteria: 你的一个格子被感染了！
+  notification_concept_extracellular_buildings: 你设置了一个胞外建筑区域
+  notification_concept_welcome: 欢迎来到Lifecraft！花点时间学习一下基础概念吧
 
   notification_more_info: 更多信息
   notification_dismiss: 忽略
@@ -1158,7 +1242,7 @@ strings:
 
   # These strings are added by translator, so they may not follow the original order, and might become invalid after next update. Pay attention!
   item_name_door_intracellular3x: 胞内门
-  item_name_alcohol_dehydrogenase_enzyme: 乙醇脱氢酶
+  item_name_alcohol_dehydrogenase: 乙醇脱氢酶
   evolution_name_energy_carriers: 能量载体
   evolution_name_lysosome: 溶酶体
   item_name_lysosomal_membrane: 溶酶体膜
@@ -1166,3 +1250,33 @@ strings:
   item_name_catabolyzer: 分解器
   item_name_uniporter_lysosome_inward: 溶酶体输入单向转运蛋白
   item_name_uniporter_lysosome_outward: 溶酶体输出单向转运蛋白
+
+  item_name_secretor: 分泌小泡
+  item_name_stoma: 原口
+  item_name_primordial_anus: 原始肛门
+  item_name_tank: 贮囊
+  item_name_stoma: 原口
+  item_name_smooth_muscular_tissue: 平滑肌组织
+  item_name_uniporter_aminoacid: 氨基酸单向转运蛋白
+  item_name_uniporter_lipid: 脂质单向转运蛋白
+  item_name_uniporter_enzyme: 酶单向转运蛋白
+  evolution_name_advanced_extracellular_expansion: 胞外扩张
+  evolution_name_flow_control: 流道控制
+  evolution_name_flow_control_wide: 流道控制 <X999>（大）
+  evolution_name_flow_control_huge: 流道控制 <X999>（巨大）
+  evolution_name_small_intestine: 小肠
+  evolution_name_primitive_food_processing: 原始食物处理
+  evolution_name_ileum_wide: 回肠 <X999>（大）
+  evolution_name_ileum_huge: 回肠 <X999>（巨大）
+  evolution_name_exocrine_system: 外分泌系统
+  evolution_name_duct_wide: 腺导管 <X999>（大）
+  evolution_name_duct_huge: 腺导管 <X999>（巨大）
+  zone_name_small_intestine_extracellular: 小肠组织 <X999>(胞外)
+  zone_name_small_intestine_intracellular: 小肠组织 <X999>(胞内)
+  item_name_amilase_enzyme: 淀粉酶
+  item_name_lipase_enzyme: 脂酶
+  item_name_proteinase_enzyme: 蛋白酶
+  item_name_mega_atp_synthase_enzyme: Mega-ATP合成酶
+  recipe_name_mega_atp_synthase: Mega-ATP合成酶
+  recipe_name_mega_adp_lyase: Mega-ADP裂合酶
+  item_description_mega_atp_synthase_enzyme: 这种酶用于生产和回收<r>Mega-ATP</r>与<r>Mega-ADP</r>
