@@ -175,11 +175,11 @@ strings:
   item_name_heater: Chauffage
   item_name_infector: Infecteur
   item_name_adp_synthase_enzyme: Enzyme ADP Synthase
-  item_name_alcohol_dehydrogenase: Alcool Déshydrogénase
+  item_name_alcohol_dehydrogenase_enzyme: Alcool Déshydrogénase
   item_name_base_pair_ligase_enzyme: Enzyme Ligase de Paire de Bases
   item_name_glycolysis_enzyme: Enzyme de Glycolyse
   item_name_krebs_cycle_enzyme: Enzyme du Cycle de Krebs
-  item_name_lactate_dehydrogenase: Lactate Déshydrogénase
+  item_name_lactate_dehydrogenase_enzyme: Lactate Déshydrogénase
   item_name_malate_dehydrogenase: Malate Déshydrogénase
   item_name_nucleobase_synthase_enzyme: Enzyme Synthase de Nucléotides
   item_name_pentose_phosphate_pathway_enzyme: Enzyme de la Voie du Phosphate de Pentose
@@ -550,7 +550,7 @@ strings:
   ui_info_window_production: Production
   ui_info_window_uses_left: Utilisations restantes
   ui_info_window_efficiency: Efficacité
-  ui_info_window_health: Santé
+  ui_info_window_organism_health: Santé
   ui_info_window_currently_researching: Recherche en cours
   ui_popup_menu_items: Articles
   ui_popup_menu_colors: Couleurs

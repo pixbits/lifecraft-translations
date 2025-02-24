@@ -10,11 +10,16 @@ trivia:
   - Cytosol is a fluid in which all the organelles contained in a cell are floating
   item_luciferin:
   - Luciferin in nature are a class of small-molecules used by many forms of life to generate bioluminescence. Fireflies, snails, bacteria and even some fungi.
+  item_myosin:
+  - Myosin is a motor protein that interacts with actin filaments to generate movement in cells, it is responsible for muscle contraction.
+  item_connexon:
+  - Connexons allow cells to communicate directly without needing to broadcast signals into the extracellular space. It's like the cells have their own secret ""whisper network"" to pass information and resources quietly and efficiently.
+  
 
 tips:
 - This is not a Factorio mod
 - Oxygen is included
-- You can hold ALT to pickup multiple items
+- You can hold SHIFT to pickup multiple items
 - Disposable items don't drop when destroyed
 - The mitochondria IS the powerhouse of the cell!
 - Microtubules can transport items in any direction
@@ -31,7 +36,8 @@ tips:
 - You can use balancers to split or merge lanes
 - Show us your creations in Discord!
 - Body must grow
-
 - Some floating resources will keep spawning outside
 - You can move any window by dragging it with right mouse button
 - Yes, there's no interactive tutorial, good luck!
+- There's no inventory, try to automate building placement!
+- You can drag a rectangle to pickup multiple items

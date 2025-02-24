@@ -37,6 +37,7 @@ strings:
   item_category_gas: Gas
   item_category_genetics: Genetics
   item_category_nucleobase: Nucleobase
+  item_category_nucleopair: Base Pair
   item_category_plasmid: Plasmid
   item_category_immunity: Immunity
   item_category_domestic_structures: Domestic
@@ -136,7 +137,9 @@ strings:
   item_name_dispatcher_primitive: Dispatcher <X999>(Primitive)
   item_name_dispatcher: Dispatcher
   item_name_diffuser: Diffuser
+  item_name_diffuser_primitive: Diffuser <X999>(Primitive)
   item_name_retriever: Retriever
+  item_name_retriever_primitive: Retriever <X999>(Primitive)
   item_name_stasher: Stasher
   item_name_workbench: Workbench
   item_name_energy_supplier_mk1: Energy Supplier <X999>(Primitive)
@@ -204,11 +207,11 @@ strings:
   item_name_infector: Infector
 
   item_name_adp_synthase_enzyme: ADP Synthase Enzyme
-  item_name_alcohol_dehydrogenase: Alcohol Dehydrogenase
+  item_name_alcohol_dehydrogenase_enzyme: Alcohol Dehydrogenase Enzyme
   item_name_base_pair_ligase_enzyme: Base Pair Ligase Enzyme
   item_name_glycolysis_enzyme: Glycolysis Enzyme
   item_name_krebs_cycle_enzyme: Krebs Cycle Enzyme
-  item_name_lactate_dehydrogenase: Lactate Dehydrogenase
+  item_name_lactate_dehydrogenase_enzyme: Lactate Dehydrogenase
   item_name_malate_dehydrogenase: Malate Dehydrogenase
   item_name_nucleobase_synthase_enzyme: Nucleobase Synthase Enzyme
   item_name_pentose_phosphate_pathway_enzyme: Pentose Phosphate Pathway Enzyme
@@ -249,6 +252,7 @@ strings:
   item_name_bacterium_bacillus_green: Green Bacillus 
   item_name_bacterium_coccus_red: Red Coccus 
   item_name_bacterium_coccus_yellow: Yellow Coccus 
+  item_name_cell_hemocyte: Hemocyte
 
   item_name_ileum1x1: Ileum <X999>(1x)
   item_name_ileum2x2: Ileum <X999>(2x)
@@ -262,6 +266,10 @@ strings:
   item_name_vein2x2: Vein <X999>(2x)
   item_name_vein4x4: Vein <X999>(4x)
   item_name_perforator_capillary: Perforator Capillary
+
+  item_name_stoma: Stoma
+  item_name_primitive_anus: Primitive Anus
+  item_name_tank: Tank
 
   item_name_duct1x1: Duct <X999>(1x)
   item_name_duct2x2: Duct <X999>(2x)
@@ -486,19 +494,23 @@ strings:
   item_description_disposer1x: A <a>small disposer</a> is used to get rid of items by throwing them outside the cell. It requires no energy to operate
   item_description_disposer2x: A <a>disposer</a> is used to get rid of items by throwing them outside the cell. It's better than a <a>small disposer</a> but requires energy to operate
   item_description_dispatcher: A <a>dispatcher</a> is used to send materials to growing chunks or to buildings which must be built outside cells
-  item_description_dispatcher_primitive: A <a>dispatcher</a> is used to send materials to chunks or to buildings which must be built outside cells
-  item_description_diffuser: A <a>diffuser</a> is able to deliver materials locally, it can heal infected tiles by suppling tissues or replace oxidized buildings
+  item_description_dispatcher_primitive: ~item_description_dispatcher
+  item_description_diffuser: A <a>diffuser</a> is able to deliver materials locally, it can place buildings on placeholders, replace oxidized buildings, heal infected tiles by suppling tissues
+  item_description_diffuser_primitive: ~item_description_diffuser
   item_description_retriever: A <a>retriever</a> is able to retrieve floating items inside your organism
+  item_description_retriever_primitive: ~item_description_retriever
+  
   item_description_mitochondrial_membrane: "<a>Mitochondrial Membrane</a> is used to build mitochondria inside intracellular zones"
   item_description_lysosomal_membrane: "<a>Lysosomal Membrane</a> is used to build lysosomes inside intracellular zones"
   item_description_collagen_scaffold: This is the basic extracellular tissue which can produce a scaffold for more advanced tissues to grow on
   item_description_cytoskeleton_scaffold: This basic scaffold is required to build intracellular tissues over it
   item_description_endothelium: <a>Endothelium</a> is the interior lining of all blood vessels
   item_description_smooth_muscular_tissue: <a>Smooth Muscular Tissue</a> is a kind of contractile tissue used to construct all kind of vessels
-  item_description_staminal_tissue: <a>Staminal Tissue</a> a special kind of undifferentiated tissue which can produce all other kind of tissues
+  item_description_staminal_intracellular_tissue: <a>Staminal Tissue</a> a special kind of undifferentiated tissue which can produce all other kind of tissues
   item_description_collagen_flooring: <a>Collagen Flooring</a> is an extracellular tissue which can provide support for all kind of vessels
   item_description_cell_membrane: This is the basic unspecialized intracellular tissue used to expand your initial organism
-  
+  item_description_sparkling_tissue: This special tissue is used to build extracellular energy structures
+
   item_description_small_intestine_intracellular_tissue: This tissue is able to absorb nutrients from intestine vessels and produce basic primitive enzymes to digest food
   item_description_small_intestine_extracellular_tissue: This tissue is necessary to host <a>tanks</a> which are used to digest food into nutritive elements which can be absorbed
   
@@ -534,6 +546,8 @@ strings:
   item_description_ileum2x2: ~item_description_ileum1x1
   item_description_ileum4x4: ~item_description_ileum1x1
 
+  item_description_tissue_matrix: <a>Tissue Matrix</a> is an extracellular structure which can be used to stock large amount of the same tissue.
+
   item_description_valve1x1: <a>Valves</a> can be used to manually block transit between vessels
   item_description_valve2x2: ~item_description_valve1x1
   item_description_valve4x4: ~item_description_valve1x1
@@ -553,10 +567,15 @@ strings:
   item_description_amilase_enzyme: This enzyme is able to break down starch down to glucose
   item_description_proteinase_enzyme: This enzyme is able to break down complex proteins down to aminoacids
   item_description_lipase_enzyme: This enzyme is able to break down lipids to an assimilable form
+
+  item_description_mega_atp_synthase_enzyme: This enzyme is used to produce and recycle <a>Mega-ATP</a> and <a>Mega-ADP</a> molecules
   
   item_description_energy_drain: A customizable energy drain that can be used to absorb intracellular energy
   item_description_black_box: A customizable structure which can convert any specific item into any other specific item
   item_description_heater: A customizable structure which produces heat with no energy required
+
+  item_description_cell_hemocyte: <a>Hemocytes</a> are the most primitive kind of immune cells, they can move outside to explore surroundings and attack bacteria.
+
 
   zone_description_cytosol: "<a>Cytosol</a> is an unspecialized zone which can contain all the basic structures able to synthesize <a>proteins</a> and generate <a>energy</a>"
   zone_description_extracellular_matrix: "<a>Connective Tissue</a> is a zone which can be used for transportation by vessels and tubings. No specialized building can be placed here"
@@ -601,6 +620,8 @@ strings:
   recipe_name_pentose_phosphate_pathway: Pentose Phosphate Pathway
   recipe_name_pyruvate_carboxylase: Pyruvate Carboxylase
   recipe_name_pyruvate_dehydrogenase: Pyruvate Dehydrogenase
+  recipe_name_mega_atp_synthase: Mega-ATP Synthase
+  recipe_name_mega_adp_lyase: Mega-ADP Lyase
   recipe_name_viral_replication: Viral Replication
 
   recipe_description_glycolysis: "<a>Glycolysis</a> is the simplest way to store energy by turning <r>ADP</r> into <r>ATP</r>, it requires <r>Glucose</r> but no <r>Oxygen</r>"
@@ -615,7 +636,7 @@ strings:
   recipe_description_adp_synthase: "<a>ADP Synthase</a> is used to synthesize de novo <r>ADP</r>"
   recipe_description_base_pair_ligase_enzyme: "This enzyme is able to join two complementary nucleobases."
   recipe_description_mega_atp_synthase: This reaction is used to produce a <a>Mega-ATP</a> from single <a>ATP</a> molecules. This is used to fuel extracellular energy production
-  recipe_description_mega_atp_synthase_reverse: This reaction is used to turn <a>Mega-ADP</a> back to single <a>ADP</a> molecules. This is used to recharge waste from extracellular energy production
+  recipe_description_mega_adp_lyase: This reaction is used to turn <a>Mega-ADP</a> back to single <a>ADP</a> molecules. This is used to recharge waste from extracellular energy production
 
   disease_name_infection_bacterial_bacillus_green: Infection
   disease_name_infection_bacterial_bacillus_blue: Infection
@@ -650,7 +671,7 @@ strings:
   ui_tooltip_tool_destroy: destroy structures
   ui_tooltip_tool_microtubule_metatool: microtubule management
   ui_tooltip_tool_chunk_planner: expand or execute tasks on areas
-  ui_tooltip_tool_indirect_build: manage extracellular building sites
+  ui_tooltip_tool_indirect_build: manage indirect building sites
   ui_tooltip_tool_chunk_painter: set chunk types and floorings
   ui_tooltip_tool_free_build: be the strongest hand, ever
   ui_tooltip_tool_blueprint_placement: blueprint placement
@@ -704,10 +725,12 @@ strings:
   ui_info_window_production: Production
   ui_info_window_uses_left: Uses Left
   ui_info_window_efficiency: Efficiency
-  ui_info_window_health: Health
+  ui_info_window_organism_health: Health
+  ui_info_window_organism_energy: Energy
   ui_info_window_currently_researching: Currently researching
   ui_info_window_receiving: Receiving
   ui_info_window_producing: Producing
+  ui_info_window_item_throughput: "{} items/s"
 
   ui_popup_menu_items: Items
   ui_popup_menu_colors: Colors
@@ -740,6 +763,7 @@ strings:
   ui_main_menu_advanced: Advanced
   ui_main_menu_puzzle: Learn
   ui_main_menu_open_user_folder: Open user folder
+  ui_main_menu_open_modding_api_docs: Open modding API docs
   ui_main_menu_reset_window_position: Reset window position
   ui_main_menu_purge_games: Purge games
   ui_main_menu_reset_achievements: Reset achievements
@@ -771,6 +795,8 @@ strings:
   ui_new_game_enable_bacteria: Bacteria
   ui_new_game_enable_oxidation: Oxidation
   ui_new_game_enable_developer: Developer
+  ui_new_game_generate_starting_area: Generate Starting Area
+  ui_new_game_generate_resources: Generate Resources
   ui_new_game_chunk_size: Chunk Size
   ui_new_game_heap_content_multiplier: Resource Amount
   ui_new_game_world_seed: Seed
@@ -793,6 +819,7 @@ strings:
   ui_new_game_complexity: Complexity
   ui_new_game_complexity_casual: Casual
   ui_new_game_complexity_normal: Normal  
+  ui_new_game_complexity_academic: Academic
   
   ui_new_game_custom_warning: Changing these settings may result in distorted gameplay situations
 
@@ -814,9 +841,11 @@ strings:
   ui_option_enable_hand_cursors: Use hand cursors
   ui_option_use_pixel_font: Use pixel font
   ui_option_use_compact_recipe_tooltips: Compact recipe tooltips
+  ui_option_show_raw_materials_in_recipe_tooltips: Show raw materials in recipe tooltips
   ui_option_enable_animated_windows: Animated Windows
   ui_option_enable_animated_tooltips: Animated Tooltips
   ui_option_show_information_tooltip_on_mouse: Keep information tooltip on mouse
+  ui_option_show_recipe_tooltip_on_mouse: Keep recipe tooltip on mouse
   ui_option_information_tooltip_delay: Information tooltip delay
   ui_option_show_item_count_on_object_overlay: Show item counts in overlay
   ui_option_show_paused_game_hint: Show paused game hint
@@ -845,6 +874,7 @@ strings:
   ui_option_use_imperial_units: Use imperial units
   ui_option_enable_evolution_tree_collapse: Enable evolution tree collapse
   ui_option_save_game_on_exit: Autosave game on exit/quit game
+  ui_option_enable_autosave: Enable Autosave
 
   ui_option_show_paused_game_hint_tooltip: explicitly shows a label when the game is paused
   ui_option_show_trivia_tooltip: display misc trivia curiousities about objects and structures
@@ -862,7 +892,9 @@ strings:
   ui_recipe_cannot_produce_in_this_zone: Can't be made in this zone
   ui_recipe_enzyme_is_missing: Enzyme is missing!
   ui_recipe_choose_set_none: Set None
+  ui_recipe_choose: Choose Recipe
   ui_recipe_close_popup: Close
+  ui_recipe_grid_expand_shrink_tooltip: scroll with mouse wheel to adjust rows
   ui_game_paused: Time is frozen
   ui_related_recipes: Related Recipes
   ui_goal_hidden: Hidden
@@ -893,15 +925,21 @@ strings:
   ui_popup_choose_chunk_action: "Choose Action"
   ui_popup_pickup_item: "Pickup Item"
 
+  ui_item_action_assemble: Assemble
+  ui_item_action_stash: Stash
+
   ui_save_failed: "error while saving game"
   ui_save_options_failed: "error while saving options"
+  ui_save_format_not_supported: save format not supported
   ui_autosave_failed_no_save_name: "autosave failed: game has no filename"
   ui_autosave_success: "game autosaved"
   ui_confirm_save_overwrite: "File already exists, do you want to overwrite?"
 
   ui_cursor_open_object_context_menu: open context menu
+  ui_cursor_open_item_context_menu: open context menu
   ui_cursor_place_structure: place structure
   ui_cursor_pickup: pick up
+  ui_cursor_pickup_drag: pick up in area
   ui_cursor_drop: drop
   ui_cursor_force_pickup: force pick up
   ui_cursor_fill_hand: fill hand
@@ -914,6 +952,10 @@ strings:
   ui_cursor_place_microtubule_end: place path
   ui_cursor_place_microtubule_cancel: cancel
   ui_cursor_place_microtubule_flip: flip path
+  ui_cursor_remove_microtubule_start: clear area start
+  ui_cursor_remove_microtubule_cancel: cancel
+  ui_cursor_remove_microtubule_end: clear area
+
   ui_cursor_drag: drag
 
   ui_player_entered_world: "{} entered the world"
@@ -924,6 +966,8 @@ strings:
   object_action_rotate_right: Rotate Right
   object_action_rotate_left: Rotate Left
   object_action_flip: Flip
+  object_action_expand: Expand
+  object_action_shrink: Shrink
   object_action_set_filter: Set Filter
   object_action_set_spec: Set Spec
   object_action_set_recipe: Set Recipe
@@ -942,6 +986,12 @@ strings:
   object_action_switch_state: Switch State
   object_action_pause_task: Pause Task
   object_action_resume_task: Resume Task
+  object_action_cancel_task: Cancel Task
+  object_action_connect_north: Connect North
+  object_action_connect_east: Connect East
+  object_action_connect_south: Connect South
+  object_action_connect_west: Connect West
+  object_action_open_evolution_view: Open Evolution View
 
   action_name_execute_first_action: Object Action 1
   action_name_execute_second_action: Object Action 2
@@ -960,21 +1010,30 @@ strings:
   place_error_cant_be_placed_on_wall: Can't be built on membrane or capsule
   place_error_message_cant_be_placed_on_railing: Can't be built on microtubule
   place_error_message_must_be_placed_on_existing_tile: Must be built on existing tissue
+  place_error_message_must_be_placed_on_empty_chunk: Must be built on empty chunk
   place_error_cant_be_placed_on_this_tissue: Can't be built on this type of tissue
   place_error_message_must_be_placed_on_discovered_chunk: Cannot build on undiscovered chunk
   place_error_message_must_be_placed_on_non_diseased_tile: Can't build on diseased tile
   place_error_message_cant_be_placed_on_wild_tiles: Can't be placed on wild tiles
   place_error_extracellular_building_requires_indirect_build: Extracellular building can't be placed manually
   place_error_message_too_far_way: Too far away
-  
+
+  object_warning_oxidized: Object is oxidized
+  object_warning_unpowered: Object is not receiving enough energy
+  object_warning_no_recipe: The structure doesn't have any recipe configured
+  object_warning_no_enzyme: The structure requires an enzyme to operate
+  object_warning_no_transporter: The transporter require a transporter item configured
+  object_warning_stagnant: The vessel doesn't have any flow
+
   object_remove_error_object_has_disease: Can't be destroyed because it's affected by
   too_faraway: too far
 
   chunk_action_build: Build {}
+  chunk_action_convert: Convert to {}
   chunk_action_chunk_apoptosis: Dismantle
   chunk_action_error_cant_build: Can't build {}
   chunk_action_error_chunk_must_be_empty: chunk must be empty of structures
-  chunk_action_error_requires_intracellular_all_around: requires intracellular zones all around
+  chunk_action_error_requires_intracellular_all_around: must be surrounded by the same intracellular tissue around
   chunk_action_cancel: Cancel Task
   chunk_action_pause: Pause Task
   chunk_action_unpause: Resume Task
@@ -982,7 +1041,11 @@ strings:
   chunk_action_chunk_is_necrotic: Chunk is necrotic
   chunk_action_chunk_is_not_owned: Chunk is not owned
   chunk_action_chunk_is_not_discovered: Chunk is not discovered
+  chunk_action_must_be_adjacent_to_existing: Must be attached to existing chunks
   chunk_action_zone_is_not_unlocked: Zone is not unlocked yet
+  chunk_action_zone_requires_its_intracellular: Zone requires its intracellular counterpart nearby
+  chunk_action_extracellular_zones_must_be_built_on_scaffold: Extracellular zones must be built on collagen scaffold
+  chunk_action_intracellular_zones_must_be_built_on_cytoskeleton: Intracellular zones must be built on cytoskeleton
   chunk_action_colony_attack: Attack Colony
   
   research_known: Known

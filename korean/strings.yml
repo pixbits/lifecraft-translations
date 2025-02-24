@@ -189,11 +189,11 @@ strings:
   item_name_infector: 감염체
 
   item_name_adp_synthase_enzyme: ADP 생성효소
-  item_name_alcohol_dehydrogenase: 알코올 탈수소효소
+  item_name_alcohol_dehydrogenase_enzyme: 알코올 탈수소효소
   item_name_base_pair_ligase_enzyme: 염기쌍 연결효소
   item_name_glycolysis_enzyme: 포도당 인산화 효소
   item_name_krebs_cycle_enzyme: TCA 회로 효소
-  item_name_lactate_dehydrogenase: 젖산 탈수소효소
+  item_name_lactate_dehydrogenase_enzyme: 젖산 탈수소효소
   item_name_malate_dehydrogenase: 말산 탈수소효소
   item_name_nucleobase_synthase_enzyme: 핵염기 생성효소
   item_name_pentose_phosphate_pathway_enzyme: 오탄당 인산경로 효소
@@ -619,7 +619,7 @@ strings:
   ui_info_window_production: Production
   ui_info_window_uses_left: Uses Left
   ui_info_window_efficiency: Efficiency
-  ui_info_window_health: Health
+  ui_info_window_organism_health: Health
   ui_info_window_currently_researching: Currently researching
   ui_info_window_receiving: Receiving
   ui_info_window_producing: Producing

@@ -454,7 +454,7 @@ content:
       Чтобы использовать катализатор, вам сначала нужно исследовать и создать фермент, затем перетащить его на катализатор, чтобы начать использование необходимой реакции.<endl />
       
       <canvas size="0 0" scale="2" align="center">
-      <image key="item_alcohol_dehydrogenase" tile="4 5" />
+      <image key="item_alcohol_dehydrogenase_enzyme" tile="4 5" />
 
 
       <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>

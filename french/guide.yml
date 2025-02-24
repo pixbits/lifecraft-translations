@@ -459,7 +459,7 @@ content:
       Pour utiliser le catalyseur, vous devez d'abord rechercher et fabriquer une enzyme, puis la glisser sur le catalyseur pour commencer à utiliser la réaction requise.<endl />
       
       <canvas size="0 0" scale="2" align="center">
-      <image key="item_alcohol_dehydrogenase" tile="4 5" />
+      <image key="item_alcohol_dehydrogenase_enzyme" tile="4 5" />
 
 
       <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>

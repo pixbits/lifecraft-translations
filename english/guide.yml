@@ -7,6 +7,8 @@ index:
       icon: ui_guide_mitosis
     - title: controls
       icon: ui_mouse_button_left
+    - title: world_interactions
+      icon: ui_icon_hand
     - title: symbol_legend
       icon: ui_icon_context_help
     - title: the_stash
@@ -39,7 +41,7 @@ index:
       icon: item_collagen_flooring 
     - title: expansion
       icon: ui_icon_chunk_planner
-    - title: extracellular_buildings
+    - title: indirect_buildings
       icon: ui_icon_indirect_build
     - title: membrane_transportation
       icon: item_membrane_transporter2x
@@ -226,6 +228,21 @@ content:
     Keep an eye on screen tips to better understand each tool control.
     <endl />
 
+  "/interface/world_interactions" : >
+    <header><icon key="ui_icon_hand" />Interacting with the world</header><endl />
+    This game encourages you to interact with the world in many ways:<endl />
+    <icon key="ui_guide_dot" /> You can pickup and drop items with your cursor <icon key="ui_icon_hand" /> wherever you want.<endl />
+    <icon key="ui_guide_dot" /> You can insert and retrieve items from structures.
+    <endl /><endl />
+    You can carry multiple items at once, to avoid clicking too much you can either:<endl />
+    <icon key="ui_guide_dot" /> use the <keycap key="SHIFT" longest="true" /> key to fill up or empty your hand at once <endl />
+    <icon key="ui_guide_dot" /> drag a rectangle and try to pickup all the items inside<endl />
+    <endl /><endl />
+    The tooltip near the mouse will tell you all the possible actions you can do with the item you're hovering on according to where you hover!
+
+    
+
+
 
   # INTERFACE BUTTONS --------------------------------------------------------------------------
 
@@ -251,7 +268,7 @@ content:
     <image key="ui_icon_destroy" tile="3 3" />
     <image key="ui_icon_microtubule_metatool" tile="5 3" />
     <image key="ui_icon_chunk_planner" tile="7 3" />
-    <image key="ui_icon_tube_placement" tile="9 3" />
+    <image key="ui_icon_tube_planner" tile="9 3" />
     </canvas>
 
 
@@ -467,7 +484,7 @@ content:
       To use the catalyzer you first need to research and craft an enzyme, then drag it on the catalyzer to start using the required reaction.<endl />
       
       <canvas size="0 0" scale="2" align="center">
-      <image key="item_alcohol_dehydrogenase" tile="4 5" />
+      <image key="item_alcohol_dehydrogenase_enzyme" tile="4 5" />
 
 
       <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
@@ -537,11 +554,19 @@ content:
       <break />
       
   # extracellular buildings
-  "/concepts/extracellular_buildings": >
-    <header><icon key="ui_icon_indirect_build" />Extracellular Buildings</header>
-    Extracellular buildings are special compared to intracellular buildings.<endl/>
-    You can't build them directly, you must use <concept icon="item_dispatcher" text="dispatchers" tooltip="dispatcher" /> to deliver materials
-    and build them.
+  "/concepts/indirect_buildings": >
+    <header><icon key="ui_icon_indirect_build" />Indirect Buildings</header>
+    This game promotes automation of your expansion and structure placement. That's why there is no inventory, but nothing is lost as you can deploy both intracellular and extracellular structures automatically.<endl/>
+    Intracellular structures can be placed manually but this may be time consuming and inefficient in the long run.
+    <endl/><endl/>
+
+    <icon key="ui_guide_dot" />you can use <concept icon="item_diffuser" text="diffusers" tooltip="diffuser" /> to deliver preassembled intracellular structures anywhere in your organism.<endl/>
+    <icon key="ui_guide_dot" />you <red>must</red> use <concept icon="item_dispatcher" text="dispatchers" tooltip="dispatcher" /> to deliver materials and build structures in extracellular tissues.<endl/>
+    <endl/>
+
+    <icon key="ui_warning_sign_yellow"/><warning>Extracellular buildings cannot be placed manually in any case, you must use dispatchers.</warning><break/>
+
+
     <endl />
 
   # bacteria
@@ -583,7 +608,7 @@ content:
     <image key="object_stockpile2x" tile="3 1" align="lowerleft" />
     <image key="item_tubulin_red" tile="3 2" />
     <image key="object_stockpile2x" tile="0 4" align="lowerleft" />
-    <image key="item_staminal_tissue" tile="0 5" />
+    <image key="item_staminal_intracellular_tissue" tile="0 5" />
     <image key="object_stockpile2x" tile="3 4" align="lowerleft" />
     <image key="item_artery2x2" tile="3 5" />
 
@@ -678,7 +703,7 @@ content:
    <icon key="ui_icon_indirect_build" /> structure is <name>extracellular</name> and must be built by dispatchers<break/>
    
    <icon key="item_ribosome" /><icon key="item_assembler" /><icon key="item_catalyzer" /> recipe must be built in specific building<break/>
-   <icon key="item_mitochondrial_membrane" /><icon key="item_staminal_tissue" /><icon key="item_heart_intracellular_tissue" /> recipe must be built in specific zone<break/>
+   <icon key="item_mitochondrial_membrane" /><icon key="item_staminal_intracellular_tissue" /><icon key="item_heart_intracellular_tissue" /> recipe must be built in specific zone<break/>
 
    
    <icon key="ui_icon_work_in_progress" /> recipe is still <concept text="work in progress" />, use at your own risk!
@@ -741,7 +766,7 @@ content:
   # tissue types
 
   "/concepts/tissue_types": >
-    <header><icon key="item_staminal_tissue" />Tissue Types</header>
+    <header><icon key="item_staminal_intracellular_tissue" />Tissue Types</header>
     <endl />
     Your organism is composed of chunks which can be of many different tissues, each one with their own function and capabilities.<endl/><endl/>
     <icon key="item_cell_membrane" /> <name>Intracellular Tissues</name><break/>
@@ -751,12 +776,12 @@ content:
     <endl/>
     <icon key="item_lung_tissue" /> <name>Extracellular Tissues</name><break/>
     <icon key="ui_guide_dot"/>they have capsules (even higher walls)<break/>
-    <icon key="ui_guide_dot"/>you are allowed to build there only <concept text="indirectly" icon="ui_icon_indirect_build" link="/concepts/extracellular_buildings" /> through <concept text="dispatchers" icon="item_dispatcher" tooltip="dispatcher" /><break/>
+    <icon key="ui_guide_dot"/>you are allowed to build there only <concept text="indirectly" icon="ui_icon_indirect_build" link="/concepts/indirect_buildings" /> through <concept text="dispatchers" icon="item_dispatcher" tooltip="dispatcher" /><break/>
     <icon key="ui_guide_dot"/>they allow <icon key="item_red_blood_cell" /><name>cells</name> to move around <break/>
     <icon key="ui_guide_dot"/>they allow <icon key="item_artery2x2"/><icon key="item_vein2x2"/><name>vessels</name><break/>
     <endl/>
     In addition there are some special tissues:<endl/>
-    <icon key="ui_guide_dot"/><icon key="item_staminal_tissue" /><name>staminal tissue</name>, which can build all other tissues<endl/>
+    <icon key="ui_guide_dot"/><icon key="item_staminal_intracellular_tissue" /><name>staminal tissue</name>, which can build all other tissues<endl/>
     <icon key="ui_guide_dot"/><icon key="item_mitochondrial_membrane" /><name>mitochondrion</name>, which is a special walled zone which is used to produce energy and heat<endl/>
     <icon key="ui_guide_dot"/><icon key="item_collagen_flooring" /><name>extracellular matrix</name>, which is a non specialized extracellular tissue usefully to connect zones<endl/>
 
@@ -814,7 +839,7 @@ content:
   "/concepts/heaps": >
      <header><icon key="item_atp_synthase" />Heaps</header> 
      <endl />
-       <icon key="ui_guide_dot"/>Resource heaps are scattered trough the void and contain groups of needed resources. You can aquire them by using a cytostome. <icon key="item_cytostome1x"/>
+       <icon key="ui_guide_dot"/>Resource heaps are scattered trough the void and contain groups of needed resources. You can acquire them by using a cytostome. <icon key="item_cytostome1x"/>
 
        <endl /><endl />
 
@@ -1440,7 +1465,7 @@ content:
     Any tissue is of a specific category between 4:<endl />
     <icon key="item_cell_membrane" /> <name>Intracellular Tissues</name> which always have a wall, they allow building of <link target="/concepts/microtubules">microtubules</link>, 
     proteins production through ribosomes and in general they allow working with single items.<endl/><endl/>
-    <icon key="item_staminal_tissue" /> <name>Extracellular Tissues</name> which are usually the counterpart of an intracellular tissue for a specific organ. They don't allow
+    <icon key="item_staminal_intracellular_tissue" /> <name>Extracellular Tissues</name> which are usually the counterpart of an intracellular tissue for a specific organ. They don't allow
     working with bla bla
 
   "/expansion/expansion_rules": >
@@ -1820,8 +1845,8 @@ canvases:
     <image key="item_tubulin_green" tile="3 2" pos="8 0"  />
     <image key="item_tubulin_green" tile="3 2" pos="8 7"  />
     <image key="object_stockpile2x" tile="6 4" align="lowerleft" />
-    <image key="item_staminal_tissue" tile="6 5" pos="8 0"  />
-    <image key="item_staminal_tissue" tile="6 5" pos="8 7"  />
+    <image key="item_staminal_intracellular_tissue" tile="6 5" pos="8 0"  />
+    <image key="item_staminal_intracellular_tissue" tile="6 5" pos="8 7"  />
     <image key="object_stockpile2x" tile="3 4" align="lowerleft" />
     <image key="item_artery2x2" tile="3 5" pos="8 0"  />
     <image key="item_artery2x2" tile="3 5" pos="8 7"  />
@@ -1839,8 +1864,8 @@ canvases:
     <image key="item_tubulin_green" tile="3 2" pos="0 6"  />
     <image key="item_tubulin_green" tile="3 2" pos="0 14"  />
     <image key="object_stockpile1x" tile="7 4" align="lowerleft" />
-    <image key="item_staminal_tissue" tile="7 4" pos="0 6"  />
-    <image key="item_staminal_tissue" tile="7 4" pos="0 14"  />
+    <image key="item_staminal_intracellular_tissue" tile="7 4" pos="0 6"  />
+    <image key="item_staminal_intracellular_tissue" tile="7 4" pos="0 14"  />
     <image key="object_stockpile1x" tile="4 4" align="lowerleft" />
     <image key="item_artery2x2" tile="4 4" pos="4 6"  />
     <image key="item_artery2x2" tile="4 4" pos="4 14"  />

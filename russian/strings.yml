@@ -175,11 +175,11 @@ strings:
   item_name_heater: Нагреватель
   item_name_infector: Инфектор
   item_name_adp_synthase_enzyme: АДФ-синтаза (фермент)
-  item_name_alcohol_dehydrogenase: Алкогольдегидрогеназа (фермент)
+  item_name_alcohol_dehydrogenase_enzyme: Алкогольдегидрогеназа (фермент)
   item_name_base_pair_ligase_enzyme: ДНК-лигаза (фермент)
   item_name_glycolysis_enzyme: Фермент гликолиза
   item_name_krebs_cycle_enzyme: Фермент Цикла Кребса
-  item_name_lactate_dehydrogenase: Лактатдегидрогеназа (фермент)
+  item_name_lactate_dehydrogenase_enzyme: Лактатдегидрогеназа (фермент)
   item_name_malate_dehydrogenase: Малатдегидрогеназа (фермент)
   item_name_nucleobase_synthase_enzyme: Синтаза азотистых оснований (фермент)
   item_name_pentose_phosphate_pathway_enzyme: Фермент пентозофосфатного пути
@@ -543,7 +543,7 @@ strings:
   ui_info_window_production: Производство
   ui_info_window_uses_left: Осталось использований
   ui_info_window_efficiency: Эффективность
-  ui_info_window_health: Здоровье
+  ui_info_window_organism_health: Здоровье
   ui_popup_menu_items: Предметы
   ui_popup_menu_colors: Цвета
   ui_popup_menu_categories: Категории

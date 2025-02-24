@@ -48,10 +48,11 @@ pages:
     <image path="tutorial/quickstart_4.png" scale="1" />
     <endl/>
     <icon key="item_workbench"/> You can now assemble your first structure: the workbench!<endl/><endl/>
-    <icon key="item_subunit_yellow"/> Just drop the second yellow subunit on top of the first<endl /> one that was on ground and voilà!<endl />
+    <icon key="item_subunit_yellow"/> Hover the second yellow subunit on top of the first <endl /> one on ground, press E and voilà!<endl />
     <image path="tutorial/quickstart_5.png" scale="1" />
-    <break/>
-
+    <icon key="ui_guide_brain"/> Quickly gather multiple items by dragging with<endl />your mouse around them.<endl />
+    <image path="tutorial/quickstart_5_extra.png" scale="1" />
+    <break/> 
     <endl />
   </content> 
 

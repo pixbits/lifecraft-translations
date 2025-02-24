@@ -457,7 +457,7 @@ content:
       Para usar o catalisador, você primeiro precisa pesquisar e criar uma enzima, depois arrastá-la para o catalisador para começar a usar a reação necessária.<endl />
       
       <canvas size="0 0" scale="2" align="center">
-      <image key="item_alcohol_dehydrogenase" tile="4 5" />
+      <image key="item_alcohol_dehydrogenase_enzyme" tile="4 5" />
 
 
       <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>

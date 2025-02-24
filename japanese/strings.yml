@@ -175,11 +175,11 @@ strings:
   item_name_heater: ヒーター
   item_name_infector: インフェクター
   item_name_adp_synthase_enzyme: ADP合成酵素
-  item_name_alcohol_dehydrogenase: アルコール脱水素酵素
+  item_name_alcohol_dehydrogenase_enzyme: アルコール脱水素酵素
   item_name_base_pair_ligase_enzyme: ベースペアリガーゼ酵素
   item_name_glycolysis_enzyme: 解糖系酵素
   item_name_krebs_cycle_enzyme: クレブスサイクル酵素
-  item_name_lactate_dehydrogenase: ラクテート脱水素酵素
+  item_name_lactate_dehydrogenase_enzyme: ラクテート脱水素酵素
   item_name_malate_dehydrogenase: マレート脱水素酵素
   item_name_nucleobase_synthase_enzyme: ヌクレオベース合成酵素
   item_name_pentose_phosphate_pathway_enzyme: ペントースリン酸経路酵素
@@ -543,7 +543,7 @@ strings:
   ui_info_window_production: 生産
   ui_info_window_uses_left: 残り使用回数
   ui_info_window_efficiency: 効率
-  ui_info_window_health: 健康
+  ui_info_window_organism_health: 健康
   ui_info_window_currently_researching: 現在研究中
   ui_popup_menu_items: アイテム
   ui_popup_menu_colors: 色

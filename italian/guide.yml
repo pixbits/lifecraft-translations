@@ -254,7 +254,7 @@ content:
     <image key="ui_icon_destroy" tile="3 3" />
     <image key="ui_icon_microtubule_metatool" tile="5 3" />
     <image key="ui_icon_chunk_planner" tile="7 3" />
-    <image key="ui_icon_tube_placement" tile="9 3" />
+    <image key="ui_icon_tube_planner" tile="9 3" />
     </canvas>
 
 
@@ -470,7 +470,7 @@ content:
       Per utilizzare il catalizzatore devi prima ricercare e creare un enzima, poi trascinalo sul catalizzatore per iniziare a utilizzare la reazione richiesta.<endl />
       
       <canvas size="0 0" scale="2" align="center">
-      <image key="item_alcohol_dehydrogenase" tile="4 5" />
+      <image key="item_alcohol_dehydrogenase_enzyme" tile="4 5" />
 
 
       <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
@@ -1981,7 +1981,7 @@ mapping:
   object_picker: "/reference/structures/routing/picker"
   object_colored_picker: "/reference/structures/routing/colored_picker"
   object_microtubule: "/reference/structures/routing/microtubule"
-  objectobject_kicker: "/reference/structures/routing/kicker"
+  object_kicker: "/reference/structures/routing/kicker"
   object_item_tunnel: "/reference/structures/routing/item_tunnel"
   object_long_picker: "/reference/structures/routing/long_picker"
   object_balancer: "/reference/structures/routing/balancer"

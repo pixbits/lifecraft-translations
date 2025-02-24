@@ -457,7 +457,7 @@ content:
       要使用酶催化器，你首先需要研究并制造一份酶，然后将它拖拽到酶催化器上，即可开始你想要的反应过程。<endl />
       
       <canvas size="0 0" scale="2" align="center">
-      <image key="item_alcohol_dehydrogenase" tile="4 5" />
+      <image key="item_alcohol_dehydrogenase_enzyme" tile="4 5" />
 
 
       <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>
@@ -583,7 +583,7 @@ content:
   "/concepts/energy": >
     <header><icon key="item_atp" />能量</header> 
     <endl /> 
-    能量系统是生物体的基本组成部分，许多结构需要能量才能使用，<break/>需要消耗能量的结构上会有这个符号 <icon key="ui_icon_energy_yellow" /> 。<break/>
+    能量系统是生物体的基本组成部分，许多结构需要能量才能使用，需要消耗能量的结构上会有这个符号 <icon key="ui_icon_energy_yellow" /> 。<break/>
 
     能量产生自燃烧 <icon key="item_atp" /><name>ATP</name> 生成 <icon key="item_adp" /><name>ADP</name> 的过程。<break/>
     <icon key="item_energy_supplier_mk2" /><name>能量供应器</name> 可以燃烧 <name>ATP</name> 并为周围的建筑提供能量。<break/>

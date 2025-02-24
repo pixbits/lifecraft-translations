@@ -457,7 +457,7 @@ content:
       カタライザーを使用するには、まず酵素を研究して作成し、それをカタライザーにドラッグして必要な反応を開始する必要があります。<endl />
       
       <canvas size="0 0" scale="2" align="center">
-      <image key="item_alcohol_dehydrogenase" tile="4 5" />
+      <image key="item_alcohol_dehydrogenase_enzyme" tile="4 5" />
 
 
       <image key="object_picker" batch="0" facing="east" tile="2 1" align="lowerleft"/>

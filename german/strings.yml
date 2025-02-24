@@ -175,11 +175,11 @@ strings:
   item_name_heater: Heizgerät
   item_name_infector: Infektor
   item_name_adp_synthase_enzyme: ADP-Synthase-Enzym
-  item_name_alcohol_dehydrogenase: Alkoholdehydrogenase
+  item_name_alcohol_dehydrogenase_enzyme: Alkoholdehydrogenase
   item_name_base_pair_ligase_enzyme: Basenpaar-Ligase-Enzym
   item_name_glycolysis_enzyme: Glykolyse-Enzym
   item_name_krebs_cycle_enzyme: Krebszyklus-Enzym
-  item_name_lactate_dehydrogenase: Laktatdehydrogenase
+  item_name_lactate_dehydrogenase_enzyme: Laktatdehydrogenase
   item_name_malate_dehydrogenase: Malatdehydrogenase
   item_name_nucleobase_synthase_enzyme: Nukleobasen-Synthase-Enzym
   item_name_pentose_phosphate_pathway_enzyme: Pentosephosphatweg-Enzym
@@ -543,7 +543,7 @@ strings:
   ui_info_window_production: Produktion
   ui_info_window_uses_left: Verbleibende Nutzungen
   ui_info_window_efficiency: Effizienz
-  ui_info_window_health: Gesundheit
+  ui_info_window_organism_health: Gesundheit
   ui_info_window_currently_researching: Aktuelle Forschung
   ui_popup_menu_items: Artikel
   ui_popup_menu_colors: Farben
