@@ -30,7 +30,6 @@ strings:
   item_category_nucleobase: Nucléotides
   item_category_plasmid: Plasmide
   item_category_immunity: Immunité
-  item_category_domestic_structures: Domestique
   item_category_door: Porte
   item_category_light: Lumière
   item_category_organism: Organisme
@@ -274,7 +273,6 @@ strings:
   evolution_name_transportation_basic: Transport de Base
   evolution_name_transportation_advanced: Transport Avancé
   evolution_name_gathering_basic: Collecte de Base
-  evolution_name_furniture_primitive: Mobilier Primitif
   evolution_name_primitive_logistics: Logistique Primitive
   evolution_description_primitive_logistics: Découvrez les <r>microtubules</r>, les <r>ramasseurs</r> et les <r>cytostomes</r>, qui sont utilisés pour acheminer les articles à l'intérieur des cellules et siphonner les articles de l'extérieur
   evolution_description_transportation_basic: Découvrez les <r>microtubules</r> et les <r>ramasseurs</r> non oxydables, découvrez les <r>expulseurs d'articles</r>, utilisés pour forcer la direction sur les tubules et les <r>tunnels primitifs</r>

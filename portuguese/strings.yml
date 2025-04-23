@@ -30,7 +30,6 @@ strings:
   item_category_nucleobase: Nucleobase
   item_category_plasmid: Plasmídeo
   item_category_immunity: Imunidade
-  item_category_domestic_structures: Estruturas Domésticas
   item_category_door: Porta
   item_category_light: Luz
   item_category_organism: Organismo
@@ -274,7 +273,6 @@ strings:
   evolution_name_transportation_basic: Transporte Básico
   evolution_name_transportation_advanced: Transporte Avançado
   evolution_name_gathering_basic: Coleta Básica
-  evolution_name_furniture_primitive: Móveis Primitivos
   evolution_name_primitive_logistics: Logística Primitiva
   evolution_description_primitive_logistics: Descubra <r>microtúbulos</r>, <r>selecionadores</r> e <r>citostomas</r>, que são usados para rotear itens dentro das células e retirar itens de fora
   evolution_description_transportation_basic: Descubra <r>microtúbulos</r> não oxidáveis e <r>selecionadores</r> básicos, descubra <r>chutadores de itens</r>, usados para forçar a direção em túbulos e <r>túneis primitivos</r>

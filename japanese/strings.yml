@@ -30,7 +30,6 @@ strings:
   item_category_nucleobase: ヌクレオベース
   item_category_plasmid: プラスミド
   item_category_immunity: 免疫
-  item_category_domestic_structures: 家庭用
   item_category_door: ドア
   item_category_light: ライト
   item_category_organism: 生物
@@ -274,7 +273,6 @@ strings:
   evolution_name_transportation_basic: 基本的な輸送
   evolution_name_transportation_advanced: 高度な輸送
   evolution_name_gathering_basic: 基本的な収集
-  evolution_name_furniture_primitive: 原始的な家具
   evolution_name_primitive_logistics: 原始的な物流
   evolution_description_primitive_logistics: <r>微小管</r>、<r>ピッカー</r>、<r>細胞口</r>を発見し、細胞内のアイテムのルーティングや外部からのアイテムの吸引に使用します
   evolution_description_transportation_basic: 酸化しない<r>微小管</r>と<r>ピッカー</r>を発見し、<r>アイテムキッカー</r>を発見し、これらは管の方向を強制し、<r>原始的なトンネル</r>を使用します

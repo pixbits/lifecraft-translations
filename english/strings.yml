@@ -40,7 +40,7 @@ strings:
   item_category_nucleopair: Base Pair
   item_category_plasmid: Plasmid
   item_category_immunity: Immunity
-  item_category_domestic_structures: Domestic
+  item_category_decorative_structure: Decorative
   item_category_door: Door
   item_category_light: Light
   item_category_organism: Organism
@@ -252,7 +252,11 @@ strings:
   item_name_bacterium_bacillus_green: Green Bacillus 
   item_name_bacterium_coccus_red: Red Coccus 
   item_name_bacterium_coccus_yellow: Yellow Coccus 
+
+
   item_name_cell_hemocyte: Hemocyte
+  item_name_cell_hemocyte_phase1: Hemocyte <X999>(Precursor)
+  item_name_cell_hemocyte_phase2: Hemocyte <X999>(Blast)
 
   item_name_ileum1x1: Ileum <X999>(1x)
   item_name_ileum2x2: Ileum <X999>(2x)
@@ -335,12 +339,14 @@ strings:
   evolution_name_staminal_discovery: Staminal Discovery
   evolution_name_subunits: Subunits
   evolution_name_tubulins: Tubulins
+  evolution_name_decorative_structures_primitive: Primitive Decorative Structures
+
+  evolution_name_organism_hemocyte: Hemocytes
+  evolution_description_organism_hemocyte: Unlock Hemocytes, which are a primordial immunity cell able to phagocytize and destroy bacteria
 
   evolution_name_transportation_basic: Basic Transportation
   evolution_name_transportation_advanced: Advanced Transportation
   evolution_name_gathering_basic: Basic Gathering
-
-  evolution_name_furniture_primitive: Primitive Furniture
 
   evolution_name_primitive_logistics: Primitive Logistics
   evolution_description_primitive_logistics: Discover <r>microtubules</r>, <r>pickers</r> and <r>cytostomes</r>, which are used to route items inside cells and siphon items from outside
@@ -383,6 +389,7 @@ strings:
   evolution_group_mitochondrial_energy: Mitochondrial Energy
   evolution_group_organelles: Organelles
   evolution_group_digestion: Digestion
+  evolution_group_exocrine_secretion: Secretion
 
   item_description_picker: A <a>picker</a> can pick and drop items from microtubules and structures
   item_description_picker_red: A <a>picker</a> which works with red items only
@@ -557,6 +564,11 @@ strings:
   item_description_duct2x2: ~item_description_duct1x1
   item_description_duct4x4: ~item_description_duct1x1
 
+  item_description_stem_cell_niche: A <a>Niche</a> is a structure which can host cells while the grow to their mature state
+  item_description_stem_cell_feeder: A <a>Feeder</a> is a structure which can provide nutrients to cells while they grow
+  item_description_stem_cell_incubator: An <a>Incubator</a> is a structure which generates new cells
+
+  item_description_label_plate: A <a>Label Plate</a> is a structure which can be used as a decoration to show icons on the map
   item_description_door_intracellular3x: This structure can be opened and closed to allow organisms to pass through
 
   item_description_nad_synthase_enzyme: "This enzyme is used to synthesize <a>NAD+</a> and <a>NADH</a>"
@@ -564,9 +576,9 @@ strings:
   item_description_nucleobase_synthase_enzyme: This enzyme is used to synthesize <a>nucleobases</a> from raw components
   item_description_alcohol_dehydrogenase: This enzyme is used to convert <a>pyruvate</a> back and forth to <a>ethanol</a>
 
-  item_description_amilase_enzyme: This enzyme is able to break down starch down to glucose
-  item_description_proteinase_enzyme: This enzyme is able to break down complex proteins down to aminoacids
-  item_description_lipase_enzyme: This enzyme is able to break down lipids to an assimilable form
+  item_description_amilase_enzyme: This enzyme is able to break starch down to glucose
+  item_description_proteinase_enzyme: This enzyme is able to break complex proteins down to aminoacids
+  item_description_lipase_enzyme: This enzyme is able to break lipids down to an assimilable form
 
   item_description_mega_atp_synthase_enzyme: This enzyme is used to produce and recycle <a>Mega-ATP</a> and <a>Mega-ADP</a> molecules
   
@@ -679,6 +691,8 @@ strings:
   ui_tooltip_tool_microtubule_placement: place and remove microtubules
   ui_tooltip_tool_microtubule_advanced_placement: place and remove advanced microtubules
   ui_tooltip_tool_item_kicker_placement: place and remove item kickers
+  ui_tooltip_tool_chunk_painter_set: set chunk to zone
+  ui_tooltip_tool_chunk_painter_fill: fill chunks to zone
   ui_tooltip_tool_commander: command your organisms
   ui_tooltip_open_main_menu: open main menu
   ui_tooltip_open_evolution_view: open evolution view
@@ -691,6 +705,7 @@ strings:
   ui_tooltip_open_minimap: open minimap
   ui_tooltip_open_debug_window: open debug window
   ui_tooltip_open_extra_views_menu: show extra views menu
+  ui_tooltip_open_blueprint_library: open blueprint library
   ui_tooltip_toggle_object_overlay: toggle object content info
   ui_tooltip_toggle_mouse_opacity: toggle transparency over mouse cursor
   ui_tooltip_toggle_walls: toggle walls
@@ -709,7 +724,25 @@ strings:
   ui_tooltip_worldtime: worldtime
   ui_tooltip_journey_view_disabled: journey is disabled in this game mode
   ui_tooltip_choose_item: choose item
-  
+  ui_tooltip_tool_generate_blueprint_from_area: generate new blueprint from area
+  ui_tooltip_blueprint_export_to_clipboard: export blueprint to clipboard
+  ui_tooltip_blueprint_import_from_clipboard: import blueprint from clipboard
+  ui_tooltip_blueprint_delete: delete blueprint
+  ui_tooltip_blueprint_set_icon: set blueprint icon
+  ui_tooltip_blueprint_rename: rename blueprint
+  ui_tooltip_blueprint_clear_palette_slot: clear
+  ui_tooltip_save_blueprint_to_library: save selectiont to library
+  ui_tooltip_right_click_to_choose_blueprint: choose blueprint from library
+
+  ui_message_blueprint_no_blueprint_selected: No blueprint selected.
+  ui_message_blueprint_already_present_in_library: Blueprint is already present in library.
+  ui_message_blueprint_generated_from_area: "Generated blueprint of size {}x{}."
+  ui_message_blueprint_cannot_place: "Can't place blueprint here: {}"
+  ui_message_blueprint_cannot_generate_area_empty: "Failed to generate blueprint: area is empty!"
+  ui_message_blueprint_imported: "Imported new blueprint '{}' from clipboard."
+  ui_message_blueprint_import_failed: Failed to import blueprint from clipboard.
+  ui_message_game_autosaved: "Game autosaved." 
+ 
   ui_info_window_section_energy_production: Energy Production
   ui_info_window_section_energy_consuption: Energy Usage
   ui_info_window_section_energy_network: Energy Network
@@ -727,14 +760,19 @@ strings:
   ui_info_window_efficiency: Efficiency
   ui_info_window_organism_health: Health
   ui_info_window_organism_energy: Energy
+  ui_info_window_organism_growth: Growth
   ui_info_window_currently_researching: Currently researching
   ui_info_window_receiving: Receiving
   ui_info_window_producing: Producing
   ui_info_window_item_throughput: "{} items/s"
 
+  ui_window_title_blueprint_library: Blueprints
+
   ui_popup_menu_items: Items
   ui_popup_menu_colors: Colors
   ui_popup_menu_categories: Categories
+  ui_popup_menu_icons: Icons
+  ui_popup_menu_clear_icon: Clear Icon
   
   ui_main_menu_new_game: New Game
   ui_main_menu_resume_game: Resume
@@ -767,6 +805,7 @@ strings:
   ui_main_menu_reset_window_position: Reset window position
   ui_main_menu_purge_games: Purge games
   ui_main_menu_reset_achievements: Reset achievements
+  ui_main_menu_make_it_crash: Crash It!
   ui_main_menu_no_games_to_load: "There are no games to show.\nGo play some Lifecraft!\n"
   ui_main_menu_reset_puzzles: Reset puzzles
   ui_main_menu_generate_font_atlas: Regenerate font atlas
@@ -922,6 +961,7 @@ strings:
 
   ui_popup_choose_transporter: "Choose Transporter"
   ui_popup_choose_recipe: "Choose Recipe"
+  ui_popup_choose_organism: Choose Organism
   ui_popup_choose_chunk_action: "Choose Action"
   ui_popup_pickup_item: "Pickup Item"
 
@@ -941,11 +981,16 @@ strings:
   ui_cursor_pickup: pick up
   ui_cursor_pickup_drag: pick up in area
   ui_cursor_drop: drop
+  ui_cursor_drag: drag
+  ui_cursor_place: place
+  ui_cursor_remove: remove
+  ui_cursor_rotate: rotate
   ui_cursor_force_pickup: force pick up
   ui_cursor_fill_hand: fill hand
   ui_cursor_empty_hand: empy hand
   ui_cursor_assemble: assemble
   ui_cursor_stash: stash
+  ui_cursor_build: build
   ui_cursor_place_microtubule: place
   ui_cursor_remove_microtubule: remove
   ui_cursor_place_microtubule_start: start path
@@ -955,8 +1000,10 @@ strings:
   ui_cursor_remove_microtubule_start: clear area start
   ui_cursor_remove_microtubule_cancel: cancel
   ui_cursor_remove_microtubule_end: clear area
+  ui_cursor_blueprint_flip_hor: flip horizontal
+  ui_cursor_blueprint_flip_ver: flip vertical
+  ui_cursor_blueprint_save_to_library: save to library
 
-  ui_cursor_drag: drag
 
   ui_player_entered_world: "{} entered the world"
   ui_player_left_world: "{} left the world"
@@ -983,6 +1030,7 @@ strings:
   object_action_regenerate: Regenerate
   object_action_switch_pick_mode: Switch Out Mode
   object_action_switch_drop_mode: Switch In Mode
+  object_action_force_spawn: Force Spawn
   object_action_switch_state: Switch State
   object_action_pause_task: Pause Task
   object_action_resume_task: Resume Task
@@ -991,7 +1039,12 @@ strings:
   object_action_connect_east: Connect East
   object_action_connect_south: Connect South
   object_action_connect_west: Connect West
+  object_action_enable: Enable
+  object_action_disable: Disable
   object_action_open_evolution_view: Open Evolution View
+  object_action_increase_power: Increase Power
+  object_action_decrease_power: Decrease Power
+  object_action_set_icon: Set Icon
 
   action_name_execute_first_action: Object Action 1
   action_name_execute_second_action: Object Action 2

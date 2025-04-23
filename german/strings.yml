@@ -30,7 +30,6 @@ strings:
   item_category_nucleobase: Nukleobase
   item_category_plasmid: Plasmid
   item_category_immunity: Immunität
-  item_category_domestic_structures: Inländisch
   item_category_door: Tür
   item_category_light: Licht
   item_category_organism: Organismus
@@ -274,7 +273,6 @@ strings:
   evolution_name_transportation_basic: Grundlegender Transport
   evolution_name_transportation_advanced: Fortgeschrittener Transport
   evolution_name_gathering_basic: Grundlegende Sammlung
-  evolution_name_furniture_primitive: Primitive Möbel
   evolution_name_primitive_logistics: Primitive Logistik
   evolution_description_primitive_logistics: Entdecke <r>Mikrotubuli</r>, <r>Picker</r> und <r>Zytostome</r>, die zum Routen von Gegenständen innerhalb von Zellen und zum Absaugen von Gegenständen von außen verwendet werden
   evolution_description_transportation_basic: Entdecke nicht oxidierbare <r>Mikrotubuli</r> und <r>Picker</r>, entdecke <r>Item Kicker</r>, die zur Erzwingung der Richtung auf Tubuli und <r>primitive Tunnel</r> verwendet werden
